@@ -1,11 +1,10 @@
-import { NextSeo } from 'next-seo';
-import SEO from '../constants/next-seo.config';
+import Layout from './Layout';
 
 const Home = () => {
   return (
-    <>
-      <NextSeo title={SEO.title} />
-    </>
+    <Layout>
+      <h1>Welcome to Pet Cloning!</h1>
+    </Layout>
   );
 };
 
