@@ -1,8 +1,11 @@
-const Home: React.FC<{ entries: any[] }> = ({ entries }) => {
+import { NextSeo } from 'next-seo';
+import SEO from '../constants/next-seo.config';
+
+const Home = () => {
   return (
-    <div>
-      <h1>Pet cloning</h1>
-    </div>
+    <>
+      <NextSeo title={SEO.title} />
+    </>
   );
 };
 
