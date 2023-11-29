@@ -38,6 +38,7 @@ module.exports = {
         secondary: '#DDBEA9',
         light: '#F8F9FA',
         dark: '#2D4047',
+        darker: '#212529',
       },
       backgroundImage: () => ({
         homeCover: "url('../assets/vectors/home.png')",
