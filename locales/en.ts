@@ -93,6 +93,106 @@ respect for the lives involved in this remarkable
 journey.`,
     },
   },
+  science: {
+    section1: {
+      title: 'The Science Behind Pet Cloning',
+      subtitle: `Pet cloning is a form of reproductive cloning that involves creating a new animal with the same DNA as an existing or deceased animal. The scientific process used is called somatic cell nuclear transfer (SCNT). Here's how it works, broken down into understandable steps.`,
+      step1: {
+        title: 'Somatic Cell Collection',
+        subtitle: `It begins with a somatic cell, which is any cell from the body except sperm and egg cells. In pet cloning, these cells often come from the skin or other tissues and contain the pet's complete genetic information. Usually, these cells come from the skin and are called fibroblasts.`,
+      },
+      step2: {
+        title: 'Nuclear Transfer',
+        subtitle: `The nucleus, which houses DNA, is removed from the somatic cell. An egg cell is taken from a donor animal and its nucleus is removed to make room for the somatic cell's nucleus. This egg cell now contains the pet's DNA, essentially becoming a genetic copy.`,
+      },
+      step3: {
+        title: 'Electric Stimulation',
+        subtitle:
+          'The reconstructed egg, with the new nucleus, is stimulated with an electric current or chemicals, which encourages it to divide and become an embryo, just as it would if fertilization had occurred naturally.',
+      },
+      step4: {
+        title: 'Embryo Development',
+        subtitle:
+          'This embryo is then allowed to develop into a blastocyst - an early stage of development that is suitable for implantation into a surrogate mother. At this stage, the cloning process is the same as for In-Vitro fecondation process.',
+      },
+      step5: {
+        title: 'Implantation and Pregnancy',
+        subtitle: `The developed blastocyst is implanted into the surrogate's womb, where it continues to grow. If the implantation is successful, the surrogate becomes pregnant.`,
+      },
+      step6: {
+        title: '',
+        subtitle: '',
+      },
+      conclusion: `Each cloned animal is a genetic duplicate of the original pet, meaning they share the same DNA. However, it's important to note that while the cloned pet, just like identical twins, will look very similar to the original, they may not act identically, as environment and upbringing also shape behaviuor and personality.`,
+    },
+    section2: {
+      title: 'History of Pet Cloning',
+      subtitle: `The history of pet cloning cannot be told without acknowledging the iconic sheep named Dolly. Born in 1996 at the Roslin Institute in Scotland, Dolly was the first mammal to be cloned from an adult somatic cell using nuclear transfer technology. Her successful creation demonstrated that specialized cells could be reprogrammed to create an entire organism, a discovery that broke scientific ground and launched the potential for cloning animals.
+      Post-Dolly, the technology has made remarkable strides.`,
+      step1: {
+        title: 'Early Milestones',
+        subtitle: `1998 saw the cloning of mice, proving the technique could be extended beyond sheep.
+
+        2000 welcomed the birth of CC ("CopyCat"), the first cloned pet cat, marking a pivotal moment for pet owners worldwide.`,
+      },
+      step2: {
+        title: 'Extending the Reach',
+        subtitle: `Dogs and Horses: The subsequent years saw the cloning of more complex animals in term of cloning. Dogs, which posed a significant challenge due to their unique reproductive cycle, were successfully cloned in 2005. Horses, too, were cloned, with implications for the preservation of elite equine genetics.`,
+      },
+      step2_1: {
+        title: '',
+        subtitle: `Livestock and Endangered Species: Efforts also moved toward livestock and endangered species, proving cloning's value in agriculture and conservation. Animals like pigs, cows, and even endangered species such as the gaur have been cloned, opening discussions about biodiversity and extinction prevention.`,
+      },
+      step3: {
+        title: 'Refining Techniques',
+        subtitle:
+          'Advances in SCNT and improvements in genetic science have led to more efficient and successful cloning processes. The fine-tuning of these protocols has resulted in higher success rates and the reduced likelihood of the abnormalities seen in early clones.',
+      },
+      step4: {
+        title: 'Commercial Cloning',
+        subtitle:
+          'By the 2010s, commercial pet cloning became accessible to the public, albeit with a hefty price tag. With this service, pet owners could seek to clone a beloved pet, whether it be for sentimental reasons, to preserve exceptional traits, or for competitive purposes.',
+      },
+      step5: {
+        title: 'Current State',
+        subtitle: `Today, cloning is no longer just a theoretical possibility or a scientific experiment; it's a service available to those who choose it for their pets. While the ethical debates and regulatory frameworks continue to evolve, the fact remains that cloning technology has grown from a scientific wonder to a personal choice for pet owners around the globe. Both technology and price have evolved to make cloning a more accessible option and will continue to do so in the future.`,
+      },
+    },
+    section3: {
+      title: 'Future Progress of Pet Cloning',
+      subtitle:
+        'The frontier of pet cloning is one that strides into an exciting and largely unknown future. The progress to come hinges on scientific advances, ethical considerations, and public demand.',
+      step1: {
+        title: 'Advances in Genetics and Reproduction',
+        subtitle:
+          'Future progress is expected to continue enhancing the efficiency and reliability of cloning. Advances in CRISPR gene-editing technology and stem cell research may lead to improvements in how clones are produced and the health outcomes of cloned animals. This could make the process more accessible and reduce costs over time, potentially opening the door for more pet owners to consider cloning as a viable option.',
+      },
+      step2: {
+        title: 'Enhanced Genetic Preservation',
+        subtitle:
+          'As cloning technology matures, conservation efforts for endangered species using cloning techniques will become more sophisticated. This may include efforts to reintroduce genetic diversity into dwindling populations, aiding in their recovery and sustainability.',
+      },
+      step3: {
+        title: 'Customization and Disease Prevention',
+        subtitle: `With the advancement in understanding the genetic basis of diseases, there's potential for cloned pets to be less susceptible to hereditary conditions, by screening and potentially modifying genes before cloning, ensuring a healthier life span for the resulting offspring.`,
+      },
+      step4: {
+        title: 'Ethical and Regulatory Development',
+        subtitle:
+          'The future will likely see a more defined regulatory environment as cloning becomes more commonplace. Ethical discussions surrounding cloning practices may influence regulations and result in standardized global practices that ensure the welfare of cloned animals.',
+      },
+      step5: {
+        title: 'Public Engagement and Education',
+        subtitle:
+          'Increasing public knowledge about cloning through education will play a critical role in its development. As understanding grows, so will the conversation about the moral and practical implications of cloning, which will shape the direction of the industry.',
+      },
+      step6: {
+        title: 'Cloning for Aging and Disease Research',
+        subtitle:
+          'Cloning can serve as a significant research tool for studying aging and chronic diseases. By producing genetically identical animals, scientists can more accurately investigate the progression of diseases and the effectiveness of treatments, which can have profound implications for both human and veterinary medicine.',
+      },
+    },
+  },
   footer: {
     petCloning: 'Pet Cloning',
     aboutUs: 'About Us',

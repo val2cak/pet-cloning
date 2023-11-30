@@ -9,7 +9,7 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`absolute top-0 left-0 right-0  px-40 py-4 z-10 ${
+      className={`absolute top-0 left-0 right-0  px-40 py-4 z-10 h-14 items-center ${
         router.pathname === '/science' || router.pathname === '/cloning-news'
           ? 'opacity-100'
           : 'opacity-80'
