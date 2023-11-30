@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import { translate } from '../../locales/translate';
 import { navigationItems } from '../../constants/NavigationItems';
 
 const Header: React.FC = () => {
@@ -31,7 +32,7 @@ const Header: React.FC = () => {
                         : 'opacity-50 hover:opacity-100'
                     }`}
                   >
-                    {link.text}
+                    {translate.navigation[link.text]}
                   </a>
                 </Link>
               </li>
