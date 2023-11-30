@@ -1,26 +1,31 @@
-// Footer.tsx
 import Link from 'next/link';
-import {
-  IoLogoTwitter,
-  IoLogoWhatsapp,
-  IoLogoInstagram,
-} from 'react-icons/io5';
+
+import { translate } from '../../locales/translate';
+import whatsappIcon from '../../assets/icons/whatsApp.svg';
+import twitterIcon from '../../assets/icons/twitter.svg';
+import instagramIcon from '../../assets/icons/instagram.svg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='bg-darker text-light px-40 py-8 fixed w-full bottom-0'>
+    <footer className='bg-darker text-light px-40 py-8 absolute w-full bottom-0 h-48'>
       <div className='container mx-auto flex flex-col items-center justify-between h-full gap-10'>
         <div className='w-full flex justify-between'>
-          <span className='text-base font-bold'>Pet Cloning</span>
+          <span className='text-base font-bold'>
+            {translate.footer.petCloning}
+          </span>
           <div className='text-sm text-light font-medium flex gap-6'>
             <span>
               <Link href='/about-us' legacyBehavior>
-                <a className='opacity-50 hover:opacity-100'>About Us</a>
+                <a className='opacity-50 hover:opacity-100'>
+                  {translate.footer.aboutUs}
+                </a>
               </Link>
             </span>
             <span className='text-sm'>
               <Link href='/contact-us' legacyBehavior>
-                <a className='opacity-50 hover:opacity-100'>Contact Us</a>
+                <a className='opacity-50 hover:opacity-100'>
+                  {translate.footer.contactUs}
+                </a>
               </Link>
             </span>
           </div>
@@ -36,7 +41,7 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <IoLogoWhatsapp />
+              <img src={whatsappIcon.src} className='w-6 h-6' />
             </a>
 
             <a
@@ -45,7 +50,7 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <IoLogoTwitter />
+              <img src={twitterIcon.src} className='w-6 h-6' />
             </a>
 
             <a
@@ -54,13 +59,13 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <IoLogoInstagram />
+              <img src={instagramIcon.src} className='w-6 h-6' />
             </a>
           </div>
 
           <div>
             <span className='opacity-50 text-sm'>
-              © 2023, All Rights Reserved
+              {translate.footer.copyright}
             </span>
           </div>
         </div>

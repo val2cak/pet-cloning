@@ -41,7 +41,7 @@ module.exports = {
         darker: '#212529',
       },
       backgroundImage: () => ({
-        homeCover: "url('../assets/vectors/home.png')",
+        homeCover: "url('../assets/images/home-cover.png')",
       }),
       lineHeight: {
         3: '1.2rem',

@@ -9,11 +9,11 @@ const Header: React.FC = () => {
 
   return (
     <header
-      className={`bg-primary px-40 py-4 ${
+      className={`absolute top-0 left-0 right-0  px-40 py-4 z-10 ${
         router.pathname === '/science' || router.pathname === '/cloning-news'
           ? 'opacity-100'
           : 'opacity-80'
-      }`}
+      } ${router.pathname === '/' ? 'bg-transparent' : 'bg-primary'}`}
     >
       <div className='container mx-auto flex items-center justify-between'>
         <Link href='/' legacyBehavior>

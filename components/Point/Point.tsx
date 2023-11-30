@@ -1,17 +1,16 @@
 import { FC } from 'react';
-import { IconType } from 'react-icons';
 
 interface Props {
-  Icon?: IconType;
+  icon?: string;
   title: string;
   subtitle: string;
 }
 
-const Point: FC<Props> = ({ Icon, title, subtitle }) => {
+const Point: FC<Props> = ({ icon, title, subtitle }) => {
   return (
     <div className='flex items-start gap-8 text-light'>
-      {Icon && <Icon className='text-5xl' />}
-      <div className='flex flex-col items-start gap-4'>
+      {icon && <img src={icon} className='w-12 h-12' />}
+      <div className='flex flex-col items-start gap-4 w-80'>
         <span className='text-base font-medium'>{title}</span>
         <span className='text-xs font-light opacity-80'>{subtitle}</span>
       </div>
