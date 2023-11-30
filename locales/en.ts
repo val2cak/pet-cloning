@@ -17,11 +17,18 @@ export default {
     },
     section1: {
       title: `Welcome to the possibility of pet cloning — a scientific achievement that allows pet owners to consider a future with a part of their current pet's legacy.`,
-      subtitle: `In essence, pet cloning is the creation of a new pet with the same genetic makeup as the original. It's real, accessible, and done with attention to health and detail.
+      subtitle: `In essence, pet cloning is the creation of a new pet with the same genetic makeup as the original. It's real, accessible, and done with attention to 
+health and detail.
+
 The idea of having the same pet may sound like a dream, but it's an option available today. 
-While the costs reflect the sophisticated process, with €50,000 for cats and dogs and €85,000 for horses, it's a consideration for those who find their pet's presence irreplaceable.
+
+While the costs reflect the sophisticated process, with €50,000 for cats and dogs and €85,000 for horses, it's a consideration for those who find 
+their pet's presence irreplaceable.
+
 On this platform, we provide insights into pet cloning, from how it works to what it involves financially and emotionally. 
-If you're curious or seriously thinking about cloning your pet, here you'll find straightforward, informative guidance on the steps and decisions involved in making cloning a reality.`,
+
+If you're curious or seriously thinking about cloning your pet, here you'll find straightforward, informative guidance on the steps and decisions 
+involved in making cloning a reality.`,
     },
     section2: {
       title: 'Why Cloning Your Pet?',
@@ -73,11 +80,17 @@ If you're curious or seriously thinking about cloning your pet, here you'll find
       },
     },
     section4: {
-      text: `While the process is scientifically complex, the goal is simple: to provide pet owners with the opportunity to extend the bond they have with their pets. 
+      text: `While the process is scientifically complex, the goal is 
+simple: to provide pet owners with the opportunity to
+extend the bond they have with their pets. 
 
-      Cloning doesn't replace the pet you lost but offers a unique way to bring a part of them into the future with you. 
+Cloning doesn't replace the pet you lost but offers a 
+unique way to bring a part of them into the future with 
+you. 
       
-      Each step is carried out with precision, care, and respect for the lives involved in this remarkable journey.`,
+Each step is carried out with precision, care, and 
+respect for the lives involved in this remarkable 
+journey.`,
     },
   },
   footer: {

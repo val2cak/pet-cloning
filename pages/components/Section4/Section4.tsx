@@ -7,8 +7,10 @@ const Section4 = () => {
 
   return (
     <div className='w-full px-40 py-16 flex gap-16 justify-between bg-primary'>
-      <div className='text-base font-medium text-light'>{text}</div>
-      <img src={image.src} />
+      <div className='text-base font-medium text-light whitespace-pre-line'>
+        {text}
+      </div>
+      <img src={image.src} className='h-[17.4rem] w-[40rem]' />
     </div>
   );
 };
