@@ -267,6 +267,117 @@ journey.`,
       cherished pet.`,
     },
   },
+  qA: {
+    title: 'Q&A',
+    q1: {
+      title: 'What exactly is pet cloning?',
+      subtitle: `A: Pet cloning is the process of creating a 
+      genetically identical copy of an animal. This is 
+      achieved by taking a skin sample from the 
+      original animal (the donor), creating cultured 
+      cells, and then transferring the genetic material 
+      from those cells into an egg cell that has had its 
+      nucleus removed.`,
+    },
+    q2: {
+      title: `How much does it cost to clone a 
+      pet?`,
+      subtitle: `A: Cloning costs can be substantial, reflecting 
+      the complex science involved. Currently, cloning 
+      a cat or dog can cost around €50,000, while a 
+      horse may cost up to €85,000.`,
+    },
+    q3: {
+      title: `What do I need to do if my pet has 
+      just died and I'm considering 
+      cloning?`,
+      subtitle: `A: It's crucial to prevent the body or any tissue 
+      from freezing and keep it refrigerated instead. 
+      Contact a veterinarian immediately to collect a 
+      tissue sample in a sterile medium, and then get 
+      in touch with us for further instructions on 
+      storage and transportation.`,
+    },
+    q4: {
+      title: `Can I clone an animal that has 
+      been deceased for a long time?`,
+      subtitle: `A: Successful cloning requires a high-quality 
+      genetic sample. Once an animal has been 
+      deceased for an extended period, the DNA 
+      degradation makes cloning less likely. It's best to 
+      begin the process as soon as possible after 
+      death. Usually, if the pet has been dead for a 
+      week or more and not conserved at 4 degree, it 
+      cannot be cloned. If conserved at 4 degree right 
+      after death, a pet can be cloned up to 3 weeks 
+      after death.`,
+    },
+    q5: {
+      title: `Why shouldn't I freeze my pet's 
+      body if I want to clone it? `,
+      subtitle: `A: Freezing can damage the cell structure and 
+      the DNA inside, which is necessary for cloning. 
+      Keeping the sample refrigerated preserves the 
+      cells and DNA integrity, increasing the chances 
+      of successful cloning.`,
+    },
+    q6: {
+      title: `Can I clone my pet from a hair 
+      sample?`,
+      subtitle: `A: No, there are no method of cloning from a 
+      hair. DNA alone is not enough for cloning 
+      because cloning requires nucleus transfer so 
+      live cells (usually from skin) are required.`,
+    },
+    q7: {
+      title: `Can my cloned pet have the same 
+      personality as my original pet?`,
+      subtitle: `A: While a cloned pet will have the same genetic 
+      makeup as your original pet, personality traits 
+      are influenced by both genetics and 
+      environment. Therefore, the cloned animal may 
+      have similar predispositions but will develop its 
+      own unique personality through its individual 
+      experiences.`,
+    },
+    q8: {
+      title: 'Is pet cloning safe?',
+      subtitle: `A: Cloning processes have improved 
+        significantly over time and are carried out with 
+        high standards of veterinary care. However, like 
+        any biological process, there are inherent risks 
+        and variable success rates.`,
+    },
+    q9: {
+      title: `What is the success rate for pet 
+      cloning?`,
+      subtitle: `A: Success rates for cloning vary depending on 
+      the condition and handling of the genetic 
+      sample, the cloning techniques used, and the 
+      individual animal. The quality of the DNA and 
+      rapid initiation of the process are key factors.`,
+    },
+    q10: {
+      title: `How do I transport my pet's sample 
+      to a cloning facility? `,
+      subtitle: `A: If you want to clone your pet, fill the contact 
+      form and we will give you all the details on how 
+      to send your pet skin sample to the cell culture 
+      facility.`,
+    },
+    q11: {
+      title: 'Is pet cloning legal in Europe?',
+      subtitle: `A: in EU, only cloning of animals for consumption 
+      such as cattle is regulated. Pet cloning is not 
+      defined as illegal by EU. Each European country 
+      may have different regulation on the topic but 
+      for most of them there is simply no regulation. 
+      Cloning of a pet abroad and getting it back to 
+      your country would be without any legal 
+      problem as only cloning itself is regulated, not 
+      the fact of owning a cloned animal.`,
+    },
+  },
   footer: {
     petCloning: 'Pet Cloning',
     aboutUs: 'About Us',

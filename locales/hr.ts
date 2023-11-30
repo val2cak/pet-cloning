@@ -244,6 +244,103 @@ export default {
       Zapamtite, kvaliteta uzorka i pažnja tijekom ovih početnih koraka temeljni su za stvaranje genetskog nastavka vašeg voljenog ljubimca.`,
     },
   },
+  qA: {
+    title: 'Pitanja i Odgovori',
+    q1: {
+      title: 'Što točno znači kloniranje kućnih ljubimaca?',
+      subtitle: `A: Kloniranje kućnih ljubimaca proces je stvaranja 
+      genetski identične kopije životinje. Postiže se 
+      uzimanjem uzorka kože od izvorne životinje (donora), 
+      stvaranjem kultiviranih stanica, a zatim prijenosom 
+      genetskog materijala iz tih stanica u jajnu stanicu 
+      kojoj je uklonjen jezgru.`,
+    },
+    q2: {
+      title: 'Koliko košta kloniranje kućnog ljubimca?',
+      subtitle: `A: Troškovi kloniranja mogu biti značajni, 
+      odražavajući kompleksnost znanosti uključene u postupak. 
+      Trenutačno, kloniranje mačke ili psa može koštati 
+      oko 50.000 €, dok konj može koštati do 85.000 €.`,
+    },
+    q3: {
+      title: `Što trebam učiniti ako mi je ljubimac upravo preminuo i razmatram kloniranje?`,
+      subtitle: `A: Ključno je spriječiti zamrzavanje tijela 
+      ili bilo kojeg tkiva te ga umjesto toga čuvati 
+      u hladnjaku. Odmah kontaktirajte veterinara kako 
+      biste prikupili uzorak tkiva u sterilnom mediju, 
+      a zatim nas kontaktirajte za daljnje upute o 
+      pohrani i transportu.`,
+    },
+    q4: {
+      title: 'Mogu li klonirati životinju koja je već dugo preminula?',
+      subtitle: `A: Uspješno kloniranje zahtijeva uzorak genetskog 
+      materijala visoke kvalitete. Nakon što je životinja 
+      preminula dulje vrijeme, degradacija DNA čini 
+      kloniranje manje vjerojatnim. Najbolje je započeti 
+      postupak što je prije moguće nakon smrti. 
+      Obično, ako je ljubimac mrtav tjedan ili više i 
+      nije konzerviran na 4 stupnja, ne može se klonirati. 
+      Ako je konzerviran na 4 stupnja odmah nakon smrti, 
+      ljubimca se može klonirati do 3 tjedna nakon smrti.`,
+    },
+    q5: {
+      title: `Zašto ne bih smio zamrznuti tijelo svog ljubimca ako želim klonirati? `,
+      subtitle: `A: Zamrzavanje može oštetiti strukturu stanica 
+      i DNA unutar njih, što je potrebno za kloniranje. 
+      Čuvanje uzorka u hladnjaku očuva integritet stanica 
+      i DNA, povećavajući šanse za uspješno kloniranje.`,
+    },
+    q6: {
+      title: 'Mogu li klonirati svog ljubimca iz uzorka dlake?',
+      subtitle: `A: Ne, ne postoji metoda kloniranja iz dlake. 
+      DNA sama nije dovoljna za kloniranje jer kloniranje 
+      zahtijeva prijenos jezgre pa su potrebne žive 
+      stanice (obično od kože).`,
+    },
+    q7: {
+      title:
+        'Može li moj klonirani ljubimac imati istu osobnost kao moj izvorni ljubimac?',
+      subtitle: `A: Iako će klonirani ljubimac imati isti 
+      genetski sastav kao i vaš izvorni ljubimac, 
+      osobnost je utjecana i genetikom i okolišem. 
+      Stoga, klonirana životinja može imati slične predispozicije, 
+      ali će razviti vlastitu jedinstvenu osobnost kroz 
+      individualna iskustva.`,
+    },
+    q8: {
+      title: 'Je li kloniranje kućnih ljubimaca sigurno?',
+      subtitle: `A: Procesi kloniranja značajno su se poboljšali tijekom 
+        vremena i provode se uz visoke standarde veterinarske skrbi. 
+        Međutim, kao i kod svakog biološkog procesa, postoje 
+        inherentni rizici i varijabilne stope uspjeha.`,
+    },
+    q9: {
+      title: 'Koja je stopa uspjeha kod kloniranja kućnih ljubimaca?',
+      subtitle: `A: Stope uspjeha kloniranja variraju ovisno o 
+      stanju i rukovanju genetskim uzorkom, korištenim tehnikama 
+      kloniranja i individualnoj životinji. Kvaliteta DNA i 
+      brzo pokretanje procesa ključni su faktori.`,
+    },
+    q10: {
+      title: `Kako prenijeti uzorak svog ljubimca do ustanove za kloniranje? `,
+      subtitle: `A: Ako želite klonirati svog ljubimca, 
+      ispunite kontakt obrazac i mi ćemo vam pružiti sve 
+      pojedinosti o slanju uzorka kože vašeg ljubimca u 
+      ustanovu za kultiviranje stanica.`,
+    },
+    q11: {
+      title: 'Je li kloniranje kućnih ljubimaca legalno u Europi?',
+      subtitle: `A: U EU-u je regulirano samo kloniranje 
+      životinja za konzumaciju, poput goveda. 
+      Kloniranje kućnih ljubimaca nije definirano kao 
+      nezakonito u EU-u. Svaka europska zemlja može imati 
+      različite propise o ovoj temi, ali za većinu njih 
+      jednostavno nema propisa. Kloniranje ljubimca izvan 
+      zemlje i vraćanje u vašu zemlju ne bi bilo bez ikakvih 
+      pravnih problema jer je samo kloniranje regulirano, 
+      a ne čin posjedovanja kloniranog životinje.`,
+    },
+  },
   footer: {
     petCloning: 'Pet cloning',
     aboutUs: 'O nama',
