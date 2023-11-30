@@ -193,6 +193,80 @@ journey.`,
       },
     },
   },
+  petCloningGuide: {
+    section1: {
+      title: 'Pet Cloning Guide',
+      subtitle: `Whether you're planning ahead for cloning your healthy pet in the future or faced with the urgent situation of a pet's passing, understanding and following the correct procedures for cell preservation is vital. This guide aims to ensure you take all the necessary actions to keep the option for cloning open with the highest success rates possible. In case of urgent situation (pet deceased recently), contact us to get more specific advices. `,
+    },
+    section2: {
+      title: 'For Pets That Have Passed Away',
+      point1: {
+        title: 'Act Quickly and Keep Cool',
+        subtitle: `After your pet's passing, do not freeze their body or any collected tissues. Place the body or tissue in a cool environment (refrigerator temperatures of 2-4°C / 35.6-39.2°F) to slow cellular decay.`,
+      },
+      point2: {
+        title: 'Seek Veterinary Assistance',
+        subtitle:
+          'A veterinarian can ensure the sample is taken properly and stored in a sterile physiological solution, which can be sourced from most pharmacies.',
+      },
+      point3: {
+        title: 'Sterile Collection is Critical',
+        subtitle:
+          'When collecting a skin sample, maintaining sterility is as essential as promptness. Contaminated samples may not be viable for cloning. If you cannot find a vet to do the collection, sterilized instruments and gloves with ethanol. ',
+      },
+    },
+    section3: {
+      title: 'For Anticipatory Cloning from a Living Pet',
+      point1: {
+        title: 'Ideal Conditions',
+        subtitle: `If you decide to clone your pet while they are 
+        still alive, arranging a sterile skin biopsy under 
+        veterinary care is the best scenario. This 
+        minimizes stress on the cells and maximizes 
+        viability for cloning.`,
+      },
+      point2: {
+        title: 'Safe Storage and Transport',
+        subtitle: `Whether anticipating future cloning or acting 
+          after a loss, the collected sample must be kept 
+          at a consistent refrigerator temperature of 
+          2-4°C, both in storage and during shipment to 
+          the cloning or cell cultivation facility.`,
+      },
+      point3: {
+        title: 'Time is of the Essence',
+        subtitle: `The quicker a sample is secured and delivered 
+          to the cloning lab, the better the chances of 
+          successful cloning, whether from a living pet or 
+          one that has recently passed.`,
+      },
+    },
+    section4: {
+      title: 'Sending Your Sample',
+      point1: {
+        title: 'Professional Guidance',
+        subtitle:
+          'Prior to sampling, contact us for information on shipping conditions.',
+      },
+      point2: {
+        title: 'Secure and Cool Shipment',
+        subtitle:
+          'Use a cooling container for transport and ensure it remains sealed and at the stable, cool temperature required.',
+      },
+    },
+    section5: {
+      text: `By adhering to these procedures, you significantly increase the likelihood of a 
+      successful clone. 
+
+      Proactive cloning measures for living pets generally yield a higher success rate 
+      due to the optimal condition of the cells and the controlled environment during 
+      collection. 
+      
+      Remember, the quality of the sample and the care taken during these initial 
+      steps are foundational to the journey of creating a genetic continuation of your 
+      cherished pet.`,
+    },
+  },
   footer: {
     petCloning: 'Pet Cloning',
     aboutUs: 'About Us',

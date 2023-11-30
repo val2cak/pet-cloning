@@ -10,7 +10,7 @@ interface Props {
 const Point: FC<Props> = ({ icon, title, subtitle, color }) => {
   return (
     <div
-      className={`flex items-start gap-8 whitespace-pre-line ${
+      className={`flex items-start gap-7 whitespace-pre-line ${
         color ? color : 'text-light'
       }`}
     >

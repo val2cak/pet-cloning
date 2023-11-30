@@ -183,6 +183,67 @@ export default {
       },
     },
   },
+  petCloningGuide: {
+    section1: {
+      title: 'Vodič za Kloniranje Kućnih Ljubimaca',
+      subtitle: `Bilo da planirate unaprijed za kloniranje svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom preminuća ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od presudne je važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste održali opciju kloniranja otvorenom s najvišim mogućim postotkom uspjeha. U hitnim situacijama (nedavno preminuli ljubimac), obratite nam se kako biste dobili specifične savjete.`,
+    },
+    section2: {
+      title: 'Za Ljubimce Koji Su Preminuli',
+      point1: {
+        title: 'Djelujte Brzo i Čuvajte Hladnoću',
+        subtitle: `Nakon preminuća vašeg ljubimca, nemojte zamrzavati tijelo niti bilo koje prikupljene tvari. Stavite tijelo ili tkivo na hladno mjesto (temperatura hladnjaka od 2-4°C) kako biste usporili propadanje stanica.`,
+      },
+      point2: {
+        title: 'Tražite Veterinarsku Pomoć',
+        subtitle:
+          'Veterinar može osigurati da je uzorak pravilno uzet i pohranjen u sterilnom fiziološkom rastvoru, koji se može nabaviti u većini ljekarni.',
+      },
+      point3: {
+        title: 'Sterilna Kolekcija je Ključna',
+        subtitle:
+          'Prilikom prikupljanja uzorka kože, održavanje sterilnosti jednako je bitno kao i brza reakcija. Kontaminirani uzorci možda neće biti pogodni za kloniranje. Ako ne možete pronaći veterinara za prikupljanje, koristite sterilne instrumente i rukavice s etanolom.',
+      },
+    },
+    section3: {
+      title: 'Za Anticipativno Kloniranje Živog Ljubimca',
+      point1: {
+        title: 'Idealni Uvjeti',
+        subtitle:
+          'Ako odlučite klonirati svog ljubimca dok je još živ, organiziranje sterilne biopsije kože pod veterinarskim nadzorom je najbolji scenarij. To smanjuje stres na stanicama i povećava izglede za uspješno kloniranje.',
+      },
+      point2: {
+        title: 'Sigurno Skladištenje i Transport',
+        subtitle:
+          'Bilo da anticipirate buduće kloniranje ili djelujete nakon gubitka, prikupljeni uzorak mora se čuvati na konstantnoj temperaturi hladnjaka od 2-4°C, kako tijekom skladištenja, tako i tijekom slanja u laboratorij za kloniranje ili uzgoj stanica.',
+      },
+      point3: {
+        title: 'Vrijeme je Ključno',
+        subtitle:
+          'Što brže osigurate uzorak i dostavite ga u laboratorij za kloniranje, to su bolje šanse za uspješno kloniranje, bilo da je riječ o živom ljubimcu ili onome koji je nedavno preminuo.',
+      },
+    },
+    section4: {
+      title: 'Slanje Vašeg Uzorka',
+      point1: {
+        title: 'Profesionalno Uputstvo',
+        subtitle:
+          'Prije uzorkovanja, obratite nam se za informacije o uvjetima dostave.',
+      },
+      point2: {
+        title: 'Sigurno i Hladno Slanje',
+        subtitle:
+          'Koristite hladnjak za transport i osigurajte da ostane zatvoren i na stabilnoj, hladnoj temperaturi potrebnoj za očuvanje.',
+      },
+    },
+    section5: {
+      text: `Pridržavanjem ovih postupaka značajno povećavate vjerojatnost uspješnog kloniranja.
+  
+      Proaktivne mjere kloniranja za žive ljubimce općenito daju veći postotak uspjeha zbog optimalnih uvjeta stanica i kontroliranog okoliša tijekom prikupljanja.
+      
+      Zapamtite, kvaliteta uzorka i pažnja tijekom ovih početnih koraka temeljni su za stvaranje genetskog nastavka vašeg voljenog ljubimca.`,
+    },
+  },
   footer: {
     petCloning: 'Pet cloning',
     aboutUs: 'O nama',
