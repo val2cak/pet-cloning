@@ -11,7 +11,8 @@ const CloningNews = ({ posts }) => {
           {posts.map((post) => (
             <li key={post.sys.id}>
               <h2>{post.fields.title}</h2>
-              <p>{post.fields.date}</p>
+              <p>{post.fields.dateCreated}</p>
+              <p>{post.fields.author}</p>
               <img
                 src={post.fields.image.fields.file.url}
                 alt={post.fields.image.fields.description}
