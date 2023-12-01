@@ -44,6 +44,7 @@ module.exports = {
         homeCover: "url('../assets/images/home-cover.png')",
         cloningGuideCover: "url('../assets/images/cloning-guide-cover.png')",
         qACover: "url('../assets/images/qa-cover.png')",
+        contactUsCover: "url('../assets/images/contact-us-cover.png')",
       }),
       lineHeight: {
         3: '1.2rem',

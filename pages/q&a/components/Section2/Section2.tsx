@@ -16,7 +16,7 @@ const Section2 = () => {
         <Point title={q8.title} subtitle={q8.subtitle} icon={eight.src} />
         <Point title={q9.title} subtitle={q9.subtitle} icon={nine.src} />
       </div>
-      <div className='flex'>
+      <div className='flex justify-between'>
         <Point title={q10.title} subtitle={q10.subtitle} icon={ten.src} />
         <Point title={q11.title} subtitle={q11.subtitle} icon={eleven.src} />
       </div>

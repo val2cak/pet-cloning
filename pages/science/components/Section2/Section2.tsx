@@ -24,7 +24,7 @@ const Section2 = () => {
           <Point title={step2.title} subtitle={step2.subtitle} icon={two.src} />
           <Point subtitle={step2_1.subtitle} icon={two_one.src} />
         </div>
-        <div className='flex'>
+        <div className='flex justify-between'>
           <Point
             title={step3.title}
             subtitle={step3.subtitle}

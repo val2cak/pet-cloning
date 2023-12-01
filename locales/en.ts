@@ -120,8 +120,9 @@ journey.`,
         subtitle: `The developed blastocyst is implanted into the surrogate's womb, where it continues to grow. If the implantation is successful, the surrogate becomes pregnant.`,
       },
       step6: {
-        title: '',
-        subtitle: '',
+        title: 'Birth',
+        subtitle: `The surrogate carries the pregnancy to term 
+          and gives birth to the cloned pet.`,
       },
       conclusion: `Each cloned animal is a genetic duplicate of the original pet, meaning they share the same DNA. However, it's important to note that while the cloned pet, just like identical twins, will look very similar to the original, they may not act identically, as environment and upbringing also shape behaviuor and personality.`,
     },
@@ -377,6 +378,14 @@ journey.`,
       problem as only cloning itself is regulated, not 
       the fact of owning a cloned animal.`,
     },
+  },
+  contactUs: {
+    title: 'Send inquiry form',
+    nameAndSurname: 'Name and surname',
+    phoneMobile: 'Phone / Mobile',
+    email: 'Email',
+    inquiry: 'Inquiry',
+    buttonText: 'Send inquiry',
   },
   footer: {
     petCloning: 'Pet Cloning',

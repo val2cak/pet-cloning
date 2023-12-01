@@ -111,8 +111,9 @@ export default {
         subtitle: `Razvijeni blastocist se usađuje u maternicu surogatne majke, gdje nastavlja rasti. Ako je postupak uspješan, surogatna majka postaje trudna.`,
       },
       step6: {
-        title: '',
-        subtitle: '',
+        title: 'Rođenje',
+        subtitle: `Surogat majka nosi trudnoću do kraja
+        i rađa kloniranog ljubimca.`,
       },
       conclusion: `Svaka klonirana životinja je genetski duplicirana originalnog ljubimca, što znači da dijele istu DNA. Važno je napomenuti da iako će klonirani ljubimac, poput identičnih blizanaca, izgledati vrlo slično originalu, možda se neće ponašati identično, jer ih okolina i odgoj oblikuju.`,
     },
@@ -340,6 +341,14 @@ export default {
       pravnih problema jer je samo kloniranje regulirano, 
       a ne čin posjedovanja kloniranog životinje.`,
     },
+  },
+  contactUs: {
+    title: 'Obrazac za upit',
+    nameAndSurname: 'Ime i prezime',
+    phoneMobile: 'Telefon / Mobitel',
+    email: 'E-pošta',
+    inquiry: 'Upit',
+    buttonText: 'Pošaljite upit',
   },
   footer: {
     petCloning: 'Pet cloning',

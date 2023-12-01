@@ -46,7 +46,7 @@ const Section1 = () => {
           color='text-darker'
         />
       </div>
-      <div className='flex'>
+      <div className='flex justify-between'>
         <Point
           title={step4.title}
           subtitle={step4.subtitle}
