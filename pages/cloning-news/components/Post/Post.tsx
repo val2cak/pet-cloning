@@ -5,7 +5,6 @@ import { defaultLocale } from '../../../../locales/translate';
 import Link from 'next/link';
 
 interface Props {
-  id: string;
   title: string;
   dateCreated: Date;
   author: string;
@@ -16,7 +15,6 @@ interface Props {
 }
 
 const Post: FC<Props> = ({
-  id,
   title,
   dateCreated,
   author,
@@ -35,7 +33,6 @@ const Post: FC<Props> = ({
   return (
     <Link
       href={`cloning-news/${slug}`}
-      key={id}
       className='flex flex-col gap-2 w-64 hover:scale-105'
     >
       <img

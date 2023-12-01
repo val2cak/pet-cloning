@@ -1,11 +1,16 @@
 import { NextSeo } from 'next-seo';
 import SEO from '../constants/next-seo.config';
 import { useRouter } from 'next/router';
+import { FC, ReactNode } from 'react';
 
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
-const Layout: React.FC = ({ children }) => {
+interface Props {
+  children: ReactNode;
+}
+
+const Layout: FC<Props> = ({ children }) => {
   const router = useRouter();
 
   return (

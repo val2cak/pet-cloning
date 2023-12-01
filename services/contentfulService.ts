@@ -10,8 +10,17 @@ export const getEntries = async () => {
   return entries.items;
 };
 
-export const getBlogPosts = async () => {
+export const getTotalBlogPosts = async () => {
   const entries = await client.getEntries({ content_type: 'petCloning' });
+  return entries.total;
+};
+
+export const getBlogPosts = async ({ skip, limit }) => {
+  const entries = await client.getEntries({
+    content_type: 'petCloning',
+    skip,
+    limit,
+  });
   return entries.items;
 };
 
