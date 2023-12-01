@@ -19,10 +19,15 @@ export default async function handler(
       });
 
       const mailOptions: Mail.Options = {
-        from: email,
+        from: process.env.MY_EMAIL,
         to: process.env.MY_EMAIL,
-        subject: `Message from ${nameAndSurname} (${email}, ${phoneMobile})`,
-        text: inquiry,
+        subject: 'Pet cloning',
+        text: `
+        Name and surname: ${nameAndSurname}
+        Email: ${email}
+        Phone: ${phoneMobile}
+        Inquiry: ${inquiry}
+        `,
       };
 
       await transport.sendMail(mailOptions);
