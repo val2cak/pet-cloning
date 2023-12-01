@@ -44,7 +44,7 @@ const Post: FC<Props> = ({
         className='rounded-md h-48 w-64 object-cover'
       />
       <p className='text-primary text-xs font-light'>{formattedDate}</p>
-      <h2 className='text-darker text-sm font-bold'>{title}</h2>
+      <h2 className='text-darker text-sm font-bold'>{title.slice(0, 65)}</h2>
       <ReactMarkdown className='text-xs font-light text-darker opacity-70'>{`${text.slice(
         0,
         80
