@@ -1,5 +1,10 @@
 import { createClient } from 'contentful';
 
+interface GetBlogPostsOptions {
+  skip?: number;
+  limit?: number;
+}
+
 const client = createClient({
   space: process.env.CONTENTFUL_SPACE_ID,
   accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
@@ -15,7 +20,10 @@ export const getTotalBlogPosts = async () => {
   return entries.total;
 };
 
-export const getBlogPosts = async ({ skip, limit }) => {
+export const getBlogPosts = async ({
+  skip,
+  limit,
+}: GetBlogPostsOptions = {}) => {
   const entries = await client.getEntries({
     content_type: 'petCloning',
     skip,
