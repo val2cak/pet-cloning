@@ -10,6 +10,6 @@ const availableLocales = {
 // const { locale } = router;
 // const defaultLocale = locale;
 
-const defaultLocale = 'en';
+export const defaultLocale = 'en';
 
 export const translate = availableLocales[defaultLocale];

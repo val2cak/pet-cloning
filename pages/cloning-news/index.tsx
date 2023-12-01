@@ -1,6 +1,5 @@
-import Layout from '../Layout';
-
 import { getBlogPosts } from '../../services/contentfulService';
+import Layout from '../Layout';
 
 const CloningNews = ({ posts }) => {
   return (
