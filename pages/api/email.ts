@@ -13,11 +13,12 @@ export default async function handler(
     try {
       const {
         email,
-        nameAndSurname,
+        name,
         phoneMobile,
         message,
         animalType,
-        moreInfo,
+        cloningInfo,
+        preservationInfo,
         petName,
       }: FormData = req.body;
 
@@ -34,7 +35,7 @@ export default async function handler(
         to: process.env.MY_EMAIL,
         subject: 'Pet cloning',
         text: `
-        Name and surname: ${nameAndSurname}
+        First and last name: ${name}
         Phone/Mobile: ${phoneMobile}
         Email: ${email}
         Type of animal: ${
@@ -42,7 +43,8 @@ export default async function handler(
         }
         What is your pet's name?: ${petName}
         Message: ${message}
-        I want more info on cloning or preservation?: ${moreInfo ? 'Yes' : 'No'}
+        I want more info on cloning: ${cloningInfo ? 'Yes' : 'No'}
+        I want more info on preservation: ${preservationInfo ? 'Yes' : 'No'}
         `,
       };
 

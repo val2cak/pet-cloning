@@ -9,21 +9,24 @@ import { animalTypes } from '../../../../constants/AnimalTypes';
 import { FormData, Lookup } from '../../../../types/typeDefinitions';
 import DropdownElement from '../../../../components/DropdownElement/DropdownElement';
 import Checkbox from '../../../../components/Checkbox/Checkbox';
+import { useEffect } from 'react';
 
 const Form = () => {
   const {
     title,
-    nameAndSurname,
+    name,
     phoneMobile,
     email,
     message,
     petName,
     animalType,
-    moreInfo,
+    cloningInfo,
+    preservationInfo,
     buttonText,
   } = translate.contactUs;
 
-  const { requiredField } = translate.common;
+  const { requiredFields, phoneFormat, emailFormat, unsavedChanges } =
+    translate.validations;
 
   const {
     control,
@@ -35,9 +38,25 @@ const Form = () => {
   } = useForm<FormData>({
     mode: 'onChange',
     defaultValues: {
-      moreInfo: false,
+      cloningInfo: false,
+      preservationInfo: false,
     },
   });
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      if (isDirty) {
+        event.preventDefault();
+        event.returnValue = unsavedChanges;
+      }
+    };
+
+    window.addEventListener('beforeunload', handleBeforeUnload);
+
+    return () => {
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+    };
+  }, [isDirty]);
 
   async function onSubmit(data: FormData) {
     try {
@@ -48,20 +67,31 @@ const Form = () => {
     }
   }
 
+  const isRequiredFieldMissing = Object.keys(errors).some(
+    (key) => errors[key]?.type === 'required'
+  );
+
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
       className='py-16 pl-40 pr-32 h-full bg-primary w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
     >
-      <div className='text-md font-bold uppercase'>{title}</div>
+      <div className='w-full'>
+        <div className='text-md font-bold uppercase flex justify-center'>
+          {title}
+        </div>
+        {isRequiredFieldMissing && (
+          <div className='text-red text-sm font-medium'>{requiredFields}</div>
+        )}
+      </div>
       <div className='flex flex-col w-full justify-center items-center gap-8'>
         <Input
-          label={nameAndSurname}
-          placeholder={nameAndSurname}
+          label={name}
+          placeholder={name}
           register={register}
-          name={'nameAndSurname'}
+          name={'name'}
           required={true}
-          errors={errors?.nameAndSurname}
+          errors={errors?.name}
         />
         <Input
           label={phoneMobile}
@@ -70,6 +100,12 @@ const Form = () => {
           name={'phoneMobile'}
           required={true}
           errors={errors?.phoneMobile}
+          validations={{
+            pattern: {
+              value: /^[\+\d\s\-()/]+$/,
+              message: phoneFormat,
+            },
+          }}
         />
         <Input
           label={email}
@@ -78,6 +114,12 @@ const Form = () => {
           name={'email'}
           required={true}
           errors={errors?.email}
+          validations={{
+            pattern: {
+              value: /^([\w-\.]+\u0040([\w-]+\.)+[\w-]{2,4})?$/,
+              message: emailFormat,
+            },
+          }}
         />
         <div className='flex items-center gap-4'>
           <div className='w-1/2'>
@@ -85,7 +127,7 @@ const Form = () => {
               name='animalType'
               control={control}
               rules={{
-                required: requiredField,
+                required: requiredFields,
               }}
               render={({ field }) => (
                 <DropdownElement
@@ -119,13 +161,27 @@ const Form = () => {
           name={'message'}
           required={true}
           errors={errors?.message}
+          validations={{
+            maxLength: {
+              value: 200,
+              message: 'Message must not exceed 200 characters',
+            },
+          }}
         />
-        <Checkbox
-          label={moreInfo}
-          register={register}
-          name='moreInfo'
-          errors={errors?.moreInfo}
-        />
+        <div className='flex flex-col w-full items-center'>
+          <Checkbox
+            label={cloningInfo}
+            register={register}
+            name='cloningInfo'
+            errors={errors?.cloningInfo}
+          />
+          <Checkbox
+            label={preservationInfo}
+            register={register}
+            name='preservationInfo'
+            errors={errors?.preservationInfo}
+          />
+        </div>
       </div>
       <Button text={buttonText} type='submit' />
     </form>

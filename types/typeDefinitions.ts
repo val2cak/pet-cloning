@@ -4,11 +4,12 @@ export interface Lookup {
 }
 
 export interface FormData {
-  nameAndSurname: string;
+  name: string;
   phoneMobile: string;
   email: string;
   petName: string;
   animalType: number;
-  moreInfo: boolean;
+  cloningInfo: boolean;
+  preservationInfo: boolean;
   message: string;
 }

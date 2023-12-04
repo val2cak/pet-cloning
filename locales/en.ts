@@ -4,7 +4,13 @@ export default {
     dog: 'Dog',
     cat: 'Cat',
     horse: 'Horse',
-    requiredField: 'This field is required',
+  },
+  validations: {
+    requiredFields: 'Please fill out all required fields',
+    phoneFormat: 'Invalid phone number format',
+    emailFormat: 'Invalid email format',
+    unsavedChanges:
+      'You have not saved your changes. Are you sure you want to leave the page?',
   },
   navigation: {
     home: 'Home',
@@ -385,13 +391,14 @@ journey.`,
   },
   contactUs: {
     title: 'Request information',
-    nameAndSurname: 'First and last name',
+    name: 'First and last name',
     phoneMobile: 'Phone / Mobile',
     email: 'Email',
     message: 'Message',
     petName: `Pet's name`,
     animalType: 'Type of animal',
-    moreInfo: 'I want more info on cloning or preservation',
+    cloningInfo: 'I want more info on cloning',
+    preservationInfo: 'I want more info on preservation',
     buttonText: 'Send request',
   },
   footer: {

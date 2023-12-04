@@ -8,6 +8,7 @@ interface Props {
   name: string;
   required: boolean;
   errors?: FieldError;
+  validations?: Record<string, any>;
 }
 
 const Input: FC<Props> = ({
@@ -17,6 +18,7 @@ const Input: FC<Props> = ({
   name,
   required,
   errors,
+  validations,
 }) => {
   return (
     <div className='flex flex-col items-start justify-center text-light flex-1 w-full'>
@@ -28,8 +30,12 @@ const Input: FC<Props> = ({
           errors ? 'border-red' : 'border-light'
         }`}
         placeholder={placeholder}
-        {...register(name, { required: required })}
+        {...register(name, { required: required, ...validations })}
       />
+
+      {errors && (
+        <div className='text-red text-sm font-medium'>{errors.message}</div>
+      )}
     </div>
   );
 };

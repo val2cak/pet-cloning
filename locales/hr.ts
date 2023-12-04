@@ -4,7 +4,13 @@ export default {
     dog: 'Pas',
     cat: 'Mačka',
     horse: 'Konj',
-    requiredField: 'Ovo polje je obavezno',
+  },
+  validations: {
+    requiredFields: 'Molimo ispunite sva obavezna polja',
+    phoneFormat: 'Nevažeći format telefonskog broja',
+    emailFormat: 'Nevažeći format e-pošte',
+    unsavedChanges:
+      'Niste spremili promjene. Sigurno želite napustiti stranicu?',
   },
   navigation: {
     home: 'Naslovna',
@@ -348,7 +354,7 @@ export default {
   },
   contactUs: {
     title: 'Obrazac za upit',
-    nameAndSurname: 'Ime i prezime',
+    name: 'Ime i prezime',
     phoneMobile: 'Telefon / Mobitel',
     email: 'E-pošta',
     message: 'Poruka',
