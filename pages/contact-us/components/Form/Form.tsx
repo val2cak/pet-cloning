@@ -10,12 +10,20 @@ export type FormData = {
   nameAndSurname: string;
   phoneMobile: string;
   email: string;
-  inquiry: string;
+  petName: string;
+  message: string;
 };
 
 const Form = () => {
-  const { title, nameAndSurname, phoneMobile, email, inquiry, buttonText } =
-    translate.contactUs;
+  const {
+    title,
+    nameAndSurname,
+    phoneMobile,
+    email,
+    message,
+    petName,
+    buttonText,
+  } = translate.contactUs;
 
   const { register, handleSubmit, reset } = useForm<FormData>();
 
@@ -56,11 +64,18 @@ const Form = () => {
           name={'email'}
           required={true}
         />
-        <TextArea
-          label={inquiry}
-          placeholder={inquiry}
+        <Input
+          label={petName}
+          placeholder={petName}
           register={register}
-          name={'inquiry'}
+          name={'petName'}
+          required={true}
+        />
+        <TextArea
+          label={message}
+          placeholder={message}
+          register={register}
+          name={'message'}
           required={true}
         />
       </div>

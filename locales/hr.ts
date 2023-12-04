@@ -347,7 +347,8 @@ export default {
     nameAndSurname: 'Ime i prezime',
     phoneMobile: 'Telefon / Mobitel',
     email: 'E-pošta',
-    inquiry: 'Upit',
+    message: 'Poruka',
+    petName: 'Kako se zove vaš kućni ljubimac?',
     buttonText: 'Pošaljite upit',
   },
   footer: {
