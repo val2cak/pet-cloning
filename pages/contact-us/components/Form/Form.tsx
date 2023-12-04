@@ -1,4 +1,5 @@
 import { Controller, useForm } from 'react-hook-form';
+import { useEffect } from 'react';
 
 import Button from '../../../../components/Button/Button';
 import Input from '../../../../components/Input/Input';
@@ -9,7 +10,6 @@ import { animalTypes } from '../../../../constants/AnimalTypes';
 import { FormData, Lookup } from '../../../../types/typeDefinitions';
 import DropdownElement from '../../../../components/DropdownElement/DropdownElement';
 import Checkbox from '../../../../components/Checkbox/Checkbox';
-import { useEffect } from 'react';
 
 const Form = () => {
   const {

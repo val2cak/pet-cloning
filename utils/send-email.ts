@@ -1,19 +1,29 @@
 import { FormData } from '../types/typeDefinitions';
 
-export function sendEmail(data: FormData) {
+export function sendEmail(
+  data: FormData
+): Promise<{ status: number; message: string }> {
   const apiEndpoint = '/api/email';
-  fetch(apiEndpoint, {
+
+  return fetch(apiEndpoint, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(data),
   })
-    .then((res) => res.json())
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error('Error sending email');
+      }
+
+      return res.json();
+    })
     .then((response) => {
-      alert(response.message);
+      return { status: response.status, message: response.message };
     })
     .catch((err) => {
-      alert(err);
+      console.error(err);
+      throw new Error('Error sending email');
     });
 }

@@ -62,12 +62,18 @@ export default async function handler(
       await transport.sendMail(mailOptions);
       await transport.sendMail(userConfirmationOptions);
 
-      res.status(200).json({ message: 'Email sent' });
+      res.status(200).json({
+        status: 'success',
+        message: 'Email sent successfully',
+      });
     } catch (error) {
       console.error(error);
-      res.status(500).json({ error: 'Internal Server Error' });
+      res.status(500).json({
+        status: 'error',
+        message: 'Internal Server Error',
+      });
     }
   } else {
-    res.status(405).json({ error: 'Method Not Allowed' });
+    res.status(405).json({ status: 'error', message: 'Method Not Allowed' });
   }
 }
