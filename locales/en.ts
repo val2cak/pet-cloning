@@ -399,6 +399,9 @@ journey.`,
     animalType: 'Type of animal',
     cloningInfo: 'I want more info on cloning',
     preservationInfo: 'I want more info on preservation',
+    replySubject: 'Pet Cloning Request Confirmation',
+    replyText:
+      'Thank you for your request. We have received your information and will get back to you soon.',
     buttonText: 'Send request',
   },
   footer: {

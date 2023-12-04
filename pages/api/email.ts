@@ -4,6 +4,7 @@ import Mail from 'nodemailer/lib/mailer';
 
 import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
+import { translate } from '../../locales/translate';
 
 export default async function handler(
   req: NextApiRequest,
@@ -22,6 +23,8 @@ export default async function handler(
         petName,
       }: FormData = req.body;
 
+      const { replySubject, replyText } = translate.contactUs;
+
       const transport = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -31,7 +34,7 @@ export default async function handler(
       });
 
       const mailOptions: Mail.Options = {
-        from: process.env.MY_EMAIL,
+        from: email,
         to: process.env.MY_EMAIL,
         subject: 'Pet cloning',
         text: `
@@ -48,7 +51,16 @@ export default async function handler(
         `,
       };
 
+      // Send confirmation email to the user
+      const userConfirmationOptions: Mail.Options = {
+        from: process.env.MY_EMAIL,
+        to: email,
+        subject: replySubject,
+        text: replyText,
+      };
+
       await transport.sendMail(mailOptions);
+      await transport.sendMail(userConfirmationOptions);
 
       res.status(200).json({ message: 'Email sent' });
     } catch (error) {
