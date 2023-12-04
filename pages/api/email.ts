@@ -2,13 +2,24 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
 
+import { FormData } from '../../types/typeDefinitions';
+import { animalTypes } from '../../constants/AnimalTypes';
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
   if (req.method === 'POST') {
     try {
-      const { email, nameAndSurname, phoneMobile, inquiry } = req.body;
+      const {
+        email,
+        nameAndSurname,
+        phoneMobile,
+        message,
+        animalType,
+        moreInfo,
+        petName,
+      }: FormData = req.body;
 
       const transport = nodemailer.createTransport({
         service: 'gmail',
@@ -24,9 +35,14 @@ export default async function handler(
         subject: 'Pet cloning',
         text: `
         Name and surname: ${nameAndSurname}
+        Phone/Mobile: ${phoneMobile}
         Email: ${email}
-        Phone: ${phoneMobile}
-        Inquiry: ${inquiry}
+        Type of animal: ${
+          animalTypes.find((animal) => animal.id === animalType).name
+        }
+        What is your pet's name?: ${petName}
+        Message: ${message}
+        I want more info on cloning or preservation?: ${moreInfo ? 'Yes' : 'No'}
         `,
       };
 

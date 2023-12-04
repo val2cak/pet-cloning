@@ -5,11 +5,10 @@ interface Props {
   label: string;
   register: UseFormRegister<any>;
   name: string;
-  required: boolean;
   errors?: FieldError;
 }
 
-const Checkbox: FC<Props> = ({ label, register, name, required, errors }) => {
+const Checkbox: FC<Props> = ({ label, register, name, errors }) => {
   return (
     <div className='flex items-start justify-start gap-2 text-light w-full'>
       <label className={'text-xs font-bold uppercase hover:cursor-pointer'}>
@@ -18,7 +17,7 @@ const Checkbox: FC<Props> = ({ label, register, name, required, errors }) => {
           className={`mr-2 ${
             errors ? 'text-red' : 'text-light'
           } hover:cursor-pointer`}
-          {...register(name, { required: required })}
+          {...register(name, { value: true })}
         />
         {label}
       </label>

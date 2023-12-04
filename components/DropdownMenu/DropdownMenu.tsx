@@ -44,7 +44,7 @@ const DropdownMenu: FC<Props> = ({
   return (
     <div
       ref={ref}
-      className={`w-full p-2 relative border-b ${errors && 'border-red'}`}
+      className={`w-full pb-2 px-2 relative border-b ${errors && 'border-red'}`}
     >
       <div
         onClick={() => setOpen(!open)}

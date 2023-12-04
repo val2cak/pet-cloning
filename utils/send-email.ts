@@ -1,4 +1,4 @@
-import { FormData } from '../pages/contact-us/components/Form/Form';
+import { FormData } from '../types/typeDefinitions';
 
 export function sendEmail(data: FormData) {
   const apiEndpoint = '/api/email';

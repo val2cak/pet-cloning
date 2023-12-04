@@ -352,7 +352,7 @@ export default {
     phoneMobile: 'Telefon / Mobitel',
     email: 'E-pošta',
     message: 'Poruka',
-    petName: 'Kako se zove vaš kućni ljubimac?',
+    petName: 'Ime ljubimca',
     moreInfo: 'Želim više informacija o kloniranju ili očuvanju',
     buttonText: 'Pošaljite upit',
   },
