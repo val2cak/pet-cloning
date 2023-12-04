@@ -39,6 +39,7 @@ module.exports = {
         light: '#F8F9FA',
         dark: '#2D4047',
         darker: '#212529',
+        red: '#F21B3F',
       },
       backgroundImage: () => ({
         homeCover: "url('../assets/images/home-cover.png')",

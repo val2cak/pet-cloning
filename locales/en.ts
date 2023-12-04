@@ -1,6 +1,10 @@
 export default {
   common: {
     learnMore: 'Learn more',
+    dog: 'Dog',
+    cat: 'Cat',
+    horse: 'Horse',
+    requiredField: 'This field is required',
   },
   navigation: {
     home: 'Home',
@@ -386,6 +390,7 @@ journey.`,
     email: 'Email',
     message: 'Message',
     petName: `What is your pet's name?`,
+    animalType: 'Type of animal',
     buttonText: 'Send request',
   },
   footer: {

@@ -1,6 +1,10 @@
 export default {
   common: {
     learnMore: 'Saznajte više',
+    dog: 'Pas',
+    cat: 'Mačka',
+    horse: 'Konj',
+    requiredField: 'Ovo polje je obavezno',
   },
   navigation: {
     home: 'Naslovna',

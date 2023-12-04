@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { UseFormRegister } from 'react-hook-form';
+import { FieldError, UseFormRegister } from 'react-hook-form';
 
 interface Props {
   label: string;
@@ -7,6 +7,7 @@ interface Props {
   register: UseFormRegister<any>;
   name: string;
   required: boolean;
+  errors?: FieldError;
 }
 
 const TextArea: FC<Props> = ({
@@ -15,12 +16,17 @@ const TextArea: FC<Props> = ({
   register,
   name,
   required,
+  errors,
 }) => {
   return (
     <div className='flex flex-col items-start justify-center gap-2 text-light flex-1 w-full'>
-      <div className='text-sm font-bold uppercase'>{label} *</div>
+      <div className={`text-sm font-bold uppercase ${errors && 'text-red'}`}>
+        {label} *
+      </div>
       <textarea
-        className='w-full border-b border-light focus:outline-none box-border m-0 pl-6 pb-2 bg-transparent text-sm font-normal placeholder:text-light placeholder:opacity-70 placeholder:text-sm placeholder:font-normal'
+        className={`w-full border-b focus:outline-none box-border m-0 pl-6 pb-2 bg-transparent text-sm font-normal placeholder:text-light placeholder:opacity-70 placeholder:text-sm placeholder:font-normal ${
+          errors ? 'border-red' : 'border-light'
+        }`}
         placeholder={placeholder}
         {...register(name, { required: required })}
       />
