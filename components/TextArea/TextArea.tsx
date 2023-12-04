@@ -19,7 +19,7 @@ const TextArea: FC<Props> = ({
   errors,
 }) => {
   return (
-    <div className='flex flex-col items-start justify-center gap-2 text-light flex-1 w-full'>
+    <div className='flex flex-col items-start justify-center text-light flex-1 w-full'>
       <div className={`text-sm font-bold uppercase ${errors && 'text-red'}`}>
         {label} *
       </div>

@@ -391,6 +391,7 @@ journey.`,
     message: 'Message',
     petName: `What is your pet's name?`,
     animalType: 'Type of animal',
+    moreInfo: 'I want more info on cloning or preservation',
     buttonText: 'Send request',
   },
   footer: {

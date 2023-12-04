@@ -8,6 +8,7 @@ import { sendEmail } from '../../../../utils/send-email';
 import { animalTypes } from '../../../../constants/AnimalTypes';
 import { Lookup } from '../../../../types/typeDefinitions';
 import DropdownElement from '../../../../components/DropdownElement/DropdownElement';
+import Checkbox from '../../../../components/Checkbox/Checkbox';
 
 export type FormData = {
   nameAndSurname: string;
@@ -15,6 +16,7 @@ export type FormData = {
   email: string;
   petName: string;
   animalType: number;
+  moreInfo: boolean;
   message: string;
 };
 
@@ -27,6 +29,7 @@ const Form = () => {
     message,
     petName,
     animalType,
+    moreInfo,
     buttonText,
   } = translate.contactUs;
 
@@ -41,6 +44,9 @@ const Form = () => {
     formState: { errors, isDirty },
   } = useForm<FormData>({
     mode: 'onChange',
+    defaultValues: {
+      moreInfo: false,
+    },
   });
 
   async function onSubmit(data: FormData) {
@@ -55,7 +61,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='py-16 px-40 h-full bg-primary w-2/5 opacity-80 text-light flex flex-col justify-center items-center gap-8'
+      className='py-16 pl-40 pr-20 h-full bg-primary w-2/5 opacity-80 text-light flex flex-col justify-center items-center gap-6'
     >
       <div className='text-md font-bold uppercase'>{title}</div>
       <div className='flex flex-col w-full justify-center items-center gap-6'>
@@ -117,6 +123,13 @@ const Form = () => {
           name={'message'}
           required={true}
           errors={errors?.message}
+        />
+        <Checkbox
+          label={moreInfo}
+          register={register}
+          name='moreInfo'
+          required={true}
+          errors={errors?.moreInfo}
         />
       </div>
       <Button text={buttonText} type='submit' />

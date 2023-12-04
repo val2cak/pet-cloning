@@ -353,6 +353,7 @@ export default {
     email: 'E-pošta',
     message: 'Poruka',
     petName: 'Kako se zove vaš kućni ljubimac?',
+    moreInfo: 'Želim više informacija o kloniranju ili očuvanju',
     buttonText: 'Pošaljite upit',
   },
   footer: {
