@@ -33,7 +33,7 @@ const Section2 = () => {
       </div>
       <img
         src={imageUrl.src}
-        className='sm:w-full w-1/2 sm:h-[245px] h-auto sm:object-cover object-contain'
+        className='sm:w-full w-1/2 sm:h-[16.0625rem] h-auto sm:object-cover object-contain'
       />
     </div>
   );

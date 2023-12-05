@@ -7,7 +7,7 @@ import instagramIcon from '../../assets/icons/instagram.svg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='bg-darker text-light px-8 lg:px-40 py-8 absolute w-full bottom-0 sm:h-56 h-48'>
+    <footer className='bg-darker text-light sm:px-8 px-40 py-8 absolute w-full bottom-0 sm:h-56 h-48'>
       <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-5 gap-10'>
         <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-3'>
           <span className='text-base font-bold'>
