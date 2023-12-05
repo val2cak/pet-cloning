@@ -10,13 +10,11 @@ const Section2 = () => {
   const { q7, q8, q9, q10, q11 } = translate.qA;
 
   return (
-    <div className='w-full px-8 lg:px-40 sm:py-8 py-16 bg-primary text-light flex flex-col gap-6'>
-      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
+    <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 bg-primary text-light flex flex-col gap-6'>
+      <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
         <Point title={q7.title} subtitle={q7.subtitle} icon={seven.src} />
         <Point title={q8.title} subtitle={q8.subtitle} icon={eight.src} />
         <Point title={q9.title} subtitle={q9.subtitle} icon={nine.src} />
-      </div>
-      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
         <Point title={q10.title} subtitle={q10.subtitle} icon={ten.src} />
         <Point title={q11.title} subtitle={q11.subtitle} icon={eleven.src} />
       </div>

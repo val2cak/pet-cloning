@@ -11,9 +11,9 @@ const Section1 = () => {
   const { title, q1, q2, q3, q4, q5, q6 } = translate.qA;
 
   return (
-    <div className='w-full px-8 lg:px-40 sm:py-8 py-16 text-darker flex flex-col gap-6 whitespace-pre-line'>
+    <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 text-darker flex flex-col gap-6 whitespace-pre-line'>
       <div className='font-bold sm:text-md text-lg leading-6'>{title}</div>
-      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
+      <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
         <Point
           title={q1.title}
           subtitle={q1.subtitle}
@@ -32,8 +32,6 @@ const Section1 = () => {
           icon={three.src}
           color='text-darker'
         />
-      </div>
-      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
         <Point
           title={q4.title}
           subtitle={q4.subtitle}

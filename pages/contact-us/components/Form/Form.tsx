@@ -75,7 +75,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='sm:py-8 py-16 sm:pl-8 pl-40 sm:pr-8 pr-32 h-full bg-primary sm:w-full w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
+      className='sm:py-8 py-16 sm:pl-8 pl-40 2xl:pl-56 sm:pr-8 pr-32 h-full bg-primary sm:w-full lg:w-2/3 w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
     >
       <div className='w-full'>
         <div className='text-md font-bold uppercase flex justify-center'>

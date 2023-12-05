@@ -13,18 +13,16 @@ const Section2 = () => {
     translate.science.section2;
 
   return (
-    <div className='w-full sm:px-8 px-40 sm:py-8 py-16 bg-primary flex flex-col sm:gap-6'>
+    <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 bg-primary flex flex-col sm:gap-6'>
       <div className=' text-light flex flex-col gap-6'>
         <div className='font-bold sm:text-md text-lg leading-6'>{title}</div>
         <div className='font-light sm:text-sm text-base opacity-80 leading-5 whitespace-pre-line'>
           {subtitle}
         </div>
-        <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
+        <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
           <Point title={step1.title} subtitle={step1.subtitle} icon={one.src} />
           <Point title={step2.title} subtitle={step2.subtitle} icon={two.src} />
           <Point subtitle={step2_1.subtitle} icon={two_one.src} />
-        </div>
-        <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
           <Point
             title={step3.title}
             subtitle={step3.subtitle}

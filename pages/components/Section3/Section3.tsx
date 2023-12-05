@@ -12,7 +12,7 @@ const Section3 = () => {
     translate.home.section3;
 
   return (
-    <div className='w-full sm:px-8 px-40 sm:py-8 py-16 flex flex-col sm:gap-6 gap-8'>
+    <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 flex flex-col sm:gap-6 gap-8'>
       <div className='text-darker sm:text-md text-lg font-medium'>{title}</div>
       <div className='text-darker sm:text-sm text-base font-medium leading-4'>
         {subtitle}

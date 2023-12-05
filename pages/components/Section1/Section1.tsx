@@ -4,7 +4,7 @@ const Section1 = () => {
   const { title, subtitle } = translate.home.section1;
 
   return (
-    <div className='w-full sm:px-8 px-40 sm:py-8 py-16 text-darker flex flex-col gap-6'>
+    <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 text-darker flex flex-col gap-6'>
       <div className='font-bold sm:text-md text-lg sm:leading-4 leading-6'>
         {title}
       </div>

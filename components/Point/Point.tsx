@@ -15,7 +15,7 @@ const Point: FC<Props> = ({ icon, title, subtitle, color }) => {
       }`}
     >
       {icon && <img src={icon} className='w-12 h-12' />}
-      <div className='flex flex-col justify-start items-start gap-4 w-80'>
+      <div className='flex flex-col justify-start items-start gap-4 w-72 2xl:w-80'>
         {title && (
           <span className='sm:text-sm text-base font-medium'>{title}</span>
         )}

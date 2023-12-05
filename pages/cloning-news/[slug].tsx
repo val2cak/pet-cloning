@@ -18,7 +18,7 @@ const BlogPost = ({ post }) => {
 
   return (
     <Layout>
-      <div className='sm:pl-8 pl-40 sm:pr-8 sm:py-8 py-16 sm:pt-20 pt-24 flex flex-col sm:gap-6 gap-8 sm:w-full w-3/4'>
+      <div className='sm:pl-8 pl-40 2xl:pl-56 sm:pr-8 sm:py-8 py-16 sm:pt-20 pt-24 flex flex-col sm:gap-6 gap-8 sm:w-full w-3/4'>
         <div className='flex flex-col gap-3'>
           <div className='text-dark sm:text-lg text-xl font-bold'>
             {post.fields.title}
