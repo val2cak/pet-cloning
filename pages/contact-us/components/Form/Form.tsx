@@ -40,6 +40,7 @@ const Form = () => {
     defaultValues: {
       cloningInfo: false,
       preservationInfo: false,
+      animalType: 1,
     },
   });
 
@@ -74,7 +75,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className='py-16 pl-40 pr-32 h-full bg-primary w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
+      className='sm:py-8 py-16 sm:pl-8 pl-40 sm:pr-8 pr-32 h-full bg-primary sm:w-full w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
     >
       <div className='w-full'>
         <div className='text-md font-bold uppercase flex justify-center'>
@@ -84,7 +85,7 @@ const Form = () => {
           <div className='text-red text-sm font-medium'>{requiredFields}</div>
         )}
       </div>
-      <div className='flex flex-col w-full justify-center items-center gap-8'>
+      <div className='flex flex-col w-full justify-center items-center sm:gap-12 gap-8'>
         <Input
           label={name}
           placeholder={name}
@@ -168,7 +169,7 @@ const Form = () => {
             },
           }}
         />
-        <div className='flex flex-col w-full items-center'>
+        <div className='flex flex-col w-full items-center sm:gap-2'>
           <Checkbox
             label={cloningInfo}
             register={register}

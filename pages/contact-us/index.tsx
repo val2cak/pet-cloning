@@ -4,7 +4,7 @@ import Form from './components/Form/Form';
 const ContactUs = () => {
   return (
     <Layout>
-      <div className='h-[95vh] w-full bg-cover bg-contactUsCover pt-14'>
+      <div className='sm:h-full h-[95vh] w-full bg-cover sm:bg-contactUsCoverMobile bg-contactUsCover pt-14'>
         <Form />
       </div>
     </Layout>
