@@ -6,7 +6,7 @@ const Section5 = () => {
   const { text } = translate.petCloningGuide.section5;
 
   return (
-    <div className='w-full px-40 py-16 flex gap-16 justify-between bg-primary'>
+    <div className='w-full px-8 lg:px-40 py-16 flex gap-16 justify-between bg-primary'>
       <div className='text-base font-medium text-light whitespace-pre-line leading-5'>
         {text}
       </div>

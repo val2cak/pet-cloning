@@ -12,12 +12,12 @@ const Section3 = () => {
     translate.home.section3;
 
   return (
-    <div className='w-full px-40 py-16 flex flex-col gap-8'>
-      <div className='text-darker text-lg font-medium'>{title}</div>
-      <div className='text-darker text-base font-medium leading-4'>
+    <div className='w-full sm:px-8 px-40 sm:py-8 py-16 flex flex-col sm:gap-6 gap-8'>
+      <div className='text-darker sm:text-md text-lg font-medium'>{title}</div>
+      <div className='text-darker sm:text-sm text-base font-medium leading-4'>
         {subtitle}
       </div>
-      <div className='flex justify-between gap-10'>
+      <div className='flex sm:flex-col flex-row justify-between gap-10'>
         <Card
           title={step1.title}
           subtitle={step1.subtitle}
@@ -32,7 +32,7 @@ const Section3 = () => {
           link='/science'
         />
       </div>
-      <div className='flex justify-between gap-10'>
+      <div className='flex sm:flex-col flex-row justify-between gap-10'>
         <Card title={step4.title} subtitle={step4.subtitle} image={card4.src} />
         <Card title={step5.title} subtitle={step5.subtitle} image={card5.src} />
         <Card title={step6.title} subtitle={step6.subtitle} image={card6.src} />

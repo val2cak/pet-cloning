@@ -11,7 +11,7 @@ const Section1 = () => {
   const { title, q1, q2, q3, q4, q5, q6 } = translate.qA;
 
   return (
-    <div className='w-full px-40 py-16 text-darker flex flex-col gap-6 whitespace-pre-line'>
+    <div className='w-full px-8 lg:px-40 py-16 text-darker flex flex-col gap-6 whitespace-pre-line'>
       <div className='font-bold text-lg leading-6'>{title}</div>
       <div className='flex justify-between'>
         <Point

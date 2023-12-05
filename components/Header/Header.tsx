@@ -1,15 +1,22 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 import { translate } from '../../locales/translate';
 import { navigationItems } from '../../constants/NavigationItems';
+import menu from '../../assets/icons/menu.svg';
 
 const Header: React.FC = () => {
   const router = useRouter();
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
     <header
-      className={`absolute top-0 left-0 right-0  px-40 py-4 z-10 h-14 items-center ${
+      className={`absolute top-0 left-0 right-0 sm:px-8 px-40 py-4 z-10 h-14 items-center ${
         router.pathname === '/science' || router.pathname === '/cloning-news'
           ? 'opacity-100'
           : 'opacity-80'
@@ -20,7 +27,16 @@ const Header: React.FC = () => {
           <a className='text-light text-md font-bold uppercase'>Pet Cloning</a>
         </Link>
 
-        <nav>
+        <div className='sm:flex hidden'>
+          <button
+            onClick={toggleMobileMenu}
+            className='text-light focus:outline-none'
+          >
+            <img src={menu.src} />
+          </button>
+        </div>
+
+        <nav className='sm:hidden flex'>
           <ul className='flex space-x-4'>
             {navigationItems.map((link) => (
               <li key={link.id}>

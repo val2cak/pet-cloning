@@ -46,6 +46,14 @@ module.exports = {
         cloningGuideCover: "url('../assets/images/cloning-guide-cover.png')",
         qACover: "url('../assets/images/qa-cover.png')",
         contactUsCover: "url('../assets/images/contact-us-cover.png')",
+        homeCoverMobile: "url('../assets/images/home-cover-mobile.png')",
+        cloningGuideCoverMobile:
+          "url('../assets/images/cloning-guide-cover-mobile.png')",
+        qACoverMobile: "url('../assets/images/qa-cover-mobile.png')",
+        contactUsCoverMobile:
+          "url('../assets/images/contact-us-cover-mobile.png')",
+        homeSection4: "url('../assets/images/home-section-4.png')",
+        homeSection4Mobile: "url('../assets/images/home-section-4-mobile.png')",
       }),
       lineHeight: {
         3: '1.2rem',

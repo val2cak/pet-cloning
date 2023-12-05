@@ -13,7 +13,7 @@ const Section2 = () => {
     translate.science.section2;
 
   return (
-    <div className='w-full px-40 py-16 bg-primary'>
+    <div className='w-full px-8 lg:px-40 py-16 bg-primary'>
       <div className=' text-light flex flex-col gap-6'>
         <div className='font-bold text-lg leading-6'>{title}</div>
         <div className='font-light text-base opacity-80 leading-5 whitespace-pre-line'>

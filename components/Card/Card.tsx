@@ -13,7 +13,7 @@ interface Props {
 
 const Card: FC<Props> = ({ image, title, subtitle, link }) => {
   return (
-    <div className='flex flex-col items-start gap-8 text-darker w-full'>
+    <div className='flex flex-col items-start sm:gap-4 gap-8 text-darker w-full'>
       <img src={image} className='w-full h-[13.75rem]' />
       <div className='flex flex-col items-start gap-4'>
         <span className='text-base font-medium'>{title}</span>

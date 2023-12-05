@@ -7,13 +7,13 @@ import instagramIcon from '../../assets/icons/instagram.svg';
 
 const Footer: React.FC = () => {
   return (
-    <footer className='bg-darker text-light px-40 py-8 absolute w-full bottom-0 h-48'>
-      <div className='container mx-auto flex flex-col items-center justify-between h-full gap-10'>
-        <div className='w-full flex justify-between'>
+    <footer className='bg-darker text-light px-8 lg:px-40 py-8 absolute w-full bottom-0 sm:h-56 h-48'>
+      <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-5 gap-10'>
+        <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-3'>
           <span className='text-base font-bold'>
             {translate.footer.petCloning}
           </span>
-          <div className='text-sm text-light font-medium flex gap-6'>
+          <div className='sm:text-xs text-sm text-light font-medium flex gap-6'>
             <span>
               <Link href='/about-us' legacyBehavior>
                 <a className='opacity-50 hover:opacity-100'>
@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 </a>
               </Link>
             </span>
-            <span className='text-sm'>
+            <span className='sm:text-xs text-sm'>
               <Link href='/contact-us' legacyBehavior>
                 <a className='opacity-50 hover:opacity-100'>
                   {translate.footer.contactUs}
@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
 
         <div className='border-b border-light opacity-20 w-full'></div>
 
-        <div className='w-full flex justify-between text-light font-medium'>
+        <div className='w-full flex sm:flex-col flex-row sm:gap-3 justify-between text-light font-medium'>
           <div className='text-md text-light font-medium flex gap-3'>
             <a
               href='https://whatsapp.com'

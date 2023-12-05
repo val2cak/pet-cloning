@@ -9,7 +9,7 @@ import Post from './components/Post/Post';
 const CloningNews = ({ posts, currentPage, totalPages }) => {
   return (
     <Layout>
-      <div className='px-40 pt-16 pb-8 grid grid-cols-4 gap-6 w-full'>
+      <div className='px-8 lg:px-40 pt-16 pb-8 grid grid-cols-4 gap-6 w-full'>
         {posts.map((post) => (
           <div key={post.sys.id}>
             <Post

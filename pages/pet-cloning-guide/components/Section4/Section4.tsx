@@ -7,7 +7,7 @@ const Section4 = () => {
   const { title, point1, point2 } = translate.petCloningGuide.section4;
 
   return (
-    <div className='w-full px-40 pb-16 text-dark flex flex-col gap-6'>
+    <div className='w-full px-8 lg:px-40 pb-16 text-dark flex flex-col gap-6'>
       <div className='font-medium text-lg leading-6'>{title}</div>
       <div className='flex justify-start'>
         <Point

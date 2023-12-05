@@ -10,7 +10,7 @@ const Section2 = () => {
   const { q7, q8, q9, q10, q11 } = translate.qA;
 
   return (
-    <div className='w-full px-40 py-16 bg-primary text-light flex flex-col gap-6'>
+    <div className='w-full px-8 lg:px-40 py-16 bg-primary text-light flex flex-col gap-6'>
       <div className='flex justify-between'>
         <Point title={q7.title} subtitle={q7.subtitle} icon={seven.src} />
         <Point title={q8.title} subtitle={q8.subtitle} icon={eight.src} />
