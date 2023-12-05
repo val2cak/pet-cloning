@@ -10,7 +10,7 @@ const Pagination = ({ currentPage, totalPages }) => {
   };
 
   return (
-    <div className='flex gap-4 px-8 lg:px-40 pb-16'>
+    <div className='flex gap-4 sm:px-8 px-40 sm:pb-8 pb-16'>
       {currentPage > 1 ? (
         <Link href={`/cloning-news?page=${currentPage - 1}`} legacyBehavior>
           <a>&lt;</a>

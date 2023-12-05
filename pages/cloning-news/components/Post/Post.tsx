@@ -33,12 +33,12 @@ const Post: FC<Props> = ({
   return (
     <Link
       href={`cloning-news/${slug}`}
-      className='flex flex-col gap-2 w-64 hover:scale-105'
+      className='flex flex-col gap-2 sm:w-full w-64 hover:scale-105'
     >
       <img
         src={imgUrl}
         alt={imgDescription}
-        className='rounded-md h-48 w-64 object-cover'
+        className='rounded-md h-48 sm:w-full w-64 object-cover'
       />
       <p className='text-primary text-xs font-light'>{formattedDate}</p>
       <h2 className='text-darker text-sm font-bold'>{title.slice(0, 65)}</h2>
