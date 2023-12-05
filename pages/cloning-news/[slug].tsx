@@ -18,9 +18,11 @@ const BlogPost = ({ post }) => {
 
   return (
     <Layout>
-      <div className='pl-40 py-16 pt-24 flex flex-col gap-8 w-3/4'>
+      <div className='sm:pl-8 pl-40 sm:pr-8 sm:py-8 py-16 sm:pt-20 pt-24 flex flex-col sm:gap-6 gap-8 sm:w-full w-3/4'>
         <div className='flex flex-col gap-3'>
-          <div className='text-dark text-xl font-bold'>{post.fields.title}</div>
+          <div className='text-dark sm:text-lg text-xl font-bold'>
+            {post.fields.title}
+          </div>
           <div className='flex justify-between text-primary text-sm font-light'>
             <p>{formattedDate}</p>
             <p>By: {post.fields.author}</p>
