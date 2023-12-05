@@ -54,6 +54,9 @@ module.exports = {
           "url('../assets/images/contact-us-cover-mobile.png')",
         homeSection4: "url('../assets/images/home-section-4.png')",
         homeSection4Mobile: "url('../assets/images/home-section-4-mobile.png')",
+        scienceProcess: "url('../assets/images/science-process.png')",
+        scienceProcessMobile:
+          "url('../assets/images/science-process-mobile.png')",
       }),
       lineHeight: {
         3: '1.2rem',

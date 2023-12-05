@@ -12,12 +12,12 @@ const Section3 = () => {
     translate.science.section3;
 
   return (
-    <div className='w-full px-8 lg:px-40 py-16 text-darker flex flex-col gap-6'>
-      <div className='font-bold text-lg leading-6'>{title}</div>
-      <div className='font-light text-base opacity-60 leading-5 whitespace-pre-line'>
+    <div className='w-full sm:px-8 px-40 sm:py-8 py-16 text-darker flex flex-col gap-6'>
+      <div className='font-bold sm:text-md text-lg leading-6'>{title}</div>
+      <div className='font-light sm:text-sm text-base opacity-60 leading-5 whitespace-pre-line'>
         {subtitle}
       </div>
-      <div className='flex justify-between'>
+      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
         <Point
           title={step1.title}
           subtitle={step1.subtitle}
@@ -37,7 +37,7 @@ const Section3 = () => {
           color='text-darker'
         />
       </div>
-      <div className='flex justify-between'>
+      <div className='flex sm:flex-col flex-row sm:gap-6 justify-between'>
         <Point
           title={step4.title}
           subtitle={step4.subtitle}
