@@ -1,12 +1,27 @@
+import dynamic from 'next/dynamic';
+
 import Layout from '../Layout';
-import Cover from './components/Cover/Cover';
-import Section1 from './components/Section1/Section1';
-import Section2 from './components/Section2/Section2';
-import Section3 from './components/Section3/Section3';
-import Section4 from './components/Section4/Section4';
-import Section5 from './components/Section5/Section5';
 
 const PetCloningGuide = () => {
+  const Cover = dynamic(() => import('./components/Cover/Cover'), {
+    ssr: false,
+  });
+  const Section1 = dynamic(() => import('./components/Section1/Section1'), {
+    ssr: false,
+  });
+  const Section2 = dynamic(() => import('./components/Section2/Section2'), {
+    ssr: false,
+  });
+  const Section3 = dynamic(() => import('./components/Section3/Section3'), {
+    ssr: false,
+  });
+  const Section4 = dynamic(() => import('./components/Section4/Section4'), {
+    ssr: false,
+  });
+  const Section5 = dynamic(() => import('./components/Section5/Section5'), {
+    ssr: false,
+  });
+
   return (
     <Layout>
       <Cover />

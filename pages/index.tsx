@@ -1,11 +1,24 @@
+import dynamic from 'next/dynamic';
+
 import Layout from './Layout';
-import Cover from './components/Cover/Cover';
-import Section1 from './components/Section1/Section1';
-import Section2 from './components/Section2/Section2';
-import Section3 from './components/Section3/Section3';
-import Section4 from './components/Section4/Section4';
 
 const Home = () => {
+  const Cover = dynamic(() => import('./components/Cover/Cover'), {
+    ssr: false,
+  });
+  const Section1 = dynamic(() => import('./components/Section1/Section1'), {
+    ssr: false,
+  });
+  const Section2 = dynamic(() => import('./components/Section2/Section2'), {
+    ssr: false,
+  });
+  const Section3 = dynamic(() => import('./components/Section3/Section3'), {
+    ssr: false,
+  });
+  const Section4 = dynamic(() => import('./components/Section4/Section4'), {
+    ssr: false,
+  });
+
   return (
     <Layout>
       <Cover />

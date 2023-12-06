@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useState } from 'react';
+import { FC, useState } from 'react';
 
 import { translate } from '../../locales/translate';
 import { navigationItems } from '../../constants/NavigationItems';
 import menu from '../../assets/icons/menu.svg';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
-const Header: React.FC = () => {
+const Header: FC = () => {
   const router = useRouter();
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 

@@ -1,19 +1,19 @@
 import ReactMarkdown from 'react-markdown';
+import dynamic from 'next/dynamic';
 
-import {
-  getBlogPostBySlug,
-  getBlogPosts,
-} from '../../services/contentfulService';
-import Layout from '../Layout';
-import { defaultLocale } from '../../locales/translate';
+import { locale } from '../../locales/translate';
 
 const BlogPost = ({ post }) => {
   const dateCreated = new Date(post.fields.dateCreated);
 
-  const formattedDate = dateCreated.toLocaleDateString(defaultLocale, {
+  const formattedDate = dateCreated.toLocaleDateString(locale, {
     year: 'numeric',
     month: 'short',
     day: '2-digit',
+  });
+
+  const Layout = dynamic(() => import('../Layout'), {
+    ssr: false,
   });
 
   return (
@@ -44,7 +44,9 @@ const BlogPost = ({ post }) => {
 };
 
 export async function getStaticPaths() {
-  const posts = await getBlogPosts();
+  const posts = await import(`../../services/contentfulService`).then(
+    (module) => module.getBlogPosts()
+  );
 
   const paths = posts.map((post) => ({
     params: { slug: post.fields.slug },
@@ -57,7 +59,9 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const post = await getBlogPostBySlug(params.slug);
+  const post = await import(`../../services/contentfulService`).then((module) =>
+    module.getBlogPostBySlug(params.slug)
+  );
 
   return {
     props: { post },

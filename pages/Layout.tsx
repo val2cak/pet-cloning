@@ -2,9 +2,7 @@ import { NextSeo } from 'next-seo';
 import SEO from '../constants/next-seo.config';
 import { useRouter } from 'next/router';
 import { FC, ReactNode } from 'react';
-
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import dynamic from 'next/dynamic';
 
 interface Props {
   children: ReactNode;
@@ -12,6 +10,14 @@ interface Props {
 
 const Layout: FC<Props> = ({ children }) => {
   const router = useRouter();
+
+  const Header = dynamic(() => import('../components/Header/Header'), {
+    ssr: false,
+  });
+
+  const Footer = dynamic(() => import('../components/Footer/Footer'), {
+    ssr: false,
+  });
 
   return (
     <>

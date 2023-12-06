@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import ReactMarkdown from 'react-markdown';
 
-import { defaultLocale } from '../../../../locales/translate';
+import { locale } from '../../../../locales/translate';
 import Link from 'next/link';
 
 interface Props {
@@ -24,7 +24,7 @@ const Post: FC<Props> = ({
   slug,
 }) => {
   const date = new Date(dateCreated);
-  const formattedDate = date.toLocaleDateString(defaultLocale, {
+  const formattedDate = date.toLocaleDateString(locale, {
     year: 'numeric',
     month: 'short',
     day: '2-digit',

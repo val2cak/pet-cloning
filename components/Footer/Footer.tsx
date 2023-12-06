@@ -42,6 +42,7 @@ const Footer: React.FC = () => {
                 onSelect={(item: Language) => {
                   setLocaleToStorage(item.locale);
                   setCurrentLanguage(item.locale);
+                  window.location.reload();
                 }}
                 items={languages}
                 selectedItem={languages.find(
