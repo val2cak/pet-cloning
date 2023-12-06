@@ -10,6 +10,7 @@ interface Props {
   placeholder?: string;
   selectedItem?: Lookup | undefined;
   errors?: FieldError;
+  classes?: string;
 }
 
 const DropdownMenu: FC<Props> = ({
@@ -18,6 +19,7 @@ const DropdownMenu: FC<Props> = ({
   selectedItem,
   placeholder,
   errors,
+  classes,
 }) => {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -44,7 +46,9 @@ const DropdownMenu: FC<Props> = ({
   return (
     <div
       ref={ref}
-      className={`w-full pb-2 px-2 relative border-b ${errors && 'border-red'}`}
+      className={`w-full pb-2 px-2 relative border-b ${
+        errors && 'border-red'
+      } ${classes}`}
     >
       <div
         onClick={() => setOpen(!open)}

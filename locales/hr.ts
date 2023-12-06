@@ -367,5 +367,6 @@ export default {
     aboutUs: 'O nama',
     contactUs: 'Kontaktirajte nas',
     copyright: '© 2023. Sva prava pridržana',
+    language: 'Jezik',
   },
 };

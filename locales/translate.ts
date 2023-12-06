@@ -1,7 +1,8 @@
+import { getLocaleFromStorage } from '../services/localStorage';
 import en from './en';
 import hr from './hr';
 
-const availableLocales = {
+export const availableLocales = {
   en,
   hr,
 };
@@ -12,4 +13,6 @@ const availableLocales = {
 
 export const defaultLocale = 'en';
 
-export const translate = availableLocales[defaultLocale];
+export const locale = getLocaleFromStorage() ?? 'en';
+
+export const translate = availableLocales[locale];
