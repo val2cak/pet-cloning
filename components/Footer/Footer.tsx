@@ -15,17 +15,13 @@ const Footer: React.FC = () => {
           </span>
           <div className='sm:text-xs text-sm text-light font-medium flex gap-6'>
             <span>
-              <Link href='/about-us' legacyBehavior>
-                <a className='opacity-50 hover:opacity-100'>
-                  {translate.footer.aboutUs}
-                </a>
+              <Link href='/about-us' className='opacity-50 hover:opacity-100'>
+                {translate.footer.aboutUs}
               </Link>
             </span>
             <span className='sm:text-xs text-sm'>
-              <Link href='/contact-us' legacyBehavior>
-                <a className='opacity-50 hover:opacity-100'>
-                  {translate.footer.contactUs}
-                </a>
+              <Link href='/contact-us' className='opacity-50 hover:opacity-100'>
+                {translate.footer.contactUs}
               </Link>
             </span>
           </div>

@@ -25,16 +25,17 @@ const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
       <ul className='flex flex-col p-8 gap-6'>
         {navigationItems.map((link) => (
           <li key={link.id}>
-            <Link href={link.link} legacyBehavior>
-              <a
-                className={`w-fit text-light text-md font-medium ${
-                  router.pathname === link.link
-                    ? 'opacity-100 border-b-2 pb-2 border-secondary flex justify-start items-start'
-                    : 'opacity-50 hover:opacity-100'
-                }`}
-              >
-                {translate.navigation[link.text]}
-              </a>
+            <Link
+              href={link.link}
+              className={`w-fit text-light text-md font-medium ${
+                router.pathname === link.link ||
+                (router.pathname.includes('cloning-news') &&
+                  link.link === '/cloning-news')
+                  ? 'opacity-100 border-b-2 pb-2 border-secondary flex justify-start items-start'
+                  : 'opacity-50 hover:opacity-100'
+              }`}
+            >
+              {translate.navigation[link.text]}
             </Link>
           </li>
         ))}

@@ -21,14 +21,15 @@ const Header: React.FC = () => {
         isMobileMenuOpen
           ? 'opacity-95'
           : router.pathname === '/science' ||
-            router.pathname === '/cloning-news'
+            router.pathname === '/cloning-news' ||
+            router.pathname === '/cloning-news/[slug]'
           ? 'opacity-100'
           : 'opacity-80'
       } ${router.pathname === '/' ? 'bg-transparent' : 'bg-primary'}`}
     >
       <div className='container mx-auto flex items-center justify-between'>
-        <Link href='/' legacyBehavior>
-          <a className='text-light text-md font-bold uppercase'>Pet Cloning</a>
+        <Link href='/' className='text-light text-md font-bold uppercase'>
+          Pet Cloning
         </Link>
 
         <div className='sm:flex hidden'>
@@ -52,16 +53,17 @@ const Header: React.FC = () => {
           <ul className='flex space-x-4'>
             {navigationItems.map((link) => (
               <li key={link.id}>
-                <Link href={link.link} legacyBehavior>
-                  <a
-                    className={`text-light text-sm font-medium ${
-                      router.pathname === link.link
-                        ? 'opacity-100 border-b-2 border-secondary flex justify-end items-start'
-                        : 'opacity-50 hover:opacity-100'
-                    }`}
-                  >
-                    {translate.navigation[link.text]}
-                  </a>
+                <Link
+                  href={link.link}
+                  className={`text-light text-sm font-medium ${
+                    router.pathname === link.link ||
+                    (router.pathname.includes('cloning-news') &&
+                      link.link === '/cloning-news')
+                      ? 'opacity-100 border-b-2 border-secondary flex justify-end items-start'
+                      : 'opacity-50 hover:opacity-100'
+                  }`}
+                >
+                  {translate.navigation[link.text]}
                 </Link>
               </li>
             ))}
