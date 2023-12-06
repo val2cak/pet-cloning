@@ -87,14 +87,17 @@ export default {
       },
     },
     section4: {
-      text: `Bien que le processus soit scientifiquement complexe, l'objectif est simple : 
-      offrir aux propriétaires d'animaux de compagnie la possibilité de prolonger le lien qu'ils ont avec leurs animaux. 
+      text: `Bien que le processus soit scientifiquement complexe, 
+      l'objectif est simple : offrir aux propriétaires 
+      d'animaux de compagnie la possibilité de prolonger le 
+      lien qu'ils ont avec leurs animaux. 
       
-      Le clonage ne remplace pas l'animal que vous avez perdu, mais offre une manière 
-      unique d'emmener une partie d'eux dans le futur avec vous.
+      Le clonage ne remplace pas l'animal que vous avez perdu, 
+      mais offre une manière unique d'emmener une partie 
+      d'eux dans le futur avec vous.
         
-  Chaque étape est réalisée avec précision, soin et respect pour les vies 
-  impliquées dans ce voyage remarquable.`,
+  Chaque étape est réalisée avec précision, soin et respect 
+  pour les vies impliquées dans ce voyage remarquable.`,
     },
   },
   science: {
