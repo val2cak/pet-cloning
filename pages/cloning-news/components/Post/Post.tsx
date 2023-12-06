@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import ReactMarkdown from 'react-markdown';
+import Link from 'next/link';
 
 import { locale } from '../../../../locales/translate';
-import Link from 'next/link';
 
 interface Props {
   title: string;
@@ -33,16 +33,16 @@ const Post: FC<Props> = ({
   return (
     <Link
       href={`cloning-news/${slug}`}
-      className='flex flex-col gap-2 sm:w-full lg:w-60 w-64 hover:scale-105'
+      className='flex flex-col gap-2 w-fit hover:scale-105'
     >
       <img
         src={imgUrl}
         alt={imgDescription}
-        className='rounded-md sm:h-40 lg:h-44 h-48 sm:w-full lg:w-60 w-64 object-cover'
+        className='rounded-md h-48 sm:w-full lg:w-60 w-72 2xl:w-80 object-cover'
       />
       <p className='text-primary text-xs font-light'>{formattedDate}</p>
-      <h2 className='text-darker text-sm font-bold'>{title.slice(0, 65)}</h2>
-      <ReactMarkdown className='text-xs font-light text-darker opacity-70'>{`${text.slice(
+      <h2 className='text-darker text-sm font-bold'>{title?.slice(0, 65)}</h2>
+      <ReactMarkdown className='text-xs font-light text-darker opacity-70'>{`${text?.slice(
         0,
         80
       )}...`}</ReactMarkdown>

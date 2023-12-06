@@ -16,12 +16,15 @@ const BlogPost = ({ post }) => {
     ssr: false,
   });
 
+  const lang =
+    locale.slice(0, 1).toUpperCase() + locale.slice(1, locale.length);
+
   return (
     <Layout>
       <div className='sm:pl-8 pl-40 2xl:pl-56 sm:pr-8 sm:py-8 py-16 sm:pt-20 pt-24 flex flex-col sm:gap-6 gap-8 sm:w-full w-3/4'>
         <div className='flex flex-col gap-3'>
           <div className='text-dark sm:text-lg text-xl font-bold'>
-            {post.fields.title}
+            {post.fields[`title${lang}`]}
           </div>
           <div className='flex justify-between text-primary text-sm font-light'>
             <p>{formattedDate}</p>
@@ -36,7 +39,7 @@ const BlogPost = ({ post }) => {
         />
 
         <div className='text-base font-light leading-5 text-dark space-y-4'>
-          <ReactMarkdown>{post.fields.text}</ReactMarkdown>
+          <ReactMarkdown>{post.fields[`text${lang}`]}</ReactMarkdown>
         </div>
       </div>
     </Layout>

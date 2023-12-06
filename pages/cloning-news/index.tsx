@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import capitalize from 'lodash';
 
 import {
   getBlogPosts,
@@ -6,11 +7,15 @@ import {
 } from '../../services/contentfulService';
 import Layout from '../Layout';
 import Pagination from './components/Pagination/Pagination';
+import { locale } from '../../locales/translate';
 
 const CloningNews = ({ posts, currentPage, totalPages }) => {
   const Post = dynamic(() => import('./components/Post/Post'), {
     ssr: false,
   });
+
+  const lang =
+    locale.slice(0, 1).toUpperCase() + locale.slice(1, locale.length);
 
   return (
     <Layout>
@@ -18,12 +23,12 @@ const CloningNews = ({ posts, currentPage, totalPages }) => {
         {posts.map((post) => (
           <div key={post.sys.id}>
             <Post
-              title={post.fields.title}
+              title={post.fields[`title${lang}`]}
               dateCreated={post.fields.dateCreated}
               author={post.fields.author}
               imgUrl={post.fields.image.fields.file.url}
               imgDescription={post.fields.image.fields.description}
-              text={post.fields.text}
+              text={post.fields[`text${lang}`]}
               slug={post.fields.slug}
             />
           </div>
