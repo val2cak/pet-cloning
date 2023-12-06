@@ -7,12 +7,8 @@ export const availableLocales = {
   hr,
 };
 
-// const router = useRouter();
-// const { locale } = router;
-// const defaultLocale = locale;
-
 export const defaultLocale = 'en';
 
-export const locale = getLocaleFromStorage() ?? 'en';
+export const locale = getLocaleFromStorage() ?? defaultLocale;
 
 export const translate = availableLocales[locale];

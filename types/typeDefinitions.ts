@@ -19,3 +19,9 @@ export interface Navigation {
   text: string;
   link: string;
 }
+
+export interface Language {
+  id: number;
+  locale: string;
+  name: string;
+}

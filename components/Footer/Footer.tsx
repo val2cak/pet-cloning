@@ -1,14 +1,14 @@
 import Link from 'next/link';
+import { useState } from 'react';
 
 import { locale, translate } from '../../locales/translate';
 import whatsappIcon from '../../assets/icons/whatsApp.svg';
 import twitterIcon from '../../assets/icons/twitter.svg';
 import instagramIcon from '../../assets/icons/instagram.svg';
-import DropdownElement from '../DropdownElement/DropdownElement';
-import { Lookup } from '../../types/typeDefinitions';
+import { Language } from '../../types/typeDefinitions';
 import { setLocaleToStorage } from '../../services/localStorage';
-import { languages } from '../../constants/languages';
-import { useState } from 'react';
+import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
+import { languages } from '../../constants/Languages';
 
 const Footer: React.FC = () => {
   const { petCloning, aboutUs, contactUs, language } = translate.footer;
@@ -36,18 +36,17 @@ const Footer: React.FC = () => {
                 </Link>
               </span>
             </div>
-            <div className='w-20'>
-              <DropdownElement
+            <div className='w-32'>
+              <LanguageDropdown
                 placeholder={language}
-                handleSelect={(item: Lookup) => {
-                  setLocaleToStorage(item.name);
-                  setCurrentLanguage(item.name);
+                onSelect={(item: Language) => {
+                  setLocaleToStorage(item.locale);
+                  setCurrentLanguage(item.locale);
                 }}
-                data={languages}
-                selectedId={
-                  languages.find((lang) => lang.name === currentLanguage)?.id
-                }
-                classes='border-none capitalize'
+                items={languages}
+                selectedItem={languages.find(
+                  (lang) => lang.locale === currentLanguage
+                )}
               />
             </div>
           </div>

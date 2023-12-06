@@ -1,28 +1,25 @@
 import { FC, useEffect, useRef, useState } from 'react';
 import { HiOutlineChevronDown as DropdownIcon } from 'react-icons/hi';
-import { FieldError } from 'react-hook-form';
 
-import { Lookup } from '../../types/typeDefinitions';
+import { Language } from '../../types/typeDefinitions';
 
 interface Props {
-  onSelect: (item: Lookup | any) => void;
-  items: Lookup[];
+  onSelect: (item: Language | any) => void;
+  items: Language[];
   placeholder?: string;
-  selectedItem?: Lookup | undefined;
-  errors?: FieldError;
+  selectedItem?: Language | undefined;
 }
 
-const DropdownMenu: FC<Props> = ({
+const LanguageDropdown: FC<Props> = ({
   items,
   onSelect,
   selectedItem,
   placeholder,
-  errors,
 }) => {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
-  const handleSelect = (item: Lookup) => {
+  const handleSelect = (item: Language) => {
     onSelect(item);
     setOpen(false);
   };
@@ -42,10 +39,7 @@ const DropdownMenu: FC<Props> = ({
   }, [ref]);
 
   return (
-    <div
-      ref={ref}
-      className={`w-full pb-2 px-2 relative border-b ${errors && 'border-red'}`}
-    >
+    <div ref={ref} className='w-full pb-0 px-2 relative border-none capitalize'>
       <div
         onClick={() => setOpen(!open)}
         className={
@@ -61,9 +55,7 @@ const DropdownMenu: FC<Props> = ({
         </p>
 
         <DropdownIcon
-          className={`${open && 'rotate-180'} text-md ${
-            errors ? 'text-red' : 'text-light'
-          }`}
+          className={`${open && 'rotate-180'} text-md text-light`}
         />
       </div>
 
@@ -90,4 +82,4 @@ const DropdownMenu: FC<Props> = ({
   );
 };
 
-export default DropdownMenu;
+export default LanguageDropdown;

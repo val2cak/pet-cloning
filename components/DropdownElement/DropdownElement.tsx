@@ -4,13 +4,12 @@ import DropdownMenu from '../DropdownMenu/DropdownMenu';
 import { FieldError } from 'react-hook-form';
 
 interface Props {
-  label?: string;
+  label: string;
   placeholder: string;
   handleSelect: (item: Lookup) => void;
   data: Lookup[];
   selectedId: number;
   errors?: FieldError;
-  classes?: string;
 }
 
 const DropdownElement: FC<Props> = ({
@@ -20,7 +19,6 @@ const DropdownElement: FC<Props> = ({
   data,
   selectedId,
   errors,
-  classes,
 }) => {
   return (
     <div className='flex flex-col w-full'>
@@ -38,7 +36,6 @@ const DropdownElement: FC<Props> = ({
         items={data}
         placeholder={placeholder}
         errors={errors}
-        classes={classes}
       />
     </div>
   );
