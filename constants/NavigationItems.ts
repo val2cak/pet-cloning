@@ -1,4 +1,6 @@
-export const navigationItems = [
+import { Navigation } from '../types/typeDefinitions';
+
+export const navigationItems: Navigation[] = [
   { id: 1, text: 'home', link: '/' },
   { id: 2, text: 'science', link: '/science' },
   { id: 3, text: 'petCloningGuide', link: '/pet-cloning-guide' },

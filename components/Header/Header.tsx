@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { translate } from '../../locales/translate';
 import { navigationItems } from '../../constants/NavigationItems';
 import menu from '../../assets/icons/menu.svg';
+import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 const Header: React.FC = () => {
   const router = useRouter();
@@ -17,7 +18,10 @@ const Header: React.FC = () => {
   return (
     <header
       className={`absolute top-0 left-0 right-0 sm:px-8 px-40 2xl:px-56 py-4 z-10 h-14 items-center ${
-        router.pathname === '/science' || router.pathname === '/cloning-news'
+        isMobileMenuOpen
+          ? 'opacity-95'
+          : router.pathname === '/science' ||
+            router.pathname === '/cloning-news'
           ? 'opacity-100'
           : 'opacity-80'
       } ${router.pathname === '/' ? 'bg-transparent' : 'bg-primary'}`}
@@ -35,6 +39,14 @@ const Header: React.FC = () => {
             <img src={menu.src} />
           </button>
         </div>
+
+        {isMobileMenuOpen && (
+          <BurgerMenu
+            isOpen={isMobileMenuOpen}
+            setIsOpen={setMobileMenuOpen}
+            navigationItems={navigationItems}
+          />
+        )}
 
         <nav className='sm:hidden flex'>
           <ul className='flex space-x-4'>

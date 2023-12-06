@@ -13,3 +13,9 @@ export interface FormData {
   preservationInfo: boolean;
   message: string;
 }
+
+export interface Navigation {
+  id: number;
+  text: string;
+  link: string;
+}
