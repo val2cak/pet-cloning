@@ -9,6 +9,6 @@ export const availableLocales = {
 
 export const defaultLocale = 'en';
 
-export const locale = getLocaleFromStorage() ?? defaultLocale;
+export const locale = getLocaleFromStorage();
 
-export const translate = availableLocales[locale];
+export const translate = availableLocales[locale ?? defaultLocale];

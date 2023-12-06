@@ -359,7 +359,12 @@ export default {
     email: 'E-pošta',
     message: 'Poruka',
     petName: 'Ime ljubimca',
-    moreInfo: 'Želim više informacija o kloniranju ili očuvanju',
+    animalType: 'Vrsta źivotinje',
+    cloningInfo: 'Želim više informacija o kloniranju',
+    preservationInfo: 'Želim više informacija o očuvanju',
+    replySubject: 'Pet Cloning Potvrda Zahtjeva',
+    replyText:
+      'Hvala vam na vašem zahtjevu. Primili smo vaše podatke i uskoro ćemo vam se javiti.',
     buttonText: 'Pošaljite upit',
   },
   footer: {

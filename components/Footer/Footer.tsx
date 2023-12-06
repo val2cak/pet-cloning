@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 </Link>
               </span>
             </div>
-            <div className='w-32'>
+            <div className='w-28'>
               <LanguageDropdown
                 placeholder={language}
                 onSelect={(item: Language) => {
