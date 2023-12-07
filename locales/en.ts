@@ -256,8 +256,8 @@ journey.`,
       title: 'Sending Your Sample',
       point1: {
         title: 'Professional Guidance',
-        subtitle:
-          'Prior to sampling, contact us for information on shipping conditions.',
+        subtitle: 'Prior to sampling,',
+        subtitle_1: 'for information on shipping conditions.',
       },
       point2: {
         title: 'Secure and Cool Shipment',

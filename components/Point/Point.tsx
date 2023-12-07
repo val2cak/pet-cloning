@@ -1,9 +1,9 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 
 interface Props {
   icon?: string;
   title?: string;
-  subtitle: string;
+  subtitle: string | ReactNode;
   color?: string;
 }
 

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Point from '../../../../components/Point/Point';
 import { translate } from '../../../../locales/translate';
 import support from '../../../../assets/icons/support.svg';
@@ -5,6 +7,7 @@ import transport from '../../../../assets/icons/transport.svg';
 
 const Section4 = () => {
   const { title, point1, point2 } = translate.petCloningGuide.section4;
+  const { contactUs } = translate.navigation;
 
   return (
     <div className='w-full sm:px-8 px-40 2xl:px-56 sm:pb-8 pb-16 text-dark flex flex-col gap-6'>
@@ -12,7 +15,15 @@ const Section4 = () => {
       <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
         <Point
           title={point1.title}
-          subtitle={point1.subtitle}
+          subtitle={
+            <span>
+              {point1.subtitle}{' '}
+              <Link href='/contact-us' className='font-bold lowercase'>
+                {contactUs}
+              </Link>{' '}
+              {point1.subtitle_1}
+            </span>
+          }
           icon={support.src}
           color='text-dark'
         />
