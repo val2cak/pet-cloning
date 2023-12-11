@@ -6,6 +6,7 @@ import three from '../../../../assets/vectors/3-dark.png';
 import four from '../../../../assets/vectors/4-dark.png';
 import five from '../../../../assets/vectors/5-dark.png';
 import six from '../../../../assets/vectors/6-dark.png';
+import seven from '../../../../assets/vectors/7-dark.png';
 
 const Section1 = () => {
   const {
@@ -17,6 +18,7 @@ const Section1 = () => {
     step4,
     step5,
     step6,
+    step7,
     conclusion,
   } = translate.science.section1;
 
@@ -26,7 +28,7 @@ const Section1 = () => {
       <div className='font-light sm:text-sm text-base opacity-60 leading-5 whitespace-pre-line'>
         {subtitle}
       </div>
-      <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
+      <div className='grid grid-cols-4 sm:grid-cols-1 sm:gap-6 gap-4 flex-wrap'>
         <Point
           title={step1.title}
           subtitle={step1.subtitle}
@@ -62,6 +64,12 @@ const Section1 = () => {
           title={step6.title}
           subtitle={step6.subtitle}
           icon={six.src}
+          color='text-darker'
+        />
+        <Point
+          title={step7.title}
+          subtitle={step7.subtitle}
+          icon={seven.src}
           color='text-darker'
         />
       </div>

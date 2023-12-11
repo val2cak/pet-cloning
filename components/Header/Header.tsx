@@ -29,7 +29,7 @@ const Header: FC = () => {
     >
       <div className='container mx-auto flex items-center justify-between'>
         <Link href='/' className='text-light text-md font-bold uppercase'>
-          Pet Cloning
+          {translate.common.petCloning}
         </Link>
 
         <div className='sm:flex hidden'>

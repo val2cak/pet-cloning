@@ -4,6 +4,7 @@ export default {
     dog: 'Dog',
     cat: 'Cat',
     horse: 'Horse',
+    petCloning: 'Petcloning.eu',
   },
   validations: {
     requiredFields: 'Please fill out all required fields',
@@ -22,23 +23,22 @@ export default {
   },
   home: {
     cover: {
-      title: 'Precision Genetics, Timeless Bonds',
-      subtitle: 'Pioneering Pet Cloning with Excellence and Integrity',
+      title: 'Everything you need to know about cloning your pet',
     },
     section1: {
       title: `Welcome to the possibility of pet cloning — a scientific achievement that allows pet owners to consider a future with a part of their current pet's legacy.`,
-      subtitle: `In essence, pet cloning is the creation of a new pet with the same genetic makeup as the original. It's real, accessible, and done with attention to 
-health and detail.
-
-The idea of having the same pet may sound like a dream, but it's an option available today. 
-
-While the costs reflect the sophisticated process, with €50,000 for cats and dogs and €85,000 for horses, it's a consideration for those who find 
-their pet's presence irreplaceable.
-
-On this platform, we provide insights into pet cloning, from how it works to what it involves financially and emotionally. 
-
-If you're curious or seriously thinking about cloning your pet, here you'll find straightforward, informative guidance on the steps and decisions 
-involved in making cloning a reality.`,
+      subtitle: `In essence, pet cloning is the creation of a new pet with the same genetic makeup as the original. It's real, accessible, and done with attention to health and detail.
+      The idea of having the same pet may sound like a dream, but it's an option available today. 
+      
+      The costs of pet cloning by companies around the world reflect its sophisticated process:`,
+      subtitle_1: `On this platform, we provide insights into pet cloning and cell preservation, from how it works to what it involves financially and emotionally.         
+      
+      If you're curious or seriously thinking about cloning your pet, here you'll find straightforward, informative guidance on the steps and decisions involved in making cloning a reality.`,
+      prices: {
+        dog: '€50,000 for dogs',
+        cat: '€50,000 for cats',
+        horse: '€85,000 for horses',
+      },
     },
     section2: {
       title: 'Why Cloning Your Pet?',
@@ -59,31 +59,36 @@ involved in making cloning a reality.`,
       },
     },
     section3: {
-      title: 'Steps of Pet Cloning',
-      subtitle: `If you are considering cloning your pet, it involves a series of scientific steps that ensure a new pet with the same genetic makeup as your original companion. Here's a streamlined overview of how the process typically works.`,
+      title: 'Steps of Pet Cloning and Cell Preservation',
+      subtitle: `If you are considering cloning your pet, or if you want to conserve its cells as a precaution in case you would like to clone it in the future, it involves a series of scientific steps that ensure a new pet with the same genetic makeup as your original companion. Here's a streamlined overview of how the process typically works.`,
       step1: {
         title: 'Tissue Sample Collection',
         subtitle: `It starts with collecting a tissue sample from your pet. This is usually a skin sample, taken under a veterinarian's supervision, to ensure the cells are viable for cloning.`,
       },
       step2: {
         title: 'Cell Culturing',
-        subtitle: `The collected cells are then sent to a cloning facility, where they are cultured to grow and multiply, creating a stable line of your pet's genetic material. The cells are then sent to a cloning facility.`,
+        subtitle: `The collected cells are then sent to a cell culture facility, where they are cultured to grow and multiply, creating a stable line of your pet's genetic material. The cells are then either stored indefinitely for cell preservation or directly sent to a cloning facility.`,
       },
       step3: {
+        title: 'Cell Preservation',
+        subtitle:
+          'The cells are then frozen in liquid nitrogen for cell preservation or to be send to a cloning facility. They can remain frozen indefinitely without damage.',
+      },
+      step4: {
         title: 'Egg Donor and Transfer',
         subtitle: `The next step involves obtaining an egg from a donor animal. The genetic material of this egg is replaced with the DNA from your pet's cultured cells.`,
       },
-      step4: {
+      step5: {
         title: 'Embryo Development',
         subtitle:
           'Once the genetic material is transferred, the egg begins to develop into an embryo in a controlled laboratory environment, simulating natural development.',
       },
-      step5: {
+      step6: {
         title: 'Surrogate and Birth',
         subtitle:
           'The embryo is then implanted into a surrogate mother, where it will grow until birth. This step is critical and is performed with careful monitoring to ensure the health and safety of both the surrogate and the developing clone.',
       },
-      step6: {
+      step7: {
         title: 'Bringing Your Clone Home',
         subtitle:
           'After the cloned pet is born and weaned, arrangements are made for the new pet to be transported to your home.',
@@ -108,28 +113,32 @@ journey.`,
       title: 'The Science Behind Pet Cloning',
       subtitle: `Pet cloning is a form of reproductive cloning that involves creating a new animal with the same DNA as an existing or deceased animal. The scientific process used is called somatic cell nuclear transfer (SCNT). Here's how it works, broken down into understandable steps.`,
       step1: {
-        title: 'Somatic Cell Collection',
-        subtitle: `It begins with a somatic cell, which is any cell from the body except sperm and egg cells. In pet cloning, these cells often come from the skin or other tissues and contain the pet's complete genetic information. Usually, these cells come from the skin and are called fibroblasts.`,
+        title: 'Somatic Cell Collection & Culture',
+        subtitle: `It begins with the cultivation of live somatic cells, which is any cell from the body except sperm and egg cells. In pet cloning, the cells used for cloning are usually fibroblasts taken from a fragment of skin and contain the pet's complete genetic information.`,
       },
       step2: {
+        title: 'Cell Preservation',
+        subtitle: `If the cloning doesn't need to occur right away, cells are stored in liquid nitrogen (-196°C) and can remain stored for decades if needed. To start the cloning process, these frozen cells first need to be put back in culture.`,
+      },
+      step3: {
         title: 'Nuclear Transfer',
         subtitle: `The nucleus, which houses DNA, is removed from the somatic cell. An egg cell is taken from a donor animal and its nucleus is removed to make room for the somatic cell's nucleus. This egg cell now contains the pet's DNA, essentially becoming a genetic copy.`,
       },
-      step3: {
+      step4: {
         title: 'Electric Stimulation',
         subtitle:
           'The reconstructed egg, with the new nucleus, is stimulated with an electric current or chemicals, which encourages it to divide and become an embryo, just as it would if fertilization had occurred naturally.',
       },
-      step4: {
+      step5: {
         title: 'Embryo Development',
         subtitle:
           'This embryo is then allowed to develop into a blastocyst - an early stage of development that is suitable for implantation into a surrogate mother. At this stage, the cloning process is the same as for In-Vitro fecondation process.',
       },
-      step5: {
+      step6: {
         title: 'Implantation and Pregnancy',
         subtitle: `The developed blastocyst is implanted into the surrogate's womb, where it continues to grow. If the implantation is successful, the surrogate becomes pregnant.`,
       },
-      step6: {
+      step7: {
         title: 'Birth',
         subtitle: `The surrogate carries the pregnancy to term 
           and gives birth to the cloned pet.`,
@@ -227,7 +236,7 @@ journey.`,
       },
     },
     section3: {
-      title: 'For Anticipatory Cloning from a Living Pet',
+      title: 'For Cell Preservation from a Living Pet',
       point1: {
         title: 'Ideal Conditions',
         subtitle: `If you decide to clone your pet while they are 
@@ -299,6 +308,19 @@ journey.`,
       horse may cost up to €85,000.`,
     },
     q3: {
+      title: 'What is the point of Cell Conservation?',
+      subtitle: `A: Cell conservation is like an insurance that you 
+      will be able to clone your pet in the future if you 
+      ever chose to. Deciding to clone a pet when this 
+      one just pass away can be a stressful scenario 
+      and the risk of making mistake or being in a 
+      situation which lead to the impossibility of 
+      cloning is quite high.With Cell Conservation, you 
+      can prepare for a potential cloning in all safety 
+      and if there is any problem, it is still possible to 
+      do it again.`,
+    },
+    q4: {
       title: `What do I need to do if my pet has 
       just died and I'm considering 
       cloning?`,
@@ -309,7 +331,7 @@ journey.`,
       in touch with us for further instructions on 
       storage and transportation.`,
     },
-    q4: {
+    q5: {
       title: `Can I clone an animal that has 
       been deceased for a long time?`,
       subtitle: `A: Successful cloning requires a high-quality 
@@ -323,7 +345,7 @@ journey.`,
       after death, a pet can be cloned up to 3 weeks 
       after death.`,
     },
-    q5: {
+    q6: {
       title: `Why shouldn't I freeze my pet's 
       body if I want to clone it? `,
       subtitle: `A: Freezing can damage the cell structure and 
@@ -332,7 +354,7 @@ journey.`,
       cells and DNA integrity, increasing the chances 
       of successful cloning.`,
     },
-    q6: {
+    q7: {
       title: `Can I clone my pet from a hair 
       sample?`,
       subtitle: `A: No, there are no method of cloning from a 
@@ -340,7 +362,7 @@ journey.`,
       because cloning requires nucleus transfer so 
       live cells (usually from skin) are required.`,
     },
-    q7: {
+    q8: {
       title: `Can my cloned pet have the same 
       personality as my original pet?`,
       subtitle: `A: While a cloned pet will have the same genetic 
@@ -351,7 +373,7 @@ journey.`,
       own unique personality through its individual 
       experiences.`,
     },
-    q8: {
+    q9: {
       title: 'Is pet cloning safe?',
       subtitle: `A: Cloning processes have improved 
         significantly over time and are carried out with 
@@ -359,7 +381,7 @@ journey.`,
         any biological process, there are inherent risks 
         and variable success rates.`,
     },
-    q9: {
+    q10: {
       title: `What is the success rate for pet 
       cloning?`,
       subtitle: `A: Success rates for cloning vary depending on 
@@ -368,7 +390,7 @@ journey.`,
       individual animal. The quality of the DNA and 
       rapid initiation of the process are key factors.`,
     },
-    q10: {
+    q11: {
       title: `How do I transport my pet's sample 
       to a cloning facility? `,
       subtitle: `A: If you want to clone your pet, fill the contact 
@@ -376,7 +398,7 @@ journey.`,
       to send your pet skin sample to the cell culture 
       facility.`,
     },
-    q11: {
+    q12: {
       title: 'Is pet cloning legal in Europe?',
       subtitle: `A: in EU, only cloning of animals for consumption 
       such as cattle is regulated. Pet cloning is not 
@@ -399,13 +421,13 @@ journey.`,
     animalType: 'Type of animal',
     cloningInfo: 'I want more info on cloning',
     preservationInfo: 'I want more info on preservation',
-    replySubject: 'Pet Cloning - Request confirmation',
+    replySubject: 'Petcloning.eu - Request confirmation',
     replyText:
       'Thank you for your request. We have received your information and will get back to you soon.',
     buttonText: 'Send request',
   },
   footer: {
-    petCloning: 'Pet Cloning',
+    petCloning: 'Petcloning.eu',
     aboutUs: 'About Us',
     contactUs: 'Contact Us',
     copyright: '© 2023, All Rights Reserved',

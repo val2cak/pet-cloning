@@ -13,7 +13,7 @@ const Section1 = () => {
   return (
     <div className='w-full sm:px-8 px-40 2xl:px-56 sm:py-8 py-16 text-darker flex flex-col gap-6 whitespace-pre-line'>
       <div className='font-bold sm:text-md text-lg leading-6'>{title}</div>
-      <div className='flex sm:flex-col flex-row sm:gap-6 gap-8 flex-wrap'>
+      <div className='grid grid-cols-3 sm:grid-cols-1 sm:gap-6 gap-8'>
         <Point
           title={q1.title}
           subtitle={q1.subtitle}
