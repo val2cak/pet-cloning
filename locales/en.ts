@@ -445,6 +445,9 @@ Depending on what is included (fibroblast extraction from biopsy, cultivation, i
 Contact us
 www.petcloning.eu`,
     buttonText: 'Send request',
+    requestSuccess: 'Your request has been sent!',
+    requestError:
+      'An error occurred while processing your request. Please try again!',
   },
   footer: {
     petCloning: 'Petcloning.eu',

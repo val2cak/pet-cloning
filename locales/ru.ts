@@ -350,6 +350,9 @@ Petcloning.eu
 Свяжитесь с нами
 www.petcloning.eu`,
     buttonText: 'Отправить запрос',
+    requestSuccess: 'Ваш запрос отправлен!',
+    requestError:
+      'Во время обработки Вашего запроса произошла ошибка. Пожалуйста, попробуйте еще раз!',
   },
   footer: {
     petCloning: 'Petcloning.eu',

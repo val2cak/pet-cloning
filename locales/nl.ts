@@ -351,6 +351,9 @@ Afhankelijk van wat is inbegrepen (fibroblastextractie uit een biopsie, kweek, o
 Neem contact met ons op
 www.petcloning.eu`,
     buttonText: 'Aanvraag versturen',
+    requestSuccess: 'Uw verzoek is verzonden!',
+    requestError:
+      'Er is een fout opgetreden bij het verwerken van uw verzoek. Probeer het opnieuw!',
   },
   footer: {
     petCloning: 'Petcloning.eu',

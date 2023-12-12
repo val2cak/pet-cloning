@@ -377,6 +377,9 @@ Ovisno o tome što je uključeno (ekstrakcija fibroblasta iz biopsije, uzgoj, ne
 Kontaktirajte nas
 www.petcloning.eu`,
     buttonText: 'Pošalji upit',
+    requestSuccess: 'Vaš zahtjev je poslan!',
+    requestError:
+      'Pojavila se greška prilikom obrade Vašeg zahtjeva. Molimo pokušajte ponovno!',
   },
   footer: {
     petCloning: 'Petcloning.eu',

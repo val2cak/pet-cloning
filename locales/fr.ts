@@ -381,6 +381,9 @@ Selon ce qui est inclus (extraction de fibroblastes à partir de la biopsie, cul
 Contactez-nous
 www.petcloning.eu`,
     buttonText: 'Envoyer la demande',
+    requestSuccess: 'Votre demande a été envoyée!',
+    requestError:
+      "Une erreur s'est produite lors du traitement de votre demande. Veuillez réessayer!",
   },
   footer: {
     petCloning: 'Petcloning.eu',

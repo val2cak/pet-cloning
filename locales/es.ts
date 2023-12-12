@@ -370,6 +370,9 @@ Dependiendo de lo que esté incluido (extracción de fibroblastos de la biopsia,
 Contáctenos
 www.petcloning.eu`,
     buttonText: 'Enviar solicitud',
+    requestSuccess: '¡Su solicitud ha sido enviada!',
+    requestError:
+      'Se produjo un error al procesar su solicitud. ¡Inténtalo de nuevo!',
   },
   footer: {
     petCloning: 'Petcloning.eu',
