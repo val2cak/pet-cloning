@@ -422,8 +422,28 @@ journey.`,
     cloningInfo: 'I want more info on cloning',
     preservationInfo: 'I want more info on preservation',
     replySubject: 'Petcloning.eu - Request confirmation',
-    replyText:
-      'Thank you for your request. We have received your information and will get back to you soon.',
+    replyText: `Thank you for your request. We have received your information and will get back to you soon.
+
+Petcloning.eu
+Everything you need to know about cloning your pet.
+
+What is pet cloning?
+Pet cloning is the process of making a genetically identical pet from an original one. 
+
+How does cloning work?
+Cloning requires a skin sample from which live cells are collected and grown to transfer their genetic material into a donor egg cell which will then grow in a surrogate mother.
+
+What does cloning cost?
+The current market prices for cloning cats and dogs are around 50.000€ and 85.000€ for horses.
+---------------------
+What is cell preservation?
+Cell preservation is the first step of pet cloning: Growth and long term storage of living cells from your pet. It can be done while the pet is still alive to increase the chance of future cloning.
+
+What does cell preservation cost?
+Depending on what is included (fibroblast extraction from biopsy, cultivation, indefinite storage, etc) the whole process and storage is around 5000€, in most cases fully deductible from the total cloning cost.
+
+Contact us
+www.petcloning.eu`,
     buttonText: 'Send request',
   },
   footer: {

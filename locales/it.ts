@@ -338,8 +338,28 @@ export default {
     cloningInfo: 'Voglio ulteriori informazioni sulla clonazione',
     preservationInfo: 'Voglio ulteriori informazioni sulla conservazione',
     replySubject: 'Petcloning.eu - Conferma richiesta',
-    replyText:
-      'Grazie per la tua richiesta. Abbiamo ricevuto le tue informazioni e ti risponderemo al più presto.',
+    replyText: `Grazie per la tua richiesta. Abbiamo ricevuto le tue informazioni e ti risponderemo presto.
+
+Petcloning.eu
+Tutto ciò che devi sapere sul clonare il tuo animale domestico.
+
+Cos'è il clonare degli animali domestici?
+Il clonare degli animali domestici è il processo di creare un animale geneticamente identico a partire da uno originale.
+
+Come funziona il clonare?
+Il clonare richiede un campione di pelle da cui vengono raccolte e coltivate le cellule vive per trasferire il loro materiale genetico in una cellula uovo donatrice che crescerà poi in una madre surrogata.
+
+Quanto costa il clonare?
+I prezzi di mercato attuali per clonare gatti e cani sono intorno a 50.000 € e 85.000 € per i cavalli.
+---------------------
+Cos'è la conservazione delle cellule?
+La conservazione delle cellule è il primo passo del clonare degli animali domestici: crescita e stoccaggio a lungo termine di cellule viventi del tuo animale. Può essere fatta mentre l'animale è ancora vivo per aumentare la possibilità di clonare in futuro.
+
+Quanto costa la conservazione delle cellule?
+A seconda di ciò che è incluso (estrazione di fibroblasti da biopsia, coltivazione, stoccaggio indefinito, ecc.), l'intero processo e lo stoccaggio ammontano a circa 5000 €, nella maggior parte dei casi completamente deducibili dal costo totale del clonare.
+
+Contattaci
+www.petcloning.eu`,
     buttonText: 'Invia richiesta',
   },
   footer: {

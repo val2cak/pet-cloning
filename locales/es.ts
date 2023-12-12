@@ -347,8 +347,28 @@ export default {
     cloningInfo: 'Quiero más información sobre la clonación',
     preservationInfo: 'Quiero más información sobre la preservación',
     replySubject: 'Petcloning.eu - Confirmación de solicitud',
-    replyText:
-      'Gracias por tu solicitud. Hemos recibido tu información y nos pondremos en contacto contigo pronto.',
+    replyText: `Gracias por su solicitud. Hemos recibido su información y nos pondremos en contacto con usted pronto.
+
+Petcloning.eu
+Todo lo que necesita saber sobre clonar a su mascota.
+
+¿Qué es la clonación de mascotas?
+La clonación de mascotas es el proceso de crear una mascota genéticamente idéntica a partir de una original.
+
+¿Cómo funciona la clonación?
+La clonación requiere una muestra de piel de la cual se recogen y cultivan células vivas para transferir su material genético a una célula de huevo donante que luego crecerá en una madre sustituta.
+
+¿Cuánto cuesta la clonación?
+Los precios actuales de mercado para clonar gatos y perros rondan los 50.000 € y 85.000 € para caballos.
+---------------------
+¿Qué es la preservación de células?
+La preservación de células es el primer paso de la clonación de mascotas: crecimiento y almacenamiento a largo plazo de células vivas de su mascota. Se puede realizar mientras la mascota aún está viva para aumentar la posibilidad de clonación futura.
+
+¿Cuánto cuesta la preservación de células?
+Dependiendo de lo que esté incluido (extracción de fibroblastos de la biopsia, cultivo, almacenamiento indefinido, etc.), el costo total del proceso y almacenamiento es de aproximadamente 5000 €, en la mayoría de los casos completamente deducible del costo total de clonación.
+
+Contáctenos
+www.petcloning.eu`,
     buttonText: 'Enviar solicitud',
   },
   footer: {

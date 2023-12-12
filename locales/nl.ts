@@ -94,11 +94,15 @@ export default {
       },
     },
     section4: {
-      text: `Hoewel het proces wetenschappelijk complex is, is het doel eenvoudig: huisdiereigenaren de mogelijkheid bieden om de band die ze met hun huisdieren hebben te verlengen. 
+      text: `Hoewel het proces wetenschappelijk complex is, is het doel eenvoudig: 
+      huisdiereigenaren de mogelijkheid bieden om de band die 
+      ze met hun huisdieren hebben te verlengen. 
     
-    Klonen vervangt het verloren huisdier niet, maar biedt een unieke manier om een deel van hen mee naar de toekomst te nemen. 
+    Klonen vervangt het verloren huisdier niet, maar biedt een 
+    unieke manier om een deel van hen mee naar de toekomst te nemen. 
           
-    Elke stap wordt uitgevoerd met precisie, zorg en respect voor de levens die betrokken zijn bij deze opmerkelijke reis.`,
+    Elke stap wordt uitgevoerd met precisie, zorg en respect voor 
+    de levens die betrokken zijn bij deze opmerkelijke reis.`,
     },
   },
   science: {
@@ -324,8 +328,28 @@ export default {
     cloningInfo: 'Ik wil meer informatie over klonen',
     preservationInfo: 'Ik wil meer informatie over behoud',
     replySubject: 'Petcloning.eu - Bevestiging van aanvraag',
-    replyText:
-      'Bedankt voor uw aanvraag. We hebben uw informatie ontvangen en zullen binnenkort contact met u opnemen.',
+    replyText: `Bedankt voor uw aanvraag. We hebben uw informatie ontvangen en zullen binnenkort contact met u opnemen.
+
+Petcloning.eu
+Alles wat u moet weten over het klonen van uw huisdier.
+
+Wat is het klonen van huisdieren?
+Het klonen van huisdieren is het proces van het maken van een genetisch identiek huisdier uit een origineel.
+
+Hoe werkt het klonen?
+Klonen vereist een huidmonster waaruit levende cellen worden verzameld en gekweekt om hun genetisch materiaal over te brengen naar een donoreicel die vervolgens zal groeien in een draagmoeder.
+
+Wat kost het klonen?
+De huidige marktprijzen voor het klonen van katten en honden liggen rond de 50.000 € en 85.000 € voor paarden.
+---------------------
+Wat is celbehoud?
+Celbehoud is de eerste stap van het klonen van huisdieren: de groei en langetermijnopslag van levende cellen van uw huisdier. Het kan worden gedaan terwijl het huisdier nog leeft om de kans op toekomstig klonen te vergroten.
+
+Wat kost celbehoud?
+Afhankelijk van wat is inbegrepen (fibroblastextractie uit een biopsie, kweek, onbeperkte opslag, enzovoort), bedraagt de totale kosten voor het hele proces en de opslag ongeveer 5000 €, in de meeste gevallen volledig aftrekbaar van de totale kosten van het klonen.
+
+Neem contact met ons op
+www.petcloning.eu`,
     buttonText: 'Aanvraag versturen',
   },
   footer: {

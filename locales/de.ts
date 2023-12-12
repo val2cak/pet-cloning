@@ -94,11 +94,16 @@ export default {
       },
     },
     section4: {
-      text: `Obwohl der Prozess wissenschaftlich komplex ist, ist das Ziel einfach: Haustierbesitzern die Möglichkeit zu bieten, die Bindung, die sie zu ihren Haustieren haben, zu verlängern. 
+      text: `Obwohl der Prozess wissenschaftlich komplex ist, ist das Ziel einfach: 
+      Haustierbesitzern die Möglichkeit zu bieten, die Bindung, 
+      die sie zu ihren Haustieren haben, zu verlängern. 
 
-Die Klonung ersetzt nicht das Haustier, das Sie verloren haben, bietet jedoch eine einzigartige Möglichkeit, einen Teil von ihnen in die Zukunft mitzunehmen. 
+Die Klonung ersetzt nicht das Haustier, das Sie verloren haben, 
+bietet jedoch eine einzigartige Möglichkeit, einen Teil von 
+ihnen in die Zukunft mitzunehmen. 
 
-Jeder Schritt wird mit Präzision, Sorgfalt und Respekt für die beteiligten Lebewesen in dieser bemerkenswerten Reise durchgeführt.`,
+Jeder Schritt wird mit Präzision, Sorgfalt und Respekt für die 
+beteiligten Lebewesen in dieser bemerkenswerten Reise durchgeführt.`,
     },
   },
   science: {
@@ -325,8 +330,28 @@ Denken Sie daran, dass die Qualität der Probe und die Sorgfalt bei diesen erste
     cloningInfo: 'Ich möchte mehr Informationen zur Klonung',
     preservationInfo: 'Ich möchte mehr Informationen zur Konservierung',
     replySubject: 'Petcloning.eu - Anfragebestätigung',
-    replyText:
-      'Vielen Dank für Ihre Anfrage. Wir haben Ihre Informationen erhalten und werden uns bald bei Ihnen melden.',
+    replyText: `Vielen Dank für Ihre Anfrage. Wir haben Ihre Informationen erhalten und werden uns bald bei Ihnen melden.
+
+Petcloning.eu
+Alles, was Sie über die Klonung Ihres Haustiers wissen müssen.
+
+Was ist die Haustierklonung?
+Die Haustierklonung ist der Prozess, ein genetisch identisches Haustier aus einem Original zu schaffen.
+
+Wie funktioniert die Klonung?
+Für die Klonung ist eine Hautprobe erforderlich, aus der lebende Zellen entnommen und gezüchtet werden, um ihr genetisches Material in eine Eizelle eines Spenderweibchens zu übertragen, die dann in einer Leihmutter heranwächst.
+
+Was kostet die Klonung?
+Die aktuellen Marktpreise für die Klonung von Katzen und Hunden liegen bei etwa 50.000 € und 85.000 € für Pferde.
+---------------------
+Was ist die Zellkonservierung?
+Die Zellkonservierung ist der erste Schritt der Haustierklonung: Wachstum und Langzeitlagerung von lebenden Zellen von Ihrem Haustier. Es kann durchgeführt werden, solange das Haustier noch lebt, um die Chance auf zukünftige Klonung zu erhöhen.
+
+Was kostet die Zellkonservierung?
+Abhängig von dem, was enthalten ist (Fibroblastenextraktion aus der Biopsie, Anbau, unbefristete Lagerung usw.) beträgt der Gesamtpreis für den gesamten Prozess und die Lagerung etwa 5000 €, in den meisten Fällen vollständig abzugsfähig von den Gesamtklonungskosten.
+
+Kontaktieren Sie uns
+www.petcloning.eu`,
     buttonText: 'Anfrage senden',
   },
   footer: {

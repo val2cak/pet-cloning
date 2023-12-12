@@ -4,6 +4,7 @@ export default {
     dog: 'Pas',
     cat: 'Mačka',
     horse: 'Konj',
+    petCloning: 'Petcloning.eu',
   },
   validations: {
     requiredFields: 'Molimo vas da ispunite sva obavezna polja',
@@ -31,6 +32,11 @@ export default {
         'U suštini, kloniranje kućnih ljubimaca je stvaranje novog ljubimca s istim genetskim sastavom kao i original. To je stvarno, dostupno i radi s pažnjom prema zdravlju i detaljima. Ideja o tome da imate istog ljubimca može zvučati kao san, ali to je opcija dostupna danas.',
       subtitle_1:
         'Na ovoj platformi pružamo uvid u kloniranje kućnih ljubimaca i očuvanje stanica, od toga kako to funkcionira do financijskih i emocionalnih aspekata. Ako ste znatiželjni ili ozbiljno razmišljate o kloniranju svog ljubimca, ovdje ćete pronaći jasno i informativno vođenje koraka i odluka uključenih u ostvarivanje kloniranja.',
+      prices: {
+        dog: '€50,000 za pse',
+        cat: '€50,000 za mačke',
+        horse: '€85,000 za konje',
+      },
     },
     section2: {
       title: 'Zašto klonirati svog ljubimca?',
@@ -93,7 +99,15 @@ export default {
       },
     },
     section4: {
-      text: 'Iako je proces znanstveno složen, cilj je jednostavan: omogućiti vlasnicima ljubimaca priliku da produlje vezu koju imaju sa svojim ljubimcima. Kloniranje ne zamjenjuje ljubimca kojeg ste izgubili, već nudi jedinstven način da dio njih unesete u budućnost s vama. Svaki korak izvodi se s preciznošću, brigom i poštovanjem prema životima uključenim u ovaj izvanredan put.',
+      text: `Iako je proces znanstveno složen, cilj je jednostavan: 
+      omogućiti vlasnicima ljubimaca priliku da produlje vezu 
+      koju imaju sa svojim ljubimcima. 
+      
+      Kloniranje ne zamjenjuje ljubimca kojeg ste izgubili, 
+      već nudi jedinstven način da dio njih unesete u budućnost s vama. 
+      
+      Svaki korak izvodi se s preciznošću, brigom i poštovanjem 
+      prema životima uključenim u ovaj izvanredan put.`,
     },
   },
   science: {
@@ -340,8 +354,28 @@ export default {
     cloningInfo: 'Želim više informacija o kloniranju',
     preservationInfo: 'Želim više informacija o očuvanju',
     replySubject: 'Petcloning.eu - Potvrda upita',
-    replyText:
-      'Hvala vam na vašem upitu. Primili smo vaše informacije i uskoro ćemo vam se javiti.',
+    replyText: `Hvala vam na upitu. Primili smo vaše informacije i uskoro ćemo vam se javiti.
+
+Petcloning.eu
+Sve što trebate znati o kloniranju vašeg ljubimca.
+
+Što je kloniranje kućnih ljubimaca?
+Kloniranje kućnih ljubimaca je proces stvaranja genetski identičnog ljubimca iz originalnog.
+
+Kako funkcionira kloniranje?
+Za kloniranje je potrebna uzorak kože iz kojeg se prikupljaju žive stanice i uzgajaju kako bi prenijele svoj genetski materijal u jajnu stanicu donora koja će zatim rasti u surogat majci.
+
+Koliko košta kloniranje?
+Trenutne tržišne cijene za kloniranje mačaka i pasa iznose oko 50.000 €, a za konje 85.000 €.
+---------------------
+Što je očuvanje stanica?
+Očuvanje stanica je prvi korak kloniranja kućnih ljubimaca: rast i dugotrajno skladištenje živih stanica vašeg ljubimca. Može se obaviti dok je ljubimac još uvijek živ kako bi se povećala šansa za buduće kloniranje.
+
+Koliko košta očuvanje stanica?
+Ovisno o tome što je uključeno (ekstrakcija fibroblasta iz biopsije, uzgoj, neograničeno skladištenje, itd.), cijeli proces i skladištenje iznose oko 5000 €, u većini slučajeva potpuno odbitno od ukupnih troškova kloniranja.
+
+Kontaktirajte nas
+www.petcloning.eu`,
     buttonText: 'Pošalji upit',
   },
   footer: {
