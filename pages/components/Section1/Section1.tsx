@@ -1,8 +1,8 @@
 import { translate } from '../../../locales/translate';
 
-import dog from '../../../assets/icons/price_dog.svg';
-import cat from '../../../assets/icons/price_cat.svg';
-import horse from '../../../assets/icons/price_horse.svg';
+import dog from '../../../public/icons/price_dog.svg';
+import cat from '../../../public/icons/price_cat.svg';
+import horse from '../../../public/icons/price_horse.svg';
 
 const Section1 = () => {
   const { title, subtitle, subtitle_1, prices } = translate.home.section1;

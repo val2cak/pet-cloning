@@ -1,12 +1,12 @@
 import Point from '../../../../components/Point/Point';
 import { translate } from '../../../../locales/translate';
-import one from '../../../../assets/vectors/1-light.png';
-import two from '../../../../assets/vectors/2-light.png';
-import two_one from '../../../../assets/vectors/2-primary.png';
-import three from '../../../../assets/vectors/3-light.png';
-import four from '../../../../assets/vectors/4-light.png';
-import five from '../../../../assets/vectors/5-light.png';
-import graph from '../../../../assets/images/science-graph.png';
+import one from '../../../../public/vectors/1-light.png';
+import two from '../../../../public/vectors/2-light.png';
+import two_one from '../../../../public/vectors/2-primary.png';
+import three from '../../../../public/vectors/3-light.png';
+import four from '../../../../public/vectors/4-light.png';
+import five from '../../../../public/vectors/5-light.png';
+import graph from '../../../../public/images/science-graph.png';
 
 const Section2 = () => {
   const { title, subtitle, step1, step2, step2_1, step3, step4, step5 } =

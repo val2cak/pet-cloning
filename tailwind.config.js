@@ -42,21 +42,19 @@ module.exports = {
         red: '#F21B3F',
       },
       backgroundImage: () => ({
-        homeCover: "url('../assets/images/home-cover.png')",
-        cloningGuideCover: "url('../assets/images/cloning-guide-cover.png')",
-        qACover: "url('../assets/images/qa-cover.png')",
-        contactUsCover: "url('../assets/images/contact-us-cover.png')",
-        homeCoverMobile: "url('../assets/images/home-cover-mobile.png')",
+        homeCover: "url('/images/home-cover.png')",
+        cloningGuideCover: "url('/images/cloning-guide-cover.png')",
+        qACover: "url('/images/qa-cover.png')",
+        contactUsCover: "url('/images/contact-us-cover.png')",
+        homeCoverMobile: "url('/images/home-cover-mobile.png')",
         cloningGuideCoverMobile:
-          "url('../assets/images/cloning-guide-cover-mobile.png')",
-        qACoverMobile: "url('../assets/images/qa-cover-mobile.png')",
-        contactUsCoverMobile:
-          "url('../assets/images/contact-us-cover-mobile.png')",
-        homeSection4: "url('../assets/images/home-section-4.png')",
-        homeSection4Mobile: "url('../assets/images/home-section-4-mobile.png')",
-        scienceProcess: "url('../assets/images/science-process.png')",
-        scienceProcessMobile:
-          "url('../assets/images/science-process-mobile.png')",
+          "url('/images/cloning-guide-cover-mobile.png')",
+        qACoverMobile: "url('/images/qa-cover-mobile.png')",
+        contactUsCoverMobile: "url('/images/contact-us-cover-mobile.png')",
+        homeSection4: "url('/images/home-section-4.png')",
+        homeSection4Mobile: "url('/images/home-section-4-mobile.png')",
+        scienceProcess: "url('/images/science-process.png')",
+        scienceProcessMobile: "url('/images/science-process-mobile.png')",
       }),
       lineHeight: {
         3: '1.2rem',

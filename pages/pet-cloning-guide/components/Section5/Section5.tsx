@@ -1,6 +1,6 @@
 import { translate } from '../../../../locales/translate';
 
-import image from '../../../../assets/images/cloning-guide-section-5.png';
+import image from '../../../../public/images/cloning-guide-section-5.png';
 
 const Section5 = () => {
   const { text } = translate.petCloningGuide.section5;

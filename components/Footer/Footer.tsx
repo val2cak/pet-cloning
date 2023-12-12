@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { locale, translate } from '../../locales/translate';
-import whatsappIcon from '../../assets/icons/whatsApp.svg';
-import twitterIcon from '../../assets/icons/twitter.svg';
-import instagramIcon from '../../assets/icons/instagram.svg';
+import whatsappIcon from '../../public/icons/whatsApp.svg';
+import twitterIcon from '../../public/icons/twitter.svg';
+import instagramIcon from '../../public/icons/instagram.svg';
 import { Language } from '../../types/typeDefinitions';
 import { setLocaleToStorage } from '../../services/localStorage';
 import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';

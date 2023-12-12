@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { FC } from 'react';
 
 import { translate } from '../../locales/translate';
-import arrowIcon from '../../assets/icons/arrow.svg';
+import arrowIcon from '../../public/icons/arrow.svg';
 
 interface Props {
   image: string;
