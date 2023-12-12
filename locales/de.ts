@@ -353,6 +353,9 @@ Abhängig von dem, was enthalten ist (Fibroblastenextraktion aus der Biopsie, An
 Kontaktieren Sie uns
 www.petcloning.eu`,
     buttonText: 'Anfrage senden',
+    requestSuccess: 'Ihre Anfrage wurde gesendet!',
+    requestError:
+      'Während Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuche es erneut!',
   },
   footer: {
     petCloning: 'Petcloning.eu',
