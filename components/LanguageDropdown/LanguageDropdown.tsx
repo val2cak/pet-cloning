@@ -62,7 +62,7 @@ const LanguageDropdown: FC<Props> = ({
       <div
         className={`${
           open ? 'block' : 'hidden'
-        } absolute bg-light rounded-md text-dark text-sm z-10 hover:cursor-pointer mt-2 left-0 w-full`}
+        } absolute bg-light rounded-md text-dark text-sm z-10 hover:cursor-pointer mt-[-21.8rem] left-0 w-full`}
       >
         {items?.map((item) => (
           <div
