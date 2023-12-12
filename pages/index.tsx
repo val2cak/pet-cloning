@@ -1,11 +1,32 @@
-import { NextSeo } from 'next-seo';
-import SEO from '../constants/next-seo.config';
+import dynamic from 'next/dynamic';
+
+import Layout from './Layout';
 
 const Home = () => {
+  const Cover = dynamic(() => import('./components/Cover/Cover'), {
+    ssr: false,
+  });
+  const Section1 = dynamic(() => import('./components/Section1/Section1'), {
+    ssr: false,
+  });
+  const Section2 = dynamic(() => import('./components/Section2/Section2'), {
+    ssr: false,
+  });
+  const Section3 = dynamic(() => import('./components/Section3/Section3'), {
+    ssr: false,
+  });
+  const Section4 = dynamic(() => import('./components/Section4/Section4'), {
+    ssr: false,
+  });
+
   return (
-    <>
-      <NextSeo title={SEO.title} />
-    </>
+    <Layout>
+      <Cover />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+    </Layout>
   );
 };
 
