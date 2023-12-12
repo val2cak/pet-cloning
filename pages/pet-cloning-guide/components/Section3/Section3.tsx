@@ -1,8 +1,8 @@
 import Point from '../../../../components/Point/Point';
 import { translate } from '../../../../locales/translate';
-import check from '../../../../assets/icons/check.svg';
-import truck from '../../../../assets/icons/truck.svg';
-import hourglass from '../../../../assets/icons/hourglass.svg';
+import check from '../../../../public/icons/check.svg';
+import truck from '../../../../public/icons/truck.svg';
+import hourglass from '../../../../public/icons/hourglass.svg';
 
 const Section3 = () => {
   const { title, point1, point2, point3 } = translate.petCloningGuide.section3;

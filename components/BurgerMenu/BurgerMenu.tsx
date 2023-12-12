@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { translate } from '../../locales/translate';
 import { useRouter } from 'next/router';
-import menu from '../../assets/icons/menu.svg';
+import menu from '../../public/icons/menu.svg';
 
 const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
   const router = useRouter();

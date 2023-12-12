@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 import Point from '../../../../components/Point/Point';
 import { translate } from '../../../../locales/translate';
-import support from '../../../../assets/icons/support.svg';
-import transport from '../../../../assets/icons/transport.svg';
+import support from '../../../../public/icons/support.svg';
+import transport from '../../../../public/icons/transport.svg';
 
 const Section4 = () => {
   const { title, point1, point2 } = translate.petCloningGuide.section4;

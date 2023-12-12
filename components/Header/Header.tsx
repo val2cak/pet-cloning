@@ -4,7 +4,7 @@ import { FC, useState } from 'react';
 
 import { translate } from '../../locales/translate';
 import { navigationItems } from '../../constants/NavigationItems';
-import menu from '../../assets/icons/menu.svg';
+import menu from '../../public/icons/menu.svg';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 
 const Header: FC = () => {

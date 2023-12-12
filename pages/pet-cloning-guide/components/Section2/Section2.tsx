@@ -1,9 +1,9 @@
 import { translate } from '../../../../locales/translate';
 import Point from '../../../../components/Point/Point';
-import imageUrl from '../../../../assets/images/cloning-guide-section-2.png';
-import dogIcon from '../../../../assets/icons/dog.svg';
-import vetIcon from '../../../../assets/icons/vet.svg';
-import exampleIcon from '../../../../assets/icons/example.svg';
+import imageUrl from '../../../../public/images/cloning-guide-section-2.png';
+import dogIcon from '../../../../public/icons/dog.svg';
+import vetIcon from '../../../../public/icons/vet.svg';
+import exampleIcon from '../../../../public/icons/example.svg';
 
 const Section2 = () => {
   const { title, point1, point2, point3 } = translate.petCloningGuide.section2;

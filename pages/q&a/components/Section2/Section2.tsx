@@ -1,11 +1,11 @@
 import Point from '../../../../components/Point/Point';
 import { translate } from '../../../../locales/translate';
-import seven from '../../../../assets/vectors/7-light.png';
-import eight from '../../../../assets/vectors/8-light.png';
-import nine from '../../../../assets/vectors/9-light.png';
-import ten from '../../../../assets/vectors/10-light.png';
-import eleven from '../../../../assets/vectors/11-light.png';
-import twelve from '../../../../assets/vectors/12-light.png';
+import seven from '../../../../public/vectors/7-light.png';
+import eight from '../../../../public/vectors/8-light.png';
+import nine from '../../../../public/vectors/9-light.png';
+import ten from '../../../../public/vectors/10-light.png';
+import eleven from '../../../../public/vectors/11-light.png';
+import twelve from '../../../../public/vectors/12-light.png';
 
 const Section2 = () => {
   const { q7, q8, q9, q10, q11, q12 } = translate.qA;

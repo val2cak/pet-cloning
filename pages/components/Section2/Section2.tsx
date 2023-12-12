@@ -1,9 +1,9 @@
 import { translate } from '../../../locales/translate';
 import Point from '../../../components/Point/Point';
-import imageUrl from '../../../assets/images/home-section-2.png';
-import pawIcon from '../../../assets/icons/heart-paw.svg';
-import biotechIcon from '../../../assets/icons/biotech.svg';
-import experimentIcon from '../../../assets/icons/experiment.svg';
+import imageUrl from '../../../public/images/home-section-2.png';
+import pawIcon from '../../../public/icons/heart-paw.svg';
+import biotechIcon from '../../../public/icons/biotech.svg';
+import experimentIcon from '../../../public/icons/experiment.svg';
 
 const Section2 = () => {
   const { title, subtitle, point1, point2, point3 } = translate.home.section2;
