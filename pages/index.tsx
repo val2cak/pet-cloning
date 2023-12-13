@@ -1,6 +1,9 @@
 import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react';
+import Cookies from 'js-cookie';
 
 import Layout from './Layout';
+import Popup from './components/Popup/Popup';
 
 const Home = () => {
   const Cover = dynamic(() => import('./components/Cover/Cover'), {
@@ -19,6 +22,24 @@ const Home = () => {
     ssr: false,
   });
 
+  const [showModal, setShowModal] = useState(false);
+
+  // Check if the 'visited' cookie is set
+  const hasVisited = Cookies.get('visited');
+
+  // Set the 'visited' cookie if it's the first visit
+  useEffect(() => {
+    if (!hasVisited) {
+      // Set the 'visited' cookie to true
+      Cookies.set('visited', 'true', { expires: 7 }); // expires in 7 days
+      setShowModal(true);
+    }
+  }, [hasVisited]);
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <Layout>
       <Cover />
@@ -26,6 +47,8 @@ const Home = () => {
       <Section2 />
       <Section3 />
       <Section4 />
+
+      {showModal && <Popup onClose={closeModal} />}
     </Layout>
   );
 };

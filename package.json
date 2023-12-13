@@ -10,6 +10,7 @@
     "@contentful/rich-text-react-renderer": "^15.19.0",
     "@types/nodemailer": "^6.4.14",
     "contentful": "^10.6.12",
+    "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "next": "^14.0.3",
     "next-seo": "^6.4.0",
