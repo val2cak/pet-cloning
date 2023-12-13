@@ -17,7 +17,11 @@ const Popup = ({ onClose }) => {
         <button className='absolute text-light right-5 top-5' onClick={onClose}>
           <CloseIcon className='text-xl' />
         </button>
-        <img src={brochure.src} alt='Brochure' className='w-full h-screen' />
+        <img
+          src={brochure.src}
+          alt='Brochure'
+          className='w-full sm:h-full h-screen'
+        />
       </div>
     </div>
   );
