@@ -5,6 +5,7 @@ import Mail from 'nodemailer/lib/mailer';
 import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
 import { translate } from '../../locales/translate';
+import brochure from '../../public/Brochure2.png';
 
 export default async function handler(
   req: NextApiRequest,
@@ -56,7 +57,16 @@ export default async function handler(
         from: process.env.MY_EMAIL,
         to: email,
         subject: replySubject,
-        text: replyText,
+        html: `
+          <img src="cid:brochure" alt="Brochure" />
+        `,
+        attachments: [
+          {
+            filename: 'Brochure2.png',
+            cid: 'brochure',
+            path: 'https://github.com/val2cak/pet-cloning/blob/develop/public/Brochure2.png',
+          },
+        ],
       };
 
       await transport.sendMail(mailOptions);
