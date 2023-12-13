@@ -5,7 +5,6 @@ import Mail from 'nodemailer/lib/mailer';
 import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
 import { translate } from '../../locales/translate';
-import brochure from '../../public/Brochure2.png';
 
 export default async function handler(
   req: NextApiRequest,
