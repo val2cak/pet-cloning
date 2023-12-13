@@ -23,7 +23,7 @@ export default async function handler(
         petName,
       }: FormData = req.body;
 
-      const { replySubject, replyText } = translate.contactUs;
+      const { replySubject } = translate.contactUs;
 
       const transport = nodemailer.createTransport({
         service: 'gmail',
@@ -51,12 +51,21 @@ export default async function handler(
         `,
       };
 
+      const contentfulImageUrl = `https://images.ctfassets.net/${process.env.CONTENTFUL_SPACE_ID}/${process.env.CONTENTFUL_IMAGE_ID}/${process.env.CONTENTFUL_IMAGE_CODE}/Brochure.png`;
+
       // Send confirmation email to the user
       const userConfirmationOptions: Mail.Options = {
         from: process.env.MY_EMAIL,
         to: email,
         subject: replySubject,
-        text: replyText,
+        html: `<img src="cid:brochure" alt="Brochure" width='70%'>`,
+        attachments: [
+          {
+            filename: 'Petcloning.png',
+            cid: 'brochure',
+            path: contentfulImageUrl,
+          },
+        ],
       };
 
       await transport.sendMail(mailOptions);
