@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <img src={whatsappIcon.src} className='w-6 h-6' />
+              <img src={whatsappIcon.src} className='w-6 h-6' alt='Whatsapp' />
             </a>
 
             <a
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <img src={twitterIcon.src} className='w-6 h-6' />
+              <img src={twitterIcon.src} className='w-6 h-6' alt='Twitter' />
             </a>
 
             <a
@@ -81,7 +81,11 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <img src={instagramIcon.src} className='w-6 h-6' />
+              <img
+                src={instagramIcon.src}
+                className='w-6 h-6'
+                alt='Instagram'
+              />
             </a>
           </div>
 

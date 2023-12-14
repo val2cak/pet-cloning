@@ -33,6 +33,7 @@ const Section2 = () => {
       <img
         src={imageUrl.src}
         className='sm:w-full lg:w-full w-1/2 sm:h-[16.0625rem] lg:h-[36rem] h-auto sm:object-cover lg:object-cover'
+        alt='Pets'
       />
     </div>
   );

@@ -13,6 +13,7 @@ const Section5 = () => {
       <img
         src={image.src}
         className='sm:h-fit h-[16.7rem] w-[22.8rem] lg:place-self-center'
+        alt='Animals'
       />
     </div>
   );
