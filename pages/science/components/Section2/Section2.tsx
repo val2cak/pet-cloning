@@ -40,7 +40,7 @@ const Section2 = () => {
           />
         </div>
       </div>
-      <img src={graph.src} />
+      <img src={graph.src} alt='Graph' />
     </div>
   );
 };

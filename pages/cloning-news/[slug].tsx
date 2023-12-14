@@ -35,7 +35,7 @@ const BlogPost = ({ post }) => {
         <img
           src={post.fields.image.fields.file.url}
           alt={post.fields.image.fields.description}
-          className='w-full'
+          className='w-full' 
         />
 
         <div className='text-base font-light leading-5 text-dark space-y-4'>
