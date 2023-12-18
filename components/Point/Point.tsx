@@ -16,10 +16,8 @@ const Point: FC<Props> = ({ icon, title, subtitle, color }) => {
     >
       {icon && <img src={icon} className='w-12 h-12' alt='Number' />}
       <div className='flex flex-col justify-start items-start gap-4'>
-        {title && (
-          <span className='sm:text-sm text-base font-medium'>{title}</span>
-        )}
-        <span className='text-xs font-light opacity-80'>{subtitle}</span>
+        {title && <span className='text-base font-medium'>{title}</span>}
+        <span className='text-sm font-light opacity-90'>{subtitle}</span>
       </div>
     </div>
   );

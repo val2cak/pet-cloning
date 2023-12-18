@@ -21,10 +21,10 @@ const Card: FC<Props> = ({ image, title, subtitle, link }) => {
       />
       <div className='flex flex-col items-start gap-4'>
         <span className='text-base font-medium'>{title}</span>
-        <span className='text-xs font-light opacity-80'>{subtitle}</span>
+        <span className='text-sm font-light opacity-90'>{subtitle}</span>
         {link && (
           <Link
-            className='text-sm font-medium uppercase flex gap-2 items-center'
+            className='text-base font-medium uppercase flex gap-2 items-center'
             href={link}
           >
             {translate.common.learnMore}
