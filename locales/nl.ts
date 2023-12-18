@@ -4,6 +4,7 @@ export default {
     dog: 'Hond',
     cat: 'Kat',
     horse: 'Paard',
+    other: 'Ander',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Wetenschap',
     petCloningGuide: 'Gids voor huisdierklonen',
     qA: 'V&A',
-    cloningNews: 'Kloonnieuws',
+    cloningNews: 'Nyheder',
     contactUs: 'Contact met ons opnemen',
   },
   home: {
@@ -326,7 +327,7 @@ export default {
     petName: `Naam van het huisdier`,
     animalType: 'Type dier',
     cloningInfo: 'Ik wil meer informatie over klonen',
-    preservationInfo: 'Ik wil meer informatie over behoud',
+    preservationInfo: 'Ik wil meer informatie over behoud van cellen',
     replySubject: 'Petcloning.eu - Bevestiging van aanvraag',
     replyText: `Bedankt voor uw aanvraag. We hebben uw informatie ontvangen en zullen binnenkort contact met u opnemen.
 

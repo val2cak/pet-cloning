@@ -4,6 +4,7 @@ export default {
     dog: 'Dog',
     cat: 'Cat',
     horse: 'Horse',
+    other: 'Other',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Science',
     petCloningGuide: 'Pet cloning guide',
     qA: 'Q&A',
-    cloningNews: 'Cloning news',
+    cloningNews: 'News',
     contactUs: 'Contact us',
   },
   home: {
@@ -420,7 +421,7 @@ journey.`,
     petName: `Pet's name`,
     animalType: 'Type of animal',
     cloningInfo: 'I want more info on cloning',
-    preservationInfo: 'I want more info on preservation',
+    preservationInfo: 'I want more info on cell preservation',
     replySubject: 'Petcloning.eu - Request confirmation',
     replyText: `Thank you for your request. We have received your information and will get back to you soon.
 

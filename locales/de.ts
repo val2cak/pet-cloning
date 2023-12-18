@@ -4,6 +4,7 @@ export default {
     dog: 'Hund',
     cat: 'Katze',
     horse: 'Pferd',
+    other: 'Andere',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Wissenschaft',
     petCloningGuide: 'Haustier-Klonleitfaden',
     qA: 'F&A',
-    cloningNews: 'Klonnachrichten',
+    cloningNews: 'Nachricht',
     contactUs: 'Kontaktiere uns',
   },
   home: {
@@ -328,7 +329,7 @@ Denken Sie daran, dass die Qualität der Probe und die Sorgfalt bei diesen erste
     petName: `Name des Haustiers`,
     animalType: 'Art des Tieres',
     cloningInfo: 'Ich möchte mehr Informationen zur Klonung',
-    preservationInfo: 'Ich möchte mehr Informationen zur Konservierung',
+    preservationInfo: 'Ich möchte mehr Informationen zur Zellkonservierung',
     replySubject: 'Petcloning.eu - Anfragebestätigung',
     replyText: `Vielen Dank für Ihre Anfrage. Wir haben Ihre Informationen erhalten und werden uns bald bei Ihnen melden.
 

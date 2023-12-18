@@ -4,6 +4,7 @@ export default {
     dog: 'Собака',
     cat: 'Кошка',
     horse: 'Лошадь',
+    other: 'Другой',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Наука',
     petCloningGuide: 'Руководство по клонированию домашних животных',
     qA: 'Вопросы и ответы',
-    cloningNews: 'Новости клонирования',
+    cloningNews: 'Новости',
     contactUs: 'Свяжитесь с нами',
   },
   home: {
@@ -325,7 +326,7 @@ export default {
     petName: 'Имя питомца',
     animalType: 'Тип животного',
     cloningInfo: 'Я хочу больше информации о клонировании',
-    preservationInfo: 'Я хочу больше информации о сохранении',
+    preservationInfo: 'Я хочу больше информации о сохранение клеток',
     replySubject: 'Petcloning.eu - Подтверждение запроса',
     replyText: `Спасибо за ваш запрос. Мы получили вашу информацию и скоро свяжемся с вами.
 

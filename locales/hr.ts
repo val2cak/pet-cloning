@@ -4,6 +4,7 @@ export default {
     dog: 'Pas',
     cat: 'Mačka',
     horse: 'Konj',
+    other: 'Drugo',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Znanost',
     petCloningGuide: 'Vodič za kloniranje',
     qA: 'Pitanja i odgovori',
-    cloningNews: 'Vijesti o kloniranju',
+    cloningNews: 'Vijesti',
     contactUs: 'Kontaktirajte nas',
   },
   home: {
@@ -352,7 +353,7 @@ export default {
     petName: 'Ime ljubimca',
     animalType: 'Vrsta životinje',
     cloningInfo: 'Želim više informacija o kloniranju',
-    preservationInfo: 'Želim više informacija o očuvanju',
+    preservationInfo: 'Želim više informacija o očuvanju stanica',
     replySubject: 'Petcloning.eu - Potvrda upita',
     replyText: `Hvala vam na upitu. Primili smo vaše informacije i uskoro ćemo vam se javiti.
 

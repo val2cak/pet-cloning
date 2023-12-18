@@ -28,14 +28,13 @@ const BlogPost = ({ post }) => {
           </div>
           <div className='flex justify-between text-primary text-sm font-light'>
             <p>{formattedDate}</p>
-            <p>By: {post.fields.author}</p>
           </div>
         </div>
 
         <img
           src={post.fields.image.fields.file.url}
           alt={post.fields.image.fields.description}
-          className='w-full' 
+          className='w-full'
         />
 
         <div className='text-base font-light leading-5 text-dark space-y-4'>

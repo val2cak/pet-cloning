@@ -4,6 +4,7 @@ export default {
     dog: 'Chien',
     cat: 'Chat',
     horse: 'Cheval',
+    other: 'Autre',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Science',
     petCloningGuide: "Guide du clonage d'animaux de compagnie",
     qA: 'Questions-réponses',
-    cloningNews: 'Actualités sur le clonage',
+    cloningNews: 'Nouvelles',
     contactUs: 'Contactez-nous',
   },
   home: {
@@ -356,7 +357,8 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
     petName: "Nom de l'animal de compagnie",
     animalType: "Type d'animal",
     cloningInfo: "Je souhaite plus d'informations sur le clonage",
-    preservationInfo: "Je souhaite plus d'informations sur la préservation",
+    preservationInfo:
+      "Je souhaite plus d'informations sur la préservation des cellules",
     replySubject: 'Petcloning.eu - Confirmation de demande',
     replyText: `Merci pour votre demande. Nous avons bien reçu vos informations et vous répondrons bientôt.
 

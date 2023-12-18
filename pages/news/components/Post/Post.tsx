@@ -32,7 +32,7 @@ const Post: FC<Props> = ({
 
   return (
     <Link
-      href={`cloning-news/${slug}`}
+      href={`news/${slug}`}
       className='flex flex-col gap-2 w-fit hover:scale-105'
     >
       <img
