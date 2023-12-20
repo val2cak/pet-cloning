@@ -360,28 +360,16 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
     preservationInfo:
       "Je souhaite plus d'informations sur la préservation des cellules",
     replySubject: 'Petcloning.eu - Confirmation de demande',
-    replyText: `Merci pour votre demande. Nous avons bien reçu vos informations et vous répondrons bientôt.
+    replyText: `Merci beaucoup d'avoir tendu la main !
 
-Petcloning.eu
-Tout ce que vous devez savoir sur le clonage de votre animal de compagnie.
-
-Qu'est-ce que le clonage d'animaux de compagnie ?
-Le clonage d'animaux de compagnie est le processus de création d'un animal génétiquement identique à partir d'un original.
-
-Comment fonctionne le clonage ?
-Le clonage nécessite un échantillon de peau à partir duquel des cellules vivantes sont prélevées et cultivées pour transférer leur matériel génétique dans une cellule d'œuf donneur qui se développera ensuite dans une mère porteuse.
-
-Combien coûte le clonage ?
-Les prix actuels du marché pour cloner des chats et des chiens sont d'environ 50 000 € et 85 000 € pour les chevaux.
+Cet e-mail de réponse automatique sert simplement à vous informer que nous avons reçu votre demande et qu'un membre de notre équipe vous répondra dans les plus brefs délais.
+    
+Pendant les heures de bureau, cela prend généralement quelques heures.
+    
+En attendant, vous pouvez trouver ci-dessous des informations générales sur le clonage et la préservation des cellules.
 ---------------------
-Qu'est-ce que la préservation des cellules ?
-La préservation des cellules est la première étape du clonage d'animaux de compagnie : la croissance et le stockage à long terme de cellules vivantes de votre animal. Elle peut être réalisée pendant que l'animal est encore en vie pour augmenter les chances de clonage futur.
-
-Combien coûte la préservation des cellules ?
-Selon ce qui est inclus (extraction de fibroblastes à partir de la biopsie, culture, stockage indéfini, etc.), l'ensemble du processus et du stockage coûte environ 5000 €, dans la plupart des cas entièrement déductible du coût total du clonage.
-
-Contactez-nous
-www.petcloning.eu`,
+Cordialement,
+Petcloning.eu`,
     buttonText: 'Envoyer la demande',
     requestSuccess: 'Votre demande a été envoyée!',
     requestError:

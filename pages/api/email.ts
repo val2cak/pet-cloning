@@ -23,7 +23,7 @@ export default async function handler(
         petName,
       }: FormData = req.body;
 
-      const { replySubject } = translate.contactUs;
+      const { replySubject, replyText } = translate.contactUs;
 
       const transport = nodemailer.createTransport({
         service: 'gmail',
@@ -58,7 +58,7 @@ export default async function handler(
         from: process.env.MY_EMAIL,
         to: email,
         subject: replySubject,
-        html: `<img src="cid:brochure" alt="Brochure" width='70%'>`,
+        text: replyText,
         attachments: [
           {
             filename: 'Petcloning.png',

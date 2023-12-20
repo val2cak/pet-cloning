@@ -341,28 +341,16 @@ export default {
     preservationInfo:
       'Voglio ulteriori informazioni sulla conservazione delle cellule',
     replySubject: 'Petcloning.eu - Conferma richiesta',
-    replyText: `Grazie per la tua richiesta. Abbiamo ricevuto le tue informazioni e ti risponderemo presto.
+    replyText: `Grazie mille per avermi contattato!
 
-Petcloning.eu
-Tutto ciò che devi sapere sul clonare il tuo animale domestico.
-
-Cos'è il clonare degli animali domestici?
-Il clonare degli animali domestici è il processo di creare un animale geneticamente identico a partire da uno originale.
-
-Come funziona il clonare?
-Il clonare richiede un campione di pelle da cui vengono raccolte e coltivate le cellule vive per trasferire il loro materiale genetico in una cellula uovo donatrice che crescerà poi in una madre surrogata.
-
-Quanto costa il clonare?
-I prezzi di mercato attuali per clonare gatti e cani sono intorno a 50.000 € e 85.000 € per i cavalli.
+Questa email di risposta automatica serve solo per farti sapere che abbiamo ricevuto la tua richiesta e qualcuno del nostro team ti contatterà il prima possibile.
+    
+Durante l'orario lavorativo, di solito entro un paio d'ore.
+    
+Nel frattempo, puoi trovare alcune informazioni generali sulla clonazione e sulla conservazione delle cellule di tuo interesse qui sotto.
 ---------------------
-Cos'è la conservazione delle cellule?
-La conservazione delle cellule è il primo passo del clonare degli animali domestici: crescita e stoccaggio a lungo termine di cellule viventi del tuo animale. Può essere fatta mentre l'animale è ancora vivo per aumentare la possibilità di clonare in futuro.
-
-Quanto costa la conservazione delle cellule?
-A seconda di ciò che è incluso (estrazione di fibroblasti da biopsia, coltivazione, stoccaggio indefinito, ecc.), l'intero processo e lo stoccaggio ammontano a circa 5000 €, nella maggior parte dei casi completamente deducibili dal costo totale del clonare.
-
-Contattaci
-www.petcloning.eu`,
+Cordiali saluti,
+Petcloning.eu`,
     buttonText: 'Invia richiesta',
     requestSuccess: 'La tua richiesta è stata inviata!',
     requestError:

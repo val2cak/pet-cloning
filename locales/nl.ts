@@ -330,28 +330,16 @@ export default {
     cloningInfo: 'Ik wil meer informatie over klonen',
     preservationInfo: 'Ik wil meer informatie over behoud van cellen',
     replySubject: 'Petcloning.eu - Bevestiging van aanvraag',
-    replyText: `Bedankt voor uw aanvraag. We hebben uw informatie ontvangen en zullen binnenkort contact met u opnemen.
+    replyText: `Hartelijk dank dat u contact met ons opneemt!
 
-Petcloning.eu
-Alles wat u moet weten over het klonen van uw huisdier.
-
-Wat is het klonen van huisdieren?
-Het klonen van huisdieren is het proces van het maken van een genetisch identiek huisdier uit een origineel.
-
-Hoe werkt het klonen?
-Klonen vereist een huidmonster waaruit levende cellen worden verzameld en gekweekt om hun genetisch materiaal over te brengen naar een donoreicel die vervolgens zal groeien in een draagmoeder.
-
-Wat kost het klonen?
-De huidige marktprijzen voor het klonen van katten en honden liggen rond de 50.000 € en 85.000 € voor paarden.
+Met deze automatische antwoord-e-mail willen we u laten weten dat we uw verzoek hebben ontvangen en dat iemand van ons team zo snel mogelijk contact met u opneemt.
+    
+Tijdens kantooruren is dat meestal binnen een paar uur.
+    
+Ondertussen kunt u hieronder wat algemene informatie vinden over klonen en celbehoud.
 ---------------------
-Wat is celbehoud?
-Celbehoud is de eerste stap van het klonen van huisdieren: de groei en langetermijnopslag van levende cellen van uw huisdier. Het kan worden gedaan terwijl het huisdier nog leeft om de kans op toekomstig klonen te vergroten.
-
-Wat kost celbehoud?
-Afhankelijk van wat is inbegrepen (fibroblastextractie uit een biopsie, kweek, onbeperkte opslag, enzovoort), bedraagt de totale kosten voor het hele proces en de opslag ongeveer 5000 €, in de meeste gevallen volledig aftrekbaar van de totale kosten van het klonen.
-
-Neem contact met ons op
-www.petcloning.eu`,
+Met vriendelijke groeten,
+Petcloning.eu`,
     buttonText: 'Aanvraag versturen',
     requestSuccess: 'Uw verzoek is verzonden!',
     requestError:
