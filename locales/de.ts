@@ -214,7 +214,8 @@ beteiligten Lebewesen in dieser bemerkenswerten Reise durchgeführt.`,
   petCloningGuide: {
     section1: {
       title: 'Leitfaden zur Haustierklonung',
-      subtitle: `Ob Sie vorausschauend für die Klonung Ihres gesunden Haustiers in der Zukunft planen oder mit der dringenden Situation des Verlusts eines Haustiers konfrontiert sind, ist das Verständnis und Befolgen der korrekten Verfahren zur Zellkonservierung von entscheidender Bedeutung. Dieser Leitfaden soll sicherstellen, dass Sie alle notwendigen Maßnahmen ergreifen, um die Option zur Klonung offen zu halten und die höchstmöglichen Erfolgsraten zu erzielen. Im Falle einer dringenden Situation (kürzlich verstorbenes Haustier) kontaktieren Sie uns, um spezifischere Ratschläge zu erhalten.`,
+      subtitle: `Ob Sie vorausschauend für die Klonung Ihres gesunden Haustiers in der Zukunft planen oder mit der dringenden Situation des Verlusts eines Haustiers konfrontiert sind, ist das Verständnis und Befolgen der korrekten Verfahren zur Zellkonservierung von entscheidender Bedeutung. Dieser Leitfaden soll sicherstellen, dass Sie alle notwendigen Maßnahmen ergreifen, um die Option zur Klonung offen zu halten und die höchstmöglichen Erfolgsraten zu erzielen. Im Falle einer dringenden Situation (kürzlich verstorbenes Haustier),`,
+      subtitle_1: `um spezifischere Ratschläge zu erhalten.`,
     },
     section2: {
       title: 'Für Haustiere, die verstorben sind',

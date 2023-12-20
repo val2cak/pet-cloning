@@ -218,7 +218,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Guida alla Clonazione degli Animali Domestici',
-      subtitle: `Che tu stia pianificando per clonare il tuo animale domestico sano in futuro o che tu ti trovi nella situazione urgente della scomparsa di un animale domestico, comprendere e seguire le procedure corrette per la conservazione delle cellule è vitale. Questa guida mira a garantire che tu compia tutte le azioni necessarie per mantenere aperta l'opzione per la clonazione con i più alti tassi di successo possibili. In caso di situazioni urgenti (animale recentemente deceduto), contattaci per ottenere consigli più specifici.`,
+      subtitle: `Che tu stia pianificando per clonare il tuo animale domestico sano in futuro o che tu ti trovi nella situazione urgente della scomparsa di un animale domestico, comprendere e seguire le procedure corrette per la conservazione delle cellule è vitale. Questa guida mira a garantire che tu compia tutte le azioni necessarie per mantenere aperta l'opzione per la clonazione con i più alti tassi di successo possibili. In caso di situazioni urgenti (animale recentemente deceduto),`,
+      subtitle_1: `per ottenere consigli più specifici.`,
     },
     section2: {
       title: 'Per gli Animali Domestici Deceduti',

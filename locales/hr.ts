@@ -226,7 +226,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Vodič za Kloniranje Kućnih Ljubimaca',
-      subtitle: `Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac), obratite nam se kako biste dobili specifične savjete.`,
+      subtitle: `Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac),`,
+      subtitle_1: `kako biste dobili specifične savjete.`,
     },
     section2: {
       title: 'Za Ljubimce koji su Preminuli',

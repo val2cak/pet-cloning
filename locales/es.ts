@@ -216,7 +216,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Guía de Clonación de Mascotas',
-      subtitle: `Ya sea que estés planeando con anticipación clonar a tu mascota saludable en el futuro o enfrentando la situación urgente del fallecimiento de una mascota, entender y seguir los procedimientos correctos para la preservación celular es vital. Esta guía tiene como objetivo asegurarse de que tomes todas las acciones necesarias para mantener abierta la opción de clonación con las tasas de éxito más altas posibles. En caso de una situación urgente (mascota fallecida recientemente), contáctanos para obtener consejos más específicos.`,
+      subtitle: `Ya sea que estés planeando con anticipación clonar a tu mascota saludable en el futuro o enfrentando la situación urgente del fallecimiento de una mascota, entender y seguir los procedimientos correctos para la preservación celular es vital. Esta guía tiene como objetivo asegurarse de que tomes todas las acciones necesarias para mantener abierta la opción de clonación con las tasas de éxito más altas posibles. En caso de una situación urgente (mascota fallecida recientemente),`,
+      subtitle_1: `para obtener consejos más específicos.`,
     },
     section2: {
       title: 'Para Mascotas Que Han Fallecido',

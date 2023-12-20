@@ -212,7 +212,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Handleiding voor het Klonen van Huisdieren',
-      subtitle: `Of je nu vooruit plant om je gezonde huisdier in de toekomst te klonen of geconfronteerd wordt met de dringende situatie van het overlijden van een huisdier, begrijpen en de juiste procedures voor celbehoud volgen is essentieel. Deze handleiding heeft als doel ervoor te zorgen dat je alle noodzakelijke stappen onderneemt om de optie voor klonen open te houden met de hoogst mogelijke succespercentages. In geval van een urgente situatie (recent overleden huisdier), neem contact met ons op voor meer specifiek advies.`,
+      subtitle: `Of je nu vooruit plant om je gezonde huisdier in de toekomst te klonen of geconfronteerd wordt met de dringende situatie van het overlijden van een huisdier, begrijpen en de juiste procedures voor celbehoud volgen is essentieel. Deze handleiding heeft als doel ervoor te zorgen dat je alle noodzakelijke stappen onderneemt om de optie voor klonen open te houden met de hoogst mogelijke succespercentages. In geval van een urgente situatie (recent overleden huisdier), neem`,
+      subtitle_1: `voor meer specifiek advies.`,
     },
     section2: {
       title: 'Voor Huisdieren die zijn Overleden',

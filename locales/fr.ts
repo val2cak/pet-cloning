@@ -223,8 +223,8 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
   petCloningGuide: {
     section1: {
       title: "Guide du clonage d'animaux de compagnie",
-      subtitle:
-        "Que vous planifiiez à l'avance le clonage de votre animal de compagnie en bonne santé dans le futur ou que vous soyez confronté à la situation urgente du décès d'un animal de compagnie, comprendre et suivre les procédures correctes de préservation des cellules est essentiel. Ce guide vise à vous assurer que vous prenez toutes les mesures nécessaires pour maintenir l'option du clonage ouverte avec les taux de réussite les plus élevés possibles. En cas de situation urgente (décès récent de l'animal de compagnie), contactez-nous pour obtenir des conseils plus spécifiques.",
+      subtitle: `Que vous planifiiez à l'avance le clonage de votre animal de compagnie en bonne santé dans le futur ou que vous soyez confronté à la situation urgente du décès d'un animal de compagnie, comprendre et suivre les procédures correctes de préservation des cellules est essentiel. Ce guide vise à vous assurer que vous prenez toutes les mesures nécessaires pour maintenir l'option du clonage ouverte avec les taux de réussite les plus élevés possibles. En cas de situation urgente (décès récent de l'animal de compagnie),`,
+      subtitle_1: `pour obtenir des conseils plus spécifiques.`,
     },
     section2: {
       title: 'Pour les animaux de compagnie décédés',
