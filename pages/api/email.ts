@@ -4,7 +4,7 @@ import Mail from 'nodemailer/lib/mailer';
 
 import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
-import { translate } from '../../locales/translate';
+import { availableLocales } from '../../locales/translate';
 
 export default async function handler(
   req: NextApiRequest,
@@ -21,9 +21,10 @@ export default async function handler(
         cloningInfo,
         preservationInfo,
         petName,
+        language,
       }: FormData = req.body;
 
-      const { replySubject, replyText } = translate.contactUs;
+      const { replySubject, replyText } = availableLocales[language].contactUs;
 
       const transport = nodemailer.createTransport({
         service: 'gmail',
