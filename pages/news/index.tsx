@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import capitalize from 'lodash';
 
 import {
   getBlogPosts,
@@ -25,7 +24,6 @@ const CloningNews = ({ posts, currentPage, totalPages }) => {
             <Post
               title={post.fields[`title${lang}`]}
               dateCreated={post.fields.dateCreated}
-              author={post.fields.author}
               imgUrl={post.fields.image.fields.file.url}
               imgDescription={post.fields.image.fields.description}
               text={post.fields[`text${lang}`]}

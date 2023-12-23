@@ -47,8 +47,7 @@ export default {
       Below are some reasons that pet owners consider cloning.`,
       point1: {
         title: 'Continuing the Bond',
-        subtitle: `For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's
-        life experience.`,
+        subtitle: `For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's life experience.`,
       },
       point2: {
         title: 'Valued Characteristics',
