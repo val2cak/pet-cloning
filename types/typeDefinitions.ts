@@ -26,3 +26,9 @@ export interface Language {
   locale: string;
   name: string;
 }
+
+export interface Brochure {
+  language: string;
+  id: string;
+  code: string;
+}

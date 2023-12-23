@@ -5,6 +5,7 @@ import Mail from 'nodemailer/lib/mailer';
 import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
 import { availableLocales } from '../../locales/translate';
+import { Brochures } from '../../constants/Brochures';
 
 export default async function handler(
   req: NextApiRequest,
@@ -29,14 +30,14 @@ export default async function handler(
       const transport = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: process.env.MY_EMAIL,
-          pass: process.env.MY_PASSWORD,
+          user: process.env.NEXT_PUBLIC_MY_EMAIL,
+          pass: process.env.NEXT_PUBLIC_MY_PASSWORD,
         },
       });
 
       const mailOptions: Mail.Options = {
         from: email,
-        to: process.env.MY_EMAIL,
+        to: process.env.NEXT_PUBLIC_MY_EMAIL,
         subject: 'Pet cloning',
         text: `
         First and last name: ${name}
@@ -52,11 +53,15 @@ export default async function handler(
         `,
       };
 
-      const contentfulImageUrl = `https://images.ctfassets.net/${process.env.CONTENTFUL_SPACE_ID}/${process.env.CONTENTFUL_IMAGE_ID}/${process.env.CONTENTFUL_IMAGE_CODE}/Brochure.png`;
+      const brochure = Brochures.find(
+        (brochure) => brochure.language === language
+      );
+
+      const contentfulImageUrl = `https://images.ctfassets.net/${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}/${brochure.id}/${brochure.code}/Brochure.png`;
 
       // Send confirmation email to the user
       const userConfirmationOptions: Mail.Options = {
-        from: process.env.MY_EMAIL,
+        from: process.env.NEXT_PUBLIC_MY_EMAIL,
         to: email,
         subject: replySubject,
         text: replyText,
