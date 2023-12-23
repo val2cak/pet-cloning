@@ -16,7 +16,6 @@ interface Props {
 const Post: FC<Props> = ({
   title,
   dateCreated,
-  author,
   imgUrl,
   imgDescription,
   text,
