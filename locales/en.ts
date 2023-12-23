@@ -4,6 +4,7 @@ export default {
     dog: 'Dog',
     cat: 'Cat',
     horse: 'Horse',
+    other: 'Other',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Science',
     petCloningGuide: 'Pet cloning guide',
     qA: 'Q&A',
-    cloningNews: 'Cloning news',
+    cloningNews: 'News',
     contactUs: 'Contact us',
   },
   home: {
@@ -46,8 +47,7 @@ export default {
       Below are some reasons that pet owners consider cloning.`,
       point1: {
         title: 'Continuing the Bond',
-        subtitle: `For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's
-        life experience.`,
+        subtitle: `For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's life experience.`,
       },
       point2: {
         title: 'Valued Characteristics',
@@ -216,7 +216,8 @@ journey.`,
   petCloningGuide: {
     section1: {
       title: 'Pet Cloning Guide',
-      subtitle: `Whether you're planning ahead for cloning your healthy pet in the future or faced with the urgent situation of a pet's passing, understanding and following the correct procedures for cell preservation is vital. This guide aims to ensure you take all the necessary actions to keep the option for cloning open with the highest success rates possible. In case of urgent situation (pet deceased recently), contact us to get more specific advices. `,
+      subtitle: `Whether you're planning ahead for cloning your healthy pet in the future or faced with the urgent situation of a pet's passing, understanding and following the correct procedures for cell preservation is vital. This guide aims to ensure you take all the necessary actions to keep the option for cloning open with the highest success rates possible. In case of urgent situation (pet deceased recently),`,
+      subtitle_1: `to get more specific advice.`,
     },
     section2: {
       title: 'For Pets That Have Passed Away',
@@ -239,26 +240,16 @@ journey.`,
       title: 'For Cell Preservation from a Living Pet',
       point1: {
         title: 'Ideal Conditions',
-        subtitle: `If you decide to clone your pet while they are 
-        still alive, arranging a sterile skin biopsy under 
-        veterinary care is the best scenario. This 
-        minimizes stress on the cells and maximizes 
-        viability for cloning.`,
+        subtitle: `If you decide to clone your pet while they are still alive, arranging a sterile skin biopsy under veterinary care is the best scenario. 
+        This minimizes stress on the cells and maximizes viability for cloning.`,
       },
       point2: {
         title: 'Safe Storage and Transport',
-        subtitle: `Whether anticipating future cloning or acting 
-          after a loss, the collected sample must be kept 
-          at a consistent refrigerator temperature of 
-          2-4°C, both in storage and during shipment to 
-          the cloning or cell cultivation facility.`,
+        subtitle: `Whether anticipating future cloning or acting after a loss, the collected sample must be kept at a consistent refrigerator 2-4°C, both in storage and during shipment to the cloning or cell cultivation facility.`,
       },
       point3: {
         title: 'Time is of the Essence',
-        subtitle: `The quicker a sample is secured and delivered 
-          to the cloning lab, the better the chances of 
-          successful cloning, whether from a living pet or 
-          one that has recently passed.`,
+        subtitle: `The quicker a sample is secured and delivered to the cloning lab, the better the chances of successful cloning, whether from a living pet or one that has recently passed.`,
       },
     },
     section4: {
@@ -275,16 +266,11 @@ journey.`,
       },
     },
     section5: {
-      text: `By adhering to these procedures, you significantly increase the likelihood of a 
-      successful clone. 
+      text: `By adhering to these procedures, you significantly increase the likelihood of a successful clone. 
 
-      Proactive cloning measures for living pets generally yield a higher success rate 
-      due to the optimal condition of the cells and the controlled environment during 
-      collection. 
+      Proactive cloning measures for living pets generally yield a higher success rate due to the optimal condition of the cells and the controlled environment during collection. 
       
-      Remember, the quality of the sample and the care taken during these initial 
-      steps are foundational to the journey of creating a genetic continuation of your 
-      cherished pet.`,
+      Remember, the quality of the sample and the care taken during these initial steps are foundational to the journey of creating a genetic continuation of your cherished pet.`,
     },
   },
   qA: {
@@ -420,30 +406,18 @@ journey.`,
     petName: `Pet's name`,
     animalType: 'Type of animal',
     cloningInfo: 'I want more info on cloning',
-    preservationInfo: 'I want more info on preservation',
+    preservationInfo: 'I want more info on cell preservation',
     replySubject: 'Petcloning.eu - Request confirmation',
-    replyText: `Thank you for your request. We have received your information and will get back to you soon.
+    replyText: `Thank you so much for reaching out!
 
-Petcloning.eu
-Everything you need to know about cloning your pet.
+This auto-reply email is just to let you know we received your request and someone from our team will get back to you as soon as possible.
 
-What is pet cloning?
-Pet cloning is the process of making a genetically identical pet from an original one. 
+During business hours that's usually within a couple of hours.
 
-How does cloning work?
-Cloning requires a skin sample from which live cells are collected and grown to transfer their genetic material into a donor egg cell which will then grow in a surrogate mother.
-
-What does cloning cost?
-The current market prices for cloning cats and dogs are around 50.000€ and 85.000€ for horses.
+Meanwhile, you can find some general info on cloning and cell preservation for your interest here below.
 ---------------------
-What is cell preservation?
-Cell preservation is the first step of pet cloning: Growth and long term storage of living cells from your pet. It can be done while the pet is still alive to increase the chance of future cloning.
-
-What does cell preservation cost?
-Depending on what is included (fibroblast extraction from biopsy, cultivation, indefinite storage, etc) the whole process and storage is around 5000€, in most cases fully deductible from the total cloning cost.
-
-Contact us
-www.petcloning.eu`,
+Kind regards,
+Petcloning.eu`,
     buttonText: 'Send request',
     requestSuccess: 'Your request has been sent!',
     requestError:

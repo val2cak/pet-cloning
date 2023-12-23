@@ -4,6 +4,7 @@ export default {
     dog: 'Pas',
     cat: 'Mačka',
     horse: 'Konj',
+    other: 'Drugo',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Znanost',
     petCloningGuide: 'Vodič za kloniranje',
     qA: 'Pitanja i odgovori',
-    cloningNews: 'Vijesti o kloniranju',
+    cloningNews: 'Vijesti',
     contactUs: 'Kontaktirajte nas',
   },
   home: {
@@ -225,7 +226,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Vodič za Kloniranje Kućnih Ljubimaca',
-      subtitle: `Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac), obratite nam se kako biste dobili specifične savjete.`,
+      subtitle: `Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac),`,
+      subtitle_1: `kako biste dobili specifične savjete.`,
     },
     section2: {
       title: 'Za Ljubimce koji su Preminuli',
@@ -352,30 +354,18 @@ export default {
     petName: 'Ime ljubimca',
     animalType: 'Vrsta životinje',
     cloningInfo: 'Želim više informacija o kloniranju',
-    preservationInfo: 'Želim više informacija o očuvanju',
+    preservationInfo: 'Želim više informacija o očuvanju stanica',
     replySubject: 'Petcloning.eu - Potvrda upita',
-    replyText: `Hvala vam na upitu. Primili smo vaše informacije i uskoro ćemo vam se javiti.
+    replyText: `Hvala vam što ste nam se javili!
 
-Petcloning.eu
-Sve što trebate znati o kloniranju vašeg ljubimca.
-
-Što je kloniranje kućnih ljubimaca?
-Kloniranje kućnih ljubimaca je proces stvaranja genetski identičnog ljubimca iz originalnog.
-
-Kako funkcionira kloniranje?
-Za kloniranje je potrebna uzorak kože iz kojeg se prikupljaju žive stanice i uzgajaju kako bi prenijele svoj genetski materijal u jajnu stanicu donora koja će zatim rasti u surogat majci.
-
-Koliko košta kloniranje?
-Trenutne tržišne cijene za kloniranje mačaka i pasa iznose oko 50.000 €, a za konje 85.000 €.
+Ova e-poruka s automatskim odgovorom samo je da vas obavijestimo da smo primili vaš zahtjev i da će vam se netko iz našeg tima javiti što je prije moguće.
+    
+Tijekom radnog vremena to je obično unutar nekoliko sati.
+    
+U međuvremenu, ovdje ispod možete pronaći neke općenite informacije o kloniranju i očuvanju stanica koje vas zanimaju.
 ---------------------
-Što je očuvanje stanica?
-Očuvanje stanica je prvi korak kloniranja kućnih ljubimaca: rast i dugotrajno skladištenje živih stanica vašeg ljubimca. Može se obaviti dok je ljubimac još uvijek živ kako bi se povećala šansa za buduće kloniranje.
-
-Koliko košta očuvanje stanica?
-Ovisno o tome što je uključeno (ekstrakcija fibroblasta iz biopsije, uzgoj, neograničeno skladištenje, itd.), cijeli proces i skladištenje iznose oko 5000 €, u većini slučajeva potpuno odbitno od ukupnih troškova kloniranja.
-
-Kontaktirajte nas
-www.petcloning.eu`,
+Lijep pozdrav,
+Petcloning.eu`,
     buttonText: 'Pošalji upit',
     requestSuccess: 'Vaš zahtjev je poslan!',
     requestError:

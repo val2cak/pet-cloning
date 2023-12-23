@@ -5,7 +5,7 @@ import { MoonLoader } from 'react-spinners';
 import Button from '../../../../components/Button/Button';
 import Input from '../../../../components/Input/Input';
 import TextArea from '../../../../components/TextArea/TextArea';
-import { translate } from '../../../../locales/translate';
+import { locale, translate } from '../../../../locales/translate';
 import { sendEmail } from '../../../../utils/send-email';
 import { animalTypes } from '../../../../constants/AnimalTypes';
 import { FormData, Lookup } from '../../../../types/typeDefinitions';
@@ -48,7 +48,7 @@ const Form = () => {
 
   async function onSubmit(data: FormData) {
     try {
-      await sendEmail(data);
+      await sendEmail({ ...data, language: locale });
       reset();
       toast.success(requestSuccess);
     } catch (error) {

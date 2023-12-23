@@ -12,6 +12,7 @@ export interface FormData {
   cloningInfo: boolean;
   preservationInfo: boolean;
   message: string;
+  language: string;
 }
 
 export interface Navigation {
@@ -24,4 +25,10 @@ export interface Language {
   id: number;
   locale: string;
   name: string;
+}
+
+export interface Brochure {
+  language: string;
+  id: string;
+  code: string;
 }

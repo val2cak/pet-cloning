@@ -29,8 +29,7 @@ const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
               href={link.link}
               className={`w-fit text-light text-md font-medium ${
                 router.pathname === link.link ||
-                (router.pathname.includes('cloning-news') &&
-                  link.link === '/cloning-news')
+                (router.pathname.includes('news') && link.link === '/news')
                   ? 'opacity-100 border-b-2 pb-2 border-secondary flex justify-start items-start'
                   : 'opacity-50 hover:opacity-100'
               }`}

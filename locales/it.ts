@@ -4,6 +4,7 @@ export default {
     dog: 'Cane',
     cat: 'Gatto',
     horse: 'Cavallo',
+    other: 'Altro',
     petCloning: 'Petcloning.eu',
   },
   validations: {
@@ -18,7 +19,7 @@ export default {
     science: 'Scienza',
     petCloningGuide: 'Guida alla clonazione degli animali domestici',
     qA: 'Domande e risposte',
-    cloningNews: 'Notizie sulla clonazione',
+    cloningNews: 'Notizia',
     contactUs: 'Contattaci',
   },
   home: {
@@ -217,7 +218,8 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Guida alla Clonazione degli Animali Domestici',
-      subtitle: `Che tu stia pianificando per clonare il tuo animale domestico sano in futuro o che tu ti trovi nella situazione urgente della scomparsa di un animale domestico, comprendere e seguire le procedure corrette per la conservazione delle cellule è vitale. Questa guida mira a garantire che tu compia tutte le azioni necessarie per mantenere aperta l'opzione per la clonazione con i più alti tassi di successo possibili. In caso di situazioni urgenti (animale recentemente deceduto), contattaci per ottenere consigli più specifici.`,
+      subtitle: `Che tu stia pianificando per clonare il tuo animale domestico sano in futuro o che tu ti trovi nella situazione urgente della scomparsa di un animale domestico, comprendere e seguire le procedure corrette per la conservazione delle cellule è vitale. Questa guida mira a garantire che tu compia tutte le azioni necessarie per mantenere aperta l'opzione per la clonazione con i più alti tassi di successo possibili. In caso di situazioni urgenti (animale recentemente deceduto),`,
+      subtitle_1: `per ottenere consigli più specifici.`,
     },
     section2: {
       title: 'Per gli Animali Domestici Deceduti',
@@ -336,30 +338,19 @@ export default {
     petName: `Nome dell'animale domestico`,
     animalType: 'Tipo di animale',
     cloningInfo: 'Voglio ulteriori informazioni sulla clonazione',
-    preservationInfo: 'Voglio ulteriori informazioni sulla conservazione',
+    preservationInfo:
+      'Voglio ulteriori informazioni sulla conservazione delle cellule',
     replySubject: 'Petcloning.eu - Conferma richiesta',
-    replyText: `Grazie per la tua richiesta. Abbiamo ricevuto le tue informazioni e ti risponderemo presto.
+    replyText: `Grazie mille per avermi contattato!
 
-Petcloning.eu
-Tutto ciò che devi sapere sul clonare il tuo animale domestico.
-
-Cos'è il clonare degli animali domestici?
-Il clonare degli animali domestici è il processo di creare un animale geneticamente identico a partire da uno originale.
-
-Come funziona il clonare?
-Il clonare richiede un campione di pelle da cui vengono raccolte e coltivate le cellule vive per trasferire il loro materiale genetico in una cellula uovo donatrice che crescerà poi in una madre surrogata.
-
-Quanto costa il clonare?
-I prezzi di mercato attuali per clonare gatti e cani sono intorno a 50.000 € e 85.000 € per i cavalli.
+Questa email di risposta automatica serve solo per farti sapere che abbiamo ricevuto la tua richiesta e qualcuno del nostro team ti contatterà il prima possibile.
+    
+Durante l'orario lavorativo, di solito entro un paio d'ore.
+    
+Nel frattempo, puoi trovare alcune informazioni generali sulla clonazione e sulla conservazione delle cellule di tuo interesse qui sotto.
 ---------------------
-Cos'è la conservazione delle cellule?
-La conservazione delle cellule è il primo passo del clonare degli animali domestici: crescita e stoccaggio a lungo termine di cellule viventi del tuo animale. Può essere fatta mentre l'animale è ancora vivo per aumentare la possibilità di clonare in futuro.
-
-Quanto costa la conservazione delle cellule?
-A seconda di ciò che è incluso (estrazione di fibroblasti da biopsia, coltivazione, stoccaggio indefinito, ecc.), l'intero processo e lo stoccaggio ammontano a circa 5000 €, nella maggior parte dei casi completamente deducibili dal costo totale del clonare.
-
-Contattaci
-www.petcloning.eu`,
+Cordiali saluti,
+Petcloning.eu`,
     buttonText: 'Invia richiesta',
     requestSuccess: 'La tua richiesta è stata inviata!',
     requestError:

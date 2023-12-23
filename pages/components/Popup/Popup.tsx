@@ -1,5 +1,6 @@
 import { IoCloseOutline as CloseIcon } from 'react-icons/io5';
-import brochure from '../../../public/images/brochure.png';
+import { Brochures } from '../../../constants/Brochures';
+import { locale } from '../../../locales/translate';
 
 const Popup = ({ onClose }) => {
   const handleClickOutside = (event) => {
@@ -7,6 +8,10 @@ const Popup = ({ onClose }) => {
       onClose();
     }
   };
+
+  const brochure = Brochures.find((brochure) => brochure.language === locale);
+
+  const contentfulImageUrl = `https://images.ctfassets.net/${process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID}/${brochure.id}/${brochure.code}/Brochure.png`;
 
   return (
     <div
@@ -18,9 +23,9 @@ const Popup = ({ onClose }) => {
           <CloseIcon className='text-xl' />
         </button>
         <img
-          src={brochure.src}
+          src={contentfulImageUrl}
           alt='Brochure'
-          className='w-full sm:h-full h-screen'
+          className='sm:h-full h-screen'
         />
       </div>
     </div>

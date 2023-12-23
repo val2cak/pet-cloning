@@ -21,8 +21,8 @@ const Header: FC = () => {
         isMobileMenuOpen
           ? 'opacity-95'
           : router.pathname === '/science' ||
-            router.pathname === '/cloning-news' ||
-            router.pathname === '/cloning-news/[slug]'
+            router.pathname === '/news' ||
+            router.pathname === '/news/[slug]'
           ? 'opacity-100'
           : 'opacity-80'
       } ${router.pathname === '/' ? 'bg-transparent' : 'bg-primary'}`}
@@ -57,8 +57,7 @@ const Header: FC = () => {
                   href={link.link}
                   className={`text-light text-sm font-medium ${
                     router.pathname === link.link ||
-                    (router.pathname.includes('cloning-news') &&
-                      link.link === '/cloning-news')
+                    (router.pathname.includes('news') && link.link === '/news')
                       ? 'opacity-100 border-b-2 border-secondary flex justify-end items-start'
                       : 'opacity-50 hover:opacity-100'
                   }`}

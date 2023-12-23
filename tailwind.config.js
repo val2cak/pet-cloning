@@ -68,11 +68,11 @@ module.exports = {
       },
       fontSize: {
         xs: ['12px', { lineHeight: '1.5rem' }],
-        sm: ['14px', { lineHeight: '1.5rem' }],
-        base: ['16px', { lineHeight: '1.5rem' }],
-        md: ['18px', { lineHeight: '1.5rem' }],
-        lg: ['24px', { lineHeight: '2rem' }],
-        xl: ['32px', { lineHeight: '2rem' }],
+        sm: ['16px', { lineHeight: '1.5rem' }],
+        base: ['20px', { lineHeight: '1.5rem' }],
+        md: ['24px', { lineHeight: '1.5rem' }],
+        lg: ['32px', { lineHeight: '2rem' }],
+        xl: ['36px', { lineHeight: '2rem' }],
       },
       borderWidth: {
         default: '1px',

@@ -31,7 +31,7 @@ const Layout: FC<Props> = ({ children }) => {
   useEffect(() => {
     if (!hasVisited) {
       // Set the 'visited' cookie to true
-      Cookies.set('visited', 'true', { expires: 7 }); // expires in 7 days
+      Cookies.set('visited', 'true', { expires: 30 }); // expires in 30 days
       setShowModal(true);
     }
   }, [hasVisited]);
@@ -47,8 +47,7 @@ const Layout: FC<Props> = ({ children }) => {
         <Header />
         <main
           className={`sm:pb-56 pb-48 ${
-            (router.pathname === '/science' ||
-              router.pathname === '/cloning-news') &&
+            (router.pathname === '/science' || router.pathname === '/news') &&
             'pt-14'
           }`}
         >

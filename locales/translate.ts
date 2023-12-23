@@ -19,8 +19,12 @@ export const availableLocales = {
   ru,
 };
 
-export const defaultLocale = 'en';
+let defaultLocale = 'en';
 
-export const locale = getLocaleFromStorage() ?? 'en';
+if (typeof window !== 'undefined') {
+  defaultLocale = window.navigator.language.split('-')[0] || 'en';
+}
+
+export const locale = getLocaleFromStorage() ?? defaultLocale;
 
 export const translate = availableLocales[locale];

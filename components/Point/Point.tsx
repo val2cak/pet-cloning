@@ -19,7 +19,9 @@ const Point: FC<Props> = ({ icon, title, subtitle, color }) => {
         {title && (
           <span className='sm:text-sm text-base font-medium'>{title}</span>
         )}
-        <span className='text-xs font-light opacity-80'>{subtitle}</span>
+        <span className='sm:text-sm text-base font-light opacity-80'>
+          {subtitle}
+        </span>
       </div>
     </div>
   );
