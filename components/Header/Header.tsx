@@ -17,7 +17,7 @@ const Header: FC = () => {
 
   return (
     <header
-      className={`absolute top-0 left-0 right-0 sm:px-8 px-40 2xl:px-56 py-4 z-10 h-14 items-center ${
+      className={`absolute top-0 left-0 right-0 sm:px-8 px-40 2xl:px-56 py-3.5 z-10 h-14 items-center ${
         isMobileMenuOpen
           ? 'opacity-95'
           : router.pathname === '/science' ||
@@ -28,7 +28,7 @@ const Header: FC = () => {
       } ${router.pathname === '/' ? 'bg-transparent' : 'bg-primary'}`}
     >
       <div className='container mx-auto flex items-center justify-between'>
-        <Link href='/' className='text-light text-md font-bold uppercase'>
+        <Link href='/' className='text-light text-base font-bold uppercase'>
           {translate.common.petCloning}
         </Link>
 

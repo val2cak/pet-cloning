@@ -27,7 +27,8 @@ export default {
       title: 'Everything you need to know about cloning your pet',
     },
     section1: {
-      title: `Welcome to the possibility of pet cloning — a scientific achievement that allows pet owners to consider a future with a part of their current pet's legacy.`,
+      title:
+        "Welcome to the possibility of pet cloning — a scientific achievement that allows pet owners to consider a future with a part of their current pet's legacy.",
       subtitle: `In essence, pet cloning is the creation of a new pet with the same genetic makeup as the original. It's real, accessible, and done with attention to health and detail.
       The idea of having the same pet may sound like a dream, but it's an option available today. 
       
@@ -43,31 +44,37 @@ export default {
     },
     section2: {
       title: 'Why Cloning Your Pet?',
-      subtitle: `Choosing to clone a pet is a personal and often emotionally driven decision. It reflects a desire to maintain a physical bond beyond a pet's lifespan, coupled with an appreciation for the advances in science that make this possible. 
-      Below are some reasons that pet owners consider cloning.`,
+      subtitle:
+        "Choosing to clone a pet is a personal and often emotionally driven decision. It reflects a desire to maintain a physical bond beyond a pet's lifespan, coupled with an appreciation for the advances in science that make this possible. Below are some reasons that pet owners consider cloning.",
       point1: {
         title: 'Continuing the Bond',
-        subtitle: `For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's life experience.`,
+        subtitle:
+          "For many, pets are more than animals — they're family members. Cloning allows owners to retain a genetic continuation of their beloved pets, even though their original pet's personality and quirks are unique to each individual's life experience.",
       },
       point2: {
         title: 'Valued Characteristics',
-        subtitle: `Certain pets possess exceptional characteristics, whether it's their hereditary lineage, rare breed qualities, or competition-winning abilities. Cloning enables the preservation of these valuable genetic traits, particularly for award-winning racehorses, show dogs, or rare breeds.`,
+        subtitle:
+          "Certain pets possess exceptional characteristics, whether it's their hereditary lineage, rare breed qualities, or competition-winning abilities. Cloning enables the preservation of these valuable genetic traits, particularly for award-winning racehorses, show dogs, or rare breeds.",
       },
       point3: {
         title: 'Advances in Science',
-        subtitle: `The technology behind pet cloning is a testament to the progress in genetic science. It's a field that continues to grow and fascinate, providing insights into genetic preservation and reproduction.`,
+        subtitle:
+          "The technology behind pet cloning is a testament to the progress in genetic science. It's a field that continues to grow and fascinate, providing insights into genetic preservation and reproduction.",
       },
     },
     section3: {
       title: 'Steps of Pet Cloning and Cell Preservation',
-      subtitle: `If you are considering cloning your pet, or if you want to conserve its cells as a precaution in case you would like to clone it in the future, it involves a series of scientific steps that ensure a new pet with the same genetic makeup as your original companion. Here's a streamlined overview of how the process typically works.`,
+      subtitle:
+        "If you are considering cloning your pet, or if you want to conserve its cells as a precaution in case you would like to clone it in the future, it involves a series of scientific steps that ensure a new pet with the same genetic makeup as your original companion. Here's a streamlined overview of how the process typically works.",
       step1: {
         title: 'Tissue Sample Collection',
-        subtitle: `It starts with collecting a tissue sample from your pet. This is usually a skin sample, taken under a veterinarian's supervision, to ensure the cells are viable for cloning.`,
+        subtitle:
+          "It starts with collecting a tissue sample from your pet. This is usually a skin sample, taken under a veterinarian's supervision, to ensure the cells are viable for cloning.",
       },
       step2: {
         title: 'Cell Culturing',
-        subtitle: `The collected cells are then sent to a cell culture facility, where they are cultured to grow and multiply, creating a stable line of your pet's genetic material. The cells are then either stored indefinitely for cell preservation or directly sent to a cloning facility.`,
+        subtitle:
+          "The collected cells are then sent to a cell culture facility, where they are cultured to grow and multiply, creating a stable line of your pet's genetic material. The cells are then either stored indefinitely for cell preservation or directly sent to a cloning facility.",
       },
       step3: {
         title: 'Cell Preservation',
@@ -76,7 +83,8 @@ export default {
       },
       step4: {
         title: 'Egg Donor and Transfer',
-        subtitle: `The next step involves obtaining an egg from a donor animal. The genetic material of this egg is replaced with the DNA from your pet's cultured cells.`,
+        subtitle:
+          "The next step involves obtaining an egg from a donor animal. The genetic material of this egg is replaced with the DNA from your pet's cultured cells.",
       },
       step5: {
         title: 'Embryo Development',
@@ -95,34 +103,32 @@ export default {
       },
     },
     section4: {
-      text: `While the process is scientifically complex, the goal is 
-simple: to provide pet owners with the opportunity to
-extend the bond they have with their pets. 
+      text: `While the process is scientifically complex, the goal is simple: to provide pet owners with the opportunity to extend the bond they have with their pets. 
 
-Cloning doesn't replace the pet you lost but offers a 
-unique way to bring a part of them into the future with 
-you. 
+Cloning doesn't replace the pet you lost but offers a unique way to bring a part of them into the future with you. 
       
-Each step is carried out with precision, care, and 
-respect for the lives involved in this remarkable 
-journey.`,
+Each step is carried out with precision, care, and respect for the lives involved in this remarkable journey.`,
     },
   },
   science: {
     section1: {
       title: 'The Science Behind Pet Cloning',
-      subtitle: `Pet cloning is a form of reproductive cloning that involves creating a new animal with the same DNA as an existing or deceased animal. The scientific process used is called somatic cell nuclear transfer (SCNT). Here's how it works, broken down into understandable steps.`,
+      subtitle:
+        "Pet cloning is a form of reproductive cloning that involves creating a new animal with the same DNA as an existing or deceased animal. The scientific process used is called somatic cell nuclear transfer (SCNT). Here's how it works, broken down into understandable steps.",
       step1: {
         title: 'Somatic Cell Collection & Culture',
-        subtitle: `It begins with the cultivation of live somatic cells, which is any cell from the body except sperm and egg cells. In pet cloning, the cells used for cloning are usually fibroblasts taken from a fragment of skin and contain the pet's complete genetic information.`,
+        subtitle:
+          "It begins with the cultivation of live somatic cells, which is any cell from the body except sperm and egg cells. In pet cloning, the cells used for cloning are usually fibroblasts taken from a fragment of skin and contain the pet's complete genetic information.",
       },
       step2: {
         title: 'Cell Preservation',
-        subtitle: `If the cloning doesn't need to occur right away, cells are stored in liquid nitrogen (-196°C) and can remain stored for decades if needed. To start the cloning process, these frozen cells first need to be put back in culture.`,
+        subtitle:
+          "If the cloning doesn't need to occur right away, cells are stored in liquid nitrogen (-196°C) and can remain stored for decades if needed. To start the cloning process, these frozen cells first need to be put back in culture.",
       },
       step3: {
         title: 'Nuclear Transfer',
-        subtitle: `The nucleus, which houses DNA, is removed from the somatic cell. An egg cell is taken from a donor animal and its nucleus is removed to make room for the somatic cell's nucleus. This egg cell now contains the pet's DNA, essentially becoming a genetic copy.`,
+        subtitle:
+          "The nucleus, which houses DNA, is removed from the somatic cell. An egg cell is taken from a donor animal and its nucleus is removed to make room for the somatic cell's nucleus. This egg cell now contains the pet's DNA, essentially becoming a genetic copy.",
       },
       step4: {
         title: 'Electric Stimulation',
@@ -136,19 +142,21 @@ journey.`,
       },
       step6: {
         title: 'Implantation and Pregnancy',
-        subtitle: `The developed blastocyst is implanted into the surrogate's womb, where it continues to grow. If the implantation is successful, the surrogate becomes pregnant.`,
+        subtitle:
+          "The developed blastocyst is implanted into the surrogate's womb, where it continues to grow. If the implantation is successful, the surrogate becomes pregnant.",
       },
       step7: {
         title: 'Birth',
-        subtitle: `The surrogate carries the pregnancy to term 
-          and gives birth to the cloned pet.`,
+        subtitle:
+          'The surrogate carries the pregnancy to term and gives birth to the cloned pet.',
       },
-      conclusion: `Each cloned animal is a genetic duplicate of the original pet, meaning they share the same DNA. However, it's important to note that while the cloned pet, just like identical twins, will look very similar to the original, they may not act identically, as environment and upbringing also shape behaviuor and personality.`,
+      conclusion:
+        "Each cloned animal is a genetic duplicate of the original pet, meaning they share the same DNA. However, it's important to note that while the cloned pet, just like identical twins, will look very similar to the original, they may not act identically, as environment and upbringing also shape behaviuor and personality.",
     },
     section2: {
       title: 'History of Pet Cloning',
-      subtitle: `The history of pet cloning cannot be told without acknowledging the iconic sheep named Dolly. Born in 1996 at the Roslin Institute in Scotland, Dolly was the first mammal to be cloned from an adult somatic cell using nuclear transfer technology. Her successful creation demonstrated that specialized cells could be reprogrammed to create an entire organism, a discovery that broke scientific ground and launched the potential for cloning animals.
-      Post-Dolly, the technology has made remarkable strides.`,
+      subtitle:
+        'The history of pet cloning cannot be told without acknowledging the iconic sheep named Dolly. Born in 1996 at the Roslin Institute in Scotland, Dolly was the first mammal to be cloned from an adult somatic cell using nuclear transfer technology. Her successful creation demonstrated that specialized cells could be reprogrammed to create an entire organism, a discovery that broke scientific ground and launched the potential for cloning animals. Post-Dolly, the technology has made remarkable strides.',
       step1: {
         title: 'Early Milestones',
         subtitle: `1998 saw the cloning of mice, proving the technique could be extended beyond sheep.
@@ -157,11 +165,9 @@ journey.`,
       },
       step2: {
         title: 'Extending the Reach',
-        subtitle: `Dogs and Horses: The subsequent years saw the cloning of more complex animals in term of cloning. Dogs, which posed a significant challenge due to their unique reproductive cycle, were successfully cloned in 2005. Horses, too, were cloned, with implications for the preservation of elite equine genetics.`,
-      },
-      step2_1: {
-        title: '',
-        subtitle: `Livestock and Endangered Species: Efforts also moved toward livestock and endangered species, proving cloning's value in agriculture and conservation. Animals like pigs, cows, and even endangered species such as the gaur have been cloned, opening discussions about biodiversity and extinction prevention.`,
+        subtitle: `Dogs and Horses: The subsequent years saw the cloning of more complex animals in term of cloning. Dogs, which posed a significant challenge due to their unique reproductive cycle, were successfully cloned in 2005. Horses, too, were cloned, with implications for the preservation of elite equine genetics.
+          
+        Livestock and Endangered Species: Efforts also moved toward livestock and endangered species, proving cloning's value in agriculture and conservation. Animals like pigs, cows, and even endangered species such as the gaur have been cloned, opening discussions about biodiversity and extinction prevention.`,
       },
       step3: {
         title: 'Refining Techniques',
@@ -175,7 +181,8 @@ journey.`,
       },
       step5: {
         title: 'Current State',
-        subtitle: `Today, cloning is no longer just a theoretical possibility or a scientific experiment; it's a service available to those who choose it for their pets. While the ethical debates and regulatory frameworks continue to evolve, the fact remains that cloning technology has grown from a scientific wonder to a personal choice for pet owners around the globe. Both technology and price have evolved to make cloning a more accessible option and will continue to do so in the future.`,
+        subtitle:
+          "Today, cloning is no longer just a theoretical possibility or a scientific experiment; it's a service available to those who choose it for their pets. While the ethical debates and regulatory frameworks continue to evolve, the fact remains that cloning technology has grown from a scientific wonder to a personal choice for pet owners around the globe. Both technology and price have evolved to make cloning a more accessible option and will continue to do so in the future.",
       },
     },
     section3: {
@@ -194,7 +201,8 @@ journey.`,
       },
       step3: {
         title: 'Customization and Disease Prevention',
-        subtitle: `With the advancement in understanding the genetic basis of diseases, there's potential for cloned pets to be less susceptible to hereditary conditions, by screening and potentially modifying genes before cloning, ensuring a healthier life span for the resulting offspring.`,
+        subtitle:
+          "With the advancement in understanding the genetic basis of diseases, there's potential for cloned pets to be less susceptible to hereditary conditions, by screening and potentially modifying genes before cloning, ensuring a healthier life span for the resulting offspring.",
       },
       step4: {
         title: 'Ethical and Regulatory Development',
@@ -216,14 +224,16 @@ journey.`,
   petCloningGuide: {
     section1: {
       title: 'Pet Cloning Guide',
-      subtitle: `Whether you're planning ahead for cloning your healthy pet in the future or faced with the urgent situation of a pet's passing, understanding and following the correct procedures for cell preservation is vital. This guide aims to ensure you take all the necessary actions to keep the option for cloning open with the highest success rates possible. In case of urgent situation (pet deceased recently),`,
-      subtitle_1: `to get more specific advice.`,
+      subtitle:
+        "Whether you're planning ahead for cloning your healthy pet in the future or faced with the urgent situation of a pet's passing, understanding and following the correct procedures for cell preservation is vital. This guide aims to ensure you take all the necessary actions to keep the option for cloning open with the highest success rates possible. In case of urgent situation (pet deceased recently),",
+      subtitle_1: 'to get more specific advice.',
     },
     section2: {
       title: 'For Pets That Have Passed Away',
       point1: {
         title: 'Act Quickly and Keep Cool',
-        subtitle: `After your pet's passing, do not freeze their body or any collected tissues. Place the body or tissue in a cool environment (refrigerator temperatures of 2-4°C / 35.6-39.2°F) to slow cellular decay.`,
+        subtitle:
+          "After your pet's passing, do not freeze their body or any collected tissues. Place the body or tissue in a cool environment (refrigerator temperatures of 2-4°C / 35.6-39.2°F) to slow cellular decay.",
       },
       point2: {
         title: 'Seek Veterinary Assistance',
@@ -240,16 +250,18 @@ journey.`,
       title: 'For Cell Preservation from a Living Pet',
       point1: {
         title: 'Ideal Conditions',
-        subtitle: `If you decide to clone your pet while they are still alive, arranging a sterile skin biopsy under veterinary care is the best scenario. 
-        This minimizes stress on the cells and maximizes viability for cloning.`,
+        subtitle:
+          'If you decide to clone your pet while they are still alive, arranging a sterile skin biopsy under veterinary care is the best scenario. This minimizes stress on the cells and maximizes viability for cloning.',
       },
       point2: {
         title: 'Safe Storage and Transport',
-        subtitle: `Whether anticipating future cloning or acting after a loss, the collected sample must be kept at a consistent refrigerator 2-4°C, both in storage and during shipment to the cloning or cell cultivation facility.`,
+        subtitle:
+          'Whether anticipating future cloning or acting after a loss, the collected sample must be kept at a consistent refrigerator 2-4°C, both in storage and during shipment to the cloning or cell cultivation facility.',
       },
       point3: {
         title: 'Time is of the Essence',
-        subtitle: `The quicker a sample is secured and delivered to the cloning lab, the better the chances of successful cloning, whether from a living pet or one that has recently passed.`,
+        subtitle:
+          'The quicker a sample is secured and delivered to the cloning lab, the better the chances of successful cloning, whether from a living pet or one that has recently passed.',
       },
     },
     section4: {
@@ -274,127 +286,67 @@ journey.`,
     },
   },
   qA: {
-    title: 'Q&A',
+    title: 'Questions & Answers',
     q1: {
       title: 'What exactly is pet cloning?',
-      subtitle: `A: Pet cloning is the process of creating a 
-      genetically identical copy of an animal. This is 
-      achieved by taking a skin sample from the 
-      original animal (the donor), creating cultured 
-      cells, and then transferring the genetic material 
-      from those cells into an egg cell that has had its 
-      nucleus removed.`,
+      subtitle:
+        'A: Pet cloning is the process of creating a genetically identical copy of an animal. This is achieved by taking a skin sample from the original animal (the donor), creating cultured cells, and then transferring the genetic material from those cells into an egg cell that has had its nucleus removed.',
     },
     q2: {
-      title: `How much does it cost to clone a 
-      pet?`,
-      subtitle: `A: Cloning costs can be substantial, reflecting 
-      the complex science involved. Currently, cloning 
-      a cat or dog can cost around €50,000, while a 
-      horse may cost up to €85,000.`,
+      title: 'How much does it cost to clone a pet?',
+      subtitle:
+        'A: Cloning costs can be substantial, reflecting the complex science involved. Currently, cloning a cat or dog can cost around €50,000, while a horse may cost up to €85,000.',
     },
     q3: {
       title: 'What is the point of Cell Conservation?',
-      subtitle: `A: Cell conservation is like an insurance that you 
-      will be able to clone your pet in the future if you 
-      ever chose to. Deciding to clone a pet when this 
-      one just pass away can be a stressful scenario 
-      and the risk of making mistake or being in a 
-      situation which lead to the impossibility of 
-      cloning is quite high.With Cell Conservation, you 
-      can prepare for a potential cloning in all safety 
-      and if there is any problem, it is still possible to 
-      do it again.`,
+      subtitle:
+        'A: Cell conservation is like an insurance that you will be able to clone your pet in the future if you ever chose to. Deciding to clone a pet when this one just pass away can be a stressful scenario and the risk of making mistake or being in a situation which lead to the impossibility of cloning is quite high.With Cell Conservation, you can prepare for a potential cloning in all safety and if there is any problem, it is still possible to do it again.',
     },
     q4: {
-      title: `What do I need to do if my pet has 
-      just died and I'm considering 
-      cloning?`,
-      subtitle: `A: It's crucial to prevent the body or any tissue 
-      from freezing and keep it refrigerated instead. 
-      Contact a veterinarian immediately to collect a 
-      tissue sample in a sterile medium, and then get 
-      in touch with us for further instructions on 
-      storage and transportation.`,
+      title:
+        "What do I need to do if my pet has just died and I'm considering cloning?",
+      subtitle:
+        "A: It's crucial to prevent the body or any tissue from freezing and keep it refrigerated instead. Contact a veterinarian immediately to collect a tissue sample in a sterile medium, and then get in touch with us for further instructions on storage and transportation.",
     },
     q5: {
-      title: `Can I clone an animal that has 
-      been deceased for a long time?`,
-      subtitle: `A: Successful cloning requires a high-quality 
-      genetic sample. Once an animal has been 
-      deceased for an extended period, the DNA 
-      degradation makes cloning less likely. It's best to 
-      begin the process as soon as possible after 
-      death. Usually, if the pet has been dead for a 
-      week or more and not conserved at 4 degree, it 
-      cannot be cloned. If conserved at 4 degree right 
-      after death, a pet can be cloned up to 3 weeks 
-      after death.`,
+      title: 'Can I clone an animal that has been deceased for a long time?',
+      subtitle:
+        "A: Successful cloning requires a high-quality genetic sample. Once an animal has been deceased for an extended period, the DNA degradation makes cloning less likely. It's best to begin the process as soon as possible after death. Usually, if the pet has been dead for a week or more and not conserved at 4 degree, it cannot be cloned. If conserved at 4 degree right after death, a pet can be cloned up to 3 weeks after death.",
     },
     q6: {
-      title: `Why shouldn't I freeze my pet's 
-      body if I want to clone it? `,
-      subtitle: `A: Freezing can damage the cell structure and 
-      the DNA inside, which is necessary for cloning. 
-      Keeping the sample refrigerated preserves the 
-      cells and DNA integrity, increasing the chances 
-      of successful cloning.`,
+      title: "Why shouldn't I freeze my pet's body if I want to clone it? ",
+      subtitle:
+        'A: Freezing can damage the cell structure and the DNA inside, which is necessary for cloning. Keeping the sample refrigerated preserves the cells and DNA integrity, increasing the chances of successful cloning.',
     },
     q7: {
-      title: `Can I clone my pet from a hair 
-      sample?`,
-      subtitle: `A: No, there are no method of cloning from a 
-      hair. DNA alone is not enough for cloning 
-      because cloning requires nucleus transfer so 
-      live cells (usually from skin) are required.`,
+      title: 'Can I clone my pet from a hair sample?',
+      subtitle:
+        'A: No, there are no method of cloning from a hair. DNA alone is not enough for cloning because cloning requires nucleus transfer so live cells (usually from skin) are required.',
     },
     q8: {
-      title: `Can my cloned pet have the same 
-      personality as my original pet?`,
-      subtitle: `A: While a cloned pet will have the same genetic 
-      makeup as your original pet, personality traits 
-      are influenced by both genetics and 
-      environment. Therefore, the cloned animal may 
-      have similar predispositions but will develop its 
-      own unique personality through its individual 
-      experiences.`,
+      title: 'Can my cloned pet have the same personality as my original pet?',
+      subtitle:
+        'A: While a cloned pet will have the same genetic makeup as your original pet, personality traits are influenced by both genetics and environment. Therefore, the cloned animal may have similar predispositions but will develop its own unique personality through its individual experiences.',
     },
     q9: {
       title: 'Is pet cloning safe?',
-      subtitle: `A: Cloning processes have improved 
-        significantly over time and are carried out with 
-        high standards of veterinary care. However, like 
-        any biological process, there are inherent risks 
-        and variable success rates.`,
+      subtitle:
+        'A: Cloning processes have improved significantly over time and are carried out with high standards of veterinary care. However, like any biological process, there are inherent risks and variable success rates.',
     },
     q10: {
-      title: `What is the success rate for pet 
-      cloning?`,
-      subtitle: `A: Success rates for cloning vary depending on 
-      the condition and handling of the genetic 
-      sample, the cloning techniques used, and the 
-      individual animal. The quality of the DNA and 
-      rapid initiation of the process are key factors.`,
+      title: 'What is the success rate for pet cloning?',
+      subtitle:
+        'A: Success rates for cloning vary depending on the condition and handling of the genetic sample, the cloning techniques used, and the individual animal. The quality of the DNA and rapid initiation of the process are key factors.',
     },
     q11: {
-      title: `How do I transport my pet's sample 
-      to a cloning facility? `,
-      subtitle: `A: If you want to clone your pet, fill the contact 
-      form and we will give you all the details on how 
-      to send your pet skin sample to the cell culture 
-      facility.`,
+      title: "How do I transport my pet's sample to a cloning facility? ",
+      subtitle:
+        'A: If you want to clone your pet, fill the contact form and we will give you all the details on how to send your pet skin sample to the cell culture facility.',
     },
     q12: {
       title: 'Is pet cloning legal in Europe?',
-      subtitle: `A: in EU, only cloning of animals for consumption 
-      such as cattle is regulated. Pet cloning is not 
-      defined as illegal by EU. Each European country 
-      may have different regulation on the topic but 
-      for most of them there is simply no regulation. 
-      Cloning of a pet abroad and getting it back to 
-      your country would be without any legal 
-      problem as only cloning itself is regulated, not 
-      the fact of owning a cloned animal.`,
+      subtitle:
+        'A: in EU, only cloning of animals for consumption such as cattle is regulated. Pet cloning is not defined as illegal by EU. Each European country may have different regulation on the topic but for most of them there is simply no regulation. Cloning of a pet abroad and getting it back to your country would be without any legal problem as only cloning itself is regulated, not the fact of owning a cloned animal.',
     },
   },
   contactUs: {
@@ -403,7 +355,7 @@ journey.`,
     phoneMobile: 'Phone / Mobile',
     email: 'Email',
     message: 'Message',
-    petName: `Pet's name`,
+    petName: "Pet's name",
     animalType: 'Type of animal',
     cloningInfo: 'I want more info on cloning',
     preservationInfo: 'I want more info on cell preservation',

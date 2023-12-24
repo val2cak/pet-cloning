@@ -11,7 +11,7 @@ const Section4 = () => {
 
   return (
     <div className='w-full sm:px-8 px-40 2xl:px-56 sm:pb-8 pb-16 text-dark flex flex-col gap-6'>
-      <div className='font-medium sm:text-md text-lg leading-6'>{title}</div>
+      <div className='font-medium text-md leading-6'>{title}</div>
       <div className='grid grid-cols-3 sm:grid-cols-1 sm:gap-6 gap-8'>
         <Point
           title={point1.title}
