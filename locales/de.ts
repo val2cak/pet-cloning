@@ -20,7 +20,7 @@ export default {
     petCloningGuide: 'Haustier-Klonleitfaden',
     qA: 'F&A',
     cloningNews: 'Nachricht',
-    contactUs: 'Kontaktiere uns',
+    contactUs: 'Kontakt',
   },
   home: {
     cover: {

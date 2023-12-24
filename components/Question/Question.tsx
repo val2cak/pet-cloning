@@ -17,7 +17,7 @@ const Question: FC<Props> = ({ icon, title, subtitle, color }) => {
   return (
     <div
       className={`flex items-start gap-3 sm:whitespace-normal whitespace-pre-line ${
-        color ? color : 'text-light border-light border-opacity-50'
+        color ? color : 'text-light border-light border-opacity-30'
       } rounded-lg px-4 ${
         isSubtitleVisible ? 'py-7' : 'py-4'
       } border shadow-md transition-all duration-300 ease-in-out cursor-pointer`}

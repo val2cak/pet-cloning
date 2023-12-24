@@ -18,9 +18,9 @@ export default {
     home: 'Naslovna',
     science: 'Znanost',
     petCloningGuide: 'Vodič za kloniranje',
-    qA: 'Pitanja i odgovori',
+    qA: 'P&O',
     cloningNews: 'Vijesti',
-    contactUs: 'Kontaktirajte nas',
+    contactUs: 'Kontakt',
   },
   home: {
     cover: {
@@ -285,7 +285,7 @@ export default {
     },
   },
   qA: {
-    title: 'Pitanja i Odgovori',
+    title: 'Pitanja & Odgovori',
     q1: {
       title: 'Što točno znači kloniranje kućnih ljubimaca?',
       subtitle:

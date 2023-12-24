@@ -18,7 +18,7 @@ export default {
     home: 'Home',
     science: 'Scienza',
     petCloningGuide: 'Guida alla clonazione',
-    qA: 'Domande e risposte',
+    qA: 'D&R',
     cloningNews: 'Notizia',
     contactUs: 'Contattaci',
   },
@@ -296,7 +296,7 @@ export default {
     },
   },
   qA: {
-    title: 'Domande e Risposte',
+    title: 'Domande & Risposte',
     q1: {
       title: 'Cosa significa esattamente clonare un animale domestico?',
       subtitle:

@@ -290,7 +290,7 @@ Each step is carried out with precision, care, and respect for the lives involve
     },
   },
   qA: {
-    title: 'Q&A',
+    title: 'Questions & Answers',
     q1: {
       title: 'What exactly is pet cloning?',
       subtitle:

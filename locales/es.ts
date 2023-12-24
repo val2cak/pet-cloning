@@ -18,7 +18,7 @@ export default {
     home: 'Inicio',
     science: 'Ciencia',
     petCloningGuide: 'Guía de clonación',
-    qA: 'Preguntas y respuestas',
+    qA: 'P&R',
     cloningNews: 'Noticias',
     contactUs: 'Contáctenos',
   },
@@ -291,7 +291,7 @@ export default {
     },
   },
   qA: {
-    title: 'Preguntas y Respuestas',
+    title: 'Preguntas & Respuestas',
     q1: {
       title: '¿Qué es exactamente la clonación de mascotas?',
       subtitle:

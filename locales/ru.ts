@@ -18,9 +18,9 @@ export default {
     home: 'Главная',
     science: 'Наука',
     petCloningGuide: 'Руководство по клонированию',
-    qA: 'Вопросы и ответы',
+    qA: 'ВиO',
     cloningNews: 'Новости',
-    contactUs: 'Свяжитесь с нами',
+    contactUs: 'Контакт',
   },
   home: {
     cover: {
@@ -290,7 +290,7 @@ export default {
     },
   },
   qA: {
-    title: 'Вопросы и ответы',
+    title: 'Вопросы и Oтветы',
     q1: {
       title: 'Что такое клонирование домашних животных?',
       subtitle:

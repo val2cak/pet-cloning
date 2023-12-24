@@ -18,9 +18,9 @@ export default {
     home: 'Accueil',
     science: 'Science',
     petCloningGuide: 'Guide du clonage',
-    qA: 'Questions-réponses',
+    qA: 'Q&R',
     cloningNews: 'Nouvelles',
-    contactUs: 'Contactez-nous',
+    contactUs: 'Contact',
   },
   home: {
     cover: {
@@ -289,7 +289,7 @@ Chaque étape est réalisée avec précision, soin et respect pour les vies impl
     },
   },
   qA: {
-    title: 'Q&R',
+    title: 'Questions & Réponses',
     q1: {
       title: "Qu'est-ce que le clonage d'animaux de compagnie?",
       subtitle:

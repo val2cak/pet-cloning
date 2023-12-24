@@ -20,7 +20,7 @@ export default {
     petCloningGuide: 'Gids voor huisdierklonen',
     qA: 'V&A',
     cloningNews: 'Nyheder',
-    contactUs: 'Contact met ons opnemen',
+    contactUs: 'Contact',
   },
   home: {
     cover: {
@@ -290,7 +290,7 @@ export default {
     },
   },
   qA: {
-    title: 'Vraag en Antwoord',
+    title: 'Vraag & Antwoord',
     q1: {
       title: 'Wat is precies het klonen van huisdieren?',
       subtitle:
