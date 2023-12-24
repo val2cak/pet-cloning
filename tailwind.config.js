@@ -67,12 +67,12 @@ module.exports = {
         10: '4.0rem',
       },
       fontSize: {
-        xs: ['12px', { lineHeight: '1.5rem' }],
-        sm: ['16px', { lineHeight: '1.5rem' }],
-        base: ['20px', { lineHeight: '1.5rem' }],
-        md: ['24px', { lineHeight: '1.5rem' }],
-        lg: ['32px', { lineHeight: '2rem' }],
-        xl: ['36px', { lineHeight: '2rem' }],
+        xs: ['12px'],
+        sm: ['16px'],
+        base: ['20px'],
+        md: ['24px'],
+        lg: ['32px'],
+        xl: ['36px'],
       },
       borderWidth: {
         default: '1px',

@@ -10,8 +10,8 @@ const Section2 = () => {
 
   return (
     <div className='w-full h-fit flex sm:flex-col lg:flex-col flex-row'>
-      <div className='sm:w-full lg:w-full w-1/2 sm:pl-8 pl-40 2xl:pl-56 sm:py-8 py-16 sm:pr-8 pr-24 bg-primary flex flex-col sm:gap-6 gap-8'>
-        <div className='text-dark sm:text-md text-lg font-medium'>{title}</div>
+      <div className='sm:w-full lg:w-full w-1/2 sm:pl-8 pl-40 2xl:pl-56 sm:py-8 py-16 sm:pr-8 pr-24 bg-primary flex flex-col gap-6'>
+        <div className='text-dark text-md font-medium'>{title}</div>
         <div className='text-light sm:text-sm text-base font-medium'>
           {subtitle}
         </div>

@@ -11,7 +11,7 @@ const Section2 = () => {
   return (
     <div className='w-full h-fit flex sm:flex-col lg:flex-col flex-row'>
       <div className='sm:w-full lg:w-full w-1/2 sm:pl-8 pl-40 2xl:pl-56 sm:py-8 py-16 sm:pr-8 pr-24 bg-primary flex flex-col sm:gap-6 gap-8'>
-        <div className='text-dark sm:text-md text-lg font-medium'>{title}</div>
+        <div className='text-dark text-md font-medium'>{title}</div>
         <div className='flex flex-col lg:flex-row lg:flex-wrap sm:gap-6 gap-8'>
           <Point
             title={point1.title}

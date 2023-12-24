@@ -19,14 +19,14 @@ const Card: FC<Props> = ({ image, title, subtitle, link }) => {
         className='w-[16.876rem] h-[12.5rem] sm:w-full'
         alt={title}
       />
-      <div className='flex flex-col items-start gap-4'>
+      <div className='flex flex-col items-start gap-1'>
         <span className='text-base font-medium'>{title}</span>
-        <span className='sm:text-sm text-base font-light opacity-80'>
+        <span className='sm:text-sm text-base leading-4 font-light opacity-60'>
           {subtitle}
         </span>
         {link && (
           <Link
-            className='text-sm font-medium uppercase flex gap-2 items-center'
+            className='text-base font-medium uppercase flex gap-2 items-center'
             href={link}
           >
             {translate.common.learnMore}
