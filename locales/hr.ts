@@ -100,15 +100,11 @@ export default {
       },
     },
     section4: {
-      text: `Iako je proces znanstveno složen, cilj je jednostavan: 
-      omogućiti vlasnicima ljubimaca priliku da produlje vezu 
-      koju imaju sa svojim ljubimcima. 
+      text: `Iako je proces znanstveno složen, cilj je jednostavan: omogućiti vlasnicima ljubimaca priliku da produlje vezu koju imaju sa svojim ljubimcima. 
       
-      Kloniranje ne zamjenjuje ljubimca kojeg ste izgubili, 
-      već nudi jedinstven način da dio njih unesete u budućnost s vama. 
+      Kloniranje ne zamjenjuje ljubimca kojeg ste izgubili, već nudi jedinstven način da dio njih unesete u budućnost s vama. 
       
-      Svaki korak izvodi se s preciznošću, brigom i poštovanjem 
-      prema životima uključenim u ovaj izvanredan put.`,
+      Svaki korak izvodi se s preciznošću, brigom i poštovanjem prema životima uključenim u ovaj izvanredan put.`,
     },
   },
   science: {
@@ -204,7 +200,8 @@ export default {
       },
       step3: {
         title: 'Prilagodba i Prevencija Bolesti',
-        subtitle: `S napretkom u razumijevanju genetske osnove bolesti, postoji potencijal da klonirani kućni ljubimci budu manje osjetljivi na nasljedne uvjete, provjerom i potencijalnom izmjenom gena prije kloniranja, osiguravajući zdraviji životni vijek rezultirajućeg potomstva.`,
+        subtitle:
+          'S napretkom u razumijevanju genetske osnove bolesti, postoji potencijal da klonirani kućni ljubimci budu manje osjetljivi na nasljedne uvjete, provjerom i potencijalnom izmjenom gena prije kloniranja, osiguravajući zdraviji životni vijek rezultirajućeg potomstva.',
       },
       step4: {
         title: 'Etički i Regulativni Razvoj',
@@ -226,14 +223,16 @@ export default {
   petCloningGuide: {
     section1: {
       title: 'Vodič za Kloniranje Kućnih Ljubimaca',
-      subtitle: `Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac),`,
-      subtitle_1: `kako biste dobili specifične savjete.`,
+      subtitle:
+        'Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac),',
+      subtitle_1: 'kako biste dobili specifične savjete.',
     },
     section2: {
       title: 'Za Ljubimce koji su Preminuli',
       point1: {
         title: 'Djelujte Brzo i Održavajte Hladnoću',
-        subtitle: `Nakon smrti vašeg ljubimca, nemojte zamrzavati tijelo ili prikupljene tkiva. Stavite tijelo ili tkivo u hladno okruženje (temperatura hladnjaka od 2-4°C / 35,6-39,2°F) kako biste usporili propadanje stanica.`,
+        subtitle:
+          'Nakon smrti vašeg ljubimca, nemojte zamrzavati tijelo ili prikupljene tkiva. Stavite tijelo ili tkivo u hladno okruženje (temperatura hladnjaka od 2-4°C / 35,6-39,2°F) kako biste usporili propadanje stanica.',
       },
       point2: {
         title: 'Potražite Veterinarsku Pomoć',
@@ -250,15 +249,18 @@ export default {
       title: 'Za Očuvanje Stanica od Živog Ljubimca',
       point1: {
         title: 'Idealni Uvjeti',
-        subtitle: `Ako odlučite klonirati svog ljubimca dok je još živ, organiziranje sterilne biopsije kože pod veterinarskim nadzorom najbolji je scenarij. To smanjuje stres na stanicama i maksimizira njihovu održivost za kloniranje.`,
+        subtitle:
+          'Ako odlučite klonirati svog ljubimca dok je još živ, organiziranje sterilne biopsije kože pod veterinarskim nadzorom najbolji je scenarij. To smanjuje stres na stanicama i maksimizira njihovu održivost za kloniranje.',
       },
       point2: {
         title: 'Sigurno Skladištenje i Transport',
-        subtitle: `Bilo da očekujete buduće kloniranje ili djelujete nakon gubitka, prikupljeni uzorak mora se čuvati na konstantnoj temperaturi hladnjaka od 2-4°C, kako tijekom skladištenja tako i tijekom otpreme klonirnom ili uzgojnom objektu.`,
+        subtitle:
+          'Bilo da očekujete buduće kloniranje ili djelujete nakon gubitka, prikupljeni uzorak mora se čuvati na konstantnoj temperaturi hladnjaka od 2-4°C, kako tijekom skladištenja tako i tijekom otpreme klonirnom ili uzgojnom objektu.',
       },
       point3: {
         title: 'Vrijeme je Ključno',
-        subtitle: `Što je brže uzorak osiguran i dostavljen klonirnom laboratoriju, to su bolje šanse za uspješno kloniranje, bilo da je riječ o živom ljubimcu ili onom koji je nedavno preminuo.`,
+        subtitle:
+          'Što je brže uzorak osiguran i dostavljen klonirnom laboratoriju, to su bolje šanse za uspješno kloniranje, bilo da je riječ o živom ljubimcu ili onom koji je nedavno preminuo.',
       },
     },
     section4: {
@@ -286,63 +288,67 @@ export default {
     title: 'Pitanja i Odgovori',
     q1: {
       title: 'Što točno znači kloniranje kućnih ljubimaca?',
-      subtitle: `O: Kloniranje kućnih ljubimaca je proces stvaranja genetski identične kopije životinje. To se postiže uzimanjem uzorka kože od originalne životinje (donora), stvaranjem uzgojenih stanica, a zatim prijenosom genetskog materijala iz tih stanica u jajašce koje je imalo uklonjen jezgru.`,
+      subtitle:
+        'O: Kloniranje kućnih ljubimaca je proces stvaranja genetski identične kopije životinje. To se postiže uzimanjem uzorka kože od originalne životinje (donora), stvaranjem uzgojenih stanica, a zatim prijenosom genetskog materijala iz tih stanica u jajašce koje je imalo uklonjen jezgru.',
     },
     q2: {
-      title: `Koliko košta kloniranje 
-      ljubimca?`,
-      subtitle: `O: Troškovi kloniranja mogu biti značajni, odražavajući složenu znanost uključenu u postupak. Trenutno, kloniranje mačke ili psa može koštati oko €50,000, dok konj može koštati do €85,000.`,
+      title: 'Koliko košta kloniranje ljubimca?',
+      subtitle:
+        'O: Troškovi kloniranja mogu biti značajni, odražavajući složenu znanost uključenu u postupak. Trenutno, kloniranje mačke ili psa može koštati oko €50,000, dok konj može koštati do €85,000.',
     },
     q3: {
       title: 'Koja je svrha Očuvanja Stanica?',
-      subtitle: `O: Očuvanje stanica je poput osiguranja da ćete moći klonirati svog ljubimca u budućnosti ako se ikada odlučite. Odlučivanje o kloniranju ljubimca kad ovaj upravo premine može biti stresna situacija, a rizik od pogreške ili situacije koja vodi nemogućnosti kloniranja prilično je visok. S očuvanjem stanica možete se pripremiti za potencijalno kloniranje u potpunoj sigurnosti, a ako dođe do problema, još uvijek je moguće pokušati ponovno.`,
+      subtitle:
+        'O: Očuvanje stanica je poput osiguranja da ćete moći klonirati svog ljubimca u budućnosti ako se ikada odlučite. Odlučivanje o kloniranju ljubimca kad ovaj upravo premine može biti stresna situacija, a rizik od pogreške ili situacije koja vodi nemogućnosti kloniranja prilično je visok. S očuvanjem stanica možete se pripremiti za potencijalno kloniranje u potpunoj sigurnosti, a ako dođe do problema, još uvijek je moguće pokušati ponovno.',
     },
     q4: {
-      title: `Što trebam učiniti ako je moj 
-      ljubimac upravo preminuo i razmišljam 
-      o kloniranju?`,
-      subtitle: `O: Ključno je spriječiti smrzavanje tijela ili bilo kojeg tkiva i umjesto toga ga držati u hladnjaku. Odmah kontaktirajte veterinara kako biste prikupili uzorak tkiva u sterilnom mediju, a zatim se obratite nama za daljnje upute o pohrani i transportu.`,
+      title:
+        'Što trebam učiniti ako je moj ljubimac upravo preminuo i razmišljam o kloniranju?',
+      subtitle:
+        'O: Ključno je spriječiti smrzavanje tijela ili bilo kojeg tkiva i umjesto toga ga držati u hladnjaku. Odmah kontaktirajte veterinara kako biste prikupili uzorak tkiva u sterilnom mediju, a zatim se obratite nama za daljnje upute o pohrani i transportu.',
     },
     q5: {
-      title: `Mogu li klonirati životinju koja 
-      je već dugo preminula?`,
-      subtitle: `O: Uspješno kloniranje zahtijeva uzorak visoke kvalitete. Nakon što životinja već duže vrijeme preminula, razgradnja DNA čini kloniranje manje vjerojatnim. Najbolje je započeti postupak što je prije moguće nakon smrti. Obično, ako je ljubimac mrtav tjedan ili više, a nije očuvan na 4 stupnja, ne može biti kloniran. Ako je odmah nakon smrti očuvan na 4 stupnja, ljubimca se može klonirati do 3 tjedna nakon smrti.`,
+      title: 'Mogu li klonirati životinju koja je već dugo preminula?',
+      subtitle:
+        'O: Uspješno kloniranje zahtijeva uzorak visoke kvalitete. Nakon što životinja već duže vrijeme preminula, razgradnja DNA čini kloniranje manje vjerojatnim. Najbolje je započeti postupak što je prije moguće nakon smrti. Obično, ako je ljubimac mrtav tjedan ili više, a nije očuvan na 4 stupnja, ne može biti kloniran. Ako je odmah nakon smrti očuvan na 4 stupnja, ljubimca se može klonirati do 3 tjedna nakon smrti.',
     },
     q6: {
-      title: `Zašto ne bih smrznuo tijelo 
-      svog ljubimca ako ga želim 
-      klonirati? `,
-      subtitle: `O: Smrzavanje može oštetiti strukturu stanica i DNA unutar njih, što je potrebno za kloniranje. Čuvanje uzorka u hladnjaku očuva integritet stanica i DNA, povećavajući šanse za uspješno kloniranje.`,
+      title:
+        'Zašto ne bih smrznuo tijelo svog ljubimca ako ga želim klonirati? ',
+      subtitle:
+        'O: Smrzavanje može oštetiti strukturu stanica i DNA unutar njih, što je potrebno za kloniranje. Čuvanje uzorka u hladnjaku očuva integritet stanica i DNA, povećavajući šanse za uspješno kloniranje.',
     },
     q7: {
-      title: `Mogu li klonirati svog ljubimca 
-      pomoću uzorka kose?`,
-      subtitle: `O: Ne, ne postoji metoda kloniranja iz dlake. DNA sama nije dovoljna za kloniranje jer kloniranje zahtijeva transfer jezgre pa su potrebne žive stanice (obično iz kože).`,
+      title: 'Mogu li klonirati svog ljubimca pomoću uzorka kose?',
+      subtitle:
+        'O: Ne, ne postoji metoda kloniranja iz dlake. DNA sama nije dovoljna za kloniranje jer kloniranje zahtijeva transfer jezgre pa su potrebne žive stanice (obično iz kože).',
     },
     q8: {
-      title: `Može li moj klonirani ljubimac 
-      imati istu osobnost kao moj 
-      izvorni ljubimac?`,
-      subtitle: `O: Iako će klonirani ljubimac imati isti genetski sastav kao vaš izvorni ljubimac, osobnost je utjecana i genetikom i okolinom. Stoga će klonirana životinja možda imati slične predispozicije, ali će razviti vlastitu jedinstvenu osobnost kroz svoja individualna iskustva.`,
+      title:
+        'Može li moj klonirani ljubimac imati istu osobnost kao moj izvorni ljubimac?',
+      subtitle:
+        'O: Iako će klonirani ljubimac imati isti genetski sastav kao vaš izvorni ljubimac, osobnost je utjecana i genetikom i okolinom. Stoga će klonirana životinja možda imati slične predispozicije, ali će razviti vlastitu jedinstvenu osobnost kroz svoja individualna iskustva.',
     },
     q9: {
       title: 'Je li kloniranje kućnih ljubimaca sigurno?',
-      subtitle: `O: Procesi kloniranja značajno su poboljšani tijekom vremena i provode se uz visoke standarde veterinarske skrbi. Međutim, poput svakog biološkog procesa, postoje inherentni rizici i varijabilne stope uspjeha.`,
+      subtitle:
+        'O: Procesi kloniranja značajno su poboljšani tijekom vremena i provode se uz visoke standarde veterinarske skrbi. Međutim, poput svakog biološkog procesa, postoje inherentni rizici i varijabilne stope uspjeha.',
     },
     q10: {
-      title: `Koja je stopa uspjeha za kloniranje 
-      kućnih ljubimaca?`,
-      subtitle: `O: Stope uspjeha kloniranja variraju ovisno o stanju i postupanju s genetskim uzorkom, korištenim tehnikama kloniranja i pojedinačnoj životinji. Kvaliteta DNA i brzo pokretanje procesa ključni su faktori.`,
+      title: 'Koja je stopa uspjeha za kloniranje kućnih ljubimaca?',
+      subtitle:
+        'O: Stope uspjeha kloniranja variraju ovisno o stanju i postupanju s genetskim uzorkom, korištenim tehnikama kloniranja i pojedinačnoj životinji. Kvaliteta DNA i brzo pokretanje procesa ključni su faktori.',
     },
     q11: {
-      title: `Kako prenijeti uzorak svog 
-      ljubimca do postrojenja za 
-      kloniranje? `,
-      subtitle: `O: Ako želite klonirati svog ljubimca, ispunite kontaktni obrazac i mi ćemo vam pružiti sve pojedinosti o tome kako poslati uzorak kože svog ljubimca do postrojenja za uzgoj stanica.`,
+      title:
+        'Kako prenijeti uzorak svog ljubimca do postrojenja za kloniranje? ',
+      subtitle:
+        'O: Ako želite klonirati svog ljubimca, ispunite kontaktni obrazac i mi ćemo vam pružiti sve pojedinosti o tome kako poslati uzorak kože svog ljubimca do postrojenja za uzgoj stanica.',
     },
     q12: {
       title: 'Je li kloniranje kućnih ljubimaca legalno u Europi?',
-      subtitle: `O: U EU-u, samo je kloniranje životinja za konzumaciju, poput stoke, regulirano. Kloniranje kućnih ljubimaca nije definirano kao ilegalno od strane EU-a. Svaka europska zemlja može imati različite regulacije o ovom pitanju, ali za većinu njih jednostavno nema regulacije. Kloniranje ljubimca u inozemstvu i vraćanje u vašu zemlju bilo bi bez ikakvih pravnih problema jer je regulirano samo kloniranje, a ne čin posjedovanja kloniranog životinje.`,
+      subtitle:
+        'O: U EU-u, samo je kloniranje životinja za konzumaciju, poput stoke, regulirano. Kloniranje kućnih ljubimaca nije definirano kao ilegalno od strane EU-a. Svaka europska zemlja može imati različite regulacije o ovom pitanju, ali za većinu njih jednostavno nema regulacije. Kloniranje ljubimca u inozemstvu i vraćanje u vašu zemlju bilo bi bez ikakvih pravnih problema jer je regulirano samo kloniranje, a ne čin posjedovanja kloniranog životinje.',
     },
   },
   contactUs: {

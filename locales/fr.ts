@@ -17,7 +17,7 @@ export default {
   navigation: {
     home: 'Accueil',
     science: 'Science',
-    petCloningGuide: "Guide du clonage d'animaux de compagnie",
+    petCloningGuide: 'Guide du clonage',
     qA: 'Questions-réponses',
     cloningNews: 'Nouvelles',
     contactUs: 'Contactez-nous',
@@ -44,19 +44,22 @@ export default {
     },
     section2: {
       title: 'Pourquoi cloner votre animal de compagnie?',
-      subtitle: `Choisir de cloner un animal de compagnie est une décision personnelle et souvent émotionnelle. Cela reflète le désir de maintenir un lien physique au-delà de la durée de vie d'un animal de compagnie, associé à une appréciation des avancées en science qui rendent cela possible. 
-      Voici quelques raisons pour lesquelles les propriétaires d'animaux envisagent le clonage.`,
+      subtitle:
+        "Choisir de cloner un animal de compagnie est une décision personnelle et souvent émotionnelle. Cela reflète le désir de maintenir un lien physique au-delà de la durée de vie d'un animal de compagnie, associé à une appréciation des avancées en science qui rendent cela possible. Voici quelques raisons pour lesquelles les propriétaires d'animaux envisagent le clonage.",
       point1: {
         title: 'Prolonger le lien',
-        subtitle: `Pour beaucoup, les animaux de compagnie sont plus que des animaux, ce sont des membres de la famille. Le clonage permet aux propriétaires de conserver une continuité génétique de leurs animaux de compagnie bien-aimés, même si la personnalité et les particularités de l'animal original sont uniques à chaque individu et à son expérience de vie.`,
+        subtitle:
+          "Pour beaucoup, les animaux de compagnie sont plus que des animaux, ce sont des membres de la famille. Le clonage permet aux propriétaires de conserver une continuité génétique de leurs animaux de compagnie bien-aimés, même si la personnalité et les particularités de l'animal original sont uniques à chaque individu et à son expérience de vie.",
       },
       point2: {
         title: 'Caractéristiques valorisées',
-        subtitle: `Certains animaux de compagnie possèdent des caractéristiques exceptionnelles, que ce soit leur lignée héréditaire, leurs qualités de race rares ou leurs compétences primées. Le clonage permet la préservation de ces traits génétiques précieux, notamment pour les chevaux de course primés, les chiens de spectacle ou les races rares.`,
+        subtitle:
+          'Certains animaux de compagnie possèdent des caractéristiques exceptionnelles, que ce soit leur lignée héréditaire, leurs qualités de race rares ou leurs compétences primées. Le clonage permet la préservation de ces traits génétiques précieux, notamment pour les chevaux de course primés, les chiens de spectacle ou les races rares.',
       },
       point3: {
         title: 'Progrès en science',
-        subtitle: `La technologie derrière le clonage d'animaux de compagnie est un témoignage des progrès en génétique. C'est un domaine qui continue de croître et de fasciner, fournissant des informations sur la préservation et la reproduction génétiques.`,
+        subtitle:
+          "La technologie derrière le clonage d'animaux de compagnie est un témoignage des progrès en génétique. C'est un domaine qui continue de croître et de fasciner, fournissant des informations sur la préservation et la reproduction génétiques.",
       },
     },
     section3: {
@@ -81,7 +84,8 @@ export default {
       },
       step4: {
         title: "Donneuse d'œufs et transfert",
-        subtitle: `L'étape suivante consiste à obtenir un œuf d'un animal donneur. Le matériel génétique de cet œuf est remplacé par l'ADN des cellules cultivées de votre animal.`,
+        subtitle:
+          "L'étape suivante consiste à obtenir un œuf d'un animal donneur. Le matériel génétique de cet œuf est remplacé par l'ADN des cellules cultivées de votre animal.",
       },
       step5: {
         title: 'Développement embryonnaire',
@@ -100,34 +104,32 @@ export default {
       },
     },
     section4: {
-      text: `Bien que le processus soit scientifiquement complexe, 
-      l'objectif est simple: offrir aux propriétaires 
-      d'animaux de compagnie la possibilité de
-prolonger le lien qu'ils ont avec leurs animaux. 
+      text: `Bien que le processus soit scientifiquement complexe, l'objectif est simple: offrir aux propriétaires d'animaux de compagnie la possibilité de prolonger le lien qu'ils ont avec leurs animaux. 
 
-Le clonage ne remplace pas l'animal que vous avez 
-perdu, mais offre une façon unique de faire perdurer 
-une partie d'eux dans le futur avec vous. 
+Le clonage ne remplace pas l'animal que vous avez perdu, mais offre une façon unique de faire perdurer une partie d'eux dans le futur avec vous. 
       
-Chaque étape est réalisée avec précision, soin et 
-respect pour les vies impliquées dans ce voyage remarquable.`,
+Chaque étape est réalisée avec précision, soin et respect pour les vies impliquées dans ce voyage remarquable.`,
     },
   },
   science: {
     section1: {
       title: "La science derrière le clonage d'animaux de compagnie",
-      subtitle: `Le clonage d'animaux de compagnie est une forme de clonage reproductif qui consiste à créer un nouvel animal avec le même ADN qu'un animal existant ou décédé. Le processus scientifique utilisé s'appelle le transfert nucléaire de cellules somatiques (TNCS). Voici comment cela fonctionne, expliqué en étapes compréhensibles.`,
+      subtitle:
+        "Le clonage d'animaux de compagnie est une forme de clonage reproductif qui consiste à créer un nouvel animal avec le même ADN qu'un animal existant ou décédé. Le processus scientifique utilisé s'appelle le transfert nucléaire de cellules somatiques (TNCS). Voici comment cela fonctionne, expliqué en étapes compréhensibles.",
       step1: {
         title: 'Collecte et culture de cellules somatiques',
-        subtitle: `Il commence par la culture de cellules somatiques vivantes, qui sont n'importe quelle cellule du corps sauf les cellules reproductrices (spermatozoïdes et ovules). Dans le clonage d'animaux de compagnie, les cellules utilisées sont généralement des fibroblastes prélevés à partir d'un fragment de peau et contiennent l'information génétique complète de l'animal de compagnie.`,
+        subtitle:
+          "Il commence par la culture de cellules somatiques vivantes, qui sont n'importe quelle cellule du corps sauf les cellules reproductrices (spermatozoïdes et ovules). Dans le clonage d'animaux de compagnie, les cellules utilisées sont généralement des fibroblastes prélevés à partir d'un fragment de peau et contiennent l'information génétique complète de l'animal de compagnie.",
       },
       step2: {
         title: 'Préservation des cellules',
-        subtitle: `Si le clonage ne doit pas se produire immédiatement, les cellules sont stockées dans de l'azote liquide (-196°C) et peuvent rester stockées pendant des décennies si nécessaire. Pour commencer le processus de clonage, ces cellules congelées doivent d'abord être remises en culture.`,
+        subtitle:
+          "Si le clonage ne doit pas se produire immédiatement, les cellules sont stockées dans de l'azote liquide (-196°C) et peuvent rester stockées pendant des décennies si nécessaire. Pour commencer le processus de clonage, ces cellules congelées doivent d'abord être remises en culture.",
       },
       step3: {
         title: 'Transfert nucléaire',
-        subtitle: `Le noyau, qui contient l'ADN, est retiré de la cellule somatique. Une cellule d'œuf est prélevée chez un animal donneur et son noyau est retiré pour faire place au noyau de la cellule somatique. Cette cellule d'œuf contient maintenant l'ADN de l'animal de compagnie, devenant essentiellement une copie génétique.`,
+        subtitle:
+          "Le noyau, qui contient l'ADN, est retiré de la cellule somatique. Une cellule d'œuf est prélevée chez un animal donneur et son noyau est retiré pour faire place au noyau de la cellule somatique. Cette cellule d'œuf contient maintenant l'ADN de l'animal de compagnie, devenant essentiellement une copie génétique.",
       },
       step4: {
         title: 'Stimulation électrique',
@@ -141,19 +143,21 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
       },
       step6: {
         title: 'Implantation et grossesse',
-        subtitle: `Le blastocyste développé est implanté dans l'utérus de la mère porteuse, où il continue de se développer. Si l'implantation réussit, la mère porteuse devient enceinte.`,
+        subtitle:
+          "Le blastocyste développé est implanté dans l'utérus de la mère porteuse, où il continue de se développer. Si l'implantation réussit, la mère porteuse devient enceinte.",
       },
       step7: {
         title: 'Naissance',
-        subtitle: `La mère porteuse mène la grossesse à terme 
-          et donne naissance à l'animal de compagnie cloné.`,
+        subtitle:
+          "La mère porteuse mène la grossesse à terme et donne naissance à l'animal de compagnie cloné.",
       },
-      conclusion: `Chaque animal cloné est un duplicata génétique de l'animal original, ce qui signifie qu'ils partagent le même ADN. Cependant, il est important de noter que bien que l'animal cloné, tout comme les jumeaux identiques, ressemblera beaucoup à l'original, il peut ne pas agir de manière identique, car l'environnement et l'éducation façonnent également le comportement et la personnalité.`,
+      conclusion:
+        "Chaque animal cloné est un duplicata génétique de l'animal original, ce qui signifie qu'ils partagent le même ADN. Cependant, il est important de noter que bien que l'animal cloné, tout comme les jumeaux identiques, ressemblera beaucoup à l'original, il peut ne pas agir de manière identique, car l'environnement et l'éducation façonnent également le comportement et la personnalité.",
     },
     section2: {
       title: "Histoire du clonage d'animaux de compagnie",
-      subtitle: `L'histoire du clonage d'animaux de compagnie ne peut être racontée sans mentionner la brebis emblématique nommée Dolly. Née en 1996 à l'Institut Roslin en Écosse, Dolly a été le premier mammifère à être cloné à partir d'une cellule somatique adulte grâce à la technologie du transfert nucléaire. Sa création réussie a démontré que les cellules spécialisées pouvaient être reprogrammées pour créer un organisme entier, une découverte qui a fait avancer la science et ouvert la voie au clonage d'animaux.
-      Après Dolly, la technologie a fait d'énormes progrès.`,
+      subtitle:
+        "L'histoire du clonage d'animaux de compagnie ne peut être racontée sans mentionner la brebis emblématique nommée Dolly. Née en 1996 à l'Institut Roslin en Écosse, Dolly a été le premier mammifère à être cloné à partir d'une cellule somatique adulte grâce à la technologie du transfert nucléaire. Sa création réussie a démontré que les cellules spécialisées pouvaient être reprogrammées pour créer un organisme entier, une découverte qui a fait avancer la science et ouvert la voie au clonage d'animaux. Après Dolly, la technologie a fait d'énormes progrès.",
       step1: {
         title: 'Étapes initiales',
         subtitle: `En 1998, le clonage de souris a été réalisé, prouvant que la technique pouvait être étendue au-delà des moutons.
@@ -162,11 +166,13 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
       },
       step2: {
         title: 'Élargissement de la portée',
-        subtitle: `Chiens et chevaux : Les années suivantes ont vu le clonage d'animaux plus complexes en termes de clonage. Les chiens, qui représentaient un défi significatif en raison de leur cycle de reproduction unique, ont été clonés avec succès en 2005. Les chevaux, eux aussi, ont été clonés, avec des implications pour la préservation des génétiques équines d'élite.`,
+        subtitle:
+          "Chiens et chevaux : Les années suivantes ont vu le clonage d'animaux plus complexes en termes de clonage. Les chiens, qui représentaient un défi significatif en raison de leur cycle de reproduction unique, ont été clonés avec succès en 2005. Les chevaux, eux aussi, ont été clonés, avec des implications pour la préservation des génétiques équines d'élite.",
       },
       step2_1: {
         title: '',
-        subtitle: `Bétail et espèces en danger : Les efforts se sont également tournés vers le bétail et les espèces en danger, prouvant la valeur du clonage en agriculture et en conservation. Des animaux tels que des porcs, des vaches et même des espèces en danger comme le gaur ont été clonés, ouvrant des discussions sur la biodiversité et la prévention de l'extinction.`,
+        subtitle:
+          "Bétail et espèces en danger : Les efforts se sont également tournés vers le bétail et les espèces en danger, prouvant la valeur du clonage en agriculture et en conservation. Des animaux tels que des porcs, des vaches et même des espèces en danger comme le gaur ont été clonés, ouvrant des discussions sur la biodiversité et la prévention de l'extinction.",
       },
       step3: {
         title: 'Affinage des techniques',
@@ -180,7 +186,8 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
       },
       step5: {
         title: 'État actuel',
-        subtitle: `Aujourd'hui, le clonage n'est plus seulement une possibilité théorique ou une expérience scientifique ; c'est un service disponible pour ceux qui le choisissent pour leurs animaux de compagnie. Alors que les débats éthiques et les cadres réglementaires continuent d'évoluer, le fait demeure que la technologie du clonage est passée d'une merveille scientifique à un choix personnel pour les propriétaires d'animaux de compagnie du monde entier. La technologie et les prix ont évolué pour rendre le clonage plus accessible et continueront de le faire à l'avenir.`,
+        subtitle:
+          "Aujourd'hui, le clonage n'est plus seulement une possibilité théorique ou une expérience scientifique ; c'est un service disponible pour ceux qui le choisissent pour leurs animaux de compagnie. Alors que les débats éthiques et les cadres réglementaires continuent d'évoluer, le fait demeure que la technologie du clonage est passée d'une merveille scientifique à un choix personnel pour les propriétaires d'animaux de compagnie du monde entier. La technologie et les prix ont évolué pour rendre le clonage plus accessible et continueront de le faire à l'avenir.",
       },
     },
     section3: {
@@ -223,8 +230,9 @@ respect pour les vies impliquées dans ce voyage remarquable.`,
   petCloningGuide: {
     section1: {
       title: "Guide du clonage d'animaux de compagnie",
-      subtitle: `Que vous planifiiez à l'avance le clonage de votre animal de compagnie en bonne santé dans le futur ou que vous soyez confronté à la situation urgente du décès d'un animal de compagnie, comprendre et suivre les procédures correctes de préservation des cellules est essentiel. Ce guide vise à vous assurer que vous prenez toutes les mesures nécessaires pour maintenir l'option du clonage ouverte avec les taux de réussite les plus élevés possibles. En cas de situation urgente (décès récent de l'animal de compagnie),`,
-      subtitle_1: `pour obtenir des conseils plus spécifiques.`,
+      subtitle:
+        "Que vous planifiiez à l'avance le clonage de votre animal de compagnie en bonne santé dans le futur ou que vous soyez confronté à la situation urgente du décès d'un animal de compagnie, comprendre et suivre les procédures correctes de préservation des cellules est essentiel. Ce guide vise à vous assurer que vous prenez toutes les mesures nécessaires pour maintenir l'option du clonage ouverte avec les taux de réussite les plus élevés possibles. En cas de situation urgente (décès récent de l'animal de compagnie),",
+      subtitle_1: 'pour obtenir des conseils plus spécifiques.',
     },
     section2: {
       title: 'Pour les animaux de compagnie décédés',
