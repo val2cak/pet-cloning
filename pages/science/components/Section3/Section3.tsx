@@ -17,7 +17,7 @@ const Section3 = () => {
       <div className='font-light sm:text-sm text-base opacity-60 leading-5 whitespace-pre-line'>
         {subtitle}
       </div>
-      <div className='grid grid-cols-3 sm:grid-cols-1 sm:gap-6 gap-8'>
+      <div className='flex flex-col sm:gap-6 gap-8'>
         <Point
           title={step1.title}
           subtitle={step1.subtitle}

@@ -1,12 +1,6 @@
-import Point from '../../../../components/Point/Point';
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import one from '../../../../public/vectors/1-dark.png';
-import two from '../../../../public/vectors/2-dark.png';
-import three from '../../../../public/vectors/3-dark.png';
-import four from '../../../../public/vectors/4-dark.png';
-import five from '../../../../public/vectors/5-dark.png';
-import six from '../../../../public/vectors/6-dark.png';
+import question from '../../../../public/vectors/question-dark.png';
 
 const Section1 = () => {
   const { title, q1, q2, q3, q4, q5, q6 } = translate.qA;
@@ -18,37 +12,37 @@ const Section1 = () => {
         <Question
           title={q1.title}
           subtitle={q1.subtitle}
-          icon={one.src}
+          icon={question.src}
           color='text-darker'
         />
         <Question
           title={q2.title}
           subtitle={q2.subtitle}
-          icon={two.src}
+          icon={question.src}
           color='text-darker'
         />
         <Question
           title={q3.title}
           subtitle={q3.subtitle}
-          icon={three.src}
+          icon={question.src}
           color='text-darker'
         />
         <Question
           title={q4.title}
           subtitle={q4.subtitle}
-          icon={four.src}
+          icon={question.src}
           color='text-darker'
         />
         <Question
           title={q5.title}
           subtitle={q5.subtitle}
-          icon={five.src}
+          icon={question.src}
           color='text-darker'
         />
         <Question
           title={q6.title}
           subtitle={q6.subtitle}
-          icon={six.src}
+          icon={question.src}
           color='text-darker'
         />
       </div>
