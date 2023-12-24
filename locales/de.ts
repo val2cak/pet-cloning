@@ -165,13 +165,9 @@ Jeder Schritt wird mit Präzision, Sorgfalt und Respekt für die beteiligten Leb
       },
       step2: {
         title: 'Erweiterung des Einflussbereichs',
-        subtitle:
-          'Hunde und Pferde: In den folgenden Jahren wurde die Klonung von komplexeren Tieren in Bezug auf die Klonung durchgeführt. Hunde, die aufgrund ihres einzigartigen Fortpflanzungszyklus eine erhebliche Herausforderung darstellten, wurden 2005 erfolgreich geklont. Auch Pferde wurden geklont, mit Auswirkungen auf die Erhaltung eliteequiner Genetik.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          'Vieh und bedrohte Arten: Die Bemühungen konzentrierten sich auch auf Vieh und bedrohte Arten, was den Wert der Klonung in der Landwirtschaft und im Naturschutz zeigte. Tiere wie Schweine, Kühe und sogar bedrohte Arten wie der Gaur wurden geklont und eröffneten Diskussionen über Biodiversität und die Verhinderung von Artensterben.',
+        subtitle: `Hunde und Pferde: In den folgenden Jahren wurde die Klonung von komplexeren Tieren in Bezug auf die Klonung durchgeführt. Hunde, die aufgrund ihres einzigartigen Fortpflanzungszyklus eine erhebliche Herausforderung darstellten, wurden 2005 erfolgreich geklont. Auch Pferde wurden geklont, mit Auswirkungen auf die Erhaltung eliteequiner Genetik.
+          
+        Vieh und bedrohte Arten: Die Bemühungen konzentrierten sich auch auf Vieh und bedrohte Arten, was den Wert der Klonung in der Landwirtschaft und im Naturschutz zeigte. Tiere wie Schweine, Kühe und sogar bedrohte Arten wie der Gaur wurden geklont und eröffneten Diskussionen über Biodiversität und die Verhinderung von Artensterben.`,
       },
       step3: {
         title: 'Verfeinerung der Techniken',

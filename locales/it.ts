@@ -167,13 +167,9 @@ export default {
       },
       step2: {
         title: "Espansione del Raggio d'Azione",
-        subtitle:
-          'Cani e Cavalli: Negli anni successivi è avvenuta la clonazione di animali più complessi dal punto di vista della clonazione. I cani, che presentavano una sfida significativa a causa del loro unico ciclo riproduttivo, sono stati clonati con successo nel 2005. Anche i cavalli sono stati clonati, con implicazioni per la conservazione delle élite genetiche equine.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          "Bestiame e Specie Minacciate: Gli sforzi si sono spostati anche verso il bestiame e le specie minacciate, dimostrando il valore della clonazione in agricoltura e conservazione. Animali come maiali, mucche e persino specie minacciate come il gaur sono stati clonati, aprendo discussioni sulla biodiversità e la prevenzione dell'estinzione.",
+        subtitle: `Cani e Cavalli: Negli anni successivi è avvenuta la clonazione di animali più complessi dal punto di vista della clonazione. I cani, che presentavano una sfida significativa a causa del loro unico ciclo riproduttivo, sono stati clonati con successo nel 2005. Anche i cavalli sono stati clonati, con implicazioni per la conservazione delle élite genetiche equine.
+          
+        Bestiame e Specie Minacciate: Gli sforzi si sono spostati anche verso il bestiame e le specie minacciate, dimostrando il valore della clonazione in agricoltura e conservazione. Animali come maiali, mucche e persino specie minacciate come il gaur sono stati clonati, aprendo discussioni sulla biodiversità e la prevenzione dell'estinzione.`,
       },
       step3: {
         title: 'Raffinamento delle Tecniche',

@@ -1,4 +1,5 @@
 import Point from '../../../../components/Point/Point';
+import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
 import one from '../../../../public/vectors/1-dark.png';
 import two from '../../../../public/vectors/2-dark.png';
@@ -29,44 +30,44 @@ const Section1 = () => {
         {subtitle}
       </div>
       <div className='flex flex-col sm:gap-6 gap-4 flex-wrap'>
-        <Point
+        <Question
           title={step1.title}
           subtitle={step1.subtitle}
           icon={one.src}
           color='text-darker'
         />
-        <Point
+        <Question
           title={step2.title}
           subtitle={step2.subtitle}
           icon={two.src}
           color='text-darker'
         />
-        <Point
+        <Question
           title={step3.title}
           subtitle={step3.subtitle}
           icon={three.src}
           color='text-darker'
         />
 
-        <Point
+        <Question
           title={step4.title}
           subtitle={step4.subtitle}
           icon={four.src}
           color='text-darker'
         />
-        <Point
+        <Question
           title={step5.title}
           subtitle={step5.subtitle}
           icon={five.src}
           color='text-darker'
         />
-        <Point
+        <Question
           title={step6.title}
           subtitle={step6.subtitle}
           icon={six.src}
           color='text-darker'
         />
-        <Point
+        <Question
           title={step7.title}
           subtitle={step7.subtitle}
           icon={seven.src}

@@ -165,13 +165,9 @@ export default {
       },
       step2: {
         title: 'Uitbreiding van Invloedssfeer',
-        subtitle:
-          'Honden en Paarden: In de daaropvolgende jaren werd kloning van complexere dieren uitgevoerd. Honden, die vanwege hun unieke voortplantingscyclus een aanzienlijke uitdaging vormden, werden in 2005 succesvol gekloond. Ook paarden werden gekloond, met gevolgen voor het behoud van elite-equine genetica.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          'Vee en Bedreigde Soorten: De inspanningen richtten zich ook op vee en bedreigde soorten, wat het belang van klonen in de landbouw en natuurbehoud aantoonde. Dieren zoals varkens, koeien en zelfs bedreigde soorten zoals de gaur werden gekloond en openden discussies over biodiversiteit en het voorkomen van uitsterven van soorten.',
+        subtitle: `Honden en Paarden: In de daaropvolgende jaren werd kloning van complexere dieren uitgevoerd. Honden, die vanwege hun unieke voortplantingscyclus een aanzienlijke uitdaging vormden, werden in 2005 succesvol gekloond. Ook paarden werden gekloond, met gevolgen voor het behoud van elite-equine genetica.
+          
+        Vee en Bedreigde Soorten: De inspanningen richtten zich ook op vee en bedreigde soorten, wat het belang van klonen in de landbouw en natuurbehoud aantoonde. Dieren zoals varkens, koeien en zelfs bedreigde soorten zoals de gaur werden gekloond en openden discussies over biodiversiteit en het voorkomen van uitsterven van soorten.`,
       },
       step3: {
         title: 'Verfijning van Technieken',

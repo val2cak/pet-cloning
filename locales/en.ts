@@ -165,13 +165,9 @@ Each step is carried out with precision, care, and respect for the lives involve
       },
       step2: {
         title: 'Extending the Reach',
-        subtitle:
-          'Dogs and Horses: The subsequent years saw the cloning of more complex animals in term of cloning. Dogs, which posed a significant challenge due to their unique reproductive cycle, were successfully cloned in 2005. Horses, too, were cloned, with implications for the preservation of elite equine genetics.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          "Livestock and Endangered Species: Efforts also moved toward livestock and endangered species, proving cloning's value in agriculture and conservation. Animals like pigs, cows, and even endangered species such as the gaur have been cloned, opening discussions about biodiversity and extinction prevention.",
+        subtitle: `Dogs and Horses: The subsequent years saw the cloning of more complex animals in term of cloning. Dogs, which posed a significant challenge due to their unique reproductive cycle, were successfully cloned in 2005. Horses, too, were cloned, with implications for the preservation of elite equine genetics.
+          
+        Livestock and Endangered Species: Efforts also moved toward livestock and endangered species, proving cloning's value in agriculture and conservation. Animals like pigs, cows, and even endangered species such as the gaur have been cloned, opening discussions about biodiversity and extinction prevention.`,
       },
       step3: {
         title: 'Refining Techniques',

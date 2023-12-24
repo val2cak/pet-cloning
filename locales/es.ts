@@ -165,13 +165,9 @@ export default {
       },
       step2: {
         title: 'Ampliando el alcance',
-        subtitle:
-          'Perros y Caballos: Los años siguientes vieron la clonación de animales más complejos en términos de clonación. Los perros, que presentaban un desafío significativo debido a su único ciclo reproductivo, se clonaron con éxito en 2005. Los caballos, también, se clonaron, con implicaciones para la preservación de la genética equina de élite.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          'Ganado y especies en peligro de extinción: Los esfuerzos también se dirigieron hacia el ganado y las especies en peligro de extinción, demostrando el valor de la clonación en la agricultura y la conservación. Animales como cerdos, vacas e incluso especies en peligro de extinción como el gaur se han clonado, abriendo debates sobre la biodiversidad y la prevención de la extinción.',
+        subtitle: `Perros y Caballos: Los años siguientes vieron la clonación de animales más complejos en términos de clonación. Los perros, que presentaban un desafío significativo debido a su único ciclo reproductivo, se clonaron con éxito en 2005. Los caballos, también, se clonaron, con implicaciones para la preservación de la genética equina de élite.
+          
+        Ganado y especies en peligro de extinción: Los esfuerzos también se dirigieron hacia el ganado y las especies en peligro de extinción, demostrando el valor de la clonación en la agricultura y la conservación. Animales como cerdos, vacas e incluso especies en peligro de extinción como el gaur se han clonado, abriendo debates sobre la biodiversidad y la prevención de la extinción.`,
       },
       step3: {
         title: 'Refinamiento de técnicas',

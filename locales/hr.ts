@@ -160,13 +160,9 @@ export default {
       },
       step2: {
         title: 'Proširenje dosega',
-        subtitle:
-          'Psi i konji: U sljedećim godinama klonirane su složenije životinje u smislu kloniranja. Psi, koji su predstavljali značajan izazov zbog svog jedinstvenog reproduktivnog ciklusa, uspješno su klonirani 2005. godine. Konji su također klonirani, s implikacijama za očuvanje genetike elitnih konja.',
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          'Stoka i ugrožene vrste: Napore su usmjerili prema stoci i ugroženim vrstama, dokazujući vrijednost kloniranja u poljoprivredi i konzervaciji. Životinje poput svinja, krava, pa čak i ugroženih vrsta poput gaura klonirane su, otvarajući razgovore o biološkoj raznolikosti i sprječavanju izumiranja.',
+        subtitle: `Psi i konji: U sljedećim godinama klonirane su složenije životinje u smislu kloniranja. Psi, koji su predstavljali značajan izazov zbog svog jedinstvenog reproduktivnog ciklusa, uspješno su klonirani 2005. godine. Konji su također klonirani, s implikacijama za očuvanje genetike elitnih konja.
+          
+        Stoka i ugrožene vrste: Napore su usmjerili prema stoci i ugroženim vrstama, dokazujući vrijednost kloniranja u poljoprivredi i konzervaciji. Životinje poput svinja, krava, pa čak i ugroženih vrsta poput gaura klonirane su, otvarajući razgovore o biološkoj raznolikosti i sprječavanju izumiranja.`,
       },
       step3: {
         title: 'Usavršavanje tehnika',

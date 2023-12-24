@@ -166,13 +166,9 @@ Chaque étape est réalisée avec précision, soin et respect pour les vies impl
       },
       step2: {
         title: 'Élargissement de la portée',
-        subtitle:
-          "Chiens et chevaux : Les années suivantes ont vu le clonage d'animaux plus complexes en termes de clonage. Les chiens, qui représentaient un défi significatif en raison de leur cycle de reproduction unique, ont été clonés avec succès en 2005. Les chevaux, eux aussi, ont été clonés, avec des implications pour la préservation des génétiques équines d'élite.",
-      },
-      step2_1: {
-        title: '',
-        subtitle:
-          "Bétail et espèces en danger : Les efforts se sont également tournés vers le bétail et les espèces en danger, prouvant la valeur du clonage en agriculture et en conservation. Des animaux tels que des porcs, des vaches et même des espèces en danger comme le gaur ont été clonés, ouvrant des discussions sur la biodiversité et la prévention de l'extinction.",
+        subtitle: `Chiens et chevaux : Les années suivantes ont vu le clonage d'animaux plus complexes en termes de clonage. Les chiens, qui représentaient un défi significatif en raison de leur cycle de reproduction unique, ont été clonés avec succès en 2005. Les chevaux, eux aussi, ont été clonés, avec des implications pour la préservation des génétiques équines d'élite.
+        
+        Bétail et espèces en danger : Les efforts se sont également tournés vers le bétail et les espèces en danger, prouvant la valeur du clonage en agriculture et en conservation. Des animaux tels que des porcs, des vaches et même des espèces en danger comme le gaur ont été clonés, ouvrant des discussions sur la biodiversité et la prévention de l'extinction.`,
       },
       step3: {
         title: 'Affinage des techniques',
