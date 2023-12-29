@@ -379,7 +379,6 @@ Petcloning.eu`,
   },
   footer: {
     petCloning: 'Petcloning.eu',
-    aboutUs: 'О нас',
     contactUs: 'Свяжитесь с нами',
     copyright: '© 2023, Все права защищены',
     language: 'Язык',

@@ -380,7 +380,6 @@ Petcloning.eu`,
   },
   footer: {
     petCloning: 'Petcloning.eu',
-    aboutUs: 'Über uns',
     contactUs: 'Kontaktiere uns',
     copyright: '© 2023, Alle Rechte vorbehalten',
     language: 'Sprache',

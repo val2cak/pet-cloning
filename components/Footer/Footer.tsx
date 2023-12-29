@@ -11,7 +11,7 @@ import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
 import { languages } from '../../constants/Languages';
 
 const Footer: React.FC = () => {
-  const { petCloning, aboutUs, contactUs, language } = translate.footer;
+  const { petCloning, contactUs, language } = translate.footer;
 
   const [currentLanguage, setCurrentLanguage] = useState(locale);
 
@@ -22,11 +22,6 @@ const Footer: React.FC = () => {
           <span className='text-base font-bold'>{petCloning}</span>
           <div className='flex'>
             <div className='text-sm text-light font-medium flex gap-6'>
-              <span>
-                <Link href='/about-us' className='opacity-50 hover:opacity-100'>
-                  {aboutUs}
-                </Link>
-              </span>
               <span className='text-sm'>
                 <Link
                   href='/contact-us'
@@ -36,7 +31,7 @@ const Footer: React.FC = () => {
                 </Link>
               </span>
             </div>
-            <div className='w-28'>
+            <div className='w-32'>
               <LanguageDropdown
                 placeholder={language}
                 onSelect={(item: Language) => {

@@ -380,7 +380,6 @@ Petcloning.eu`,
   },
   footer: {
     petCloning: 'Petcloning.eu',
-    aboutUs: 'Over ons',
     contactUs: 'Contacteer ons',
     copyright: '© 2023, Alle rechten voorbehouden',
     language: 'Taal',

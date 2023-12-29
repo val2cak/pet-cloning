@@ -375,7 +375,6 @@ Petcloning.eu`,
   },
   footer: {
     petCloning: 'Petcloning.eu',
-    aboutUs: 'O nama',
     contactUs: 'Kontaktirajte nas',
     copyright: '© 2023, Sva prava zadržana',
     language: 'Jezik',
