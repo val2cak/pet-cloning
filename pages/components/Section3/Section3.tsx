@@ -2,7 +2,7 @@ import Card from '../../../components/Card/Card';
 import { translate } from '../../../locales/translate';
 import card1 from '../../../public/images/home-card-1.png';
 import card2 from '../../../public/images/home-card-2.png';
-import card3 from '../../../public/images/home-card-3.png';
+import card3 from '../../../public/images/home-card-3.jpg';
 import card4 from '../../../public/images/home-card-4.png';
 import card5 from '../../../public/images/home-card-5.png';
 import card6 from '../../../public/images/home-card-6.png';
@@ -26,7 +26,12 @@ const Section3 = () => {
           link='/pet-cloning-guide'
         />
         <Card title={step2.title} subtitle={step2.subtitle} image={card2.src} />
-        <Card title={step3.title} subtitle={step3.subtitle} image={card3.src} />
+        <Card
+          title={step3.title}
+          subtitle={step3.subtitle}
+          image={card3.src}
+          alt='real name: Matylda Sękpl.wiki: Cygaretkacommons: Cygaretka, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons'
+        />
         <Card
           title={step4.title}
           subtitle={step4.subtitle}
