@@ -9,15 +9,16 @@ interface Props {
   title: string;
   subtitle: string;
   link?: string;
+  alt?: string;
 }
 
-const Card: FC<Props> = ({ image, title, subtitle, link }) => {
+const Card: FC<Props> = ({ image, title, subtitle, link, alt }) => {
   return (
     <div className='flex flex-col items-start sm:gap-4 gap-8 text-darker w-[16.876rem] sm:w-full'>
       <img
         src={image}
         className='w-[16.876rem] h-[12.5rem] sm:w-full'
-        alt={title}
+        alt={alt || title}
       />
       <div className='flex flex-col items-start gap-1'>
         <span className='text-base font-medium'>{title}</span>
