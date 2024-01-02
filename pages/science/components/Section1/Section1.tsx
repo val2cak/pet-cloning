@@ -1,13 +1,12 @@
-import Point from '../../../../components/Point/Point';
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import one from '../../../../public/vectors/1-dark.png';
-import two from '../../../../public/vectors/2-dark.png';
-import three from '../../../../public/vectors/3-dark.png';
-import four from '../../../../public/vectors/4-dark.png';
-import five from '../../../../public/vectors/5-dark.png';
-import six from '../../../../public/vectors/6-dark.png';
-import seven from '../../../../public/vectors/7-dark.png';
+import example from '../../../../public/vectors/example.png';
+import snowflake from '../../../../public/vectors/snowflake.png';
+import cell from '../../../../public/vectors/cell.png';
+import bolt from '../../../../public/vectors/bolt.png';
+import paw from '../../../../public/vectors/heart-paw.png';
+import cat from '../../../../public/vectors/cat.png';
+import kitten from '../../../../public/vectors/kitten.png';
 
 const Section1 = () => {
   const {
@@ -33,44 +32,44 @@ const Section1 = () => {
         <Question
           title={step1.title}
           subtitle={step1.subtitle}
-          icon={one.src}
+          icon={example.src}
           color='text-darker'
         />
         <Question
           title={step2.title}
           subtitle={step2.subtitle}
-          icon={two.src}
+          icon={snowflake.src}
           color='text-darker'
         />
         <Question
           title={step3.title}
           subtitle={step3.subtitle}
-          icon={three.src}
+          icon={cell.src}
           color='text-darker'
         />
 
         <Question
           title={step4.title}
           subtitle={step4.subtitle}
-          icon={four.src}
+          icon={bolt.src}
           color='text-darker'
         />
         <Question
           title={step5.title}
           subtitle={step5.subtitle}
-          icon={five.src}
+          icon={paw.src}
           color='text-darker'
         />
         <Question
           title={step6.title}
           subtitle={step6.subtitle}
-          icon={six.src}
+          icon={cat.src}
           color='text-darker'
         />
         <Question
           title={step7.title}
           subtitle={step7.subtitle}
-          icon={seven.src}
+          icon={kitten.src}
           color='text-darker'
         />
       </div>
