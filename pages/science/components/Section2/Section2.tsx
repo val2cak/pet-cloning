@@ -1,10 +1,10 @@
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import one from '../../../../public/vectors/1-light.png';
-import two from '../../../../public/vectors/2-light.png';
-import three from '../../../../public/vectors/3-light.png';
-import four from '../../../../public/vectors/4-light.png';
-import five from '../../../../public/vectors/5-light.png';
+import sheep from '../../../../public/vectors/sheep.png';
+import horse from '../../../../public/vectors/horse.png';
+import price from '../../../../public/vectors/price.png';
+import laboratory from '../../../../public/vectors/laboratory.png';
+import europe from '../../../../public/vectors/europe.png';
 import graph from '../../../../public/images/science-graph.png';
 
 const Section2 = () => {
@@ -22,27 +22,27 @@ const Section2 = () => {
           <Question
             title={step1.title}
             subtitle={step1.subtitle}
-            icon={one.src}
+            icon={sheep.src}
           />
           <Question
             title={step2.title}
             subtitle={step2.subtitle}
-            icon={two.src}
+            icon={horse.src}
           />
           <Question
             title={step3.title}
             subtitle={step3.subtitle}
-            icon={three.src}
+            icon={laboratory.src}
           />
           <Question
             title={step4.title}
             subtitle={step4.subtitle}
-            icon={four.src}
+            icon={price.src}
           />
           <Question
             title={step5.title}
             subtitle={step5.subtitle}
-            icon={five.src}
+            icon={europe.src}
           />
         </div>
       </div>
