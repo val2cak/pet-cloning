@@ -118,7 +118,7 @@ const Form = () => {
               },
             }}
           />
-          <div className='flex sm:flex-col items-center sm:gap-8 gap-4'>
+          <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
             <div className='sm:w-full w-1/2'>
               <Controller
                 name='animalType'
