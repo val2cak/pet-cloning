@@ -26,7 +26,7 @@ const Question: FC<Props> = ({ icon, title, subtitle, color }) => {
       {icon && <img src={icon} className='w-10 h-10' alt='Number' />}
       <div
         className={`flex flex-col items-start gap-1 ${
-          isSubtitleVisible ? 'justify-start' : 'justify-center h-10'
+          isSubtitleVisible ? 'justify-start' : 'justify-center sm:h-fit h-10'
         }`}
       >
         {title && (
