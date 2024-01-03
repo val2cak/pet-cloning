@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
       <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-5 gap-10'>
         <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-3'>
           <span className='text-base font-bold'>{petCloning}</span>
-          <div className='flex'>
+          <div className='flex w-32'>
             <LanguageDropdown
               placeholder={language}
               onSelect={(item: Language) => {

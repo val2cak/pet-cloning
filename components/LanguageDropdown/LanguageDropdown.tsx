@@ -39,10 +39,12 @@ const LanguageDropdown: FC<Props> = ({
   }, [ref]);
 
   return (
-    <div ref={ref} className='pb-0 relative border-none capitalize'>
+    <div ref={ref} className='w-full pb-0 relative border-none capitalize'>
       <div
         onClick={() => setOpen(!open)}
-        className={'flex items-center gap-2 hover:cursor-pointer text-light'}
+        className={
+          'flex items-center justify-between gap-2 hover:cursor-pointer text-light sm:pl-0 pl-4'
+        }
       >
         <p className={`${selectedItem ? 'opacity-100' : 'opacity-70'} text-sm`}>
           {selectedItem ? selectedItem.name : placeholder}
@@ -56,7 +58,7 @@ const LanguageDropdown: FC<Props> = ({
       <div
         className={`${
           open ? 'block' : 'hidden'
-        } absolute bg-light rounded-md text-dark text-sm z-10 hover:cursor-pointer mt-[-21.8rem] left-0 w-full`}
+        } absolute bg-light rounded-md text-dark text-sm z-10 hover:cursor-pointer mt-[-21.8rem] sm:-left-4 left-0 w-full`}
       >
         {items?.map((item) => (
           <div
@@ -66,7 +68,7 @@ const LanguageDropdown: FC<Props> = ({
               selectedItem === item
                 ? 'text-light bg-dark opacity-80'
                 : 'hover:text-secondary'
-            } py-2 px-6 first:rounded-t-md last:rounded-b-md`}
+            } py-2 px-4 first:rounded-t-md last:rounded-b-md`}
           >
             {item.name}
           </div>
