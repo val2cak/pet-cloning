@@ -3,8 +3,6 @@ import { useState } from 'react';
 
 import { locale, translate } from '../../locales/translate';
 import whatsappIcon from '../../public/icons/whatsApp.svg';
-import twitterIcon from '../../public/icons/twitter.svg';
-import instagramIcon from '../../public/icons/instagram.svg';
 import { Language } from '../../types/typeDefinitions';
 import { setLocaleToStorage } from '../../services/localStorage';
 import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
@@ -21,17 +19,6 @@ const Footer: React.FC = () => {
         <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-3'>
           <span className='text-base font-bold'>{petCloning}</span>
           <div className='flex'>
-            <div className='text-sm text-light font-medium flex gap-6'>
-              <span className='text-sm'>
-                <Link
-                  href='/contact-us'
-                  className='opacity-50 hover:opacity-100'
-                >
-                  {contactUs}
-                </Link>
-              </span>
-            </div>
-            {/* <div className='w-32'> */}
             <LanguageDropdown
               placeholder={language}
               onSelect={(item: Language) => {
@@ -44,52 +31,35 @@ const Footer: React.FC = () => {
                 (lang) => lang.locale === currentLanguage
               )}
             />
-            {/* </div> */}
           </div>
         </div>
 
         <div className='border-b border-light opacity-20 w-full'></div>
 
         <div className='w-full flex sm:flex-col flex-row sm:gap-3 justify-between text-light font-medium'>
-          <div className='text-md text-light font-medium flex gap-3'>
+          <div className='text-md text-light font-medium flex gap-4 items-center'>
+            <div className='text-sm text-light font-medium'>
+              <span className='text-sm'>
+                <Link
+                  href='/contact-us'
+                  className='opacity-50 hover:opacity-100'
+                >
+                  {contactUs}
+                </Link>
+              </span>
+            </div>
+
             <a
-              href='https://whatsapp.com'
+              href='https://wa.link/osgpuo'
               target='_blank'
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
               <img
                 src={whatsappIcon.src}
-                className='w-6 h-6'
+                className='w-5 h-5'
                 alt='Whatsapp'
                 loading='lazy'
-              />
-            </a>
-
-            <a
-              href='https://twitter.com'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='opacity-50 hover:opacity-100'
-            >
-              <img
-                src={twitterIcon.src}
-                className='w-6 h-6'
-                alt='Twitter'
-                loading='lazy'
-              />
-            </a>
-
-            <a
-              href='https://instagram.com'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='opacity-50 hover:opacity-100'
-            >
-              <img
-                src={instagramIcon.src}
-                className='w-6 h-6'
-                alt='Instagram'
               />
             </a>
           </div>
