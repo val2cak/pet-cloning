@@ -1,11 +1,11 @@
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import sheep from '../../../../public/vectors/sheep.png';
-import horse from '../../../../public/vectors/horse.png';
-import price from '../../../../public/vectors/price.png';
-import laboratory from '../../../../public/vectors/laboratory.png';
-import europe from '../../../../public/vectors/europe.png';
-import graph from '../../../../public/images/science-graph.png';
+import sheep from '../../../../public/vectors/sheep.webp';
+import horse from '../../../../public/vectors/horse.webp';
+import price from '../../../../public/vectors/price.webp';
+import laboratory from '../../../../public/vectors/laboratory.webp';
+import europe from '../../../../public/vectors/europe.webp';
+import graph from '../../../../public/images/science-graph.webp';
 
 const Section2 = () => {
   const { title, subtitle, step1, step2, step3, step4, step5 } =

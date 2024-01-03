@@ -1,6 +1,6 @@
 import { translate } from '../../../../locales/translate';
 
-import image from '../../../../public/images/cloning-guide-section-5.png';
+import image from '../../../../public/images/cloning-guide-section-5.webp';
 
 const Section5 = () => {
   const { text } = translate.petCloningGuide.section5;

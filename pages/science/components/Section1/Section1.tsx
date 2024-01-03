@@ -1,12 +1,12 @@
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import example from '../../../../public/vectors/example.png';
-import snowflake from '../../../../public/vectors/snowflake.png';
-import cell from '../../../../public/vectors/cell.png';
-import bolt from '../../../../public/vectors/bolt.png';
-import paw from '../../../../public/vectors/heart-paw.png';
-import cat from '../../../../public/vectors/cat.png';
-import kitten from '../../../../public/vectors/kitten.png';
+import example from '../../../../public/vectors/example.webp';
+import snowflake from '../../../../public/vectors/snowflake.webp';
+import cell from '../../../../public/vectors/cell.webp';
+import bolt from '../../../../public/vectors/bolt.webp';
+import paw from '../../../../public/vectors/heart-paw.webp';
+import cat from '../../../../public/vectors/cat.webp';
+import kitten from '../../../../public/vectors/kitten.webp';
 
 const Section1 = () => {
   const {
