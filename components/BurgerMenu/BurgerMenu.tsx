@@ -18,7 +18,7 @@ const BurgerNavigation = ({ isOpen, navigationItems, setIsOpen }) => {
           onClick={() => setIsOpen(!isOpen)}
           className='text-light focus:outline-none'
         >
-          <img src={menu.src} className='rotate-90' alt='Menu' />
+          <img src={menu.src} className='rotate-90' alt='Menu' loading='lazy' />
         </button>
       </div>
 

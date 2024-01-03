@@ -46,7 +46,7 @@ const Section2 = () => {
           />
         </div>
       </div>
-      <img src={graph.src} alt='Graph' />
+      <img src={graph.src} alt='Graph' loading='lazy' />
     </div>
   );
 };

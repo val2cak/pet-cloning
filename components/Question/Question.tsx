@@ -23,7 +23,9 @@ const Question: FC<Props> = ({ icon, title, subtitle, color }) => {
       } border shadow-md transition-all duration-300 ease-in-out cursor-pointer`}
       onClick={handleClick}
     >
-      {icon && <img src={icon} className='w-10 h-10' alt='Number' />}
+      {icon && (
+        <img src={icon} className='w-10 h-10' alt={title} loading='lazy' />
+      )}
       <div
         className={`flex flex-col items-start gap-1 ${
           isSubtitleVisible ? 'justify-start' : 'justify-center sm:h-fit h-10'

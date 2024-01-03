@@ -31,7 +31,12 @@ const Card: FC<Props> = ({ image, title, subtitle, link, alt }) => {
             href={link}
           >
             {translate.common.learnMore}
-            <img src={arrowIcon.src} className='w-6 h-6' alt='Arrow' />
+            <img
+              src={arrowIcon.src}
+              className='w-6 h-6'
+              alt='Arrow'
+              loading='lazy'
+            />
           </Link>
         )}
       </div>
