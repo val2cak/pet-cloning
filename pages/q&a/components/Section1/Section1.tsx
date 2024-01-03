@@ -1,6 +1,6 @@
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import question from '../../../../public/vectors/question-dark.png';
+import question from '../../../../public/vectors/question-dark.webp';
 
 const Section1 = () => {
   const { title, q1, q2, q3, q4, q5, q6 } = translate.qA;

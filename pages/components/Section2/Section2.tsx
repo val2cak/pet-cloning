@@ -1,6 +1,6 @@
 import { translate } from '../../../locales/translate';
 import Point from '../../../components/Point/Point';
-import imageUrl from '../../../public/images/home-section-2.png';
+import imageUrl from '../../../public/images/home-section-2.webp';
 import pawIcon from '../../../public/icons/heart-paw.svg';
 import biotechIcon from '../../../public/icons/biotech.svg';
 import experimentIcon from '../../../public/icons/experiment.svg';

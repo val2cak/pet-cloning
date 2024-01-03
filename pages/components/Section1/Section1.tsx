@@ -15,13 +15,13 @@ const Section1 = () => {
       </div>
       <div className='bg-primary rounded-lg text-light font-medium flex justify-between items-center sm:px-2 px-14 py-2'>
         <span className='flex sm:gap-1 gap-3 items-center sm:text-xs text-base'>
-          <img src={dog.src} alt='Dog' /> {prices.dog}
+          <img src={dog.src} alt='Dog' loading='lazy' /> {prices.dog}
         </span>
         <span className='flex sm:gap-1 gap-3 items-center sm:text-xs text-base'>
-          <img src={cat.src} alt='Cat' /> {prices.cat}
+          <img src={cat.src} alt='Cat' loading='lazy' /> {prices.cat}
         </span>
         <span className='flex sm:gap-1 gap-3 items-center sm:text-xs text-base'>
-          <img src={horse.src} alt='Horse' /> {prices.horse}
+          <img src={horse.src} alt='Horse' loading='lazy' /> {prices.horse}
         </span>
       </div>
       <div className='font-light sm:text-sm text-base opacity-60 leading-4 whitespace-pre-line'>

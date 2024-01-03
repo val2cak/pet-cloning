@@ -58,7 +58,12 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <img src={whatsappIcon.src} className='w-6 h-6' alt='Whatsapp' />
+              <img
+                src={whatsappIcon.src}
+                className='w-6 h-6'
+                alt='Whatsapp'
+                loading='lazy'
+              />
             </a>
 
             <a
@@ -67,7 +72,12 @@ const Footer: React.FC = () => {
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
             >
-              <img src={twitterIcon.src} className='w-6 h-6' alt='Twitter' />
+              <img
+                src={twitterIcon.src}
+                className='w-6 h-6'
+                alt='Twitter'
+                loading='lazy'
+              />
             </a>
 
             <a

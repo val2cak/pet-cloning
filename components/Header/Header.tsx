@@ -37,7 +37,7 @@ const Header: FC = () => {
             onClick={toggleMobileMenu}
             className='text-light focus:outline-none'
           >
-            <img src={menu.src} alt='Menu' />
+            <img src={menu.src} alt='Menu' loading='lazy' />
           </button>
         </div>
 

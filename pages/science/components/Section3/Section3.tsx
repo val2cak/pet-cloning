@@ -1,11 +1,11 @@
 import Question from '../../../../components/Question/Question';
 import { translate } from '../../../../locales/translate';
-import dna from '../../../../public/vectors/dna.png';
-import microscope from '../../../../public/vectors/microscope.png';
-import morale from '../../../../public/vectors/morale.png';
-import auditorium from '../../../../public/vectors/auditorium.png';
-import research from '../../../../public/vectors/research.png';
-import virus from '../../../../public/vectors/virus.png';
+import dna from '../../../../public/vectors/dna.webp';
+import microscope from '../../../../public/vectors/microscope.webp';
+import morale from '../../../../public/vectors/morale.webp';
+import auditorium from '../../../../public/vectors/auditorium.webp';
+import research from '../../../../public/vectors/research.webp';
+import virus from '../../../../public/vectors/virus.webp';
 
 const Section3 = () => {
   const { title, subtitle, step1, step2, step3, step4, step5, step6 } =
