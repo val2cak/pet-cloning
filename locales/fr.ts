@@ -289,67 +289,67 @@ Chaque étape est réalisée avec précision, soin et respect pour les vies impl
     q1: {
       title: "Qu'est-ce que le clonage d'animaux de compagnie?",
       subtitle:
-        "A: Le clonage d'animaux de compagnie est le processus de création d'une copie génétiquement identique d'un animal. Cela est réalisé en prélevant un échantillon de peau de l'animal d'origine (le donneur), en créant des cellules cultivées, puis en transférant le matériel génétique de ces cellules dans un ovule dont le noyau a été retiré.",
+        "R: Le clonage d'animaux de compagnie est le processus de création d'une copie génétiquement identique d'un animal. Cela est réalisé en prélevant un échantillon de peau de l'animal d'origine (le donneur), en créant des cellules cultivées, puis en transférant le matériel génétique de ces cellules dans un ovule dont le noyau a été retiré.",
     },
     q2: {
       title: "Combien coûte le clonage d'un animal de compagnie?",
       subtitle:
-        "A: Les coûts de clonage peuvent être importants, reflétant la complexité scientifique impliquée. Actuellement, cloner un chat ou un chien peut coûter environ 50 000 €, tandis qu'un cheval peut coûter jusqu'à 85 000 €.",
+        "R: Les coûts de clonage peuvent être importants, reflétant la complexité scientifique impliquée. Actuellement, cloner un chat ou un chien peut coûter environ 50 000 €, tandis qu'un cheval peut coûter jusqu'à 85 000 €.",
     },
     q3: {
       title: "Quel est l'intérêt de la conservation des cellules?",
       subtitle:
-        "A: La conservation des cellules est comme une assurance qui vous permettra de cloner votre animal de compagnie à l'avenir si vous le choisissez. Décider de cloner un animal de compagnie juste après son décès peut être une situation stressante et le risque de faire une erreur ou d'être dans une situation rendant le clonage impossible est assez élevé. Avec la conservation des cellules, vous pouvez vous préparer en toute sécurité à un clonage potentiel et, s'il y a un problème, il est toujours possible de le refaire.",
+        "R: La conservation des cellules est comme une assurance qui vous permettra de cloner votre animal de compagnie à l'avenir si vous le choisissez. Décider de cloner un animal de compagnie juste après son décès peut être une situation stressante et le risque de faire une erreur ou d'être dans une situation rendant le clonage impossible est assez élevé. Avec la conservation des cellules, vous pouvez vous préparer en toute sécurité à un clonage potentiel et, s'il y a un problème, il est toujours possible de le refaire.",
     },
     q4: {
       title:
         'Que dois-je faire si mon animal vient de mourir et que je envisage le clonage?',
       subtitle:
-        "A: Il est crucial d'éviter que le corps ou tout tissu ne gèle et de le conserver plutôt au réfrigérateur. Contactez immédiatement un vétérinaire pour prélever un échantillon de tissu dans un milieu stérile, puis prenez contact avec nous pour d'autres instructions sur le stockage et le transport.",
+        "R: Il est crucial d'éviter que le corps ou tout tissu ne gèle et de le conserver plutôt au réfrigérateur. Contactez immédiatement un vétérinaire pour prélever un échantillon de tissu dans un milieu stérile, puis prenez contact avec nous pour d'autres instructions sur le stockage et le transport.",
     },
     q5: {
       title: 'Puis-je cloner un animal décédé depuis longtemps?',
       subtitle:
-        "A: Le clonage réussi nécessite un échantillon génétique de haute qualité. Une fois qu'un animal est décédé depuis longtemps, la dégradation de l'ADN rend le clonage moins probable. Il est préférable de commencer le processus dès que possible après le décès. Généralement, si l'animal est mort depuis une semaine ou plus et n'a pas été conservé à 4 degrés, il ne peut pas être cloné. S'il est conservé à 4 degrés juste après la mort, un animal peut être cloné jusqu'à 3 semaines après le décès.",
+        "R: Le clonage réussi nécessite un échantillon génétique de haute qualité. Une fois qu'un animal est décédé depuis longtemps, la dégradation de l'ADN rend le clonage moins probable. Il est préférable de commencer le processus dès que possible après le décès. Généralement, si l'animal est mort depuis une semaine ou plus et n'a pas été conservé à 4 degrés, il ne peut pas être cloné. S'il est conservé à 4 degrés juste après la mort, un animal peut être cloné jusqu'à 3 semaines après le décès.",
     },
     q6: {
       title:
         'Pourquoi ne devrais-je pas congeler le corps de mon animal si je veux le cloner?',
       subtitle:
-        "A: La congélation peut endommager la structure cellulaire et l'ADN à l'intérieur, ce qui est nécessaire pour le clonage. Le maintien de l'échantillon au réfrigérateur préserve l'intégrité des cellules et de l'ADN, augmentant les chances de clonage réussi.",
+        "R: La congélation peut endommager la structure cellulaire et l'ADN à l'intérieur, ce qui est nécessaire pour le clonage. Le maintien de l'échantillon au réfrigérateur préserve l'intégrité des cellules et de l'ADN, augmentant les chances de clonage réussi.",
     },
     q7: {
       title: "Puis-je cloner mon animal à partir d'un échantillon de poil?",
       subtitle:
-        "A: Non, il n'existe aucune méthode de clonage à partir d'un poil. L'ADN seul n'est pas suffisant pour le clonage car celui-ci nécessite un transfert de noyau, donc des cellules vivantes (généralement de la peau) sont nécessaires.",
+        "R: Non, il n'existe aucune méthode de clonage à partir d'un poil. L'ADN seul n'est pas suffisant pour le clonage car celui-ci nécessite un transfert de noyau, donc des cellules vivantes (généralement de la peau) sont nécessaires.",
     },
     q8: {
       title:
         "Mon animal cloné peut-il avoir la même personnalité que mon animal d'origine?",
       subtitle:
-        "A: Bien qu'un animal cloné aura la même composition génétique que votre animal d'origine, les traits de personnalité sont influencés à la fois par la génétique et l'environnement. Par conséquent, l'animal cloné peut avoir des prédispositions similaires mais développera sa propre personnalité unique grâce à ses expériences individuelles.",
+        "R: Bien qu'un animal cloné aura la même composition génétique que votre animal d'origine, les traits de personnalité sont influencés à la fois par la génétique et l'environnement. Par conséquent, l'animal cloné peut avoir des prédispositions similaires mais développera sa propre personnalité unique grâce à ses expériences individuelles.",
     },
     q9: {
       title: "Le clonage d'animaux de compagnie est-il sûr?",
       subtitle:
-        'A: Les processus de clonage se sont considérablement améliorés au fil du temps et sont réalisés avec des normes élevées de soins vétérinaires. Cependant, comme tout processus biologique, il existe des risques inhérents et des taux de réussite variables.',
+        'R: Les processus de clonage se sont considérablement améliorés au fil du temps et sont réalisés avec des normes élevées de soins vétérinaires. Cependant, comme tout processus biologique, il existe des risques inhérents et des taux de réussite variables.',
     },
     q10: {
       title:
         "Quel est le taux de réussite pour le clonage d'animaux de compagnie?",
       subtitle:
-        "A: Les taux de réussite du clonage varient en fonction de l'état et de la manipulation de l'échantillon génétique, des techniques de clonage utilisées et de l'animal individuel. La qualité de l'ADN et le démarrage rapide du processus sont des facteurs clés.",
+        "R: Les taux de réussite du clonage varient en fonction de l'état et de la manipulation de l'échantillon génétique, des techniques de clonage utilisées et de l'animal individuel. La qualité de l'ADN et le démarrage rapide du processus sont des facteurs clés.",
     },
     q11: {
       title:
         "Comment puis-je transporter l'échantillon de mon animal vers une installation de clonage?",
       subtitle:
-        "A: Si vous souhaitez cloner votre animal, remplissez le formulaire de contact et nous vous donnerons tous les détails sur la manière d'envoyer l'échantillon de peau de votre animal à l'installation de culture cellulaire.",
+        "R: Si vous souhaitez cloner votre animal, remplissez le formulaire de contact et nous vous donnerons tous les détails sur la manière d'envoyer l'échantillon de peau de votre animal à l'installation de culture cellulaire.",
     },
     q12: {
       title: "Le clonage d'animaux de compagnie est-il légal en Europe?",
       subtitle:
-        "A: Dans l'Union européenne, seul le clonage d'animaux destinés à la consommation, tels que le bétail, est réglementé. Le clonage d'animaux de compagnie n'est pas défini comme illégal par l'Union européenne. Chaque pays européen peut avoir une réglementation différente sur le sujet, mais pour la plupart d'entre eux, il n'y a tout simplement aucune réglementation. Le clonage d'un animal de compagnie à l'étranger et son retour dans votre pays ne posera aucun problème légal, car seul le clonage lui-même est réglementé, et non le fait de posséder un animal cloné.",
+        "R: Dans l'Union européenne, seul le clonage d'animaux destinés à la consommation, tels que le bétail, est réglementé. Le clonage d'animaux de compagnie n'est pas défini comme illégal par l'Union européenne. Chaque pays européen peut avoir une réglementation différente sur le sujet, mais pour la plupart d'entre eux, il n'y a tout simplement aucune réglementation. Le clonage d'un animal de compagnie à l'étranger et son retour dans votre pays ne posera aucun problème légal, car seul le clonage lui-même est réglementé, et non le fait de posséder un animal cloné.",
     },
   },
   contactUs: {
@@ -358,7 +358,7 @@ Chaque étape est réalisée avec précision, soin et respect pour les vies impl
     phoneMobile: 'Téléphone / Mobile',
     email: 'E-mail',
     message: 'Message',
-    petName: "Nom de l'animal de compagnie",
+    petName: "Nom de l'animal",
     animalType: "Type d'animal",
     cloningInfo: "Je souhaite plus d'informations sur le clonage",
     preservationInfo:

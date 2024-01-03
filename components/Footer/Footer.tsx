@@ -31,20 +31,20 @@ const Footer: React.FC = () => {
                 </Link>
               </span>
             </div>
-            <div className='w-32'>
-              <LanguageDropdown
-                placeholder={language}
-                onSelect={(item: Language) => {
-                  setLocaleToStorage(item.locale);
-                  setCurrentLanguage(item.locale);
-                  window.location.reload();
-                }}
-                items={languages}
-                selectedItem={languages.find(
-                  (lang) => lang.locale === currentLanguage
-                )}
-              />
-            </div>
+            {/* <div className='w-32'> */}
+            <LanguageDropdown
+              placeholder={language}
+              onSelect={(item: Language) => {
+                setLocaleToStorage(item.locale);
+                setCurrentLanguage(item.locale);
+                window.location.reload();
+              }}
+              items={languages}
+              selectedItem={languages.find(
+                (lang) => lang.locale === currentLanguage
+              )}
+            />
+            {/* </div> */}
           </div>
         </div>
 

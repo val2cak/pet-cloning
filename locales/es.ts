@@ -291,67 +291,67 @@ export default {
     q1: {
       title: '¿Qué es exactamente la clonación de mascotas?',
       subtitle:
-        'A: La clonación de mascotas es el proceso de crear una copia genéticamente idéntica de un animal. Esto se logra tomando una muestra de piel del animal original (el donante), creando células cultivadas y luego transfiriendo el material genético de esas células a una célula de huevo que ha tenido su núcleo eliminado.',
+        'R: La clonación de mascotas es el proceso de crear una copia genéticamente idéntica de un animal. Esto se logra tomando una muestra de piel del animal original (el donante), creando células cultivadas y luego transfiriendo el material genético de esas células a una célula de huevo que ha tenido su núcleo eliminado.',
     },
     q2: {
       title: '¿Cuánto cuesta clonar una mascota?',
       subtitle:
-        'A: Los costos de clonación pueden ser sustanciales, reflejando la complejidad científica involucrada. Actualmente, clonar un gato o un perro puede costar alrededor de €50,000, mientras que un caballo puede costar hasta €85,000.',
+        'R: Los costos de clonación pueden ser sustanciales, reflejando la complejidad científica involucrada. Actualmente, clonar un gato o un perro puede costar alrededor de €50,000, mientras que un caballo puede costar hasta €85,000.',
     },
     q3: {
       title: '¿Cuál es el punto de la Conservación de Células?',
       subtitle:
-        'A: La conservación de células es como un seguro que te permitirá clonar a tu mascota en el futuro si alguna vez decides hacerlo. Decidir clonar una mascota justo después de su fallecimiento puede ser un escenario estresante y el riesgo de cometer un error o encontrarse en una situación que conduzca a la imposibilidad de la clonación es bastante alto. Con la Conservación de Células, puedes prepararte para una clonación potencial de manera segura y, si hay algún problema, aún es posible volver a intentarlo.',
+        'R: La conservación de células es como un seguro que te permitirá clonar a tu mascota en el futuro si alguna vez decides hacerlo. Decidir clonar una mascota justo después de su fallecimiento puede ser un escenario estresante y el riesgo de cometer un error o encontrarse en una situación que conduzca a la imposibilidad de la clonación es bastante alto. Con la Conservación de Células, puedes prepararte para una clonación potencial de manera segura y, si hay algún problema, aún es posible volver a intentarlo.',
     },
     q4: {
       title:
         '¿Qué debo hacer si mi mascota acaba de fallecer y estoy considerando la clonación?',
       subtitle:
-        'A: Es crucial evitar que el cuerpo o cualquier tejido se congele y mantenerlo refrigerado en su lugar. Ponte en contacto de inmediato con un veterinario para recoger una muestra de tejido en un medio estéril y luego ponte en contacto con nosotros para obtener instrucciones adicionales sobre almacenamiento y transporte.',
+        'R: Es crucial evitar que el cuerpo o cualquier tejido se congele y mantenerlo refrigerado en su lugar. Ponte en contacto de inmediato con un veterinario para recoger una muestra de tejido en un medio estéril y luego ponte en contacto con nosotros para obtener instrucciones adicionales sobre almacenamiento y transporte.',
     },
     q5: {
       title:
         '¿Puedo clonar a un animal que ha fallecido desde hace mucho tiempo?',
       subtitle:
-        'A: La clonación exitosa requiere una muestra genética de alta calidad. Una vez que un animal ha fallecido durante un período prolongado, la degradación del ADN hace que la clonación sea menos probable. Lo mejor es comenzar el proceso tan pronto como sea posible después de la muerte. Por lo general, si la mascota ha estado muerta durante una semana o más y no se ha conservado a 4 grados, no se puede clonar. Si se conserva a 4 grados justo después de la muerte, una mascota se puede clonar hasta 3 semanas después de la muerte.',
+        'R: La clonación exitosa requiere una muestra genética de alta calidad. Una vez que un animal ha fallecido durante un período prolongado, la degradación del ADN hace que la clonación sea menos probable. Lo mejor es comenzar el proceso tan pronto como sea posible después de la muerte. Por lo general, si la mascota ha estado muerta durante una semana o más y no se ha conservado a 4 grados, no se puede clonar. Si se conserva a 4 grados justo después de la muerte, una mascota se puede clonar hasta 3 semanas después de la muerte.',
     },
     q6: {
       title:
         '¿Por qué no debo congelar el cuerpo de mi mascota si quiero clonarlo?',
       subtitle:
-        'A: Congelar puede dañar la estructura celular y el ADN en su interior, que es necesario para la clonación. Mantener la muestra refrigerada preserva la integridad de las células y el ADN, aumentando las posibilidades de una clonación exitosa.',
+        'R: Congelar puede dañar la estructura celular y el ADN en su interior, que es necesario para la clonación. Mantener la muestra refrigerada preserva la integridad de las células y el ADN, aumentando las posibilidades de una clonación exitosa.',
     },
     q7: {
       title: '¿Puedo clonar a mi mascota a partir de una muestra de pelo?',
       subtitle:
-        'A: No, no hay ningún método de clonación a partir de un cabello. El ADN solo no es suficiente para la clonación porque se requiere la transferencia de núcleos, por lo que se necesitan células vivas (generalmente de la piel).',
+        'R: No, no hay ningún método de clonación a partir de un cabello. El ADN solo no es suficiente para la clonación porque se requiere la transferencia de núcleos, por lo que se necesitan células vivas (generalmente de la piel).',
     },
     q8: {
       title:
         '¿Puede mi mascota clonada tener la misma personalidad que mi mascota original?',
       subtitle:
-        'A: Si bien una mascota clonada tendrá la misma composición genética que tu mascota original, los rasgos de personalidad están influenciados tanto por la genética como por el entorno. Por lo tanto, el animal clonado puede tener predisposiciones similares pero desarrollará su propia personalidad única a través de sus experiencias individuales.',
+        'R: Si bien una mascota clonada tendrá la misma composición genética que tu mascota original, los rasgos de personalidad están influenciados tanto por la genética como por el entorno. Por lo tanto, el animal clonado puede tener predisposiciones similares pero desarrollará su propia personalidad única a través de sus experiencias individuales.',
     },
     q9: {
       title: '¿Es segura la clonación de mascotas?',
       subtitle:
-        'A: Los procesos de clonación han mejorado significativamente con el tiempo y se llevan a cabo con altos estándares de atención veterinaria. Sin embargo, como cualquier proceso biológico, hay riesgos inherentes y tasas de éxito variables.',
+        'R: Los procesos de clonación han mejorado significativamente con el tiempo y se llevan a cabo con altos estándares de atención veterinaria. Sin embargo, como cualquier proceso biológico, hay riesgos inherentes y tasas de éxito variables.',
     },
     q10: {
       title: '¿Cuál es la tasa de éxito para la clonación de mascotas?',
       subtitle:
-        'A: Las tasas de éxito para la clonación varían según la condición y el manejo de la muestra genética, las técnicas de clonación utilizadas y el animal individual. La calidad del ADN y el inicio rápido del proceso son factores clave.',
+        'R: Las tasas de éxito para la clonación varían según la condición y el manejo de la muestra genética, las técnicas de clonación utilizadas y el animal individual. La calidad del ADN y el inicio rápido del proceso son factores clave.',
     },
     q11: {
       title:
         '¿Cómo transporto la muestra de mi mascota a una instalación de clonación?',
       subtitle:
-        'A: Si deseas clonar a tu mascota, completa el formulario de contacto y te proporcionaremos todos los detalles sobre cómo enviar la muestra de piel de tu mascota al laboratorio de cultivo celular.',
+        'R: Si deseas clonar a tu mascota, completa el formulario de contacto y te proporcionaremos todos los detalles sobre cómo enviar la muestra de piel de tu mascota al laboratorio de cultivo celular.',
     },
     q12: {
       title: '¿Es legal la clonación de mascotas en Europa?',
       subtitle:
-        'A: En la UE, solo se regula la clonación de animales para consumo, como el ganado. La clonación de mascotas no está definida como ilegal por la UE. Cada país europeo puede tener diferentes regulaciones sobre el tema, pero en la mayoría de ellos, simplemente no hay regulación. Clonar una mascota en el extranjero y traerla de vuelta a tu país no tendría ningún problema legal, ya que solo la clonación en sí está regulada, no el hecho de poseer un animal clonado.',
+        'R: En la UE, solo se regula la clonación de animales para consumo, como el ganado. La clonación de mascotas no está definida como ilegal por la UE. Cada país europeo puede tener diferentes regulaciones sobre el tema, pero en la mayoría de ellos, simplemente no hay regulación. Clonar una mascota en el extranjero y traerla de vuelta a tu país no tendría ningún problema legal, ya que solo la clonación en sí está regulada, no el hecho de poseer un animal clonado.',
     },
   },
   contactUs: {
@@ -360,7 +360,7 @@ export default {
     phoneMobile: 'Teléfono / Móvil',
     email: 'Correo electrónico',
     message: 'Mensaje',
-    petName: 'Nombre de la mascota',
+    petName: 'Nombre del animal',
     animalType: 'Tipo de animal',
     cloningInfo: 'Quiero más información sobre la clonación',
     preservationInfo: 'Quiero más información sobre la preservación celular',

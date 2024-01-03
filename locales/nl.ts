@@ -17,7 +17,7 @@ export default {
   navigation: {
     home: 'Home',
     science: 'Wetenschap',
-    petCloningGuide: 'Gids voor huisdierklonen',
+    petCloningGuide: 'Gids voor klonen',
     qA: 'V&A',
     cloningNews: 'Nyheder',
     contactUs: 'Contact',
@@ -358,7 +358,7 @@ export default {
     phoneMobile: 'Telefoon / Mobiel',
     email: 'E-mail',
     message: 'Bericht',
-    petName: 'Naam van het huisdier',
+    petName: 'Naam van het dier',
     animalType: 'Type dier',
     cloningInfo: 'Ik wil meer informatie over klonen',
     preservationInfo: 'Ik wil meer informatie over behoud van cellen',
