@@ -16,17 +16,17 @@ const Question: FC<Props> = ({ icon, title, subtitle, color }) => {
 
   return (
     <div
-      className={`flex items-start gap-3 sm:whitespace-normal whitespace-pre-line ${
+      className={`flex items-start justify-start gap-3 sm:whitespace-normal whitespace-pre-line ${
         color ? color : 'text-light border-light border-opacity-30'
       } rounded-lg px-4 ${
         isSubtitleVisible ? 'py-7' : 'py-4'
       } border shadow-md transition-all duration-300 ease-in-out cursor-pointer`}
       onClick={handleClick}
     >
-      {icon && <img src={icon} className='w-12 h-12' alt='Number' />}
+      {icon && <img src={icon} className='w-10 h-10' alt='Number' />}
       <div
         className={`flex flex-col items-start gap-1 ${
-          isSubtitleVisible ? 'justify-start' : 'justify-center h-12'
+          isSubtitleVisible ? 'justify-start' : 'justify-center h-10'
         }`}
       >
         {title && (
