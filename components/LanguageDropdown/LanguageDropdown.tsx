@@ -39,12 +39,10 @@ const LanguageDropdown: FC<Props> = ({
   }, [ref]);
 
   return (
-    <div ref={ref} className='w-full pb-0 px-2 relative border-none capitalize'>
+    <div ref={ref} className='pb-0 px-2 relative border-none capitalize'>
       <div
         onClick={() => setOpen(!open)}
-        className={
-          'flex items-center justify-between hover:cursor-pointer text-light'
-        }
+        className={'flex items-center gap-2 hover:cursor-pointer text-light'}
       >
         <p
           className={`${

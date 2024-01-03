@@ -64,24 +64,24 @@ const Form = () => {
   return (
     <>
       {isSubmitting && (
-        <div className='h-full bg-primary sm:w-full lg:w-2/3 w-[45%] opacity-80 text-light flex flex-col justify-center items-center'>
+        <div className='h-full bg-primary sm:w-full lg:w-2/3 w-[46%] opacity-80 text-light flex flex-col justify-center items-center'>
           <MoonLoader color='#F8F9FA' loading={isSubmitting} />
         </div>
       )}
 
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className='sm:py-8 py-16 sm:pl-8 pl-40 2xl:pl-56 sm:pr-8 pr-32 h-full bg-primary sm:w-full lg:w-2/3 w-[45%] opacity-80 text-light flex flex-col justify-center items-center gap-8'
+        className='sm:py-8 py-12 sm:pl-8 pl-40 2xl:pl-56 sm:pr-8 pr-32 h-full bg-primary sm:w-full lg:w-2/3 w-[46%] opacity-80 text-light flex flex-col justify-center items-center gap-6'
       >
         <div className='w-full'>
-          <div className='text-md font-bold uppercase flex justify-center'>
+          <div className='text-base font-bold uppercase flex justify-center'>
             {title}
           </div>
           {isRequiredFieldMissing && (
             <div className='text-red text-sm font-medium'>{requiredFields}</div>
           )}
         </div>
-        <div className='flex flex-col w-full justify-center items-center sm:gap-12 gap-8'>
+        <div className='flex flex-col w-full h-full justify-between items-center sm:gap-8 gap-6'>
           <Input
             label={name}
             placeholder={name}
@@ -118,8 +118,8 @@ const Form = () => {
               },
             }}
           />
-          <div className='flex items-center gap-4'>
-            <div className='w-1/2'>
+          <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
+            <div className='sm:w-full w-1/2'>
               <Controller
                 name='animalType'
                 control={control}
@@ -140,7 +140,7 @@ const Form = () => {
                 )}
               />
             </div>
-            <div className='w-1/2'>
+            <div className='sm:w-full w-1/2'>
               <Input
                 label={petName}
                 placeholder={petName}

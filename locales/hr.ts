@@ -69,7 +69,7 @@ export default {
           'Počinje prikupljanjem uzorka tkiva od vašeg ljubimca. To je obično uzorak kože, uzet pod nadzorom veterinara, kako bi se osiguralo da su stanice prikladne za kloniranje.',
       },
       step2: {
-        title: 'Cultura stanica',
+        title: 'Kultura stanica',
         subtitle:
           'Prikupljene stanice zatim se šalju u objekt za kulturu stanica, gdje se kultiviraju da rastu i množe, stvarajući stabilnu liniju genetskog materijala vašeg ljubimca. Stanice se zatim ili čuvaju neograničeno za očuvanje stanica ili se izravno šalju u objekt za kloniranje.',
       },
@@ -79,7 +79,7 @@ export default {
           'Stanice se zatim smrzavaju u tekućem dušiku radi očuvanja stanica ili se šalju u objekt za kloniranje. Mogu ostati smrznute neograničeno bez oštećenja.',
       },
       step4: {
-        title: 'Donator jajeta i transfer',
+        title: 'Donator i prijenos jajnih stanica',
         subtitle:
           'Sljedeći korak uključuje dobivanje jajeta od životinje donatora. Genetski materijal ovog jajeta zamijenjen je DNA-om kulturiranih stanica vašeg ljubimca.',
       },
@@ -94,7 +94,7 @@ export default {
           'Embrij se zatim usađuje u surogat majku, gdje će rasti do rođenja. Ovaj je korak ključan i izvodi se s pažljivim praćenjem kako bi se osiguralo zdravlje i sigurnost kako surogatke, tako i razvijajućeg kloniranog ljubimca.',
       },
       step7: {
-        title: 'Dovođenje svog klona kući',
+        title: 'Dovođenje vašeg klona kući',
         subtitle:
           'Nakon što se klonirani ljubimac rodi i odvikava, dogovara se dostava novog ljubimca u vaš dom.',
       },
@@ -181,36 +181,36 @@ export default {
       },
     },
     section3: {
-      title: 'Budući Napredak Kloniranja Kućnih Ljubimaca',
+      title: 'Budući napredak kloniranja kućnih ljubimaca',
       subtitle:
         'Fronta kloniranja kućnih ljubimaca korača prema uzbudljivoj i većinom nepoznatoj budućnosti. Napredak koji slijedi ovisi o znanstvenim dostignućima, etičkim razmatranjima i javnoj potražnji.',
       step1: {
-        title: 'Napredak u Genetici i Reprodukciji',
+        title: 'Napredak u genetici i reprodukciji',
         subtitle:
           'Očekuje se da će budući napredak nastaviti poboljšavati učinkovitost i pouzdanost kloniranja. Napredak u tehnologiji uređivanja gena CRISPR i istraživanju matičnih stanica može dovesti do poboljšanja načina proizvodnje klonova i zdravstvenih ishoda kloniranih životinja. To bi moglo učiniti proces dostupnijim i smanjiti troškove tijekom vremena, potencijalno otvarajući vrata da više vlasnika kućnih ljubimaca razmotri kloniranje kao održivu opciju.',
       },
       step2: {
-        title: 'Unaprijeđeno Očuvanje Genetskog Materijala',
+        title: 'Unaprijeđeno očuvanje genetskog materijala',
         subtitle:
           'Kako tehnologija kloniranja sazrijeva, napore za očuvanje ugroženih vrsta korištenjem tehnika kloniranja postat će sofisticiraniji. To može uključivati napore za ponovno uvođenje genetske raznolikosti u opadajuće populacije, pomažući im u obnovi i održivosti.',
       },
       step3: {
-        title: 'Prilagodba i Prevencija Bolesti',
+        title: 'Prilagodba i prevencija bolesti',
         subtitle:
           'S napretkom u razumijevanju genetske osnove bolesti, postoji potencijal da klonirani kućni ljubimci budu manje osjetljivi na nasljedne uvjete, provjerom i potencijalnom izmjenom gena prije kloniranja, osiguravajući zdraviji životni vijek rezultirajućeg potomstva.',
       },
       step4: {
-        title: 'Etički i Regulativni Razvoj',
+        title: 'Etički i regulativni razvoj',
         subtitle:
           'Budućnost će vjerojatno vidjeti preciznije regulativno okruženje kako kloniranje postaje uobičajeno. Etičke rasprave oko praksi kloniranja mogu utjecati na propise i rezultirati standardiziranim globalnim praksama koje osiguravaju dobrobit kloniranih životinja.',
       },
       step5: {
-        title: 'Angažman Javnosti i Edukacija',
+        title: 'Angažman javnosti i edukacija',
         subtitle:
           'Povećanje javnog znanja o kloniranju kroz obrazovanje odigrat će ključnu ulogu u njegovom razvoju. Kako razumijevanje raste, rast će i razgovor o moralnim i praktičnim implikacijama kloniranja, što će oblikovati smjer industrije.',
       },
       step6: {
-        title: 'Kloniranje za Istraživanje Starenja i Bolesti',
+        title: 'Kloniranje za istraživanje starenja i bolesti',
         subtitle:
           'Kloniranje može poslužiti kao značajan istraživački alat za proučavanje starenja i kroničnih bolesti. Proizvodnjom genetski identičnih životinja, znanstvenici mogu preciznije istraživati tijek bolesti i učinkovitost tretmana, što može imati duboke implikacije kako za ljudsku, tako i za veterinarsku medicinu.',
       },
@@ -218,56 +218,56 @@ export default {
   },
   petCloningGuide: {
     section1: {
-      title: 'Vodič za Kloniranje Kućnih Ljubimaca',
+      title: 'Vodič za kloniranje kućnih ljubimaca',
       subtitle:
         'Bilo da planirate unaprijed klonirati svog zdravog ljubimca u budućnosti ili se suočavate s hitnom situacijom gubitka ljubimca, razumijevanje i pridržavanje ispravnih postupaka za očuvanje stanica od ključne su važnosti. Ovaj vodič ima za cilj osigurati da poduzmete sve potrebne radnje kako biste opciju kloniranja održali otvorenom s najvećim mogućim postotkom uspjeha. U slučaju hitne situacije (nedavno preminuli ljubimac),',
       subtitle_1: 'kako biste dobili specifične savjete.',
     },
     section2: {
-      title: 'Za Ljubimce koji su Preminuli',
+      title: 'Za ljubimce koji su preminuli',
       point1: {
-        title: 'Djelujte Brzo i Održavajte Hladnoću',
+        title: 'Djelujte brzo i održavajte hladnoću',
         subtitle:
           'Nakon smrti vašeg ljubimca, nemojte zamrzavati tijelo ili prikupljene tkiva. Stavite tijelo ili tkivo u hladno okruženje (temperatura hladnjaka od 2-4°C / 35,6-39,2°F) kako biste usporili propadanje stanica.',
       },
       point2: {
-        title: 'Potražite Veterinarsku Pomoć',
+        title: 'Potražite veterinarsku pomoć',
         subtitle:
           'Veterinar može osigurati da se uzorak uzme ispravno i pohrani u sterilnom fiziološkom rastvoru, koji se može nabaviti u većini ljekarni.',
       },
       point3: {
-        title: 'Sterilno Prikupljanje je Kritično',
+        title: 'Sterilno prikupljanje je ključno',
         subtitle:
           'Prilikom prikupljanja uzorka kože, održavanje sterilnosti jednako je bitno kao i brza reakcija. Kontaminirani uzorci možda neće biti pogodni za kloniranje. Ako ne možete pronaći veterinara za prikupljanje, koristite sterilizirane instrumente i rukavice s etanolom.',
       },
     },
     section3: {
-      title: 'Za Očuvanje Stanica od Živog Ljubimca',
+      title: 'Za očuvanje stanica živog ljubimca',
       point1: {
-        title: 'Idealni Uvjeti',
+        title: 'Idealni uvjeti',
         subtitle:
           'Ako odlučite klonirati svog ljubimca dok je još živ, organiziranje sterilne biopsije kože pod veterinarskim nadzorom najbolji je scenarij. To smanjuje stres na stanicama i maksimizira njihovu održivost za kloniranje.',
       },
       point2: {
-        title: 'Sigurno Skladištenje i Transport',
+        title: 'Sigurno skladištenje i transport',
         subtitle:
           'Bilo da očekujete buduće kloniranje ili djelujete nakon gubitka, prikupljeni uzorak mora se čuvati na konstantnoj temperaturi hladnjaka od 2-4°C, kako tijekom skladištenja tako i tijekom otpreme klonirnom ili uzgojnom objektu.',
       },
       point3: {
-        title: 'Vrijeme je Ključno',
+        title: 'Vrijeme je ključno',
         subtitle:
           'Što je brže uzorak osiguran i dostavljen klonirnom laboratoriju, to su bolje šanse za uspješno kloniranje, bilo da je riječ o živom ljubimcu ili onom koji je nedavno preminuo.',
       },
     },
     section4: {
-      title: 'Slanje Vašeg Uzorka',
+      title: 'Slanje vašeg uzorka',
       point1: {
-        title: 'Stručno Vodstvo',
+        title: 'Stručno vodstvo',
         subtitle: 'Prije uzimanja uzorka,',
         subtitle_1: 'za informacije o uvjetima dostave.',
       },
       point2: {
-        title: 'Sigurno i Hladno Slanje',
+        title: 'Sigurna i hladna isporuka',
         subtitle:
           'Koristite hladnu posudu za transport i osigurajte da ostane zatvorena i na stabilnoj, hladnoj temperaturi potrebnoj za očuvanje.',
       },

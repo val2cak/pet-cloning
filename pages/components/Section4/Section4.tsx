@@ -8,7 +8,7 @@ const Section4 = () => {
       <div className='sm:w-full w-1/2 sm:text-sm text-base font-medium text-light whitespace-pre-line lg:whitespace-normal'>
         {text}
       </div>
-      <div className='sm:bg-homeSection4Mobile bg-homeSection4 bg-center bg-contain bg-no-repeat sm:h-[12.9rem] h-[17.4rem] sm:w-full w-1/2'></div>
+      <div className='sm:bg-homeSection4Mobile bg-homeSection4 bg-center bg-contain bg-no-repeat sm:h-[12.9rem] h-[22rem] sm:w-full w-1/2'></div>
     </div>
   );
 };

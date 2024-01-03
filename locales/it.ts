@@ -366,7 +366,7 @@ export default {
     phoneMobile: 'Telefono / Cellulare',
     email: 'Email',
     message: 'Messaggio',
-    petName: "Nome dell'animale domestico",
+    petName: "Nome dell'animale",
     animalType: 'Tipo di animale',
     cloningInfo: 'Voglio ulteriori informazioni sulla clonazione',
     preservationInfo:
