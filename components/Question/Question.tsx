@@ -28,7 +28,9 @@ const Question: FC<Props> = ({ icon, title, subtitle, color }) => {
       )}
       <div
         className={`flex flex-col items-start gap-1 ${
-          isSubtitleVisible ? 'justify-start' : 'justify-center sm:h-fit h-10'
+          isSubtitleVisible
+            ? 'justify-start'
+            : 'justify-center sm:min-h-[2.5rem] sm:h-fit h-10'
         }`}
       >
         {title && (
