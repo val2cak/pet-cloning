@@ -32,7 +32,14 @@ const Layout: FC<Props> = ({ children }) => {
     if (!hasVisited) {
       // Set the 'visited' cookie to true
       Cookies.set('visited', 'true', { expires: 30 }); // expires in 30 days
-      setShowModal(true);
+
+      // Delay showing the modal by 10 seconds
+      const delayModal = setTimeout(() => {
+        setShowModal(true);
+      }, 10000); // 10 seconds in milliseconds
+
+      // Clear the timeout if the component unmounts or the modal is closed manually
+      return () => clearTimeout(delayModal);
     }
   }, [hasVisited]);
 
