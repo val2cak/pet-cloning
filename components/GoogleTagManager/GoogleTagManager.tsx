@@ -9,7 +9,7 @@ const GoogleTagManager = () => {
       w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
 
       var f = d.getElementsByTagName(s)[0];
-      var j: HTMLScriptElement = d.createElement(s);
+      var j: HTMLScriptElement = d.createElement('script');
 
       j.async = true;
       j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i;
