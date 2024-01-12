@@ -1,11 +1,17 @@
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 
 import Layout from '../Layout';
+import { initializeGoogleTagManager } from '../../utils/initializeGoogleTagManager';
 
 const ContactUs = () => {
   const Form = dynamic(() => import('./components/Form/Form'), {
     ssr: false,
   });
+
+  useEffect(() => {
+    initializeGoogleTagManager();
+  }, []);
 
   return (
     <Layout>
