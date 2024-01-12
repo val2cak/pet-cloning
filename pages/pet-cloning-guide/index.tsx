@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 
 import Layout from '../Layout';
+import { initializeGoogleTagManager } from '../../utils/initializeGoogleTagManager';
 
 const PetCloningGuide = () => {
   const Cover = dynamic(() => import('./components/Cover/Cover'), {
@@ -21,6 +23,10 @@ const PetCloningGuide = () => {
   const Section5 = dynamic(() => import('./components/Section5/Section5'), {
     ssr: false,
   });
+
+  useEffect(() => {
+    initializeGoogleTagManager();
+  }, []);
 
   return (
     <Layout>

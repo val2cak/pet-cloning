@@ -1,7 +1,9 @@
 import ReactMarkdown from 'react-markdown';
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 
 import { locale } from '../../locales/translate';
+import { initializeGoogleTagManager } from '../../utils/initializeGoogleTagManager';
 
 const BlogPost = ({ post }) => {
   const dateCreated = new Date(post.fields.dateCreated);
@@ -18,6 +20,10 @@ const BlogPost = ({ post }) => {
 
   const lang =
     locale.slice(0, 1).toUpperCase() + locale.slice(1, locale.length);
+
+  useEffect(() => {
+    initializeGoogleTagManager();
+  }, []);
 
   return (
     <Layout>

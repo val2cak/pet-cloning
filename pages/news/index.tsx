@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic';
+import { useEffect } from 'react';
 
 import {
   getBlogPosts,
@@ -7,6 +8,7 @@ import {
 import Layout from '../Layout';
 import Pagination from './components/Pagination/Pagination';
 import { locale } from '../../locales/translate';
+import { initializeGoogleTagManager } from '../../utils/initializeGoogleTagManager';
 
 const CloningNews = ({ posts, currentPage, totalPages }) => {
   const Post = dynamic(() => import('./components/Post/Post'), {
@@ -15,6 +17,10 @@ const CloningNews = ({ posts, currentPage, totalPages }) => {
 
   const lang =
     locale.slice(0, 1).toUpperCase() + locale.slice(1, locale.length);
+
+  useEffect(() => {
+    initializeGoogleTagManager();
+  }, []);
 
   return (
     <Layout>
