@@ -7,7 +7,6 @@ import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
 
 import Popup from './components/Popup/Popup';
-import GoogleTagManager from '../components/GoogleTagManager/GoogleTagManager';
 
 interface Props {
   children: ReactNode;
@@ -51,8 +50,6 @@ const Layout: FC<Props> = ({ children }) => {
 
   return (
     <>
-      <GoogleTagManager />
-
       <NextSeo title={SEO.title} />
       <div className='relative min-h-screen'>
         <Header />
