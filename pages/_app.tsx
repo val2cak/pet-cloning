@@ -1,11 +1,21 @@
-import '../styles/globals.css';
+import TagManager from 'react-gtm-module';
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
+
 import { translate } from '../locales/translate';
-import { GTM_ID } from '../lib/gtm';
+
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   const { title } = translate.home.cover;
+
+  const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+
+  const tagManagerArgs = {
+    gtmId: GTM_ID,
+  };
+
+  TagManager.initialize(tagManagerArgs);
 
   return (
     <>
