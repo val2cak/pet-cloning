@@ -17,7 +17,6 @@
     "nodemailer": "^6.9.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-gtm-module": "^2.0.11",
     "react-hook-form": "^7.48.2",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
@@ -26,6 +25,7 @@
     "slugify": "^1.6.6"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
     "@types/node": "^12.12.21",
     "@types/react": "^18.2.39",
     "@types/react-dom": "^17.0.1",

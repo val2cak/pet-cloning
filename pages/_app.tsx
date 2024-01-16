@@ -1,21 +1,32 @@
-import TagManager from 'react-gtm-module';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 
 import { translate } from '../locales/translate';
+import * as ga from '../lib/ga';
 
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   const { title } = translate.home.cover;
 
-  const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+  const router = useRouter();
 
-  const tagManagerArgs = {
-    gtmId: GTM_ID,
-  };
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url);
+    };
+    //When the component is mounted, subscribe to router changes
+    //and log those page views
+    router.events.on('routeChangeComplete', handleRouteChange);
 
-  TagManager.initialize(tagManagerArgs);
+    // If the component is unmounted, unsubscribe
+    // from the event with the `off` method
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
@@ -24,28 +35,7 @@ function MyApp({ Component, pageProps }) {
         <meta name='robots' content='index, follow'></meta>
         <meta name='description' content={title}></meta>
         <link rel='icon' href='./favicon.ico' />
-
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','${GTM_ID}');
-            `,
-          }}
-        />
       </Head>
-
-      <noscript
-        dangerouslySetInnerHTML={{
-          __html: `
-          <iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
-          height="0" width="0" style="display:none;visibility:hidden"></iframe>
-          `,
-        }}
-      />
 
       <Toaster position='top-right' />
       <Component {...pageProps} />
