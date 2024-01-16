@@ -1,5 +1,5 @@
 import TagManager from 'react-gtm-module';
-import Head from 'next/head';
+import Head from 'next/document';
 import { Toaster } from 'react-hot-toast';
 
 import { translate } from '../locales/translate';
