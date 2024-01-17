@@ -13,6 +13,16 @@ const Footer: React.FC = () => {
 
   const [currentLanguage, setCurrentLanguage] = useState(locale);
 
+  const handleWhatsAppClick = () => {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'whatsappEvent',
+      eventCategory: 'WhatsApp Click',
+      eventAction: 'Click',
+      eventLabel: 'WhatsApp',
+    });
+  };
+
   return (
     <footer className='bg-darker text-light sm:px-8 px-40 2xl:px-56 py-8 absolute w-full bottom-0 sm:h-56 h-48'>
       <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-5 gap-10'>
@@ -54,6 +64,7 @@ const Footer: React.FC = () => {
               target='_blank'
               rel='noopener noreferrer'
               className='opacity-50 hover:opacity-100'
+              onClick={handleWhatsAppClick}
             >
               <img
                 src={whatsappIcon.src}
