@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 import { translate } from '../locales/translate';
 
@@ -19,7 +18,6 @@ const App = ({ Component, pageProps }) => {
       </Head>
 
       <Toaster position='top-right' />
-      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
 
       <Component {...pageProps} />
     </>
