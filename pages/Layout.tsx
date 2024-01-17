@@ -5,6 +5,7 @@ import { FC, ReactNode } from 'react';
 import dynamic from 'next/dynamic';
 import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 import Popup from './components/Popup/Popup';
 
@@ -51,6 +52,8 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <>
       <NextSeo title={SEO.title} />
+      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
+
       <div className='relative min-h-screen'>
         <Header />
         <main
