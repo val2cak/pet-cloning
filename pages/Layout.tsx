@@ -5,9 +5,9 @@ import { FC, ReactNode } from 'react';
 import dynamic from 'next/dynamic';
 import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 import Popup from './components/Popup/Popup';
+import { CookieConsent } from '../components/CookieConsent/CookieConsent';
 
 interface Props {
   children: ReactNode;
@@ -52,7 +52,7 @@ const Layout: FC<Props> = ({ children }) => {
   return (
     <>
       <NextSeo title={SEO.title} />
-      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
+      <CookieConsent />
 
       <div className='relative min-h-screen'>
         <Header />

@@ -49,7 +49,7 @@ const DropdownMenu: FC<Props> = ({
       <div
         onClick={() => setOpen(!open)}
         className={
-          'flex items-center justify-between hover:cursor-pointer text-light'
+          'flex items-center justify-between hover:cursor-pointer text-light '
         }
       >
         <p

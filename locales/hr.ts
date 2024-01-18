@@ -7,6 +7,12 @@ export default {
     other: 'Drugo',
     petCloning: 'Petcloning.eu',
   },
+  cookies: {
+    message:
+      'Koristimo neke standardne analitičke pakete za razumijevanje općeg ponašanja korisnika, tako da možemo shvatiti kako poboljšati naš sadržaj. Ovo uključuje neke kolačiće. Jeste li u redu s ovim?',
+    accept: 'Prihvati',
+    decline: 'Odbij',
+  },
   validations: {
     requiredFields: 'Molimo vas da ispunite sva obavezna polja',
     phoneFormat: 'Neispravan format telefonskog broja',

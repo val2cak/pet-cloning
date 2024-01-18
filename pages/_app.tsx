@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
 import { GoogleTagManager } from '@next/third-parties/google';
+import { hasCookie } from 'cookies-next';
 
 import { translate } from '../locales/translate';
 
@@ -16,11 +17,10 @@ const App = ({ Component, pageProps }) => {
         <meta name='robots' content='index, follow'></meta>
         <meta name='description' content={title}></meta>
         <link rel='icon' href='./favicon.ico' />
-
-        <GoogleTagManager gtmId='GTM-5LTK4TCG' />
       </Head>
 
       <Toaster position='top-right' />
+      {hasCookie('consent') && <GoogleTagManager gtmId='GTM-5LTK4TCG' />}
 
       <Component {...pageProps} />
     </>

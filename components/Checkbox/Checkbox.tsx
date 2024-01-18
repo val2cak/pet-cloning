@@ -11,7 +11,11 @@ interface Props {
 const Checkbox: FC<Props> = ({ label, register, name, errors }) => {
   return (
     <div className='flex items-start justify-start gap-2 text-light w-full'>
-      <label className={'text-sm font-medium hover:cursor-pointer'}>
+      <label
+        className={
+          'text-sm font-medium hover:cursor-pointer hover:text-secondary'
+        }
+      >
         <input
           type='checkbox'
           className={`mr-2 ${

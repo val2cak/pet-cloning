@@ -7,6 +7,12 @@ export default {
     other: 'Otro',
     petCloning: 'Petcloning.eu',
   },
+  cookies: {
+    message:
+      'Utilizamos algunos paquetes de análisis estándar para comprender el comportamiento general del usuario, para poder descubrir cómo mejorar nuestro contenido. Esto implica algunas cookies. ¿Estás de acuerdo?',
+    accept: 'Aceptar',
+    decline: 'Rechazar',
+  },
   validations: {
     requiredFields: 'Por favor complete todos los campos requeridos',
     phoneFormat: 'Formato de número de teléfono inválido',

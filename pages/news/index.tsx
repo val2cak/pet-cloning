@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 import {
   getBlogPosts,
@@ -19,8 +18,6 @@ const CloningNews = ({ posts, currentPage, totalPages }) => {
 
   return (
     <Layout>
-      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
-
       <div className='sm:px-8 px-40 2xl:px-56 sm:pt-8 pt-16 pb-8 grid sm:grid-cols-1 lg:grid-cols-3 grid-cols-4 gap-6 w-full'>
         {posts.map((post) => (
           <div key={post.sys.id}>

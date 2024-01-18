@@ -27,7 +27,7 @@ const TextArea: FC<Props> = ({
       </div>
       <textarea
         className={`resize-none w-full border-b focus:outline-none box-border m-0 pl-6 pb-2 bg-transparent text-sm font-normal placeholder:text-light placeholder:opacity-70 placeholder:text-sm placeholder:font-normal ${
-          errors ? 'border-red' : 'border-light'
+          errors ? 'border-red' : 'border-light focus:border-secondary'
         }`}
         placeholder={placeholder}
         {...register(name, { required: required, ...validations })}

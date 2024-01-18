@@ -1,5 +1,4 @@
 import dynamic from 'next/dynamic';
-import { GoogleTagManager } from '@next/third-parties/google';
 
 import Layout from '../Layout';
 
@@ -19,8 +18,6 @@ const Science = () => {
 
   return (
     <Layout>
-      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
-
       <Cover />
       <Section1 />
       <Section2 />
