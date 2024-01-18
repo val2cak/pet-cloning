@@ -7,6 +7,12 @@ export default {
     other: 'Ander',
     petCloning: 'Petcloning.eu',
   },
+  cookies: {
+    message:
+      'We gebruiken enkele standaardanalysepakketten om algemeen gebruikersgedrag te begrijpen, zodat we kunnen ontdekken hoe we onze inhoud kunnen verbeteren. Dit omvat enkele cookies. Ga je hiermee akkoord?',
+    accept: 'Accepteren',
+    decline: 'Afwijzen',
+  },
   validations: {
     requiredFields: 'Vul alle verplichte velden in',
     phoneFormat: 'Ongeldig telefoonnummerformaat',

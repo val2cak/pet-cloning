@@ -11,6 +11,7 @@
     "@next/third-parties": "^14.0.5-canary.59",
     "@types/nodemailer": "^6.4.14",
     "contentful": "^10.6.12",
+    "cookies-next": "^4.1.0",
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "next": "^14.0.4",
