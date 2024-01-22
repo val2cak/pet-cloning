@@ -14,6 +14,37 @@ export default {
     accept: 'Accept',
     decline: 'Decline',
   },
+  seo: {
+    home: {
+      title: 'Pet Cloning - Home',
+      description: 'Everything you need to know about cloning your pet',
+    },
+    science: {
+      title: 'Pet Cloning - Science',
+      description:
+        'Discover the intricate process of pet cloning through somatic cell nuclear transfer (SCNT) and learn the steps involved in creating a new animal with the same DNA.',
+    },
+    petCloningGuide: {
+      title: 'Pet Cloning - Pet Cloning Guide',
+      description:
+        "Plan for the future or navigate the urgency of your pet's passing with our guide. Follow the correct procedures for cell preservation to keep the option for cloning open with high success rates.",
+    },
+    qA: {
+      title: 'Pet Cloning - Q&A',
+      description:
+        'Explore a comprehensive Q&A (Questions and Answers) section to find answers to your queries about pet cloning, reproductive cloning, and the science behind it.',
+    },
+    news: {
+      title: 'Pet Cloning - News',
+      description:
+        'Get the most recent updates and news regarding pet cloning, advancements in the field, and breakthroughs in reproductive cloning technology.',
+    },
+    contactUs: {
+      title: 'Pet Cloning - Contact Us',
+      description:
+        'Reach out to us with any inquiries or requests for additional information on pet cloning. We are here to provide the details you need.',
+    },
+  },
   validations: {
     requiredFields: 'Please fill out all required fields',
     phoneFormat: 'Invalid phone number format',

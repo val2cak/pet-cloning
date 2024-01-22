@@ -14,6 +14,38 @@ export default {
     accept: 'Akzeptieren',
     decline: 'Ablehnen',
   },
+  seo: {
+    home: {
+      title: 'Haustier-Klonen - Startseite',
+      description:
+        'Alles, was Sie über das Klonen Ihres Haustiers wissen müssen.',
+    },
+    science: {
+      title: 'Haustier-Klonen - Wissenschaft',
+      description:
+        'Entdecken Sie den komplexen Prozess des Haustier-Klonens durch somatische Zellkerntransplantation (SCNT) und lernen Sie die Schritte kennen, um ein neues Tier mit der gleichen DNA zu schaffen.',
+    },
+    petCloningGuide: {
+      title: 'Haustier-Klonen - Leitfaden zum Haustier-Klonen',
+      description:
+        'Planen Sie für die Zukunft oder bewältigen Sie die Dringlichkeit des Ablebens Ihres Haustiers mit unserem Leitfaden. Befolgen Sie die korrekten Verfahren zur Zellkonservierung, um die Option für das Klonen offen zu halten, mit hoher Erfolgsquote.',
+    },
+    qA: {
+      title: 'Haustier-Klonen - Fragen und Antworten',
+      description:
+        'Erkunden Sie einen umfassenden Abschnitt für Fragen und Antworten, um Antworten auf Ihre Fragen zum Haustier-Klonen, zur reproduktiven Klonung und zur Wissenschaft dahinter zu finden.',
+    },
+    cloningNews: {
+      title: 'Haustier-Klonen - Neuigkeiten',
+      description:
+        'Erhalten Sie die neuesten Updates und Nachrichten zum Haustier-Klonen, Fortschritten in der Branche und Durchbrüchen in der reproduktiven Klonungstechnologie.',
+    },
+    contactUs: {
+      title: 'Haustier-Klonen - Kontaktiere uns',
+      description:
+        'Kontaktieren Sie uns bei Fragen oder Anfragen nach zusätzlichen Informationen zum Haustier-Klonen. Wir stehen zur Verfügung, um die Details bereitzustellen, die Sie benötigen.',
+    },
+  },
   validations: {
     requiredFields: 'Bitte füllen Sie alle Pflichtfelder aus',
     phoneFormat: 'Ungültiges Telefonnummer-Format',

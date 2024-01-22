@@ -14,6 +14,37 @@ export default {
     accept: 'Accepteren',
     decline: 'Afwijzen',
   },
+  seo: {
+    home: {
+      title: 'Huisdier Klonen - Home',
+      description: 'Alles wat je moet weten over het klonen van je huisdier.',
+    },
+    science: {
+      title: 'Huisdier Klonen - Wetenschap',
+      description:
+        'Ontdek het ingewikkelde proces van huisdier klonen via somatische celkerntransplantatie (SCNT) en leer de stappen om een nieuw dier te creëren met dezelfde DNA.',
+    },
+    petCloningGuide: {
+      title: 'Huisdier Klonen - Gids voor Huisdier Klonen',
+      description:
+        'Plan voor de toekomst of ga om met de urgentie van het overlijden van je huisdier met onze gids. Volg de juiste procedures voor celbehoud om de optie voor klonen open te houden met hoge succespercentages.',
+    },
+    qA: {
+      title: 'Huisdier Klonen - Vraag & Antwoord',
+      description:
+        'Verken een uitgebreide sectie met vragen en antwoorden om antwoorden te vinden op je vragen over huisdier klonen, reproductief klonen en de wetenschap erachter.',
+    },
+    cloningNews: {
+      title: 'Huisdier Klonen - Nieuws',
+      description:
+        'Ontvang de meest recente updates en nieuws over huisdier klonen, ontwikkelingen in het veld en doorbraken in reproductieve kloontechnologie.',
+    },
+    contactUs: {
+      title: 'Huisdier Klonen - Neem contact met ons op',
+      description:
+        'Neem contact met ons op voor vragen of verzoeken om aanvullende informatie over huisdier klonen. We zijn hier om de details te verstrekken die je nodig hebt.',
+    },
+  },
   validations: {
     requiredFields: 'Vul alle verplichte velden in',
     phoneFormat: 'Ongeldig telefoonnummerformaat',

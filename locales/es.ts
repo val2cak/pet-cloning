@@ -14,6 +14,37 @@ export default {
     accept: 'Aceptar',
     decline: 'Rechazar',
   },
+  seo: {
+    home: {
+      title: 'Clonación de Mascotas - Inicio',
+      description: 'Todo lo que necesitas saber sobre clonar a tu mascota.',
+    },
+    science: {
+      title: 'Clonación de Mascotas - Ciencia',
+      description:
+        'Descubre el intrincado proceso de clonación de mascotas mediante la transferencia nuclear de células somáticas (TNCS) y aprende los pasos para crear un nuevo animal con la misma ADN.',
+    },
+    petCloningGuide: {
+      title: 'Clonación de Mascotas - Guía de Clonación de Mascotas',
+      description:
+        'Planifica para el futuro o afronta la urgencia del fallecimiento de tu mascota con nuestra guía. Sigue los procedimientos correctos de preservación celular para mantener abierta la opción de clonación con altas tasas de éxito.',
+    },
+    qA: {
+      title: 'Clonación de Mascotas - Preguntas y Respuestas',
+      description:
+        'Explora una sección completa de preguntas y respuestas para encontrar respuestas a tus preguntas sobre la clonación de mascotas, la clonación reproductiva y la ciencia que la respalda.',
+    },
+    cloningNews: {
+      title: 'Clonación de Mascotas - Noticias',
+      description:
+        'Obtén las últimas actualizaciones y noticias sobre la clonación de mascotas, avances en el campo y descubrimientos en la tecnología de clonación reproductiva.',
+    },
+    contactUs: {
+      title: 'Clonación de Mascotas - Contáctanos',
+      description:
+        'Contáctanos para cualquier consulta o solicitud de información adicional sobre la clonación de mascotas. Estamos aquí para proporcionar los detalles que necesitas.',
+    },
+  },
   validations: {
     requiredFields: 'Por favor complete todos los campos requeridos',
     phoneFormat: 'Formato de número de teléfono inválido',

@@ -1,13 +1,14 @@
 import { NextSeo } from 'next-seo';
-import SEO from '../constants/next-seo.config';
 import { useRouter } from 'next/router';
 import { FC, ReactNode } from 'react';
 import dynamic from 'next/dynamic';
 import Cookies from 'js-cookie';
 import { useEffect, useState } from 'react';
+import { camelCase } from 'lodash';
 
 import Popup from './components/Popup/Popup';
 import { CookieConsent } from '../components/CookieConsent/CookieConsent';
+import { translate } from '../locales/translate';
 
 interface Props {
   children: ReactNode;
@@ -49,9 +50,15 @@ const Layout: FC<Props> = ({ children }) => {
     setShowModal(false);
   };
 
+  const pathCamelCase = camelCase(router.pathname);
+
+  const title = translate.seo[pathCamelCase]?.title ?? translate.seo.home.title;
+  const description =
+    translate.seo[pathCamelCase]?.description ?? translate.seo.home.description;
+
   return (
     <>
-      <NextSeo title={SEO.title} />
+      <NextSeo title={title} description={description} />
       <CookieConsent />
 
       <div className='relative min-h-screen'>

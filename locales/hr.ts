@@ -14,6 +14,37 @@ export default {
     accept: 'Prihvati',
     decline: 'Odbij',
   },
+  seo: {
+    home: {
+      title: 'Kloniranje kućnih ljubimaca - Početna',
+      description: 'Sve što trebate znati o kloniranju vašeg kućnog ljubimca',
+    },
+    science: {
+      title: 'Kloniranje kućnih ljubimaca - Znanost',
+      description:
+        'Otkrijte složen proces kloniranja kućnih ljubimaca putem nuklearnog transfera somatskih stanica (SCNT) i saznajte korake u stvaranju novog životinjskog bića s istom DNA.',
+    },
+    petCloningGuide: {
+      title: 'Kloniranje kućnih ljubimaca - Vodič za kloniranje ljubimaca',
+      description:
+        'Planirajte za budućnost ili se nosite s hitnom situacijom gubitka ljubimca uz naš vodič. Slijedite ispravne postupke za očuvanje stanica kako biste održali mogućnost kloniranja s visokim postotkom uspjeha.',
+    },
+    qA: {
+      title: 'Kloniranje kućnih ljubimaca - Pitanja i odgovori',
+      description:
+        'Istražite opsežni odjeljak Pitanja i odgovori kako biste pronašli odgovore na svoja pitanja o kloniranju kućnih ljubimaca, reproduktivnom kloniranju i znanosti koja stoji iza toga.',
+    },
+    cloningNews: {
+      title: 'Kloniranje kućnih ljubimaca - Novosti',
+      description:
+        'Saznajte najnovije vijesti i informacije o kloniranju kućnih ljubimaca, napretku u području i otkrićima u tehnologiji reproduktivnog kloniranja.',
+    },
+    contactUs: {
+      title: 'Kloniranje kućnih ljubimaca - Kontaktirajte nas',
+      description:
+        'Obratite nam se s bilo kakvim upitima ili zahtjevima za dodatnim informacijama o kloniranju kućnih ljubimaca. Tu smo da vam pružimo potrebne informacije.',
+    },
+  },
   validations: {
     requiredFields: 'Molimo vas da ispunite sva obavezna polja',
     phoneFormat: 'Neispravan format telefonskog broja',

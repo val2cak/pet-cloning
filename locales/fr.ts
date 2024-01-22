@@ -14,6 +14,39 @@ export default {
     accept: 'Accepter',
     decline: 'Refuser',
   },
+  seo: {
+    home: {
+      title: "Clonage d'animaux de compagnie - Accueil",
+      description:
+        'Tout ce que vous devez savoir sur le clonage de votre animal de compagnie.',
+    },
+    science: {
+      title: "Clonage d'animaux de compagnie - Science",
+      description:
+        "Découvrez le processus complexe du clonage d'animaux de compagnie par transfert nucléaire de cellules somatiques (TNCS) et apprenez les étapes pour créer un nouvel animal avec la même ADN.",
+    },
+    petCloningGuide: {
+      title:
+        "Clonage d'animaux de compagnie - Guide de clonage d'animaux de compagnie",
+      description:
+        "Planifiez l'avenir ou gérez l'urgence du décès de votre animal de compagnie avec notre guide. Suivez les procédures correctes de préservation des cellules pour maintenir l'option de clonage ouverte avec un taux de réussite élevé.",
+    },
+    qA: {
+      title: "Clonage d'animaux de compagnie - Questions et réponses",
+      description:
+        "Explorez une section complète de questions et réponses pour trouver des réponses à vos questions sur le clonage d'animaux de compagnie, le clonage reproductif et la science qui le sous-tend.",
+    },
+    cloningNews: {
+      title: "Clonage d'animaux de compagnie - Actualités",
+      description:
+        "Obtenez les dernières mises à jour et actualités sur le clonage d'animaux de compagnie, les avancées dans le domaine et les percées dans la technologie de clonage reproductif.",
+    },
+    contactUs: {
+      title: "Clonage d'animaux de compagnie - Contactez-nous",
+      description:
+        "Contactez-nous pour toute question ou demande d'informations supplémentaires sur le clonage d'animaux de compagnie. Nous sommes là pour fournir les détails dont vous avez besoin.",
+    },
+  },
   validations: {
     requiredFields: 'Veuillez remplir tous les champs obligatoires',
     phoneFormat: 'Format de numéro de téléphone invalide',
