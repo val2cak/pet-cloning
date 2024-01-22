@@ -8,6 +8,7 @@ export default {
     petCloning: 'Petcloning.eu',
   },
   cookies: {
+    title: 'We gebruiken cookies',
     message:
       'We gebruiken enkele standaardanalysepakketten om algemeen gebruikersgedrag te begrijpen, zodat we kunnen ontdekken hoe we onze inhoud kunnen verbeteren. Dit omvat enkele cookies. Ga je hiermee akkoord?',
     accept: 'Accepteren',
