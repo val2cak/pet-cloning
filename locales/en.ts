@@ -8,6 +8,7 @@ export default {
     petCloning: 'Petcloning.eu',
   },
   cookies: {
+    title: 'We use cookies',
     message:
       'We use some standard analytics packages to understand general user behavior, so we can figure out how to improve our content. This involves some cookies. Are you OK with this?',
     accept: 'Accept',
