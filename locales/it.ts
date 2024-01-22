@@ -14,6 +14,39 @@ export default {
     accept: 'Accetta',
     decline: 'Rifiuta',
   },
+  seo: {
+    home: {
+      title: 'Clonazione di Animali Domestici - Home',
+      description:
+        'Tutto quello che devi sapere sulla clonazione del tuo animale domestico.',
+    },
+    science: {
+      title: 'Clonazione di Animali Domestici - Scienza',
+      description:
+        'Scopri il complicato processo di clonazione degli animali domestici attraverso il trasferimento nucleare di cellule somatiche (TNCS) e impara i passaggi per creare un nuovo animale con la stessa ADN.',
+    },
+    petCloningGuide: {
+      title:
+        'Clonazione di Animali Domestici - Guida alla Clonazione di Animali Domestici',
+      description:
+        "Pianifica per il futuro o affronta l'urgenza della perdita del tuo animale domestico con la nostra guida. Segui le corrette procedure di conservazione delle cellule per mantenere aperta l'opzione di clonazione con alte percentuali di successo.",
+    },
+    qA: {
+      title: 'Clonazione di Animali Domestici - Domande e Risposte',
+      description:
+        'Esplora una sezione completa di domande e risposte per trovare risposte alle tue domande sulla clonazione di animali domestici, la clonazione riproduttiva e la scienza ad essa sottostante.',
+    },
+    cloningNews: {
+      title: 'Clonazione di Animali Domestici - Notizie',
+      description:
+        'Ricevi gli aggiornamenti più recenti e le notizie sulla clonazione di animali domestici, gli sviluppi nel settore e le innovazioni nella tecnologia di clonazione riproduttiva.',
+    },
+    contactUs: {
+      title: 'Clonazione di Animali Domestici - Contattaci',
+      description:
+        'Contattaci per eventuali domande o richieste di informazioni aggiuntive sulla clonazione di animali domestici. Siamo qui per fornire i dettagli di cui hai bisogno.',
+    },
+  },
   validations: {
     requiredFields: 'Si prega di compilare tutti i campi obbligatori',
     phoneFormat: 'Formato numero di telefono non valido',

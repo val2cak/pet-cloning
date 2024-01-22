@@ -1,5 +1,7 @@
+import { translate } from '../locales/translate';
+
 const SEO = {
-  title: 'Pet Cloning',
+  title: translate.common.petCloning,
 };
 
 export default SEO;
