@@ -415,6 +415,8 @@ Petcloning.eu`,
   },
   footer: {
     petCloning: 'Petcloning.eu',
+    cooperation: 'in cooperation with',
+    sinogene: 'Sinogene Biotechnology Co., Ltd.',
     contactUs: 'Contact Us',
     copyright: '© 2023, All Rights Reserved',
     language: 'Language',

@@ -9,7 +9,8 @@ import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
 import { languages } from '../../constants/Languages';
 
 const Footer: React.FC = () => {
-  const { petCloning, contactUs, language } = translate.footer;
+  const { petCloning, cooperation, sinogene, contactUs, language } =
+    translate.footer;
 
   const [currentLanguage, setCurrentLanguage] = useState(locale);
 
@@ -24,62 +25,68 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className='bg-darker text-light sm:px-8 px-40 2xl:px-56 py-8 absolute w-full bottom-0 sm:h-56 h-48'>
-      <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-5 gap-10'>
-        <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-3'>
+    <footer className='bg-darker text-light sm:px-8 px-40 2xl:px-56 py-12 absolute w-full bottom-0 sm:h-[24rem] h-56'>
+      <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-6 gap-10'>
+        <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-6'>
           <span className='text-base font-bold'>{petCloning}</span>
-          <div className='flex w-32'>
-            <LanguageDropdown
-              placeholder={language}
-              onSelect={(item: Language) => {
-                setLocaleToStorage(item.locale);
-                setCurrentLanguage(item.locale);
-                window.location.reload();
-              }}
-              items={languages}
-              selectedItem={languages.find(
-                (lang) => lang.locale === currentLanguage
-              )}
-            />
+
+          <div className='text-md text-light font-medium flex gap-4 sm:gap-6 items-center sm:flex-col-reverse sm:items-start'>
+            <div className='flex gap-4 sm:gap-8 items-center sm:flex-row-reverse'>
+              <a
+                href='https://wa.link/osgpuo'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='opacity-50 hover:opacity-100'
+                onClick={handleWhatsAppClick}
+              >
+                <img
+                  src={whatsappIcon.src}
+                  className='w-5 h-5'
+                  alt='Whatsapp'
+                  loading='lazy'
+                />
+              </a>
+
+              <div className='text-sm text-light font-medium'>
+                <span className='text-sm pl-2 sm:pl-0'>
+                  <Link
+                    href='/contact-us'
+                    className='opacity-50 hover:opacity-100'
+                  >
+                    {contactUs}
+                  </Link>
+                </span>
+              </div>
+            </div>
+
+            <div className='flex w-32'>
+              <LanguageDropdown
+                placeholder={language}
+                onSelect={(item: Language) => {
+                  setLocaleToStorage(item.locale);
+                  setCurrentLanguage(item.locale);
+                  window.location.reload();
+                }}
+                items={languages}
+                selectedItem={languages.find(
+                  (lang) => lang.locale === currentLanguage
+                )}
+              />
+            </div>
           </div>
         </div>
 
         <div className='border-b border-light opacity-20 w-full'></div>
 
-        <div className='w-full flex sm:flex-col flex-row sm:gap-3 justify-between text-light font-medium'>
-          <div className='text-md text-light font-medium flex gap-4 items-center'>
-            <div className='text-sm text-light font-medium'>
-              <span className='text-sm'>
-                <Link
-                  href='/contact-us'
-                  className='opacity-50 hover:opacity-100'
-                >
-                  {contactUs}
-                </Link>
-              </span>
-            </div>
-
-            <a
-              href='https://wa.link/osgpuo'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='opacity-50 hover:opacity-100'
-              onClick={handleWhatsAppClick}
-            >
-              <img
-                src={whatsappIcon.src}
-                className='w-5 h-5'
-                alt='Whatsapp'
-                loading='lazy'
-              />
-            </a>
+        <div className='w-full flex sm:flex-col flex-row sm:gap-6 justify-between text-light font-medium'>
+          <div className='flex gap-2 sm:flex-col'>
+            <span className='text-sm opacity-50'>{cooperation}</span>
+            <span className='text-sm font-semibold'>{sinogene}</span>
           </div>
 
-          <div>
-            <span className='opacity-50 text-sm'>
-              {translate.footer.copyright}
-            </span>
-          </div>
+          <span className='opacity-50 text-sm'>
+            {translate.footer.copyright}
+          </span>
         </div>
       </div>
     </footer>
