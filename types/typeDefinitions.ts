@@ -13,6 +13,7 @@ export interface FormData {
   preservationInfo: boolean;
   message: string;
   language: string;
+  country: string;
 }
 
 export interface Navigation {
