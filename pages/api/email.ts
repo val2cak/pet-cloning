@@ -17,6 +17,7 @@ export default async function handler(
       const {
         email,
         name,
+        country,
         phoneMobile,
         message,
         animalType,
@@ -51,6 +52,7 @@ export default async function handler(
         Message: ${message}
         I want more info on cloning: ${cloningInfo ? 'Yes' : 'No'}
         I want more info on preservation: ${preservationInfo ? 'Yes' : 'No'}
+        Country: ${country}
         Language: ${languages?.find((lang) => lang.locale === language)?.name}
         `,
       };

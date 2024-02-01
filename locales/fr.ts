@@ -397,6 +397,7 @@ Chaque étape est réalisée avec précision, soin et respect pour les vies impl
     name: 'Prénom et Nom',
     phoneMobile: 'Téléphone / Mobile',
     email: 'E-mail',
+    country: 'État',
     message: 'Message',
     petName: "Nom de l'animal",
     animalType: "Type d'animal",

@@ -395,6 +395,7 @@ export default {
     name: 'Voornaam en achternaam',
     phoneMobile: 'Telefoon / Mobiel',
     email: 'E-mail',
+    country: 'Staat',
     message: 'Bericht',
     petName: 'Naam van het dier',
     animalType: 'Type dier',

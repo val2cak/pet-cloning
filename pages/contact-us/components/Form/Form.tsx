@@ -18,6 +18,7 @@ const Form = () => {
     name,
     phoneMobile,
     email,
+    country,
     message,
     petName,
     animalType,
@@ -104,20 +105,34 @@ const Form = () => {
               },
             }}
           />
-          <Input
-            label={email}
-            placeholder={email}
-            register={register}
-            name={'email'}
-            required={true}
-            errors={errors?.email}
-            validations={{
-              pattern: {
-                value: /^([\w-\.]+\u0040([\w-]+\.)+[\w-]{2,4})?$/,
-                message: emailFormat,
-              },
-            }}
-          />
+          <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
+            <div className='sm:w-full w-1/2'>
+              <Input
+                label={email}
+                placeholder={email}
+                register={register}
+                name={'email'}
+                required={true}
+                errors={errors?.email}
+                validations={{
+                  pattern: {
+                    value: /^([\w-\.]+\u0040([\w-]+\.)+[\w-]{2,4})?$/,
+                    message: emailFormat,
+                  },
+                }}
+              />
+            </div>
+            <div className='sm:w-full w-1/2'>
+              <Input
+                label={country}
+                placeholder={country}
+                register={register}
+                name={'country'}
+                required={true}
+                errors={errors?.country}
+              />
+            </div>
+          </div>
           <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
             <div className='sm:w-full w-1/2'>
               <Controller

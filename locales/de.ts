@@ -396,6 +396,7 @@ Denken Sie daran, dass die Qualität der Probe und die Sorgfalt bei diesen erste
     name: 'Vor- und Nachname',
     phoneMobile: 'Telefon / Mobil',
     email: 'E-Mail',
+    country: 'Zustand',
     message: 'Nachricht',
     petName: 'Name des Haustiers',
     animalType: 'Art des Tieres',
