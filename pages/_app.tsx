@@ -20,7 +20,8 @@ const App = ({ Component, pageProps }) => {
       </Head>
 
       <Toaster position='top-right' />
-      {hasCookie('consent') && <GoogleTagManager gtmId='GTM-5LTK4TCG' />}
+      {/* {hasCookie('consent') && <GoogleTagManager gtmId='GTM-5LTK4TCG' />} */}
+      <GoogleTagManager gtmId='GTM-5LTK4TCG' />
 
       <Component {...pageProps} />
     </>
