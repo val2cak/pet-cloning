@@ -6,7 +6,6 @@ import { FormData } from '../../types/typeDefinitions';
 import { animalTypes } from '../../constants/AnimalTypes';
 import { availableLocales } from '../../locales/translate';
 import { Brochures } from '../../constants/Brochures';
-import { languages } from '../../constants/Languages';
 
 export default async function handler(
   req: NextApiRequest,
@@ -53,7 +52,6 @@ export default async function handler(
         I want more info on cloning: ${cloningInfo ? 'Yes' : 'No'}
         I want more info on preservation: ${preservationInfo ? 'Yes' : 'No'}
         Country: ${country}
-        Language: ${languages?.find((lang) => lang.locale === language)?.name}
         `,
       };
 
