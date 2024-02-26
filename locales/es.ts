@@ -427,4 +427,13 @@ Petcloning.eu`,
     copyright: '© 2023, Todos los derechos reservados',
     language: 'Idioma',
   },
+  placeholders: {
+    name: 'Juan Pérez',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+34',
+    email: 'juanperez@mail.com',
+    country: 'España',
+    petName: 'Max',
+    message: 'Escribe tu mensaje aquí...',
+  },
 };

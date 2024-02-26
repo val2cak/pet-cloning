@@ -29,6 +29,8 @@ const Form = () => {
     requestError,
   } = translate.contactUs;
 
+  const placeholders = translate.placeholders;
+
   const { requiredFields, phoneFormat, emailFormat } = translate.validations;
 
   const {
@@ -49,7 +51,9 @@ const Form = () => {
 
   async function onSubmit(data: FormData) {
     try {
-      await sendEmail({ ...data, language: locale });
+      const phoneNumber = `${data.countryCode} ${data.phoneMobile}`;
+
+      await sendEmail({ ...data, phoneMobile: phoneNumber, language: locale });
       reset();
       toast.success(requestSuccess);
     } catch (error) {
@@ -85,31 +89,58 @@ const Form = () => {
         <div className='flex flex-col w-full h-full justify-between items-center sm:gap-8 gap-6'>
           <Input
             label={name}
-            placeholder={name}
+            placeholder={placeholders.name}
             register={register}
             name={'name'}
             required={true}
             errors={errors?.name}
           />
-          <Input
-            label={phoneMobile}
-            placeholder={phoneMobile}
-            register={register}
-            name={'phoneMobile'}
-            required={true}
-            errors={errors?.phoneMobile}
-            validations={{
-              pattern: {
-                value: /^[\+\d\s\-()/]+$/,
-                message: phoneFormat,
-              },
-            }}
-          />
+          <div>
+            <div
+              className={`text-sm font-bold uppercase ${
+                (errors.countryCode || errors.phoneMobile) && 'text-red'
+              }`}
+            >
+              {phoneMobile} *
+            </div>
+
+            <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
+              <div className='sm:w-full w-1/5'>
+                <Input
+                  placeholder={placeholders.countryCode}
+                  register={register}
+                  name={'countryCode'}
+                  required={true}
+                  errors={errors?.countryCode}
+                  validations={{
+                    pattern: {
+                      value: /^\+(?:[0-9] ?){1,3}$/,
+                    },
+                  }}
+                />
+              </div>
+              <div className='sm:w-full w-4/5'>
+                <Input
+                  placeholder={placeholders.phoneMobile}
+                  register={register}
+                  name={'phoneMobile'}
+                  required={true}
+                  errors={errors?.phoneMobile}
+                  validations={{
+                    pattern: {
+                      value: /^[\+\d\s\-()/]+$/,
+                      message: phoneFormat,
+                    },
+                  }}
+                />
+              </div>
+            </div>
+          </div>
           <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
             <div className='sm:w-full w-1/2'>
               <Input
                 label={email}
-                placeholder={email}
+                placeholder={placeholders.email}
                 register={register}
                 name={'email'}
                 required={true}
@@ -125,7 +156,7 @@ const Form = () => {
             <div className='sm:w-full w-1/2'>
               <Input
                 label={country}
-                placeholder={country}
+                placeholder={placeholders.country}
                 register={register}
                 name={'country'}
                 required={true}
@@ -158,7 +189,7 @@ const Form = () => {
             <div className='sm:w-full w-1/2'>
               <Input
                 label={petName}
-                placeholder={petName}
+                placeholder={placeholders.petName}
                 register={register}
                 name={'petName'}
                 required={true}
@@ -168,7 +199,7 @@ const Form = () => {
           </div>
           <TextArea
             label={message}
-            placeholder={message}
+            placeholder={placeholders.message}
             register={register}
             name={'message'}
             required={true}

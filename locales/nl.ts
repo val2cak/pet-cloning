@@ -425,4 +425,13 @@ Petcloning.eu`,
     copyright: '© 2023, Alle rechten voorbehouden',
     language: 'Taal',
   },
+  placeholders: {
+    name: 'Jan Jansen',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+31',
+    email: 'janjansen@mail.com',
+    country: 'Nederland',
+    petName: 'Max',
+    message: 'Schrijf hier je bericht...',
+  },
 };

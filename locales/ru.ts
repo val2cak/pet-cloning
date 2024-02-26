@@ -426,4 +426,13 @@ Petcloning.eu`,
     copyright: '© 2023, Все права защищены',
     language: 'Язык',
   },
+  placeholders: {
+    name: 'Иван Иванов',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+7',
+    email: 'ivanivanov@mail.com',
+    country: 'Россия',
+    petName: 'Макс',
+    message: 'Напишите ваше сообщение здесь...',
+  },
 };

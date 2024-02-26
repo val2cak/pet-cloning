@@ -32,9 +32,6 @@ const TextArea: FC<Props> = ({
         placeholder={placeholder}
         {...register(name, { required: required, ...validations })}
       />
-      {errors && (
-        <div className='text-red text-sm font-medium'>{errors.message}</div>
-      )}
     </div>
   );
 };

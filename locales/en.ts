@@ -422,4 +422,13 @@ Petcloning.eu`,
     copyright: '© 2023, All Rights Reserved',
     language: 'Language',
   },
+  placeholders: {
+    name: 'John Smith',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+44',
+    email: 'johnsmith@mail.com',
+    country: 'United Kingdom',
+    petName: 'Max',
+    message: 'Write your message here...',
+  },
 };

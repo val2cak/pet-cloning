@@ -5,6 +5,7 @@ export interface Lookup {
 
 export interface FormData {
   name: string;
+  countryCode: string;
   phoneMobile: string;
   email: string;
   petName: string;

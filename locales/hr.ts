@@ -420,4 +420,13 @@ Petcloning.eu`,
     copyright: '© 2023, Sva prava zadržana',
     language: 'Jezik',
   },
+  placeholders: {
+    name: 'Ivan Horvat',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+385',
+    email: 'ivanhorvat@mail.com',
+    country: 'Hrvatska',
+    petName: 'Max',
+    message: 'Napišite svoju poruku ovdje...',
+  },
 };

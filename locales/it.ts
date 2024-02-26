@@ -436,4 +436,13 @@ Petcloning.eu`,
     copyright: '© 2023, Tutti i diritti riservati',
     language: 'Lingua',
   },
+  placeholders: {
+    name: 'Mario Rossi',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+39',
+    email: 'mariorossi@mail.com',
+    country: 'Italia',
+    petName: 'Max',
+    message: 'Scrivi qui il tuo messaggio...',
+  },
 };

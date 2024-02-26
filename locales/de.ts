@@ -426,4 +426,13 @@ Petcloning.eu`,
     copyright: '© 2023, Alle Rechte vorbehalten',
     language: 'Sprache',
   },
+  placeholders: {
+    name: 'Max Mustermann',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+49',
+    email: 'mmustermann@mail.com',
+    country: 'Deutschland',
+    petName: 'Max',
+    message: 'Schreiben Sie hier Ihre Nachricht...',
+  },
 };

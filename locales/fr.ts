@@ -428,4 +428,13 @@ Petcloning.eu`,
     copyright: '© 2023, Tous droits réservés',
     language: 'Langue',
   },
+  placeholders: {
+    name: 'Jean Dupont',
+    phoneMobile: '(123) 456-7890',
+    countryCode: '+33',
+    email: 'jeandupont@mail.com',
+    country: 'France',
+    petName: 'Max',
+    message: 'Écrivez votre message ici...',
+  },
 };
