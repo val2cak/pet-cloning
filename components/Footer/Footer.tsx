@@ -9,8 +9,7 @@ import LanguageDropdown from '../LanguageDropdown/LanguageDropdown';
 import { languages } from '../../constants/Languages';
 
 const Footer: React.FC = () => {
-  const { petCloning, cooperation, sinogene, contactUs, language } =
-    translate.footer;
+  const { petCloning, contactUs, language } = translate.footer;
 
   const [currentLanguage, setCurrentLanguage] = useState(locale);
 
@@ -25,13 +24,38 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className='bg-darker text-light sm:px-8 px-40 2xl:px-56 py-12 absolute w-full bottom-0 sm:h-[24rem] h-56'>
+    <footer className='bg-darker text-light sm:px-8 px-40 2xl:px-56 py-12 absolute w-full bottom-0 sm:h-80 h-56'>
       <div className='container mx-auto flex flex-col items-center justify-between h-full sm:gap-6 gap-10'>
         <div className='w-full flex sm:flex-col flex-row justify-between sm:gap-6'>
           <span className='text-base font-bold'>{petCloning}</span>
 
           <div className='text-md text-light font-medium flex gap-4 sm:gap-6 items-center sm:flex-col-reverse sm:items-start'>
-            <div className='flex gap-4 sm:gap-8 items-center sm:flex-row-reverse'>
+            <div className='flex w-32'>
+              <LanguageDropdown
+                placeholder={language}
+                onSelect={(item: Language) => {
+                  setLocaleToStorage(item.locale);
+                  setCurrentLanguage(item.locale);
+                  window.location.reload();
+                }}
+                items={languages}
+                selectedItem={languages.find(
+                  (lang) => lang.locale === currentLanguage
+                )}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className='border-b border-light opacity-20 w-full'></div>
+
+        <div className='w-full flex sm:flex-col-reverse flex-row sm:gap-6 justify-between text-light font-medium'>
+          <span className='opacity-50 text-sm'>
+            {translate.footer.copyright}
+          </span>
+
+          <div className='flex gap-2 sm:flex-col'>
+            <div className='flex gap-4 sm:gap-8 items-center sm:justify-end sm:flex-row-reverse'>
               <a
                 href='https://wa.link/osgpuo'
                 target='_blank'
@@ -58,35 +82,7 @@ const Footer: React.FC = () => {
                 </span>
               </div>
             </div>
-
-            <div className='flex w-32'>
-              <LanguageDropdown
-                placeholder={language}
-                onSelect={(item: Language) => {
-                  setLocaleToStorage(item.locale);
-                  setCurrentLanguage(item.locale);
-                  window.location.reload();
-                }}
-                items={languages}
-                selectedItem={languages.find(
-                  (lang) => lang.locale === currentLanguage
-                )}
-              />
-            </div>
           </div>
-        </div>
-
-        <div className='border-b border-light opacity-20 w-full'></div>
-
-        <div className='w-full flex sm:flex-col flex-row sm:gap-6 justify-between text-light font-medium'>
-          <div className='flex gap-2 sm:flex-col'>
-            <span className='text-sm opacity-50'>{cooperation}</span>
-            <span className='text-sm font-semibold'>{sinogene}</span>
-          </div>
-
-          <span className='opacity-50 text-sm'>
-            {translate.footer.copyright}
-          </span>
         </div>
       </div>
     </footer>
