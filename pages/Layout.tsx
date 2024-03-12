@@ -64,7 +64,7 @@ const Layout: FC<Props> = ({ children }) => {
       <div className='relative min-h-screen'>
         <Header />
         <main
-          className={`sm:pb-80 pb-56 ${
+          className={`sm:pb-[24rem] pb-60 ${
             (router.pathname === '/science' || router.pathname === '/news') &&
             'pt-14'
           }`}
