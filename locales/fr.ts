@@ -442,7 +442,8 @@ Petcloning.eu`,
   aboutUs: {
     ourValues: {
       title: 'Nos valeurs',
-      text: "Nous avons créé petcloning.eu pour permettre aux gens en Europe d'avoir accès à la technologie de clonage pour leur animal de compagnie bien-aimé. Jusqu'à présent, le clonage était disponible en Asie et en Amérique mais était très difficile d'accès pour les Européens. Nous voulons fournir une solution sûre, transparente et éthique pour les clients qui souhaitent cloner leurs chiens, chats ou chevaux. Nous souhaitons également faire partie d'une meilleure technologie de clonage, plus efficace et respectueuse des animaux et nous consacrons notre expertise à essayer d'augmenter l'efficacité du clonage.",
+      text: `Nous avons créé petcloning.eu pour permettre aux gens en Europe d'avoir accès à la technologie de clonage pour leur animal de compagnie bien-aimé. Jusqu'à présent, le clonage était disponible en Asie et en Amérique mais était très difficile d'accès pour les Européens. Nous voulons fournir une solution sûre, transparente et éthique pour les clients qui souhaitent cloner leurs chiens, chats ou chevaux. 
+      Nous souhaitons également faire partie d'une meilleure technologie de clonage, plus efficace et respectueuse des animaux et nous consacrons notre expertise à essayer d'augmenter l'efficacité du clonage.`,
     },
     whoWeAre: {
       title: 'Qui sommes-nous',
@@ -450,14 +451,16 @@ Petcloning.eu`,
       francois: {
         name: 'Francois-Xavier Pellay, PhD',
         title: 'Co-Fondateur et CSO',
-        description:
-          "Le Dr Pellay est un scientifique et entrepreneur français avec plus de 15 ans d'expérience dans l'industrie de la longévité et une passion de toute une vie pour la science et le vieillissement. Il a co-fondé Petcloning.eu pour relier son expertise en biologie du vieillissement et le besoin de solutions améliorées dans la technologie de clonage. Son intérêt pour le domaine est également lié au fait que le clonage est en quelque sorte la solution de rajeunissement la plus efficace jamais trouvée pour rajeunir les cellules vieillies au point de créer des animaux jeunes et en bonne santé.",
+        description: `Le Dr Pellay est un scientifique et entrepreneur français avec plus de 15 ans d'expérience dans l'industrie de la longévité et une passion de toute une vie pour la science et le vieillissement. 
+        
+        Il a co-fondé Petcloning.eu pour relier son expertise en biologie du vieillissement et le besoin de solutions améliorées dans la technologie de clonage. Son intérêt pour le domaine est également lié au fait que le clonage est en quelque sorte la solution de rajeunissement la plus efficace jamais trouvée pour rajeunir les cellules vieillies au point de créer des animaux jeunes et en bonne santé.`,
       },
       ronny: {
         name: 'Ronny Haesen',
         title: 'Co-Fondateur et COO',
-        description:
-          "M. Haesen est un entrepreneur belge avec de l'expérience dans différents domaines d'activité, y compris dans l'industrie de la biotechnologie depuis 2017. Au cours du processus de facilitation de la culture cellulaire pour les installations de clonage en Asie et aux États-Unis, nous avons rapidement constaté qu'il y avait peu d'informations ou d'aide disponibles pour les Européens intéressés à en savoir plus sur le clonage. C'était la principale raison pour laquelle, avec son partenaire commercial de longue date, le Dr Pellay, il a fondé Petcloning.eu.",
+        description: `M. Haesen est un entrepreneur belge avec de l'expérience dans différents domaines d'activité, y compris dans l'industrie de la biotechnologie depuis 2017. 
+        
+        Au cours du processus de facilitation de la culture cellulaire pour les installations de clonage en Asie et aux États-Unis, nous avons rapidement constaté qu'il y avait peu d'informations ou d'aide disponibles pour les Européens intéressés à en savoir plus sur le clonage. C'était la principale raison pour laquelle, avec son partenaire commercial de longue date, le Dr Pellay, il a fondé Petcloning.eu.`,
       },
     },
     inTheNews: {

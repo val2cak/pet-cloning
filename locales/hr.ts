@@ -434,7 +434,8 @@ Petcloning.eu`,
   aboutUs: {
     ourValues: {
       title: 'Naše vrijednosti',
-      text: 'Petcloning.eu smo stvorili kako bismo omogućili ljudima u Europi pristup tehnologiji kloniranja za njihove voljene kućne ljubimce. Do sada je kloniranje bilo dostupno u Aziji i Americi, ali je bilo vrlo teško dostupno europskim ljudima. Želimo pružiti sigurno, transparentno i etičko rješenje za klijente koji žele klonirati svoje pse, mačke ili konje. Također želimo biti dio bolje, učinkovitije i prijateljski nastrojene tehnologije kloniranja i posvećujemo svoje stručnosti kako bismo pokušali povećati učinkovitost kloniranja.',
+      text: `Petcloning.eu smo stvorili kako bismo omogućili ljudima u Europi pristup tehnologiji kloniranja za njihove voljene kućne ljubimce. Do sada je kloniranje bilo dostupno u Aziji i Americi, ali je bilo vrlo teško dostupno europskim ljudima. Želimo pružiti sigurno, transparentno i etičko rješenje za klijente koji žele klonirati svoje pse, mačke ili konje. 
+      Također želimo biti dio bolje, učinkovitije i prijateljski nastrojene tehnologije kloniranja i posvećujemo svoje stručnosti kako bismo pokušali povećati učinkovitost kloniranja.`,
     },
     whoWeAre: {
       title: 'Tko smo mi',
@@ -442,14 +443,16 @@ Petcloning.eu`,
       francois: {
         name: 'Francois-Xavier Pellay, PhD',
         title: 'Suvlasnik i CSO',
-        description:
-          'Dr. Pellay je francuski znanstvenik i poduzetnik s više od 15 godina iskustva u industriji dugovječnosti i cjeloživotnom strašću za znanost i starenje. Suosnovao je Petcloning.eu kako bi povezao svoje ekspertize u biologiji starenja i potrebu za poboljšanim rješenjima u tehnologiji kloniranja. Njegovo zanimanje za područje također je povezano s činjenicom da je kloniranje na neki način najefikasnije rješenje pomlađivanja ikad pronađeno za pomlađivanje starih stanica do stvaranja mladih i zdravih životinja.',
+        description: `Dr. Pellay je francuski znanstvenik i poduzetnik s više od 15 godina iskustva u industriji dugovječnosti i cjeloživotnom strašću za znanost i starenje. 
+          
+        Suosnovao je Petcloning.eu kako bi povezao svoje ekspertize u biologiji starenja i potrebu za poboljšanim rješenjima u tehnologiji kloniranja. Njegovo zanimanje za područje također je povezano s činjenicom da je kloniranje na neki način najefikasnije rješenje pomlađivanja ikad pronađeno za pomlađivanje starih stanica do stvaranja mladih i zdravih životinja.`,
       },
       ronny: {
         name: 'Ronny Haesen',
         title: 'Suvlasnik i COO',
-        description:
-          'G. Haesen je belgijski poduzetnik s iskustvom u različitim poslovnim granama, uključujući industriju biotehnologije od 2017. godine. Tijekom procesa olakšavanja uzgoja stanica za klonirne objekte u Aziji i SAD-u, vrlo rano smo saznali da je bilo malo informacija ili pomoći dostupnih za Europljane koji su bili zainteresirani za saznanje više o kloniranju. To je bio glavni razlog zašto je zajedno sa svojim dugogodišnjim poslovnim partnerom Dr. Pellayom osnovao Petcloning.eu.',
+        description: `G. Haesen je belgijski poduzetnik s iskustvom u različitim poslovnim granama, uključujući industriju biotehnologije od 2017. godine. 
+        
+        Tijekom procesa olakšavanja uzgoja stanica za klonirne objekte u Aziji i SAD-u, vrlo rano smo saznali da je bilo malo informacija ili pomoći dostupnih za Europljane koji su bili zainteresirani za saznanje više o kloniranju. To je bio glavni razlog zašto je zajedno sa svojim dugogodišnjim poslovnim partnerom Dr. Pellayom osnovao Petcloning.eu.`,
       },
     },
     inTheNews: {

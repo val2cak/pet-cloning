@@ -441,7 +441,8 @@ Petcloning.eu`,
   aboutUs: {
     ourValues: {
       title: 'Nuestros valores',
-      text: 'Creamos petcloning.eu para permitir a las personas en Europa acceder a la tecnología de clonación para sus queridas mascotas. Hasta ahora, la clonación estaba disponible en Asia y América pero era muy difícil de alcanzar para las personas europeas. Queremos proporcionar una solución segura, transparente y ética para los clientes que deseen clonar a sus perros, gatos o caballos. También deseamos ser parte de una tecnología de clonación mejor, más eficiente y amigable con los animales y estamos dedicando nuestra experiencia para intentar aumentar la eficiencia de la clonación.',
+      text: `Creamos petcloning.eu para permitir a las personas en Europa acceder a la tecnología de clonación para sus queridas mascotas. Hasta ahora, la clonación estaba disponible en Asia y América pero era muy difícil de alcanzar para las personas europeas. Queremos proporcionar una solución segura, transparente y ética para los clientes que deseen clonar a sus perros, gatos o caballos. 
+      También deseamos ser parte de una tecnología de clonación mejor, más eficiente y amigable con los animales y estamos dedicando nuestra experiencia para intentar aumentar la eficiencia de la clonación.`,
     },
     whoWeAre: {
       title: 'Quiénes somos',
@@ -449,14 +450,16 @@ Petcloning.eu`,
       francois: {
         name: 'Francois-Xavier Pellay, PhD',
         title: 'Co-Fundador y CSO',
-        description:
-          'El Dr. Pellay es un científico y emprendedor francés con más de 15 años de experiencia en la industria de la longevidad y una pasión de toda la vida por la ciencia y el envejecimiento. Co-fundó Petcloning.eu para conectar su experiencia en biología del envejecimiento y la necesidad de soluciones mejoradas en la tecnología de clonación. Su interés en el campo también está relacionado con el hecho de que la clonación es, de alguna manera, la solución de rejuvenecimiento más eficiente jamás encontrada para rejuvenecer células viejas hasta el punto de crear animales jóvenes y saludables.',
+        description: `El Dr. Pellay es un científico y emprendedor francés con más de 15 años de experiencia en la industria de la longevidad y una pasión de toda la vida por la ciencia y el envejecimiento. 
+          
+        Co-fundó Petcloning.eu para conectar su experiencia en biología del envejecimiento y la necesidad de soluciones mejoradas en la tecnología de clonación. Su interés en el campo también está relacionado con el hecho de que la clonación es, de alguna manera, la solución de rejuvenecimiento más eficiente jamás encontrada para rejuvenecer células viejas hasta el punto de crear animales jóvenes y saludables.`,
       },
       ronny: {
         name: 'Ronny Haesen',
         title: 'Co-Fundador y COO',
-        description:
-          'El Sr. Haesen es un empresario belga con experiencia en diferentes líneas de negocio, incluida la industria biotecnológica desde 2017. Durante el proceso de facilitar el cultivo celular para las instalaciones de clonación en Asia y EE. UU., Aprendimos muy temprano que había poca información o asistencia disponible para los europeos interesados en aprender más sobre la clonación. Esa fue la razón principal por la que, junto con su socio comercial de toda la vida, el Dr. Pellay, fundó Petcloning.eu.',
+        description: `El Sr. Haesen es un empresario belga con experiencia en diferentes líneas de negocio, incluida la industria biotecnológica desde 2017. 
+          
+        Durante el proceso de facilitar el cultivo celular para las instalaciones de clonación en Asia y EE. UU., Aprendimos muy temprano que había poca información o asistencia disponible para los europeos interesados en aprender más sobre la clonación. Esa fue la razón principal por la que, junto con su socio comercial de toda la vida, el Dr. Pellay, fundó Petcloning.eu.`,
       },
     },
     inTheNews: {

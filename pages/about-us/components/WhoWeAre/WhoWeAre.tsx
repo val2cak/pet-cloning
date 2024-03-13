@@ -24,7 +24,7 @@ const WhoWeAre = () => {
             </span>
             <span className='text-sm text-dark'>{francois.title}</span>
           </div>
-          <span>{francois.description}</span>
+          <span className='whitespace-pre-line'>{francois.description}</span>
         </div>
         <div className='sm:w-full w-1/2 flex flex-col text-light sm:text-sm text-base sm:leading-4 leading-5 font-light gap-4'>
           <div className='flex flex-col'>
@@ -36,7 +36,7 @@ const WhoWeAre = () => {
             <span className='font-medium text-sm text-dark'>{ronny.name}</span>
             <span className='text-sm text-dark'>{ronny.title}</span>
           </div>
-          <span>{ronny.description}</span>
+          <span className='whitespace-pre-line'>{ronny.description}</span>
         </div>
       </div>
     </div>

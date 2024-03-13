@@ -436,7 +436,8 @@ Petcloning.eu`,
   aboutUs: {
     ourValues: {
       title: 'Our values',
-      text: 'We created petcloning.eu to allow people in Europe to have access to cloning technology for their beloved pet. Until now, cloning was available in Asia and America but was very hard to reach for European people. We want to provide a safe, transparent and ethical solution for clients who wish to clone their dogs, cats or horses. We also wish to be part of a better, most efficient, and animal friendly cloning technology and are dedicating our expertise to try and increase cloning efficiency.',
+      text: `We created petcloning.eu to allow people in Europe to have access to cloning technology for their beloved pet. Until now, cloning was available in Asia and America but was very hard to reach for European people. We want to provide a safe, transparent and ethical solution for clients who wish to clone their dogs, cats or horses. 
+      We also wish to be part of a better, most efficient, and animal friendly cloning technology and are dedicating our expertise to try and increase cloning efficiency.`,
     },
     whoWeAre: {
       title: 'Who we are',
@@ -444,14 +445,16 @@ Petcloning.eu`,
       francois: {
         name: 'Francois-Xavier Pellay, PhD',
         title: 'Co-Founder and CSO',
-        description:
-          'Dr Pellay is a French scientist and entrepreneur with over 15 years of experience in the longevity industry and a life-long passion for science and aging. He co-founded Petcloning.eu to connect his expertise in the biology of aging and the need for improved solutions in the cloning technology. His interest in the field is also related to the fact that cloning is in a way the most efficient rejuvenation solution ever found to rejuvenate old cells to the point of creating young and healthy animals.',
+        description: `Dr Pellay is a French scientist and entrepreneur with over 15 years of experience in the longevity industry and a life-long passion for science and aging. 
+          
+        He co-founded Petcloning.eu to connect his expertise in the biology of aging and the need for improved solutions in the cloning technology. His interest in the field is also related to the fact that cloning is in a way the most efficient rejuvenation solution ever found to rejuvenate old cells to the point of creating young and healthy animals.`,
       },
       ronny: {
         name: 'Ronny Haesen',
         title: 'Co-Founder and COO',
-        description:
-          'Mr Haesen is an Belgian entrepreneur with experience in different lines of business including in the biotechnology industry since 2017. During the process of facilitating cell cultivation for cloning facilities in Asia and the US, we learned very early on that there was little information or assistance at hand for Europeans who were interested in learning more about cloning. That was the main reason why together with his long time business partner Dr. Pellay he founded Petcloning.eu.',
+        description: `Mr Haesen is an Belgian entrepreneur with experience in different lines of business including in the biotechnology industry since 2017. 
+
+        During the process of facilitating cell cultivation for cloning facilities in Asia and the US, we learned very early on that there was little information or assistance at hand for Europeans who were interested in learning more about cloning. That was the main reason why together with his long time business partner Dr. Pellay he founded Petcloning.eu.`,
       },
     },
     inTheNews: {
