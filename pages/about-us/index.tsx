@@ -3,6 +3,9 @@ import dynamic from 'next/dynamic';
 import Layout from '../Layout';
 
 const AboutUs = () => {
+  const Cover = dynamic(() => import('./components/Cover/Cover'), {
+    ssr: false,
+  });
   const OurValues = dynamic(() => import('./components/OurValues/OurValues'), {
     ssr: false,
   });
@@ -15,6 +18,7 @@ const AboutUs = () => {
 
   return (
     <Layout>
+      <Cover />
       <OurValues />
       <WhoWeAre />
       <InTheNews />
