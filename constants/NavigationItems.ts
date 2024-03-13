@@ -6,6 +6,6 @@ export const navigationItems: Navigation[] = [
   { id: 3, text: 'petCloningGuide', link: '/pet-cloning-guide' },
   { id: 4, text: 'qA', link: '/q&a' },
   { id: 5, text: 'cloningNews', link: '/news' },
-  { id: 6, text: 'contactUs', link: '/contact-us' },
-  { id: 7, text: 'aboutUs', link: '/about-us' },
+  { id: 6, text: 'aboutUs', link: '/about-us' },
+  { id: 7, text: 'contactUs', link: '/contact-us' },
 ];

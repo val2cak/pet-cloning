@@ -55,6 +55,8 @@ module.exports = {
         homeSection4Mobile: "url('/images/home-section-4-mobile.webp')",
         scienceProcess: "url('/images/science-process.webp')",
         scienceProcessMobile: "url('/images/science-process-mobile.webp')",
+        aboutUsCover: "url('/images/about-us-cover.webp')",
+        aboutUsCoverMobile: "url('/images/about-us-cover-mobile.webp')",
       }),
       lineHeight: {
         3: '1.2rem',
