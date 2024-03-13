@@ -7,4 +7,5 @@ export const navigationItems: Navigation[] = [
   { id: 4, text: 'qA', link: '/q&a' },
   { id: 5, text: 'cloningNews', link: '/news' },
   { id: 6, text: 'contactUs', link: '/contact-us' },
+  { id: 7, text: 'aboutUs', link: '/about-us' },
 ];

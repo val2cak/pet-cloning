@@ -44,6 +44,9 @@ export default {
       description:
         'Contáctanos para cualquier consulta o solicitud de información adicional sobre la clonación de mascotas. Estamos aquí para proporcionar los detalles que necesitas.',
     },
+    aboutUs: {
+      title: 'Clonación de Mascotas - Acerca de nosotros',
+    },
   },
   validations: {
     requiredFields: 'Por favor complete todos los campos requeridos',
@@ -59,6 +62,7 @@ export default {
     qA: 'P&R',
     cloningNews: 'Noticias',
     contactUs: 'Contáctenos',
+    aboutUs: 'Acerca de nosotros',
   },
   home: {
     cover: {
@@ -433,5 +437,45 @@ Petcloning.eu`,
     country: 'España',
     petName: 'Max',
     message: 'Escribe tu mensaje aquí...',
+  },
+  aboutUs: {
+    ourValues: {
+      title: 'Nuestros valores',
+      text: 'Creamos petcloning.eu para permitir a las personas en Europa acceder a la tecnología de clonación para sus queridas mascotas. Hasta ahora, la clonación estaba disponible en Asia y América pero era muy difícil de alcanzar para las personas europeas. Queremos proporcionar una solución segura, transparente y ética para los clientes que deseen clonar a sus perros, gatos o caballos. También deseamos ser parte de una tecnología de clonación mejor, más eficiente y amigable con los animales y estamos dedicando nuestra experiencia para intentar aumentar la eficiencia de la clonación.',
+    },
+    whoWeAre: {
+      title: 'Quiénes somos',
+      text: 'La actividad de Petcloning.eu comenzó en 2022 en Split, Croacia. Ahora también tenemos un laboratorio en Zagreb donde se realiza la mayoría del cultivo celular, mientras que el laboratorio en Split está dedicado a la investigación. Estamos trabajando junto con las instalaciones de clonación más experimentadas del mundo que ya han clonado miles de mascotas de todo el mundo.',
+      francois: {
+        name: 'Francois-Xavier Pellay, PhD',
+        title: 'Co-Fundador y CSO',
+        description:
+          'El Dr. Pellay es un científico y emprendedor francés con más de 15 años de experiencia en la industria de la longevidad y una pasión de toda la vida por la ciencia y el envejecimiento. Co-fundó Petcloning.eu para conectar su experiencia en biología del envejecimiento y la necesidad de soluciones mejoradas en la tecnología de clonación. Su interés en el campo también está relacionado con el hecho de que la clonación es, de alguna manera, la solución de rejuvenecimiento más eficiente jamás encontrada para rejuvenecer células viejas hasta el punto de crear animales jóvenes y saludables.',
+      },
+      ronny: {
+        name: 'Ronny Haesen',
+        title: 'Co-Fundador y COO',
+        description:
+          'El Sr. Haesen es un empresario belga con experiencia en diferentes líneas de negocio, incluida la industria biotecnológica desde 2017. Durante el proceso de facilitar el cultivo celular para las instalaciones de clonación en Asia y EE. UU., Aprendimos muy temprano que había poca información o asistencia disponible para los europeos interesados en aprender más sobre la clonación. Esa fue la razón principal por la que, junto con su socio comercial de toda la vida, el Dr. Pellay, fundó Petcloning.eu.',
+      },
+    },
+    inTheNews: {
+      title: 'Petcloning.eu en las noticias',
+      article1: {
+        date: '22/02/2024',
+        country: 'Francia',
+        page: 'usbeketrica.com',
+      },
+      article2: {
+        date: '08/03/2024',
+        country: 'Croacia',
+        page: 'slobodnadalmacija.hr',
+      },
+      article3: {
+        date: '08/03/2024',
+        country: 'Croacia',
+        page: 'net.hr',
+      },
+    },
   },
 };
