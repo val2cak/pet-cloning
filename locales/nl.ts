@@ -44,6 +44,9 @@ export default {
       description:
         'Neem contact met ons op voor vragen of verzoeken om aanvullende informatie over huisdier klonen. We zijn hier om de details te verstrekken die je nodig hebt.',
     },
+    aboutUs: {
+      title: 'Huisdier Klonen - Over ons',
+    },
   },
   validations: {
     requiredFields: 'Vul alle verplichte velden in',
@@ -59,6 +62,7 @@ export default {
     qA: 'V&A',
     cloningNews: 'Nyheder',
     contactUs: 'Contact',
+    aboutUs: 'Over ons',
   },
   home: {
     cover: {
@@ -431,5 +435,48 @@ Petcloning.eu`,
     country: 'Nederland',
     petName: 'Max',
     message: 'Schrijf hier je bericht...',
+  },
+  aboutUs: {
+    ourValues: {
+      title: 'Onze waarden',
+      text: `We hebben petcloning.eu opgericht om mensen in Europa toegang te geven tot kloontechnologie voor hun geliefde huisdier. Tot nu toe was klonen beschikbaar in Azië en Amerika, maar was het erg moeilijk te bereiken voor Europese mensen. We willen een veilige, transparante en ethische oplossing bieden voor klanten die hun honden, katten of paarden willen klonen. 
+      We willen ook deel uitmaken van een betere, efficiëntere en diervriendelijkere kloontechnologie en wijden onze expertise toe aan het proberen de kloonefficiëntie te verhogen.`,
+    },
+    whoWeAre: {
+      title: 'Wie we zijn',
+      text: 'De activiteit van Petcloning.eu begon in 2022 in Split, Kroatië. We hebben nu ook een laboratorium in Zagreb waar het grootste deel van de celkweek wordt gedaan, terwijl het laboratorium in Split zich richt op onderzoek. We werken samen met de meest ervaren kloonfaciliteiten ter wereld die al duizenden huisdieren van over de hele wereld hebben gekloond.',
+      francois: {
+        name: 'Francois-Xavier Pellay, PhD',
+        title: 'Medeoprichter en CSO',
+        description: `Dr. Pellay is een Franse wetenschapper en ondernemer met meer dan 15 jaar ervaring in de levensduurindustrie en een levenslange passie voor wetenschap en veroudering. 
+        
+        Hij heeft Petcloning.eu mede opgericht om zijn expertise in de biologie van veroudering te verbinden met de behoefte aan verbeterde oplossingen in de kloontechnologie. Zijn interesse in het veld is ook gerelateerd aan het feit dat klonen op een bepaalde manier de meest efficiënte verjongingsoplossing ooit is gevonden om oude cellen te verjongen tot het punt waarop jonge en gezonde dieren worden gecreëerd.`,
+      },
+      ronny: {
+        name: 'Ronny Haesen',
+        title: 'Medeoprichter en COO',
+        description: `De heer Haesen is een Belgische ondernemer met ervaring in verschillende bedrijfstakken, waaronder de biotechnologie-industrie sinds 2017. 
+        
+        Tijdens het proces van het faciliteren van celkweek voor kloonfaciliteiten in Azië en de VS, kwamen we al heel vroeg tot de ontdekking dat er weinig informatie of hulp beschikbaar was voor Europeanen die meer wilden weten over klonen. Dat was de belangrijkste reden waarom hij samen met zijn zakelijke partner op lange termijn, dr. Pellay, Petcloning.eu heeft opgericht.`,
+      },
+    },
+    inTheNews: {
+      title: 'Petcloning.eu in het nieuws',
+      article1: {
+        date: '22/02/2024',
+        country: 'Frankrijk',
+        page: 'usbeketrica.com',
+      },
+      article2: {
+        date: '08/03/2024',
+        country: 'Kroatië',
+        page: 'slobodnadalmacija.hr',
+      },
+      article3: {
+        date: '08/03/2024',
+        country: 'Kroatië',
+        page: 'net.hr',
+      },
+    },
   },
 };
