@@ -104,8 +104,8 @@ const Form = () => {
               {phoneMobile} *
             </div>
 
-            <div className='w-full flex sm:flex-col items-center justify-between sm:gap-8 gap-4'>
-              <div className='sm:w-full w-1/5'>
+            <div className='w-full flex items-center justify-between gap-4'>
+              <div className='w-1/5'>
                 <Input
                   placeholder={placeholders.countryCode}
                   register={register}
@@ -119,7 +119,7 @@ const Form = () => {
                   }}
                 />
               </div>
-              <div className='sm:w-full w-4/5'>
+              <div className='w-4/5'>
                 <Input
                   placeholder={placeholders.phoneMobile}
                   register={register}
