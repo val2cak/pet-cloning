@@ -5,7 +5,7 @@ import horse from '../../../../public/vectors/horse.webp';
 import price from '../../../../public/vectors/price.webp';
 import laboratory from '../../../../public/vectors/laboratory.webp';
 import europe from '../../../../public/vectors/europe.webp';
-import graph from '../../../../public/images/science-graph.webp';
+import graph from '../../../../public/images/science-graph.png';
 
 const Section2 = () => {
   const { title, subtitle, step1, step2, step3, step4, step5 } =
