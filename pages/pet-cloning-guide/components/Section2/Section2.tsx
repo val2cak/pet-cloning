@@ -1,6 +1,6 @@
 import { translate } from '../../../../locales/translate';
 import Point from '../../../../components/Point/Point';
-import imageUrl from '../../../../public/images/cloning-guide-section-2.webp';
+import imageUrl from '../../../../public/images/cloning-guide-section-2.png';
 import dogIcon from '../../../../public/icons/dog.svg';
 import vetIcon from '../../../../public/icons/vet.svg';
 import exampleIcon from '../../../../public/icons/example.svg';

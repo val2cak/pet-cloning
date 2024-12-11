@@ -1,12 +1,12 @@
 import Card from '../../../components/Card/Card';
 import { translate } from '../../../locales/translate';
-import card1 from '../../../public/images/home-card-1.webp';
-import card2 from '../../../public/images/home-card-2.webp';
-import card3 from '../../../public/images/home-card-3.webp';
-import card4 from '../../../public/images/home-card-4.webp';
-import card5 from '../../../public/images/home-card-5.webp';
-import card6 from '../../../public/images/home-card-6.webp';
-import card7 from '../../../public/images/home-card-7.webp';
+import card1 from '../../../public/images/home-card-1.png';
+import card2 from '../../../public/images/home-card-2.png';
+import card3 from '../../../public/images/home-card-3.png';
+import card4 from '../../../public/images/home-card-4.png';
+import card5 from '../../../public/images/home-card-5.png';
+import card6 from '../../../public/images/home-card-6.png';
+import card7 from '../../../public/images/home-card-7.png';
 
 const Section3 = () => {
   const { title, subtitle, step1, step2, step3, step4, step5, step6, step7 } =

@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
             <div className='flex gap-2 sm:flex-col'>
               <div className='flex gap-4 sm:gap-8 items-center sm:justify-end sm:flex-row-reverse'>
                 <a
-                  href='https://wa.link/osgpuo'
+                  href='https://wa.link/uo8f6a'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='opacity-50 hover:opacity-100'
