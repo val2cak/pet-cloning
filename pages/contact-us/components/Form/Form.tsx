@@ -95,7 +95,7 @@ const Form = () => {
             required={true}
             errors={errors?.name}
           />
-          <div>
+          <div className='flex flex-col w-full'>
             <div
               className={`text-sm font-bold uppercase ${
                 (errors.countryCode || errors.phoneMobile) && 'text-red'
